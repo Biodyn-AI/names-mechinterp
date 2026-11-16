@@ -29,13 +29,13 @@ Dear Editors,
 Please consider the Research Article entitled "Equivalent names yield inconsistent factual answers in two language models" for publication in PLOS ONE.
 
 
-The study asks whether two names for the same object lead language models to give the same facts. We tested both models on the same 32 balanced fictional object lists, then tested one possible internal repair in Qwen. Both models returned facts about the wrong object. The proposed change did not reliably fix complete answers on other development cases, even when it improved the model's prediction scores.
+The study asks whether two names explicitly assigned to the same object lead language models to return the same facts. After development on 32 fictional object lists, we tested both models on the same 64 untouched lists under a publicly fixed plan. One name gave a correct answer and the other a wrong object's fact in 48 lists for Qwen and 38 for Phi. The task needs no outside factual knowledge.
 
 
-The contribution is a controlled description of this naming failure and a carefully checked test of one proposed repair. We relate it to earlier work on names, object links, and internal model changes, without claiming a new general mechanism. The manuscript makes clear how cases were selected, which questions share a world, when earlier cases were reused, which tests failed, and what the results cannot establish.
+An unchanged internal repair corrected 16 of 40 complete wrong answers across 15 of 30 fresh eligible Qwen lists, preserving 50 previously correct answers. A fixed comparison corrected seven errors. The repair's benefit remains uncertain against the pre-set practical targets. We retain the earlier failed development tests and distinguish improved prediction scores from corrected answers. The contribution is an independently repeated naming failure and a controlled, partial repair, not a new general mechanism for linking names to objects.
 
 
-Code and data: \url{https://github.com/Biodyn-AI/names-mechinterp} (v0.1.1). The release includes selected saved measurements from inside the model and records of the original numerical checks. It does not include the complete original prediction-score files, so some of those checks cannot be repeated from this release. Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].
+Code and complete study data: \url{https://github.com/Biodyn-AI/names-mechinterp} (v0.2.0). The large original measurements are supplied in its separate native-data-20261116-v1 release. Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].
 
 
 [Before signing, confirm originality, exclusive submission, author approval, and any overlap with related work, including the article supplied for the author details.]

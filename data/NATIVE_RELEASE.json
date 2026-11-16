@@ -1,0 +1,163 @@
+{
+  "schema": "names-mechinterp-complete-native-release-v1",
+  "repository": "https://github.com/Biodyn-AI/names-mechinterp",
+  "release_tag": "native-data-20261116-v1",
+  "github_release_id": 447421086,
+  "public_release_verified": true,
+  "published_at": "2026-11-16T19:45:52Z",
+  "public_access_verified_at": "2026-11-16T19:46:29Z",
+  "public_verification": "Anonymous release API plus HTTP 200 HEAD checks for all eleven archive URLs; complete source-file SHA checks, streaming SHA checks and matching GitHub server digests.",
+  "download_page": "https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1",
+  "download_url_template": "https://github.com/Biodyn-AI/names-mechinterp/releases/download/native-data-20261116-v1/{name}",
+  "scientific_protocol_commit": "f1d7836c653a82c0183c8bfed59c2c1153f73e42",
+  "imported_results_anchor_commit": "b0c39ae5813efc2ca7190d11f7f660b5fa80e0b2",
+  "publication_tools_commit": "9c03ded0fdde6b9dddd44b845c4bafbd1b5f5216",
+  "coverage": {
+    "native_score_shards": 1030,
+    "captured_measurement_files": 39,
+    "unique_scientific_payloads": 1069,
+    "scientific_payload_bytes": 16814720490,
+    "development_checksum_sidecars": 419,
+    "development": {
+      "native_score_shards": 410,
+      "captured_measurement_files": 9
+    },
+    "confirmation": {
+      "native_score_shards": 620,
+      "captured_measurement_files": 30
+    },
+    "archive_count": 11,
+    "compressed_archive_bytes": 15164230779
+  },
+  "catalog_sha256": {
+    "development": "b9200a9b1d0a758b8a3a00424a5556da85633d5817626b3766cb3cfe7c7170b7",
+    "confirmation": "7b1313fddec7a3feaa54ff85e8e393f5b321d358d3079f736da846c51411849e"
+  },
+  "catalog_directory": "data/native_archive_catalogs",
+  "archives": [
+    {
+      "name": "names-confirmation-phi-part001.tar.gz",
+      "size_bytes": 1600040259,
+      "sha256": "d0aac2edd4c52bc2fb134f8c14221dbbccd2796ca6e57e0fa940b1c1750c907a"
+    },
+    {
+      "name": "names-confirmation-qwen-part001.tar.gz",
+      "size_bytes": 1554357352,
+      "sha256": "f796dc3eb20545e72757fd9b6dd58d2262094c7fe10c13c4af1874a3a16ed874"
+    },
+    {
+      "name": "names-confirmation-qwen-part002.tar.gz",
+      "size_bytes": 1572527517,
+      "sha256": "1228fc4d1888f9329bb8b8a22af960406108838a3ad307ee7484f2bf007db49a"
+    },
+    {
+      "name": "names-confirmation-qwen-part003.tar.gz",
+      "size_bytes": 1575014667,
+      "sha256": "fceab4ed33d6d31f3f86f9af91d223382c523300e4b4e4e09f0929d8be6a57cf"
+    },
+    {
+      "name": "names-confirmation-qwen-part004.tar.gz",
+      "size_bytes": 1569665372,
+      "sha256": "05440168bcea3e727ba74ee443ab5727298e5a8ed32d1d6ef412c27cffd67da4"
+    },
+    {
+      "name": "names-confirmation-qwen-part005.tar.gz",
+      "size_bytes": 890582512,
+      "sha256": "ff646090b005650a0b595c8350a95e0b2c25b1e8f1a31b46f291e49cec496652"
+    },
+    {
+      "name": "names-confirmation-repair-part001.tar.gz",
+      "size_bytes": 733056973,
+      "sha256": "fe0b2f538110125ec4291b0457c4bf4a1583460aaf2e10919a71ac4b12d0ac19"
+    },
+    {
+      "name": "names-development-part001.tar.gz",
+      "size_bytes": 1580656557,
+      "sha256": "74cacba43a1f766d7d20c5d04a5ea02f875b29d08149fb6548aa2f76159cebb9"
+    },
+    {
+      "name": "names-development-part002.tar.gz",
+      "size_bytes": 1593959616,
+      "sha256": "e68ccf6c91f2d76a12f1259a00c64e5cdace2e290c11478c6a91e3b86619024a"
+    },
+    {
+      "name": "names-development-part003.tar.gz",
+      "size_bytes": 1604347500,
+      "sha256": "93f9a5e4b6fe9be9f4ad14cd016d50590eae4ff4efc8faff69568053aed4a4c5"
+    },
+    {
+      "name": "names-development-part004.tar.gz",
+      "size_bytes": 890022454,
+      "sha256": "b7eb65e23a45a4cc21ea48d27cd3c12687945c32914ed964aedd8e5322294e88"
+    }
+  ],
+  "github_archive_verification": [
+    {
+      "name": "names-development-part001.tar.gz",
+      "github_asset_id": 756083672,
+      "github_server_digest": "sha256:74cacba43a1f766d7d20c5d04a5ea02f875b29d08149fb6548aa2f76159cebb9"
+    },
+    {
+      "name": "names-development-part002.tar.gz",
+      "github_asset_id": 756094339,
+      "github_server_digest": "sha256:e68ccf6c91f2d76a12f1259a00c64e5cdace2e290c11478c6a91e3b86619024a"
+    },
+    {
+      "name": "names-development-part003.tar.gz",
+      "github_asset_id": 756102913,
+      "github_server_digest": "sha256:93f9a5e4b6fe9be9f4ad14cd016d50590eae4ff4efc8faff69568053aed4a4c5"
+    },
+    {
+      "name": "names-development-part004.tar.gz",
+      "github_asset_id": 756109898,
+      "github_server_digest": "sha256:b7eb65e23a45a4cc21ea48d27cd3c12687945c32914ed964aedd8e5322294e88"
+    },
+    {
+      "name": "names-confirmation-qwen-part001.tar.gz",
+      "github_asset_id": 756147390,
+      "github_server_digest": "sha256:f796dc3eb20545e72757fd9b6dd58d2262094c7fe10c13c4af1874a3a16ed874"
+    },
+    {
+      "name": "names-confirmation-qwen-part002.tar.gz",
+      "github_asset_id": 756155388,
+      "github_server_digest": "sha256:1228fc4d1888f9329bb8b8a22af960406108838a3ad307ee7484f2bf007db49a"
+    },
+    {
+      "name": "names-confirmation-qwen-part003.tar.gz",
+      "github_asset_id": 756165100,
+      "github_server_digest": "sha256:fceab4ed33d6d31f3f86f9af91d223382c523300e4b4e4e09f0929d8be6a57cf"
+    },
+    {
+      "name": "names-confirmation-qwen-part004.tar.gz",
+      "github_asset_id": 756173693,
+      "github_server_digest": "sha256:05440168bcea3e727ba74ee443ab5727298e5a8ed32d1d6ef412c27cffd67da4"
+    },
+    {
+      "name": "names-confirmation-qwen-part005.tar.gz",
+      "github_asset_id": 756179237,
+      "github_server_digest": "sha256:ff646090b005650a0b595c8350a95e0b2c25b1e8f1a31b46f291e49cec496652"
+    },
+    {
+      "name": "names-confirmation-phi-part001.tar.gz",
+      "github_asset_id": 756186673,
+      "github_server_digest": "sha256:d0aac2edd4c52bc2fb134f8c14221dbbccd2796ca6e57e0fa940b1c1750c907a"
+    },
+    {
+      "name": "names-confirmation-repair-part001.tar.gz",
+      "github_asset_id": 756191017,
+      "github_server_digest": "sha256:fe0b2f538110125ec4291b0457c4bf4a1583460aaf2e10919a71ac4b12d0ac19"
+    }
+  ],
+  "successful_transfer_runs": [
+    43935345487,
+    43937688359
+  ],
+  "temporary_public_key_release_assets_removed": true,
+  "native_mathematical_replay_performed_during_publication": false,
+  "new_model_forward_count_during_publication": 0,
+  "original_cloud_numerical_audit_receipts_supplied": true,
+  "no_model_checkpoints_or_learned_parameter_tensors_redistributed": true,
+  "license": "Original research data: CC BY 4.0. Program code: MIT. Upstream materials retain their licenses.",
+  "archive_doi": null,
+  "scope": "Complete scientific payload coverage for the development and independent-confirmation analyses, not earlier unrelated project experiments. Files are separate release assets, not Git-checkout payloads. Byte identity and saved numerical audit receipts are distinct from a newly repeated mathematical audit, new model inference, mechanism discovery or journal acceptance."
+}

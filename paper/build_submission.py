@@ -193,7 +193,7 @@ paragraph(doc, paper["abstract"])
 for block in paper["blocks"]:
     kind = block["kind"]
     if kind == "table":
-        widths = {"behavior":[3.2,1.75,1.75], "stages":[1.35,1.7,1.9,1.75], "decomposition":[2.75,1.1,1.3,1.55]}[block["id"]]
+        widths = {"behavior":[3.2,1.75,1.75], "stages":[1.35,1.7,1.9,1.75], "decomposition":[2.75,1.1,1.3,1.55], "confirmation_repair":[2.65,1.35,1.35,1.35]}[block["id"]]
         table(doc, block["title"], block["headers"], block["rows"], block["note"], widths)
     elif kind == "references":
         for entry in references:
@@ -210,10 +210,13 @@ for section in supplement["sections"]:
     heading = re.sub(r"[^\w\s]", "", heading)
     paragraph(doc, heading, "Heading 1")
     for text in section["paragraphs"]:
-        paragraph(doc, text)
+        note = paragraph(doc, text)
+        # Keep short notes intact when a converter ignores widow/orphan control.
+        if len(text.split()) <= 60:
+            note.paragraph_format.keep_together = True
     if "table" in section:
         values = section["table"]
-        width = {2:[2.1,4.6], 3:[2.7,2.7,1.3], 5:[0.65,1.7,0.7,1.85,1.8]}[len(values["headers"])]
+        width = {2:[2.1,4.6], 3:[2.7,2.7,1.3], 4:[2.65,1.35,1.35,1.35], 5:[0.65,1.7,0.7,1.85,1.8]}[len(values["headers"])]
         table(doc, "", values["headers"], values["rows"], widths=width)
 doc.save(OUT / "S1_Appendix.docx")
 
@@ -222,9 +225,9 @@ paragraph(doc, "Cover letter for PLOS ONE", "Title")
 paragraph(doc, "16 November 2026")
 paragraph(doc, "Dear Editors,")
 paragraph(doc, 'Please consider the Research Article entitled "' + paper["title"] + '" for publication in PLOS ONE.')
-paragraph(doc, "The study asks whether two names for the same object lead language models to give the same facts. We tested both models on the same 32 balanced fictional object lists, then tested one possible internal repair in Qwen. Both models returned facts about the wrong object. The proposed change did not reliably fix complete answers on other development cases, even when it improved the model's prediction scores.")
-paragraph(doc, "The contribution is a controlled description of this naming failure and a carefully checked test of one proposed repair. We relate it to earlier work on names, object links, and internal model changes, without claiming a new general mechanism. The manuscript makes clear how cases were selected, which questions share a world, when earlier cases were reused, which tests failed, and what the results cannot establish.")
-paragraph(doc, "Code and data: " + release["repository"] + " (" + release["version"] + "). " + release["native_scope"] + " Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].")
+paragraph(doc, "The study asks whether two names explicitly assigned to the same object lead language models to return the same facts. After development on 32 fictional object lists, we tested both models on the same 64 untouched lists under a publicly fixed plan. One name gave a correct answer and the other a wrong object's fact in 48 lists for Qwen and 38 for Phi. The task needs no outside factual knowledge.")
+paragraph(doc, "An unchanged internal repair corrected 16 of 40 complete wrong answers across 15 of 30 fresh eligible Qwen lists, preserving 50 previously correct answers. A fixed comparison corrected seven errors. The repair's benefit remains uncertain against the pre-set practical targets. We retain the earlier failed development tests and distinguish improved prediction scores from corrected answers. The contribution is an independently repeated naming failure and a controlled, partial repair, not a new general mechanism for linking names to objects.")
+paragraph(doc, "Code and complete study data: " + release["repository"] + " (" + release["version"] + "). The large original measurements are supplied in its separate native-data-20261116-v1 release. Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].")
 paragraph(doc, "[Before signing, confirm originality, exclusive submission, author approval, and any overlap with related work, including the article supplied for the author details.]")
 paragraph(doc, "The author declares no competing interests.")
 paragraph(doc, "Sincerely,\n" + author["display_name"] + "\n" + author["affiliations"][0]["display"] + "\n" + author["email"])
@@ -232,7 +235,7 @@ doc.save(OUT / "Cover_letter.docx")
 
 doc = document("Submission checks and remaining author actions", double=False, numbers=False)
 paragraph(doc, "Submission checks and remaining author actions", "Title")
-paragraph(doc, "PLOS ONE requirements checked on 15 November 2026. This is a preparation package, not an uploaded submission. The negative findings are reported as findings, not as a newly established binding mechanism.")
+paragraph(doc, "PLOS ONE submission and data-availability requirements rechecked on 16 November 2026. This is a preparation package, not an uploaded submission. Independent naming-test results, partial repair, earlier failed tests and uncertainty are reported separately; no new general mechanism is claimed.")
 paragraph(doc, "Author and declarations", "Heading 1")
 paragraph(doc, author["display_name"] + ". " + author["affiliations"][0]["display"] + ". Email: " + author["email"] + ". ORCID: " + author["ORCID"])
 paragraph(doc, "These details come from the exact article supplied by the author, cross-checked through its PubMed and DOI records. Confirm the contact role and current affiliation; authenticate the ORCID personally in Editorial Manager. Article source: https://pubmed.ncbi.nlm.nih.gov/42860077/ and https://api.crossref.org/works/10.1016/j.compbiolchem.2026.109438")
@@ -243,7 +246,7 @@ paragraph(doc, "Public data and code", "Heading 1")
 paragraph(doc, availability_statement())
 paragraph(doc, "Availability review still required: confirm that the released data are sufficient for the manuscript's findings and journal policy. Do not describe a private cloud drive, hash manifest or Git tag as a permanent public archive. If more native-score evidence is needed, arrange a suitable public deposit or agree an appropriate reproducibility minimum with the journal.")
 paragraph(doc, "Scientific review before submission", "Heading 1")
-paragraph(doc, "Confirm the intended original contribution relative to the closest studies. The models share 32 worlds; repeated questions are not independent worlds. Causal intervention results come from Qwen alone. The final six-world diagnosis reuses development data. The 64 reserved worlds remain unevaluated. Practical criteria are not significance tests. Canonical-token score changes are not repaired answers. Phi identifier formatting is not evidence of absent identity knowledge.")
+paragraph(doc, "Confirm the original contribution relative to the closest studies. Both models share 32 development worlds and the same 64 fresh confirmation worlds; repeated questions are not independent worlds. Internal changes were tested only in Qwen. The earlier six-world diagnosis reuses development data. The unchanged repair corrected 16/40 errors in 30 fresh eligible worlds, versus 7/40 for the fixed average control, with no observed damage to 50 correct facts. Its pre-set usefulness targets remain uncertain or unmet. The zero-damage observation does not establish risk below 10%. Prediction-score changes are not repaired answers; Phi identifier formatting does not establish absent identity knowledge.")
 paragraph(doc, "Verify all author-reviewed claims and exact citations, including the unusual DOI strings deposited by two 2026 ACL records. The manuscript's AI disclosure is substantive because assistance covered research and code, not only language editing. Automated audits must not be described as independent human peer review.")
 paragraph(doc, "Files and format", "Heading 1")
 for requirement in rules["submission_fields"]["requirements"]:
@@ -296,10 +299,21 @@ def axes(draw, box, low, high, ticks):
         text(draw,(left-35,y),tick,8,anchor="rm")
     return lambda value: bottom-(value-low)/(high-low)*(bottom-top)
 
-world_data = {key:evidence["behavior"][key]["worlds"] for key in ("qwen","phi")}
-assert len(world_data["qwen"]) == len(world_data["phi"]) == 32
-assert sum(w["fact_correct"] for w in world_data["qwen"]) == 1657
-assert sum(w["fact_correct"] for w in world_data["phi"]) == 1980
+# The main behavioral figure uses only the untouched confirmation cohort.
+# Development observations remain in the evidence digest and supporting data.
+confirmation = DATA / "cloud_reference_confirmation_metadata_20261116"
+world_data = {}
+for model in ("qwen", "phi"):
+    outcome = sealed(confirmation / model / "RESULT.json")
+    world_data[model] = [
+        {"world_id": world_id, "fact_correct": row["fact_correct"],
+         "fact_accuracy": row["fact_correct"] / row["facts"],
+         "eligible_listed_wrong_object_discordant_pairs": row["wrong_object_coref"]}
+        for world_id, row in sorted(outcome["world_summaries"].items())
+    ]
+assert len(world_data["qwen"]) == len(world_data["phi"]) == 64
+assert sum(w["fact_correct"] for w in world_data["qwen"]) == 3656
+assert sum(w["fact_correct"] for w in world_data["phi"]) == 3782
 fig = Image.new("RGB", (4500,2700), "white")
 draw = ImageDraw.Draw(fig)
 colors = ("#0072B2", "#D55E00")
@@ -307,21 +321,23 @@ for panel, metric, title in ((0,"fact_accuracy","Correct factual answers (%)"),(
     offset = panel*2200
     text(draw,(offset+100,55),"A" if panel==0 else "B",12)
     text(draw,(offset+380,85),title,10)
-    ymax = 100 if panel==0 else 60
+    # Fresh-case disagreement can exceed 60%; keep every point in the axes.
+    ymax = 100 if panel==0 else 80
     box=(offset+270,250,offset+2020,2190)
     y = axes(draw,box,0,ymax,list(range(0,ymax+1,20)))
     x_positions=(offset+700,offset+1610)
     for index,(first,second) in enumerate(zip(world_data["qwen"],world_data["phi"])):
         assert first["world_id"] == second["world_id"]
-        jitter=((index*17)%31-15)*8
+        jitter=((index*17)%64-31.5)*4
         values=[first[metric]*100,second[metric]*100] if panel==0 else [first[metric]/24*100,second[metric]/24*100]
+        assert all(0 <= value <= ymax for value in values), "Figure point would leave its axes"
         draw.line((x_positions[0]+jitter,y(values[0]),x_positions[1]+jitter,y(values[1])),fill="#C5C5C5",width=2)
         for group,value in enumerate(values):
             cx,cy=x_positions[group]+jitter,y(value)
             draw.ellipse((cx-15,cy-15,cx+15,cy+15),fill=colors[group],outline="white",width=2)
     for xpos,label in zip(x_positions,("Qwen3 4B","Phi 3.5 mini")):
         text(draw,(xpos,2280),label,10,anchor="mt")
-    text(draw,(offset+1120,2480),"32 paired object lists",9,anchor="mt")
+    text(draw,(offset+1120,2480),"64 paired fresh object lists",9,anchor="mt")
 fig.save(OUT/"Fig1.tif",compression="tiff_lzw",dpi=(DPI,DPI))
 fig.save(FIGURES/"Fig1.png",dpi=(DPI,DPI))
 fig.resize((1500,900)).save(QA/"Fig1.png")
@@ -369,8 +385,9 @@ fig.save(FIGURES/"Fig2.png",dpi=(DPI,DPI))
 fig.resize((1500,1133)).save(QA/"Fig2.png")
 
 # Repackage the released processed data and historical executable sources.
-# This small supplement intentionally excludes large selected captures and the
-# unavailable full raw native-logit archive; it makes no complete-replay claim.
+# This small supplement excludes large captured tensors and native score files.
+# Their separate availability is stated in release metadata, never inferred
+# from the presence of text answers or audit receipts in this small archive.
 with ZipFile(OUT/"S1_Data.zip","w",ZIP_DEFLATED) as bundle:
     def put(name,value):
         bundle.writestr(name,json.dumps(value,indent=2,ensure_ascii=False,allow_nan=False)+"\n")

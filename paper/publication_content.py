@@ -38,9 +38,10 @@ def load_manuscript():
         if block.get("text", "").startswith("S1 Data."):
             block["text"] = (
                 "S1 Data. Recorded answers and values used in the figures. Machine-readable prompts "
-                "and model answers for the 32 evaluated worlds, summaries by world, internal-change "
-                "outcomes and score differences, source checksums, and plotted values. These processed "
-                "data do not include the complete original prediction-score files. The public repository "
-                "describes exactly which saved measurements and checks it supplies."
+                "and model answers for 32 development worlds and the same 64 fresh confirmation worlds "
+                "tested with both models, summaries by world, complete internal-change outcomes, score "
+                "differences, source checksums, and plotted values. This small supporting archive does "
+                "not contain large prediction-score or captured-tensor files. The repository and release "
+                "assets state their separate availability and the checks that can be repeated."
             )
     return manuscript

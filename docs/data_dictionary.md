@@ -1,10 +1,13 @@
 # Data dictionary
 
 All JSON is UTF-8. The original top-level processed files refer to the 32-world
-development set; the `confirmation/` subtree is a separate 64-world evaluation. No model
-weights or large native tensors are included. Use IDs to join records; array
-order is not a substitute for an ID. Fields retained from historical records may
-contain original path strings. Their presence does not make those paths public
+development set; the `confirmation/` subtree is a separate 64-world evaluation.
+The Git checkout omits the large arrays, which are supplied as separate
+[native-data release assets](https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1).
+Neither location contains model checkpoints or learned parameter tensors.
+Use IDs to join records; array order is not a substitute for an ID. Fields
+retained from historical records may contain original path strings. Their
+presence does not make those paths public
 or available.
 
 ## Behavioral inputs and responses
@@ -81,9 +84,40 @@ Original confirmation metadata are under
 `TOKENS-*.json.gz` files decompress to the exact historical bytes; their adjacent
 `TOKENS-*.json.sha256` sidecars refer to those decompressed bytes. The deterministic
 compression and every imported byte are documented in `IMPORT_RECEIPT.json`.
-Other raw-score and case-capture sidecars may refer to payloads not in Git.
-Use `data/CONFIRMATION_AVAILABILITY.json`, not the older development availability
-file, to inspect this distinct deposit's status.
+Other raw-score and case-capture sidecars refer to payloads outside Git, supplied
+in the separate native-data assets. `data/CONFIRMATION_AVAILABILITY.json` describes
+this sample's checkout inventory; it is distinct from the historical development
+inventory in `data/AVAILABILITY.json`. Use `data/NATIVE_RELEASE.json` for current
+archive inventory, checksums, and publication status.
+
+### Native payloads for both phases
+
+| Sample | Score shards | Measurement files |
+|---|---:|---:|
+| Development | 410 | 9 |
+| Confirmation | 620 | 30 |
+| Total | 1,030 | 39 |
+
+All 1,069 scientific payloads total 16,814,720,490 bytes. Four development archives
+also carry 419 original 65-byte checksum sidecars. Seven confirmation archives
+hold the two models' score shards and the repair captures; their checksum sidecars
+are retained with the original metadata in Git. Archive names and checksums are
+recorded in [`data/NATIVE_RELEASE.json`](../data/NATIVE_RELEASE.json).
+See [download and integrity commands](reproducing.md#download-and-check-the-native-data).
+
+After extraction, the development root mirrors paths relative to `data/original/`:
+`native/development/cloud_reference_*_metadata_20261115/<stage>/`. The confirmation
+root uses `native/confirmation/{qwen,phi,repair}/`. Pass these different roots to
+the matching verification helpers; do not flatten the directories.
+
+`raw-*.safetensors` stores saved complete-vocabulary output scores. The `.pt` files
+store input-dependent internal signals, attention probabilities, applied changes,
+and audit measurements. `PREFIXES.pt` contains signals captured before the output
+projection, not that projection's learned weights. `OPERATORS.pt` and related
+captures describe the applied changes. `KERNELS.pt` is a historical filename for
+calculated intervention differences, profiles, and checks—not a model-parameter
+matrix. Do not confuse per-input attention "weights" with learned model parameters.
+Reading these tensor objects is unnecessary for the standard-library byte checks.
 
 ### Prompt fields
 
@@ -149,7 +183,7 @@ on the same six worlds reopened after failed development validation.
   agreement. It is not a native tensor replay.
 - `reference-decomposition-20261115-effect-readout.json` stores processed
   first-step canonical-token score changes and aggregate summaries. These are
-  derived from original native tensors, which are not in this release.
+  derived from original native tensors, supplied in the separate native-data assets.
 - `reference-decomposition-20261115-native-audit.json` and custody/source records
   preserve the original audit anchors. A hash alone does not provide a missing
   input or permit the audit to be rerun.
@@ -184,15 +218,20 @@ Release checksums describe the bytes distributed here. Historical SHA-256 anchor
 describe original sources and execution inputs and are retained separately. A
 copied metadata record can still name an unavailable raw artifact; do not claim
 its availability or independent verification merely because the metadata hashes.
-The default reproduction checks the included records and reconstructs outcomes;
-it makes no assertion that the absent native tensors have been reaudited.
+The default reproduction checks the included records and reconstructs outcomes.
+Downloading the native assets and matching their checksums is a separate byte
+integrity check, not a new mathematical audit or model execution. The frozen
+native-audit sources retain original cloud paths and environment requirements;
+the full arrays do not make those exact commands portable without additional setup.
 
 Original research data are [CC BY 4.0](../LICENSE-DATA.md). Upstream model weights
 and dependency licenses are outside that grant.
 
 `data/original/` preserves selected historical metadata, source copies, and
-smaller tensor captures with their original names. Some sidecars refer to absent
-native shards. The included tensors are not needed by the standard-library
-reproduction path; inspecting them requires a separate PyTorch environment and
-does not restore the missing full-vocabulary scores. Do not load untrusted tensor
-pickle files from other sources.
+smaller tensor captures with their original names. Its sidecars identify original
+payloads even when those payloads live in release assets rather than Git.
+`data/AVAILABILITY.json` and `data/CONFIRMATION_AVAILABILITY.json` preserve the
+checkout distinction; they must not be read as current public-archive gap reports.
+The included tensors are not needed by the standard-library reproduction path;
+inspecting them requires a separate PyTorch environment. Do not load untrusted
+tensor pickle files from other sources.

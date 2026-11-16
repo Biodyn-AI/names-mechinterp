@@ -152,16 +152,16 @@
     }
   ],
   "bounded_positioning": {
-    "supportable_contribution": "A controlled study of equivalent-name consistency and wrong-record answers in explicit fictional registries, replicated in two model families over the same 32 development worlds, together with an audited failure of a fixed-component repair hypothesis despite favorable continuous score changes.",
+    "supportable_contribution": "A controlled study of equivalent-name consistency and wrong-record answers in explicit fictional registries, independently repeated in two model families on the same 64 fresh worlds after 32 development worlds. One unchanged internal repair corrected 16 of 40 complete errors in 30 eligible fresh worlds while preserving 50 correct facts, compared with seven repairs from a fixed mean control. Its pre-set practical usefulness remains uncertain; earlier failed development checks and score-only effects are retained.",
     "what_is_not_claimed": [
       "Discovery of a previously unknown entity-binding mechanism.",
       "First observation that correct identification can coexist with incorrect attribute retrieval.",
       "First demonstration that attention magnitude or patching scores do not guarantee repair.",
       "Evidence that models lack entity representations or that existing binding theories have been falsified.",
-      "Independent confirmation from the reopened six-world causal diagnosis, or 64 independent worlds from two models evaluated on the same 32 worlds.",
+      "Independent confirmation from the reopened six-world causal diagnosis, or additional independent worlds created by evaluating two models on the same worlds.",
       "Novelty or acceptance established solely by this selected-literature comparison."
     ],
-    "important_interpretation": "The new repair branches changed native scores and improved the correct-minus-fixed-old-wrong margin, yet repaired none of eight errors; the older cross-field profile repaired one. This is evidence of causal influence without sufficient repair for the tested component and cases. It is not evidence of a silent intervention, an identified vocabulary gate, a general impossibility, or an exhaustive causal search.",
-    "study_limits": "The causal diagnosis reuses development worlds, the fixed-component route is stopped, and final untouched confirmation data have not been evaluated. Full donor-head replacement is a comparator, not a mathematical performance upper bound."
+    "important_interpretation": "In the reused development cases, new repair branches changed scores but repaired none of eight errors; the original profile repaired one. Under a separate publicly fixed confirmation plan, that unchanged profile later repaired 16 of 40 fresh errors. This establishes partial repair for the selected cases, not a general fix or a newly identified entity mechanism. Neither the failed development checks nor the positive fresh-case counts should replace the other.",
+    "study_limits": "The earlier six-world diagnosis remains exploratory. The completed confirmation uses 64 shared worlds, with repair conditional on 30 eligible Qwen worlds. Conservative reference intervals do not establish the 50% repair target, the 25-point advantage target or damage risk below 10%. Full donor-head replacement was a development comparator, not a mathematical performance upper bound."
   }
 }

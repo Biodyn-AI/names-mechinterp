@@ -9,9 +9,10 @@ failed repair tests, and a completed independent test of the unchanged repair.
 It does not claim a new general binding mechanism or that models lack object
 representations. See [study scope](docs/study.md) before interpreting the results.
 
-Working update for planned version **0.2.0**: the 2026-11-16 confirmation results
-below are now included. The latest published paper snapshot remains `v0.1.1`
-until the next release is published; this working update is not a verified raw-data deposit.
+Release version: **0.2.0**. This update includes the completed independent tests
+and revised paper. The [complete measurement archive](https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1)
+is public separately from the small Git checkout; its checksums and coverage are
+recorded in [the native-release catalog](data/NATIVE_RELEASE.json).
 The [submission files](submission/) are a manuscript draft, not an accepted paper.
 
 ## Main observations
@@ -68,10 +69,29 @@ The original reproduction command recomputes the earlier development results;
 the confirmation helper checks the separate new sample and its answers against
 the printed object lists. The confirmation output must be a new file.
 Neither command replays native full-vocabulary scores, hidden states, or kernels.
-The original 410-shard development gap remains. The new confirmation has saved
-native-audit receipts, but a public full-raw deposit is not yet asserted; see
-[`data/CONFIRMATION_AVAILABILITY.json`](data/CONFIRMATION_AVAILABILITY.json).
 See [reproduction levels and GPU instructions](docs/reproducing.md).
+
+## Full native data: separate download, no GPU needed
+
+The large arrays are separate assets in the
+[native-data release](https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1),
+not files in a Git checkout. Together, its 11 archives cover all **1,030 saved
+score files and 39 internal-measurement files** from development and confirmation.
+The download is about 15.2 GB; the scientific payloads expand to about 16.8 GB.
+Use [`data/NATIVE_RELEASE.json`](data/NATIVE_RELEASE.json) for the archive inventory,
+checksums, and publication status. [Download and checking instructions](docs/reproducing.md#download-and-check-the-native-data)
+use a new extraction folder and do not load a model or tensor pickle.
+
+The older [`data/AVAILABILITY.json`](data/AVAILABILITY.json) records 0/410 development
+score files in the lightweight checkout. The confirmation report,
+[`data/CONFIRMATION_AVAILABILITY.json`](data/CONFIRMATION_AVAILABILITY.json), separately
+describes the 620 score files and 30 captures absent from Git. These checkout
+inventories are not statements that those files are missing from the separate
+native-data release.
+
+Matching file checksums establishes that the downloaded bytes match the saved
+evidence. It does not rerun the original mathematical audits or model execution;
+their frozen environment and path requirements remain a portability limitation.
 
 ## Repository map
 
@@ -81,6 +101,7 @@ See [reproduction levels and GPU instructions](docs/reproducing.md).
 | [`tests/`](tests/) | Network-free release checks and synthetic unit tests |
 | [`data/processed/`](data/processed/) | Prompts, worlds, generated answers, and processed intervention records |
 | [`data/processed/confirmation/`](data/processed/confirmation/) | Separate 64-world confirmation inputs, complete answers, statistics, and CPU reconstruction |
+| [`data/NATIVE_RELEASE.json`](data/NATIVE_RELEASE.json) | Separate native-data archive inventory, checksums, and publication status |
 | [`tools/reproduce_confirmation.py`](tools/reproduce_confirmation.py) | Standard-library confirmation reconstruction; no model or tensor replay |
 | [`experiments/`](experiments/) | Dated original experiment and audit sources, kept separate from the release interface |
 | [`paper/`](paper/) | Editable manuscript, appendix, bibliography, and build sources |
@@ -108,8 +129,12 @@ paper DOI or archival repository DOI is asserted by this release. Please retain
 the distinction between development results and independent confirmation.
 
 Code is [MIT licensed](LICENSE). Original study data, documentation, figures, and
-manuscript are [CC BY 4.0](LICENSE-DATA.md). Model weights and third-party
-dependencies retain their own licenses and are not redistributed here. Vendored
-paper templates/styles retain the notices in [`paper/vendor/`](paper/vendor/).
+manuscript are [CC BY 4.0](LICENSE-DATA.md). Neither the checkout nor the native-data
+assets redistribute model checkpoints or learned parameter tensors. The measured
+tensors contain input-dependent internal signals, attention probabilities,
+intervention changes, and output scores; `KERNELS.pt` holds calculated intervention
+records, not model parameters. Upstream models and third-party dependencies retain
+their own licenses. Vendored paper templates/styles retain the notices in
+[`paper/vendor/`](paper/vendor/).
 
 Corrections and reproducibility reports are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).

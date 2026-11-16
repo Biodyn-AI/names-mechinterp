@@ -1,26 +1,30 @@
 # Reproducing the study
 
-## Three different levels
+## Different reproduction levels
 
 | Level | Included inputs | What it establishes |
 |---|---|---|
 | Processed replication | Public prompts, worlds, decoded responses, and intervention records | Recomputed behavioral counts and whole-answer repair outcomes |
-| Original native audit | Saved registrations, checksums, and audit receipts; **not** all raw tensors | A record of the original checks, not a locally repeatable tensor audit |
+| Native file integrity | Separately downloaded complete native-data assets and the checkout's metadata | Matching payload bytes and file coverage, not mathematical replay |
+| Original mathematical native audit | Native payloads, frozen sources, registrations, and the original environment/path setup | A replay that requires additional setup; saved receipts alone are not a new audit |
 | New model execution | Dated sources plus separately downloaded pinned weights, GPU, and new output roots | A new experiment; numerical equivalence must be checked, not assumed |
 
 The default package and CI cover the first level, separately for the original
-development data and the completed 64-scenario confirmation. Recomputing a table from saved
-responses does not reproduce a model forward pass. Native audit receipts report
+development data and the completed 64-scenario confirmation. Recomputing a table
+from saved responses does not reproduce a model forward pass. Native audit receipts report
 CPU recomputation of saved component changes and checks of saved native score
-vectors; they do not mean the model was rerun on a CPU. The large native score
-shards and model weights are not shipped in this Git release. Selected smaller
-capture/kernel tensors are retained under `data/original/`; they are insufficient
-to replay a full-vocabulary native audit. The default analysis does not load them.
+vectors; they do not mean the model was rerun on a CPU. The large native arrays
+are distributed separately as release assets, not in the Git checkout. Selected
+smaller captures are also retained under `data/original/`. The default analysis
+does not load tensor objects. Model checkpoints and learned parameter tensors
+are not distributed in either location.
 Historical path strings and hashes in records identify original inputs;
 they are not instructions to connect to an original machine.
-The older 410-shard gap is described by `data/AVAILABILITY.json`; independent
-confirmation coverage is separate in `data/CONFIRMATION_AVAILABILITY.json`.
-At this working-update stage no public complete confirmation raw deposit is asserted.
+`data/AVAILABILITY.json` is the historical development-checkout inventory (0/410
+score shards); `data/CONFIRMATION_AVAILABILITY.json` separately records the 620
+confirmation score shards and 30 captures absent from Git. These are not current
+public-archive gap reports. The separate archive inventory, checksums, and
+publication status are in [`data/NATIVE_RELEASE.json`](../data/NATIVE_RELEASE.json).
 
 ## Offline processed replication
 
@@ -50,25 +54,98 @@ This does not recheck native greedy choices, tokenizer decoding, head arithmetic
 or full-score custody. The saved `NATIVE_AUDIT.json` receipts record separate
 cloud CPU audits of those original tensors. They cannot be rerun from JSON alone.
 
-## Native payload integrity and replay portability
+## Download and check the native data
 
-The independent confirmation expects 620 native-score files and 30 repair-capture
-files, supplied separately from the small JSON package. Their public deposit is
-not yet asserted in this working update. Once you have the complete payloads,
-arrange them as `qwen/raw-*.safetensors`, `phi/raw-*.safetensors`, and
-`repair/raw-*.safetensors` plus `repair/case-*.pt` below one extraction folder:
+The [native-data release](https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1)
+contains four development archives, five Qwen confirmation archives, one Phi
+confirmation archive, and one repair archive. Together these supply 1,030 score
+shards and 39 measurement files: 410 score shards plus 9 captures for development,
+and 620 score shards plus 30 captures for confirmation.
+The scientific payloads total 16,814,720,490 bytes; the archives download about
+15.2 GB. Allow at least 40 GB of free space to keep both archives and extracted
+data. These files are optional for processed replication and require no GPU.
+
+Download all 11 `.tar.gz` assets using a browser or the separately installed
+GitHub CLI. From the repository root, use a new download directory; do not use
+`--clobber`:
 
 ```bash
-python tools/verify_confirmation_native.py --native-root /path/to/extracted-payloads --output results/confirmation_native_integrity.json
+mkdir native-downloads
+gh release download native-data-20261116-v1 \
+  --repo Biodyn-AI/names-mechinterp --dir native-downloads \
+  --pattern 'names-development-part*.tar.gz' \
+  --pattern 'names-confirmation-qwen-part*.tar.gz' \
+  --pattern 'names-confirmation-phi-part*.tar.gz' \
+  --pattern 'names-confirmation-repair-part*.tar.gz'
 ```
 
-This standard-library helper checks every expected file against the matching
-metadata index and custody checksum. It checks sidecars when present, rejects
-escaping paths, and never loads tensor objects. Missing files produce
-`complete=false` and a nonzero exit; `--allow-missing` permits an explicitly
+[`data/NATIVE_RELEASE.json`](../data/NATIVE_RELEASE.json) lists the archive
+checksums and publication status. Compare each downloaded archive with that
+catalog before extracting: use `sha256sum native-downloads/*.tar.gz` on Linux or
+`shasum -a 256 native-downloads/*.tar.gz` on macOS. Stop if a filename or checksum
+does not match.
+
+The following Python 3.12+ example extracts only the 11 named assets into a
+**new** `native/` folder, rejecting links, special
+files, escaping names, and duplicate output paths. It never executes archive
+contents. If interrupted, retain the partial folder for inspection and use a
+different new folder for a retry.
+
+```bash
+python - <<'PY'
+from pathlib import Path, PurePosixPath
+import tarfile
+
+downloads, destination = Path("native-downloads"), Path("native")
+names = [f"names-development-part{i:03}.tar.gz" for i in range(1, 5)]
+names += [f"names-confirmation-qwen-part{i:03}.tar.gz" for i in range(1, 6)]
+names += ["names-confirmation-phi-part001.tar.gz",
+          "names-confirmation-repair-part001.tar.gz"]
+if any(not (downloads / name).is_file() for name in names):
+    raise FileNotFoundError("Download every named archive before extracting")
+destination.mkdir()  # Refuse an existing folder; never merge into user data.
+seen = set()
+for name in names:
+    with tarfile.open(downloads / name, "r:gz") as archive:
+        members = archive.getmembers()
+        for member in members:
+            path = PurePosixPath(member.name)
+            if (not member.isfile() or path.is_absolute() or member.name != path.as_posix()
+                    or any(part in (".", "..") for part in path.parts)
+                    or not path.parts or path.parts[0] not in ("development", "confirmation")
+                    or "\\" in member.name or path.as_posix() in seen):
+                raise ValueError("Unsafe or duplicate native archive member")
+            seen.add(path.as_posix())
+        archive.extractall(destination, members=members, filter="data")
+PY
+```
+
+The archives preserve two roots. Development files sit below
+`native/development/cloud_reference_*_metadata_20261115/<stage>/`; confirmation
+files sit below `native/confirmation/{qwen,phi,repair}/`. Check their complete-file
+SHA-256 values against the original scientific metadata:
+
+```bash
+python -m names_mechinterp.verify --repo-root . \
+  --native-root native/development --verify-native --require-native \
+  --output native/development_integrity.json
+python tools/verify_confirmation_native.py \
+  --native-root native/confirmation --output native/confirmation_integrity.json
+```
+
+The development report should show 410/410 score shards, nine included tensor
+captures, and an empty `missing_non_native_tensor_artifacts` list. Its
+`--require-native` exit check covers score-shard completeness, so also inspect
+the capture fields. The confirmation helper is strict over all 650 expected
+files: 620/620 score shards and 30/30 case captures. It checks every expected file
+against the matching metadata index and custody checksum, checks sidecars when
+present, rejects escaping paths, and never loads tensor objects. Missing files
+produce `complete=false` and a nonzero exit; `--allow-missing` permits an explicitly
 incomplete progress report. The optional output path must be new. Indices record
 tensor shapes, not exact encoded-file sizes: the helper reports observed sizes
 and checks full-file hashes rather than inventing a size guarantee.
+
+## Mathematical replay portability
 
 File integrity is not a mathematical replay. The original cloud native audits
 passed, but their frozen registration binds specific cloud source, runtime and
@@ -76,8 +153,8 @@ cache paths, and their audit commands seal outputs in single-use namespaces.
 The archived token JSON also requires lossless decompression to its original
 filenames in a separate working copy.
 An arbitrary checkout plus downloaded tensors is therefore **not** promised to
-run those exact commands unchanged. The payloads support portable byte checks
-and new native analyses; reproducing the original mathematical audit requires
+run those exact commands unchanged. The complete payloads support portable byte
+checks and new native analyses; reproducing the original mathematical audit requires
 an explicitly documented environment/path setup, not editing the frozen evidence
 or treating existing audit receipts as fresh checks.
 
@@ -214,7 +291,7 @@ not silently regenerate or review documents.
   `python experiments/release_tools/run_archived_tests.py`. This checks the
   archived implementation, not a new inference run on the study models.
 - Not certified by default CI: the archived full GPU pipeline, native tensor
-  replay without the missing raw artifacts, alternative hardware/precision,
+  mathematical replay from arbitrary paths, alternative hardware/precision,
   additional models, or a new GPU execution of the confirmation. The new
   confirmation JSON counts and statistics are checked offline, while its saved
   native-audit receipts describe the separately completed cloud checks.

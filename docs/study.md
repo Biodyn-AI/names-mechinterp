@@ -42,8 +42,15 @@ The repair sample is selected from the same 64 scenarios used for the answer
 tests, not a second independent dataset or an unconditional rate over all errors.
 Complete results and saved audits are in `data/processed/confirmation/` and
 `data/original/cloud_reference_confirmation_metadata_20261116/`. Raw payload
-availability is stated separately in `data/CONFIRMATION_AVAILABILITY.json`;
-metadata and checksums alone do not provide the tensors.
+access is provided separately through the
+[native-data release](https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1)
+and its `data/NATIVE_RELEASE.json` archive catalog. The Git checkout itself omits
+the large arrays: its confirmation inventory is recorded in
+`data/CONFIRMATION_AVAILABILITY.json`, not a claim of a current public-data gap.
+Metadata and checksums alone do not provide the tensors; download the assets for
+byte-level checks. They cover all 1,030 score shards and 39 measurement files from
+both study phases. Matching those bytes is not a fresh mathematical audit or a
+model rerun, and the original native audits retain frozen cloud-path requirements.
 
 ## Earlier development measurements
 

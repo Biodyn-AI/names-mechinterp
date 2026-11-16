@@ -5,9 +5,9 @@
   "confirmation_worlds": 64,
   "confirmation_questions_per_model": 6144,
   "confirmation_directory": "confirmation/",
-  "confirmation_publication_status": "Working release update; raw-payload public deposit is not yet asserted",
+  "confirmation_publication_status": "Complete native payloads published in native-data-20261116-v1; coverage and public-access verification are recorded in data/NATIVE_RELEASE.json",
   "reserved_confirmation_outcomes_included": true,
-  "raw_native_deposit": "The original development native-score gap remains described in data/AVAILABILITY.json. Independent confirmation metadata and processed outcomes are included; its raw-payload public status is separate in data/CONFIRMATION_AVAILABILITY.json. Hashes and audit receipts are not the missing payloads.",
+  "raw_native_deposit": "All 1,030 development/confirmation score shards and 39 captured measurement files are public as separate native-data-20261116-v1 release assets. The small Git checkout and supporting ZIP do not embed them. data/NATIVE_RELEASE.json gives archive coverage and checksums; data/AVAILABILITY.json and data/CONFIRMATION_AVAILABILITY.json distinguish checkout presence from separate archive availability. File integrity and saved numerical-audit receipts are distinct from newly repeated mathematical replay.",
   "license": "Author-approved 2026-11-16: CC BY 4.0 data and manuscript; MIT source code. Original historical scope metadata is retained under data/original/supporting_data_archive/.",
   "figure1_points": {
     "qwen": [

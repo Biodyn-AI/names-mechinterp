@@ -16,8 +16,33 @@
     },
     {
       "path": "data/CONFIRMATION_AVAILABILITY.json",
-      "sha256": "27c3c1f7eb95eab4e9b3ac414456bb5f4aab6c481f1f7dce110736964fd81236",
-      "size_bytes": 1478
+      "sha256": "f89857b64299f1faa8b5a40c646dce2a94b726c48518ebe292bf9333778fc18d",
+      "size_bytes": 1793
+    },
+    {
+      "path": "data/NATIVE_RELEASE.json",
+      "sha256": "813b98628cc2fdc39858c7aec12f0abe97a1c95174d0cc89b1a2eeffc02f42c6",
+      "size_bytes": 6968
+    },
+    {
+      "path": "data/native_archive_catalogs/names-confirmation-archive-catalog.json",
+      "sha256": "7b1313fddec7a3feaa54ff85e8e393f5b321d358d3079f736da846c51411849e",
+      "size_bytes": 182448
+    },
+    {
+      "path": "data/native_archive_catalogs/names-confirmation-archive-catalog.json.sha256",
+      "sha256": "705a98ec69f260435f06af03f0c2cc91a175776c2ab057c9d86bbfb07e14da2d",
+      "size_bytes": 65
+    },
+    {
+      "path": "data/native_archive_catalogs/names-development-archive-catalog.json",
+      "sha256": "b9200a9b1d0a758b8a3a00424a5556da85633d5817626b3766cb3cfe7c7170b7",
+      "size_bytes": 210220
+    },
+    {
+      "path": "data/native_archive_catalogs/names-development-archive-catalog.json.sha256",
+      "sha256": "392cebab52ff6cf3d6711c0ba67625da60dbe47e451518c259b03e3a063f6b25",
+      "size_bytes": 65
     },
     {
       "byte_identical": true,
@@ -13627,8 +13652,8 @@
       "byte_identical": false,
       "original_sha256": "8403ed3979285e35dfb3fddb2eb47df6ecee5d5fa4e4c9b28ce23b6b07d1339f",
       "path": "data/processed/package_scope.json",
-      "sha256": "5488d020392dba189e462b282c110ce5a11e008a110964ce5c27093c8094f9a6",
-      "size_bytes": 83806,
+      "sha256": "76eeff9a677d2d71183f7816547ae52e533d7041a65cdfce2659f89f1aac2c07",
+      "size_bytes": 84085,
       "source_archive_member": "package_scope.json",
       "source_archive_sha256": "00cfc156446c7e3a3299fbb14407a9990a4e88bec32293b4c2b1de5aac139c2c"
     },
@@ -14368,8 +14393,8 @@
     },
     {
       "path": "experiments/release_tools/build_manifest.py",
-      "sha256": "ec287b446210d69ba0b954ccd3f1c53dd5520965a9227d8dcff8dd37ed09b82f",
-      "size_bytes": 11838
+      "sha256": "020050222871f9bfbd91db30dafa3ac39c86e1ec76843cc8a11129f0cf567a01",
+      "size_bytes": 11948
     },
     {
       "path": "experiments/release_tools/run_archived_tests.py",
@@ -14471,6 +14496,11 @@
       "size_bytes": 4033
     },
     {
+      "path": "tests/test_native_release_catalog.py",
+      "sha256": "19eea856cb273dd55516cb99f5f827152fea3f8e5d972e1a9e7900a36cd0f064",
+      "size_bytes": 3574
+    },
+    {
       "path": "tests/test_native_release_packaging.py",
       "sha256": "feaa1a6bd466841242d8fa85df712a538bb795c9132083548bc41490548d7700",
       "size_bytes": 10379
@@ -14501,7 +14531,7 @@
     "code": "MIT",
     "data": "CC BY 4.0"
   },
-  "native_data_scope": "Full native-logit shards are not shipped in the Git checkout. See AVAILABILITY.json for the historical development gap and CONFIRMATION_AVAILABILITY.json for the separate confirmation deposit status. Indices/custody/audit receipts are not native payloads; SHA integrity and mathematical replay are distinct.",
+  "native_data_scope": "Large native-score and measurement files are separate public release assets, not Git-checkout payloads. NATIVE_RELEASE.json and the two native_archive_catalogs files describe complete development and confirmation coverage. AVAILABILITY.json reports checkout inventory; CONFIRMATION_AVAILABILITY.json distinguishes that inventory from the separate public deposit. SHA integrity and mathematical replay remain distinct.",
   "schema": "names-mechinterp-code-data-manifest-v1",
   "scientific_originals_mutated": false,
   "supporting_archive_sha256": "00cfc156446c7e3a3299fbb14407a9990a4e88bec32293b4c2b1de5aac139c2c"

@@ -11,12 +11,12 @@
   "present_native_shards_in_git_checkout": 0,
   "expected_repair_capture_files": 30,
   "present_repair_capture_files_in_git_checkout": 0,
-  "public_raw_deposit_verified": false,
-  "raw_release_url": null,
+  "public_raw_deposit_verified": true,
+  "raw_release_url": "https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1",
   "stages": {
     "qwen": {"expected_native_shards": 132, "native_endpoints": 13088, "cloud_native_audit_exact_match": true},
     "phi": {"expected_native_shards": 128, "native_endpoints": 13914, "cloud_native_audit_exact_match": true},
     "repair": {"expected_native_shards": 360, "native_endpoints": 1260, "complete_generations": 360, "eligible_worlds": 30, "cloud_native_audit_exact_match": true}
   },
-  "scope": "Working release metadata. The complete JSON/text outcomes and saved cloud audits are included. Native tensors and repair captures are not in the Git checkout, and no public full-raw deposit is asserted yet. This independent confirmation does not close the separate historical 410-shard development gap in AVAILABILITY.json."
+  "scope": "Complete JSON/text outcomes and saved cloud audits are included. All 620 confirmation native-score shards and 30 repair captures are separately public in the verified native-data release. The same release supplies all 410 development shards and nine development captures. Checkout presence remains zero for large arrays: AVAILABILITY.json describes checkout inventory, not a current public-data gap. See NATIVE_RELEASE.json and the two member catalogs for complete coverage and SHA-256 checks. File integrity checks are not newly repeated mathematical replay."
 }

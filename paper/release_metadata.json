@@ -1,13 +1,16 @@
 {
   "repository": "https://github.com/Biodyn-AI/names-mechinterp",
-  "version": "v0.1.1",
+  "version": "v0.2.0",
   "public_release_verified": true,
-  "verified_public_repository_commit": "d4690b1768ae52a89ecc83cb2e695e3a0bb6afb0",
-  "release_tag": "v0.1.1",
+  "verified_public_repository_commit": "9c03ded0fdde6b9dddd44b845c4bafbd1b5f5216",
+  "release_tag": "v0.2.0",
   "code_license": "MIT",
   "data_paper_license": "CC BY 4.0",
   "complete_raw_native_archive_included": false,
-  "native_scope": "The release includes selected saved measurements from inside the model and records of the original numerical checks. It does not include the complete original prediction-score files, so some of those checks cannot be repeated from this release.",
+  "complete_raw_native_archive_publicly_available": true,
+  "native_archive_location": "Separate public data release; not embedded in the Git checkout or submission ZIP",
+  "native_archive_release": "https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1",
+  "native_scope": "All 1,030 original prediction-score files and 39 saved internal-measurement files are available as eleven separate archives (https://github.com/Biodyn-AI/names-mechinterp/releases/tag/native-data-20261116-v1), covering both development and confirmation. The Git checkout and S1 Data provide the recorded answers, analysis inputs and checksum catalogs, not the large arrays. Archive-byte checks and replay of the saved mathematical calculations are separate procedures; the repository documents their scope and original runtime requirements. No model checkpoints or learned parameter tensors are redistributed.",
   "archive_DOI": null,
   "release_date": "2026-11-16"
 }

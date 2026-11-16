@@ -142,7 +142,7 @@ def build(repo_root, source_workspace):
               "licenses": {"code": "MIT", "data": "CC BY 4.0"}, "scientific_originals_mutated": False,
               "historical_paths": "Original provenance fields may retain author or cloud absolute paths; they are preserved records, not required portable runtime paths.",
               "excluded_categories": ["credentials and private keys", "cloud access guides", "operational spending ledgers", "machine/project/runtime archives", "model weights", "local virtual environments", "unrelated earlier experiment results"],
-              "native_data_scope": "Full native-logit shards are not shipped in the Git checkout. See AVAILABILITY.json for the historical development gap and CONFIRMATION_AVAILABILITY.json for the separate confirmation deposit status. Indices/custody/audit receipts are not native payloads; SHA integrity and mathematical replay are distinct."}
+              "native_data_scope": "Large native-score and measurement files are separate public release assets, not Git-checkout payloads. NATIVE_RELEASE.json and the two native_archive_catalogs files describe complete development and confirmation coverage. AVAILABILITY.json reports checkout inventory; CONFIRMATION_AVAILABILITY.json distinguishes that inventory from the separate public deposit. SHA integrity and mathematical replay remain distinct."}
     (root / "data" / "MANIFEST.json").write_text(json.dumps(result, sort_keys=True, indent=2) + "\n")
     return result
 

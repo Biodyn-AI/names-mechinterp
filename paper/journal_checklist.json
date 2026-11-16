@@ -1,6 +1,7 @@
 {
   "journal": "PLOS ONE",
   "retrieved_date": "2026-11-15",
+  "submission_and_data_policy_rechecked": "2026-11-16",
   "status": "Draft-preparation checklist; not a submission-ready certification",
   "sources": {
     "submission": "https://journals.plos.org/plosone/s/submission-guidelines",
@@ -41,7 +42,7 @@
     ],
     "project_specific_actions_not_additional_journal_rules": [
       "Treat worlds as independent experimental units; do not count repeated questions as independent replications.",
-      "Separate exploratory head selection, later validation and still-unopened confirmation data.",
+      "Separate exploratory head selection and failed development validation from the completed 64-world confirmation and conditional 30-world repair test.",
       "Label practical go/no-go thresholds as practical criteria, not statistical significance.",
       "Keep numerical failures, unsupported cases and negative controls visible; describe conditional case selection and small causal cohorts.",
       "Local dated/hash-sealed plans are not a journal Registered Report or proof of public preregistration."
@@ -56,7 +57,7 @@
       "Accessible supporting data may substitute for repository deposition; use reusable machine-readable formats. Each supporting file must be smaller than 20 MB.",
       "The policy does not automatically require every unused raw file. Define the finding-reproduction minimum explicitly."
     ],
-    "project_status": "Private RunPod storage and internal-SSD copies do not constitute public availability. No public deposit or DOI has been verified.",
+    "project_status": "Complete development and confirmation native measurements are public in native-data-20261116-v1, with matching archive/source checksums, successful transfer receipts and anonymous-link verification. The v0.2.0 package contains the updated paper and complete text-outcome data. Large arrays are separate release assets, not embedded in Git or S1 Data. Private cloud storage is not used as the public deposit. No permanent archive DOI is claimed; author review of journal-policy compliance and long-term preservation remains required.",
     "release_inventory_to_finalize": [
       "Prompt/world definitions, labels, seeds, counterbalances, tokenization metadata and case IDs.",
       "All reported natural/intervention outputs, control outcomes and analysis-ready per-world observations.",

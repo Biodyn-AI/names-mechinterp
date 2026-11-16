@@ -42,7 +42,7 @@ assert "Ihor Kendiukhov" in text and "0000-0001-5342-1499" in text
 assert "ihor.kendiukhov@student.uni-tuebingen.de" in text
 assert "The author declares no competing interests." in text
 assert "funding" not in text.casefold()
-assert len(doc.tables) == 3
+assert len(doc.tables) == 4
 numbering = doc.sections[0]._sectPr.find(qn("w:lnNumType"))
 assert numbering.get(qn("w:restart")) == "continuous"
 assert doc.styles["Normal"].paragraph_format.line_spacing == 2
@@ -69,7 +69,12 @@ with ZipFile(OUT / "S1_Data.zip") as data:
     assert len(json.loads(data.read("qwen_generations.json"))) == 3072
     assert len(json.loads(data.read("phi_generations.json"))) == 3072
     scope = json.loads(data.read("package_scope.json"))
-    assert scope["reserved_confirmation_outcomes_included"] is False
+    assert scope["reserved_confirmation_outcomes_included"] is True
+    assert len(json.loads(data.read("confirmation/ROWS.json"))) == 6144
+    assert len(json.loads(data.read("confirmation/WORLDS.json"))) == 64
+    for model in ("qwen", "phi"):
+        assert len(json.loads(data.read(f"confirmation/{model}/GENERATIONS.json"))) == 6144
+    assert len(json.loads(data.read("confirmation/repair/GENERATIONS.json"))) == 360
 assert (OUT / "S1_Data.zip").stat().st_size < 20_000_000
 word_review = options.qa_word / "review_manifest.json"
 pdf_review = options.qa_pdf / "review_manifest.json"
@@ -90,7 +95,7 @@ report = {
         "word": hashlib.sha256(word_review.read_bytes()).hexdigest(),
         "pdf": hashlib.sha256(pdf_review.read_bytes()).hexdigest(),
     },
-    "not_submission_ready_until": ["Verify public versioned release and journal data-policy sufficiency", "Author review and approval of science, AI disclosure, contributions and remaining cover fields"],
+    "not_submission_ready_until": ["Author assessment of journal data-policy sufficiency and long-term preservation", "Author review and approval of science, AI disclosure, contributions and remaining cover fields"],
     "file_sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                     for p in OUT.iterdir()
                     if p.is_file() and p.suffix in deliverable_suffixes},

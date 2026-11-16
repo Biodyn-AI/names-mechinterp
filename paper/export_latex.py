@@ -138,7 +138,7 @@ def export():
     for block in manuscript["blocks"]:
         kind = block["kind"]
         if kind == "table":
-            widths = {"behavior": [.48,.26,.26], "stages": [.20,.25,.28,.27], "decomposition": [.41,.16,.20,.23]}[block["id"]]
+            widths = {"behavior": [.48,.26,.26], "stages": [.20,.25,.28,.27], "decomposition": [.41,.16,.20,.23], "confirmation_repair": [.40,.20,.20,.20]}[block["id"]]
             lines.append(tex_table(block["headers"], block["rows"], block["title"], block["note"], widths))
         elif kind == "references":
             lines.append(r"\nolinenumbers\bibliography{references}")
@@ -163,11 +163,12 @@ def export():
              r"\section*{S1 Appendix}", escape(supplement["title"]), r"\linenumbers"]
     for section in supplement["sections"]:
         heading = re.sub(r"^S(\d+)\.\s*", r"S\1 ", section["heading"])
+        heading = re.sub(r"[^\w\s]", "", heading)
         lines.append(r"\section*{" + escape(heading) + "}")
         lines += [escape(p) + "\n" for p in section["paragraphs"]]
         if "table" in section:
             tab = section["table"]
-            widths = {2:[.31,.69],3:[.40,.40,.20],5:[.10,.25,.10,.28,.27]}[len(tab["headers"])]
+            widths = {2:[.31,.69],3:[.40,.40,.20],4:[.40,.20,.20,.20],5:[.10,.25,.10,.28,.27]}[len(tab["headers"])]
             lines.append(tex_table(tab["headers"], tab["rows"], widths=widths))
     lines.append(r"\end{document}")
     (HERE / "appendix.tex").write_text("\n\n".join(lines) + "\n")

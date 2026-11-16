@@ -29,13 +29,13 @@ Dear Editors,
 Please consider the Research Article entitled "Equivalent names yield inconsistent factual answers in two language models" for publication in PLOS ONE.
 
 
-The study tests whether equivalent names retrieve consistent facts in two instruction-tuned language models. It evaluates 32 counterbalanced fictional registries per model and then tests a fixed internal-component repair hypothesis in one model. Wrong-object answers replicate across both model families, whereas the proposed repair fails its development criteria despite measurable improvements in prediction scores.
+The study asks whether two names for the same object lead language models to give the same facts. We tested both models on the same 32 balanced fictional object lists, then tested one possible internal repair in Qwen. Both models returned facts about the wrong object. The proposed change did not reliably fix complete answers on other development cases, even when it improved the model's prediction scores.
 
 
-The contribution is a bounded empirical study of reference consistency and an audited negative intervention result. We distinguish it from prior library-alias, contextual-binding, and activation-patching work, and do not claim a new entity mechanism. The manuscript reports conditional sampling, repeated-world observations, the reused diagnostic cohort, negative intervention results, and the limits of inference.
+The contribution is a controlled description of this naming failure and a carefully checked test of one proposed repair. We relate it to earlier work on names, object links, and internal model changes, without claiming a new general mechanism. The manuscript makes clear how cases were selected, which questions share a world, when earlier cases were reused, which tests failed, and what the results cannot establish.
 
 
-Code and data package: \url{https://github.com/Biodyn-AI/names-mechinterp,} version v0.1.0. Selected attention and component captures and historical audit receipts are included. The complete original raw native-logit safetensor archive is not included, so not every historical full-vocabulary audit can be repeated from this release. Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].
+Code and data: \url{https://github.com/Biodyn-AI/names-mechinterp} (v0.1.1). The release includes selected saved measurements from inside the model and records of the original numerical checks. It does not include the complete original prediction-score files, so some of those checks cannot be repeated from this release. Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].
 
 
 [Before signing, confirm originality, exclusive submission, author approval, and any overlap with related work, including the article supplied for the author details.]

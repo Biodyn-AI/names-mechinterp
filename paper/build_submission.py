@@ -18,6 +18,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 from PIL import Image, ImageDraw, ImageFont
 from publication_content import availability_statement, load_manuscript, release_metadata
+from validation_rules import validate_abstract
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -47,7 +48,7 @@ paper = load_manuscript()
 release = release_metadata()
 author = author_record["authors_in_article_order"][0]
 assert author_record["verified_article_author_count"] == 1
-assert len(paper["abstract"].split()) <= 300
+abstract_words = validate_abstract(paper["abstract"])
 assert len(paper["title"]) <= 250 and len(paper["short_title"]) <= 100
 
 
@@ -221,9 +222,9 @@ paragraph(doc, "Cover letter for PLOS ONE", "Title")
 paragraph(doc, "16 November 2026")
 paragraph(doc, "Dear Editors,")
 paragraph(doc, 'Please consider the Research Article entitled "' + paper["title"] + '" for publication in PLOS ONE.')
-paragraph(doc, "The study tests whether equivalent names retrieve consistent facts in two instruction-tuned language models. It evaluates 32 counterbalanced fictional registries per model and then tests a fixed internal-component repair hypothesis in one model. Wrong-object answers replicate across both model families, whereas the proposed repair fails its development criteria despite measurable improvements in prediction scores.")
-paragraph(doc, "The contribution is a bounded empirical study of reference consistency and an audited negative intervention result. We distinguish it from prior library-alias, contextual-binding, and activation-patching work, and do not claim a new entity mechanism. The manuscript reports conditional sampling, repeated-world observations, the reused diagnostic cohort, negative intervention results, and the limits of inference.")
-paragraph(doc, "Code and data package: " + release["repository"] + ", version " + release["version"] + ". " + release["native_scope"] + " Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].")
+paragraph(doc, "The study asks whether two names for the same object lead language models to give the same facts. We tested both models on the same 32 balanced fictional object lists, then tested one possible internal repair in Qwen. Both models returned facts about the wrong object. The proposed change did not reliably fix complete answers on other development cases, even when it improved the model's prediction scores.")
+paragraph(doc, "The contribution is a controlled description of this naming failure and a carefully checked test of one proposed repair. We relate it to earlier work on names, object links, and internal model changes, without claiming a new general mechanism. The manuscript makes clear how cases were selected, which questions share a world, when earlier cases were reused, which tests failed, and what the results cannot establish.")
+paragraph(doc, "Code and data: " + release["repository"] + " (" + release["version"] + "). " + release["native_scope"] + " Prior PLOS correspondence: [confirm details or none]. Suggested Academic Editors: [confirm suitable names]. Opposed reviewers: [confirm names and reasons or none].")
 paragraph(doc, "[Before signing, confirm originality, exclusive submission, author approval, and any overlap with related work, including the article supplied for the author details.]")
 paragraph(doc, "The author declares no competing interests.")
 paragraph(doc, "Sincerely,\n" + author["display_name"] + "\n" + author["affiliations"][0]["display"] + "\n" + author["email"])
@@ -302,7 +303,7 @@ assert sum(w["fact_correct"] for w in world_data["phi"]) == 1980
 fig = Image.new("RGB", (4500,2700), "white")
 draw = ImageDraw.Draw(fig)
 colors = ("#0072B2", "#D55E00")
-for panel, metric, title in ((0,"fact_accuracy","Correct factual answers (%)"),(1,"eligible_listed_wrong_object_discordant_pairs","Eligible equivalent name pairs (%)")):
+for panel, metric, title in ((0,"fact_accuracy","Correct factual answers (%)"),(1,"eligible_listed_wrong_object_discordant_pairs","One correct and one wrong-object answer (%)")):
     offset = panel*2200
     text(draw,(offset+100,55),"A" if panel==0 else "B",12)
     text(draw,(offset+380,85),title,10)
@@ -320,14 +321,14 @@ for panel, metric, title in ((0,"fact_accuracy","Correct factual answers (%)"),(
             draw.ellipse((cx-15,cy-15,cx+15,cy+15),fill=colors[group],outline="white",width=2)
     for xpos,label in zip(x_positions,("Qwen3 4B","Phi 3.5 mini")):
         text(draw,(xpos,2280),label,10,anchor="mt")
-    text(draw,(offset+1120,2480),"32 paired worlds",9,anchor="mt")
+    text(draw,(offset+1120,2480),"32 paired object lists",9,anchor="mt")
 fig.save(OUT/"Fig1.tif",compression="tiff_lzw",dpi=(DPI,DPI))
 fig.save(FIGURES/"Fig1.png",dpi=(DPI,DPI))
 fig.resize((1500,900)).save(QA/"Fig1.png")
 
 effects=sealed(DATA/"cloud_reference_decomposition_metadata_20261115/reference-decomposition-20261115-effect-readout.json")
 result=sealed(DATA/"cloud_reference_decomposition_metadata_20261115/decomposition/RESULT.json")
-order=[("self","Self control"),("oldDcolorMass","Original color profile"),("sameFieldMass","Same field profile"),("sameFieldWithinOnly","Within record pattern"),("sameFieldProfileWithin","Profile and pattern"),("sameFieldRecordContribution","Record contribution"),("sameFieldNonrecordResidual","Nonrecord contribution"),("sameFieldFullHead","Whole donor head"),("normMatchedRandomFullHead","Matched random")]
+order=[("self","No change"),("oldDcolorMass","Original color-question shares"),("sameFieldMass","Same-property shares"),("sameFieldWithinOnly","Weights within records"),("sameFieldProfileWithin","Shares and within-record weights"),("sameFieldRecordContribution","Full record contribution"),("sameFieldNonrecordResidual","Outside-record contribution"),("sameFieldFullHead","Complete source head"),("normMatchedRandomFullHead","Matched random change")]
 points=[row for row in effects["per_question"] if row["fixed_old_W_token_id"] is not None]
 worlds=sorted({row["world_id"] for row in points})
 palette=["#0072B2","#D55E00","#009E73","#CC79A7","#E69F00","#666666"]
@@ -338,7 +339,7 @@ fig=Image.new("RGB",(4500,3400),"white")
 draw=ImageDraw.Draw(fig)
 text(draw,(1150,50),"A",12)
 text(draw,(3550,50),"B",12)
-text(draw,(2250,105),"Correct minus original wrong token score change",10,anchor="mt")
+text(draw,(2250,105),"Change in correct versus original wrong score",10,anchor="mt")
 text(draw,(3990,105),"Errors repaired",10,anchor="mt")
 left,right,top,bottom=1260,3480,400,2730
 x=lambda value:left+(value-low)/(high-low)*(right-left)
@@ -358,7 +359,7 @@ for index,(key,label) in enumerate(order):
     draw.line((x(mean)-22,cy+35,x(mean)+22,cy-35),fill="black",width=7)
     cell=result["assessment"]["conditions"][key]
     text(draw,(3990,cy),f'{cell["repaired"]}/8',10,anchor="mm")
-text(draw,((left+right)//2,bottom+280),"Logit margin change",9,anchor="mt")
+text(draw,((left+right)//2,bottom+280),"Change in prediction-score gap",9,anchor="mt")
 for index,world in enumerate(worlds):
     px=250+index*690
     draw.ellipse((px,3130,px+25,3155),fill=palette[index])
@@ -381,7 +382,7 @@ with ZipFile(OUT/"S1_Data.zip","w",ZIP_DEFLATED) as bundle:
     for name in ("descriptive_world_bootstrap.py","test_descriptive_world_bootstrap.py"):
         bundle.write(HERE/name,"paper_analysis/"+name)
 
-qa_report={"abstract_words":len(paper["abstract"].split()),"body_words":sum(len(b.get("text","").split()) for b in paper["blocks"]),"source_hashes":{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in HERE.glob("*.json")},"files":{p.name:p.stat().st_size for p in OUT.iterdir()}}
+qa_report={"abstract_words":abstract_words,"body_words":sum(len(b.get("text","").split()) for b in paper["blocks"]),"source_hashes":{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in HERE.glob("*.json")},"files":{p.name:p.stat().st_size for p in OUT.iterdir()}}
 assert all((OUT/name).stat().st_size<10_000_000 for name in ("Fig1.tif","Fig2.tif"))
 assert (OUT/"S1_Data.zip").stat().st_size<20_000_000
 (QA/"build_report.json").write_text(json.dumps(qa_report,indent=2)+"\n")

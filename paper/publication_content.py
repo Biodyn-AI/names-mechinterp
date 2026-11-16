@@ -22,9 +22,11 @@ def availability_statement():
         + "; release tag " + release.get("release_tag", release["version"]) + "). "
         "Code is licensed under " + release["code_license"] + "; study data, "
         "documentation and paper are licensed under " + release["data_paper_license"] + ". "
-        "S1 Data contains processed prompts, outcomes, figure coordinates and provenance records. "
+        "S1 Data contains the prompts, recorded answers, values plotted in the figures, "
+        "and records showing where the data came from. "
         + release["native_scope"] + " "
-        "A Git tag is a version identifier, not a permanent archive; no archive DOI is claimed."
+        "The Git tag identifies this version but is not a permanent archive. "
+        "No permanent archive identifier (DOI) is claimed."
     )
 
 
@@ -33,12 +35,12 @@ def load_manuscript():
     for index, block in enumerate(manuscript["blocks"]):
         if block.get("text") == "Data and code availability":
             manuscript["blocks"][index + 1]["text"] = availability_statement()
-        if block.get("text", "").startswith("S1 Data. Processed outcomes"):
+        if block.get("text", "").startswith("S1 Data."):
             block["text"] = (
-                "S1 Data. Processed outcomes and figure source data. Machine-readable prompts "
-                "and behavioral answers for the 32 evaluated worlds, per-world summaries, "
-                "fixed-component outcomes and score changes, source hashes and figure coordinates. "
-                "This processed supplement is distinct from the release's selected native artifacts; "
-                "the release-scope statement specifies which historical audits can be repeated."
+                "S1 Data. Recorded answers and values used in the figures. Machine-readable prompts "
+                "and model answers for the 32 evaluated worlds, summaries by world, internal-change "
+                "outcomes and score differences, source checksums, and plotted values. These processed "
+                "data do not include the complete original prediction-score files. The public repository "
+                "describes exactly which saved measurements and checks it supplies."
             )
     return manuscript

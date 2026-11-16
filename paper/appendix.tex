@@ -112,24 +112,24 @@
 
 \section*{S1 Appendix}
 
-Detailed methods and audit records
+Detailed methods and checks of the results
 
 \linenumbers
 
 \section*{S1 Study scope and data construction}
 
-This study concerns explicit fictional registries, not the earlier country-fact experiments or four-world pilots. The new generator froze 32 development worlds and 64 planned confirmation worlds. Only development worlds received model inference. Files named REGISTRATION record local, hash-linked execution freezes, not public preregistration. The additional six-world diagnosis was designed after inspecting failed validation and is not independent confirmation.
+This study uses fictional registries that explicitly list objects, their properties and their names. It does not include the earlier country-fact experiments or four-world pilots. The generator fixed 32 development worlds and 64 worlds reserved for confirmation. Only the development worlds were run through a model. Files named REGISTRATION record the inputs and code fixed before each local run, linked by file hashes. They are not public preregistration. The later six-world diagnosis was planned after the validation failed and does not provide independent confirmation.
 
 
-Each world contains four permanent object IDs, four distinct values for each of color, shape and home, and four alias bindings. Two aliases denote the same object; another denotes a distractor, and a fourth provides context. Nameplates are labels, not permanent IDs. The eight selected alias words were apple, bat, anchor, date, cat, basket, fig and dog. Selection used token geometry in both model tokenizers, without model answers. Lexemes recur across worlds, but complete ordered object-to-value assignments do not.
+Each world contains four permanent object IDs, four different values for each of color, shape and home, and four statements assigning aliases to objects. Two aliases name the same object; another names a distractor, and a fourth supplies context. A nameplate is a label, not a permanent ID. The eight selected alias words were apple, bat, anchor, date, cat, basket, fig and dog. We chose them using only how both models' tokenizers divide the prompts into tokens, without looking at model answers. Individual words appear in more than one world, but the complete ordered assignments of values to objects do not repeat.
 
 
-Each world supplies 96 prompts: two equivalent-name orders, four Focus conditions, and twelve probes. These comprise nine factual questions over three aliases, two identity questions, and one registry-status question. Focus is absent, names either equivalent alias, or names an unrelated alias. Name orders exchange the equivalent words across binding-line locations without changing their referent. Across worlds, target-record and alias-line positions, object IDs, semantic name roles, and two wording formats are balanced; not every factor combination is fully crossed. Both models receive the same worlds: 3,072 prompts per model, not 64 independent worlds.
+Each world supplies 96 prompts: two orders of the equivalent names, four Focus conditions, and twelve questions per context. The twelve questions comprise nine factual questions about three aliases, two identity questions, and one registry-status question. Focus is a prompt highlight: it is absent, names either equivalent alias, or names an unrelated alias. Swapping the equivalent names between their binding lines does not change which object either name refers to. Across worlds, we balance the target record's position, alias-line positions, object IDs, the roles assigned to names, and two wording formats. This balance does not cover every possible combination of factors. Both models receive the same worlds and 3,072 prompts each; this is not a sample of 64 independent worlds.
 
 
-\section*{S2 Pinned models, execution and grading}
+\section*{S2 Fixed model versions, execution and answer grading}
 
-Models use their pinned tokenizer and chat rendering. Inference uses eager attention, batch size one, float32, disabled TensorFloat-32, one CPU thread, and native full-vocabulary output scores at one position. Answers are generated greedily. Whole decoded answers are normalized for case, whitespace and final punctuation; explanations are not silently cut off. Invalid or extra text remains an error. Causal generation permits eight new tokens and records end-of-sequence termination; none of the final diagnostic answers was truncated.
+Each model uses its fixed tokenizer and chat template. We use eager attention, process one prompt at a time, use float32 arithmetic, disable TensorFloat-32, and use one CPU thread. At each step, we retain the model's original, or native, output scores for its entire token vocabulary at one output position. Greedy generation chooses the highest-scoring next token. We grade the entire decoded answer after normalizing case, whitespace and final punctuation. We do not remove explanations to turn a response into a correct answer; invalid or extra text remains an error. The intervention runs allow eight new tokens and record whether generation stops on an end-of-sequence token. None of the final diagnostic answers was cut short by the token limit.
 
 
 \begingroup\small\setstretch{1.15}
@@ -147,12 +147,12 @@ Libraries & transformers 5.14.1; tokenizers 0.22.2; numpy 2.5.1; safetensors 0.8
 \end{longtable}
 \endgroup
 
-\section*{S3 Search sequence and the six repair cases}
+\section*{S3 Search sequence and the six validation cases}
 
-The exploratory screen first replaced pre-field activations at the end-of-alias marker, before the requested field appeared. It searched 35 layer boundaries and then heads in two selected layers on eight development cases. A separate answer-position routing search used the same eight cases, with field-visible donors. Across all 36 layers and 32 heads, it selected two candidates using correct-versus-wrong record-attention contrasts. Selection used answer labels; the subsequent full four-record profile operation did not. The best candidate, zero-based layer 28, head 0, changed five of eight first-token choices. This is feasibility evidence, not complete-answer repair.
+The first exploratory search replaced internal outputs at the end-of-alias marker, before the prompt stated the requested field. It tested 35 layer boundaries and then attention heads in two selected layers, using eight development cases. A separate search at the answer position used the same eight cases. In that search, the donor computation already included the requested field. We compared attention to the correct and wrong records across all 36 layers and 32 heads, then selected two candidates. This selection used the correct-answer labels. The later operation transferred the attention shares for all four records without taking answer labels as inputs. With the best candidate, layer 28, head 0 with counting starting at zero, the first token became correct in five of eight cases. This was a promising preliminary result, not a measurement of complete-answer repair.
 
 
-Validation fixed that head and used the six remaining eligible development worlds, disjoint from the eight routing cases but already behavior-screened. Eligibility required a correct donor across all three fields and a listed wrong-record recipient answer. There were eight erroneous and ten protected correct recipient field answers. The final decomposition reopened these exact six worlds, keeping the component and cases fixed.
+We then fixed that head and tested the six remaining eligible development worlds. They were separate from the eight search cases, but we had already examined their behavioral answers. A case qualified when the model answered all three fields and the identifier question correctly using the donor alias. With the equivalent recipient alias, it also had to give a completed answer from another listed record for at least one factual question. The recipient questions included eight wrong answers and ten initially correct answers, which we checked for damage. The final diagnosis split the intervention into parts and tested them on these same six worlds, without changing the component or cases.
 
 
 \begingroup\small\setstretch{1.15}
@@ -172,17 +172,17 @@ Validation fixed that head and used the six remaining eligible development world
 \end{longtable}
 \endgroup
 
-\section*{S4 Example prompt and retained input geometry}
+\section*{S4 Example prompt and stored token positions}
 
-The following is the actual unrendered recipient home question for world 014. Token IDs, offsets and the model-specific chat-rendered prompt are retained in decomposition INPUTS.json, row development:014:swap0:coref\_1:fact:1:home. Its answer is castle; the baseline generated market.
+Below is the actual recipient home question for world 014, before the model's chat template was added. The token IDs, offsets and full chat-formatted prompt are stored in decomposition INPUTS.json, row development:014:swap0:coref\_1:fact:1:home. The correct answer is castle; the unmodified model answered market.
 
 
 This registry defines imaginary objects. An ID is permanent and a nameplate is just a label. Resolve a requested alias through its binding, then report the requested field only. Focus marks an alias for attention. Do not add an explanation.\newline Object B has nameplate Cedar, color brown, shape square, and home farm.\newline Object A has nameplate Fir, color red, shape star, and home bridge.\newline Object D has nameplate Elm, color yellow, shape oval, and home market.\newline Object C has nameplate Iris, color white, shape heart, and home castle.\newline Alias fig -> Object B.\newline Alias basket -> Object C.\newline Alias dog -> Object D.\newline Alias cat -> Object C.\newline Status word: ready.\newline [WORLD\_END]\newline Focus alias: basket.\newline [FOCUS\_END]\newline Read Alias basket.\newline [ALIAS\_END]\newline Return its home.\newline Answer:
 
 
-\section*{S5 Nine fixed decomposition operators}
+\section*{S5 Nine fixed interventions and what they change}
 
-Record mass means summed attention probability over a printed object's record tokens. The profile divides each record's mass by total record attention; the within-record pattern divides each token's weight by its record mass. Four factor conditions retain recipient total record attention. Donor and recipient record value vectors must be bytewise identical. We compute head-output changes before the attention output projection, using float64 coefficients and float32 contractions. Each field-specific change is held fixed at the original answer-query position throughout decoding, not moved to newly generated positions.
+We summarize attention in three ways. Record mass is the sum of attention probabilities on the tokens in one printed object record. The record profile is each record's share of the total attention on all records. The within-record pattern is each token's share of its own record's attention. The four profile/pattern conditions in the table keep the recipient's total attention on records unchanged. The donor and recipient value vectors at record positions must be identical byte for byte. These are the internal vectors that attention combines to form a head's output. We change that output before the attention output projection, the step that mixes head outputs. Calculations use float64 coefficients and float32 contractions, or weighted vector sums. For each field, we hold the change fixed at the original answer-query position throughout answer generation. We do not move it to newly generated positions. For the random control, matching the norm means matching the length of the whole-head change vector.
 
 
 \begingroup\small\setstretch{1.15}
@@ -205,23 +205,23 @@ Matched random & Deterministic random direction matching only the whole-head cha
 \end{longtable}
 \endgroup
 
-\section*{S6 Frozen criteria, failures and statistical scope}
+\section*{S6 Pre-set success criteria, failed tests and statistical limits}
 
-The original validation required four of eight repairs spanning at least three worlds, at most one damaged protected answer, and at least two more repairs than the frozen discovery-mean profile. Reverse and cyclic interventions each required nine of eighteen specific predicted-record answers across three worlds; cyclic success additionally required two target IDs. The primary profile repaired one error, in world 029. Reverse and cyclic tests each produced one specific hit. All gates failed; no untouched confirmation inference followed.
-
-
-The final nine-condition diagnosis generated 162 answers. Seven new conditions each repaired zero of eight errors; replaying the old profile retained its one repair. Every condition preserved the ten protected answers. This rejects the tested simple repair, not every possible binding mechanism. Saved first-step scores show genuine effects: the old profile improved the correct-minus-fixed-old-wrong canonical-token margin by 6.00 on average, same-field profile by 4.05, and whole-head transfer by 4.21. These are descriptive score changes, not complete-answer accuracy or accepted-variant probability sums.
+The original validation required at least four of eight errors to be repaired across at least three worlds. It allowed at most one initially correct, protected answer to become wrong. It also required at least two more repairs than a fixed average profile from discovery. Reverse and cyclic interventions each had to produce at least nine of eighteen specified record answers across at least three worlds. Cyclic success also required at least two target IDs. These steering targets were scored separately from factual correctness. The primary profile repaired one error, in world 029. Reverse and cyclic tests each reached one specified target. No intervention passed its full set of success criteria, and no model runs on the untouched confirmation worlds followed.
 
 
-Behavioral intervals resample whole worlds 2,000 times, retaining repeated questions and conditions. They are descriptive development intervals, not confirmation or independent-question tests. Additional wrong-record intervals use retrospective seed 20261115. Predictive comparisons hold out whole-world folds; intervals conditional on saved predictions do not include refitting or model-selection uncertainty.
+The final nine-condition diagnosis generated 162 answers. The seven new conditions, comprising six targeted changes and the random control, each repaired zero of eight errors. Replaying the old profile reproduced its one repair. Every condition preserved the ten initially correct, protected answers. This rejects the simple repair tested here, not every possible way a model could connect names to objects. The saved scores for the first answer token show that the changes did affect the model. We measured the score of the single token for the prescribed correct answer, called the canonical token, minus the score of the fixed first token of the original wrong response. This margin improved by 6.00 on average for the old profile, 4.05 for the same-field profile, and 4.21 for whole-head transfer. These describe score changes, not complete-answer accuracy or probability sums over accepted answer variants.
 
 
-\section*{S7 Numerical audits and source anchors}
-
-Natural head reconstruction and frozen-query drift were bounded by 0.00002; observed query drift was zero. Record profiles require total mass at least 0.0001 and per-record support at least 0.00000001. Full-head reconstruction, record/residual recombination and random-norm checks passed. Thirty-six natural forwards replayed; eighteen self and eighteen old-profile full-answer trajectories matched exactly. Saved tensors reproduced native scores, and independent literal grading agreed. The final run used 360 native forwards. No failed gate, component or dose was changed to obtain success.
+For the behavioral intervals, we resample whole worlds 2,000 times, keeping each world's repeated questions and conditions together. These describe variation in the development data; they are not confirmation tests and do not treat questions as independent samples. Additional wrong-record intervals use the retrospective seed 20261115. Predictive comparisons keep entire worlds out of fitting when testing on them. Intervals calculated with the saved predictions held fixed do not include uncertainty from refitting or model selection.
 
 
-The stage labels below identify the corresponding records in S1 Data. Twelve-character digest prefixes are navigation aids only. Full original paths, SHA-256 digests and artifact links are retained in S1 Data and the original registration, custody and audit records. These records establish local provenance, not public preregistration or a public data deposit.
+\section*{S7 Numerical checks and links to the original records}
+
+We set a maximum difference of 0.00002 for reconstructing the unmodified head output and for drift at the fixed query position during generation. The observed query drift was zero. Record profiles require total attention mass of at least 0.0001 and attention on each record of at least 0.00000001. Checks of full-head reconstruction, recombination of record and residual parts, and the random change's norm all passed. Thirty-six unmodified forward passes replayed exactly. Eighteen self-control and eighteen old-profile complete-answer trajectories also matched exactly, including their generation steps. The CPU audit recomputed component changes from saved tensors and checked recorded native scores; it did not rerun model inference. A separate grader read the literal prompts and agreed with the answer grades. The final run used 360 native forward passes, meaning actual model calculations. We did not change a failed success criterion, the component or the intervention strength to obtain success.
+
+
+The stage labels below locate the corresponding records in S1 Data. Each twelve-character digest prefix is only a short guide to a file, not its full identity. S1 Data and the original registration, custody and audit records retain the full original paths, SHA-256 digests and artifact links. They document where the local execution inputs and outputs came from. These records are not public preregistration and do not, by themselves, constitute a public data deposit.
 
 
 \begingroup\small\setstretch{1.15}

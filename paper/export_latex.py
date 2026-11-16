@@ -15,6 +15,7 @@ from pathlib import Path
 from docx import Document
 
 from publication_content import load_manuscript
+from validation_rules import validate_abstract
 
 HERE = Path(__file__).resolve().parent
 OUT = HERE.parent / "submission"
@@ -120,6 +121,7 @@ def bibliography():
 
 def export():
     manuscript = load_manuscript()
+    validate_abstract(manuscript["abstract"])
     author = read("author_details.json")["authors_in_article_order"][0]
     lines = [preamble(), r"\begin{document}", r"\vspace*{0.2in}", r"\begin{flushleft}",
              r"{\Large\textbf{" + escape(manuscript["title"]) + r"}}\par\bigskip",

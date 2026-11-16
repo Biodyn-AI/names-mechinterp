@@ -1,5 +1,6 @@
 """Structural checks supplement, rather than replace, rendered page inspection."""
 
+import argparse
 import hashlib
 import json
 import re
@@ -9,9 +10,14 @@ from zipfile import ZipFile
 from docx import Document
 from docx.oxml.ns import qn
 from PIL import Image
+from validation_rules import validate_abstract, validate_review_record
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT.parent / "submission"
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--qa-word", type=Path, default=ROOT / "qa/release_word")
+parser.add_argument("--qa-pdf", type=Path, default=ROOT / "qa/release_latex")
+options = parser.parse_args()
 paper = json.loads((ROOT / "manuscript.json").read_text())
 literature = json.loads((ROOT / "literature.json").read_text())
 # These numbers are authored into the prose; changing bibliography order alone
@@ -29,7 +35,8 @@ for reference_number, entry in enumerate(literature["references"], 1):
         and entry["title"] in paragraph.text
         for paragraph in doc.paragraphs
     ), f"Reference {reference_number} does not match the manuscript citation map"
-assert len(paper["abstract"].split()) == 251
+abstract_words = validate_abstract(paper["abstract"])
+assert paper["abstract"] in text, "Word manuscript does not contain the current abstract"
 assert len(paper["title"]) <= 250 and len(paper["short_title"]) <= 100
 assert "Ihor Kendiukhov" in text and "0000-0001-5342-1499" in text
 assert "ihor.kendiukhov@student.uni-tuebingen.de" in text
@@ -64,19 +71,29 @@ with ZipFile(OUT / "S1_Data.zip") as data:
     scope = json.loads(data.read("package_scope.json"))
     assert scope["reserved_confirmation_outcomes_included"] is False
 assert (OUT / "S1_Data.zip").stat().st_size < 20_000_000
-pages = {name: len(list((ROOT/"qa/release_word"/name).glob("page-*.png"))) for name in (
-    "Manuscript", "S1_Appendix", "Cover_letter", "Submission_checklist")}
-assert pages == {"Manuscript": 23, "S1_Appendix": 6, "Cover_letter": 1,
-                 "Submission_checklist": 2}, pages
+word_review = options.qa_word / "review_manifest.json"
+pdf_review = options.qa_pdf / "review_manifest.json"
+pages = validate_review_record(options.qa_word, {
+    name: OUT / (name + ".docx") for name in
+    ("Manuscript", "S1_Appendix", "Cover_letter", "Submission_checklist")
+}, json.loads(word_review.read_text()))
+pdf_pages = validate_review_record(options.qa_pdf, {
+    name: OUT / (name + ".pdf") for name in
+    ("Manuscript", "S1_Appendix", "Cover_letter")
+}, json.loads(pdf_review.read_text()))
 # Renderer/compiler logs and auxiliary state are not publication deliverables.
 deliverable_suffixes = {".docx", ".pdf", ".tif", ".zip", ".tex", ".md"}
 report = {
-    "structural_checks_passed": True, "pages": pages,
-    "abstract_words": 251,
+    "structural_checks_passed": True, "pages": pages, "pdf_pages": pdf_pages,
+    "abstract_words": abstract_words,
+    "reviewed_manifests_sha256": {
+        "word": hashlib.sha256(word_review.read_bytes()).hexdigest(),
+        "pdf": hashlib.sha256(pdf_review.read_bytes()).hexdigest(),
+    },
     "not_submission_ready_until": ["Verify public versioned release and journal data-policy sufficiency", "Author review and approval of science, AI disclosure, contributions and remaining cover fields"],
     "file_sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                     for p in OUT.iterdir()
                     if p.is_file() and p.suffix in deliverable_suffixes},
 }
-(ROOT/"qa/release_word/validation_report.json").write_text(json.dumps(report,indent=2)+"\n")
+(options.qa_word/"validation_report.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report,indent=2))

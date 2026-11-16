@@ -9,7 +9,8 @@ and the failed single-component repair, including controls and negative results.
 It does not claim a new general binding mechanism or that models lack object
 representations. See [study scope](docs/study.md) before interpreting the results.
 
-Release version: **0.1.0**; the study snapshot is tag `v0.1.0`.
+Release version: **0.1.1**; the study snapshot is tag `v0.1.1`.
+This revision makes the paper easier to read; the experiments and results are unchanged.
 The [submission files](submission/) are a manuscript draft, not an accepted paper.
 
 ## Main observations

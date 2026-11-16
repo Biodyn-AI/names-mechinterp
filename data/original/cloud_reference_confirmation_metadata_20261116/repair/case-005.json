@@ -1,0 +1,266 @@
+[
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "gray",
+    "field": "color",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::color",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::color::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::color::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::shape",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::shape::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::shape::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "farm",
+    "field": "home",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::home",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::home::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::home::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "gray",
+    "field": "color",
+    "generated_ids": [
+      11650,
+      151645
+    ],
+    "generated_text": "gray",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::color",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::color::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::color::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::shape::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::shape::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "farm",
+    "field": "home",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::home",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::home::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::home::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "gray",
+    "field": "color",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::color::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "farm",
+    "field": "home",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::home::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "gray",
+    "field": "color",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::color",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::color::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::color::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::shape::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::shape::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "farm",
+    "field": "home",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::home",
+    "operator_endpoint_id": "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::home::operator",
+    "row_id": "confirmation:051:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::home::step00",
+      "repair::confirmation:051:swap0:coref_0:recipient1::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:051"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "cases": 30,
+  "custody_sha256": "952865e9e69e9fcba40c4ddc2f3ccd6060bcb539c1d59ede38dbe5084b8dcb75",
+  "exact_match": true,
+  "generations": 360,
+  "native_steps": 720,
+  "original_query_replay": true
+}

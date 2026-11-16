@@ -1,0 +1,266 @@
+[
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "black",
+    "field": "color",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::color",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::color::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::color::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::shape",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::shape::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::shape::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "selfRfield",
+    "expected_answer": "market",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::home",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::home::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::home::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "black",
+    "field": "color",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::color",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::color::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::color::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::shape::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::shape::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "primaryDcolor",
+    "expected_answer": "market",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::home",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::home::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::home::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "black",
+    "field": "color",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::color::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::color::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::shape::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::shape::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "market",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::home::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::home::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "black",
+    "field": "color",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::color",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::color::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::color::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "circle",
+    "field": "shape",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::shape::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::shape::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "condition": "Rcolor",
+    "expected_answer": "market",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::home",
+    "operator_endpoint_id": "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::home::operator",
+    "row_id": "confirmation:055:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::home::step00",
+      "repair::confirmation:055:swap1:coref_1:recipient1::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:055"
+  }
+]

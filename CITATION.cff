@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-5342-1499"
 repository-code: "https://github.com/Biodyn-AI/names-mechinterp"
 url: "https://github.com/Biodyn-AI/names-mechinterp"
-version: "0.1.1"
+version: "0.2.0"
 date-released: "2026-11-16"
 license: MIT
 keywords:
@@ -20,6 +20,9 @@ keywords:
 abstract: >-
   Code, processed data, and a draft manuscript for a study of factual retrieval
   under equivalent contextual names in two instruction-tuned language models.
-  Behavioral inconsistencies replicated across checkpoints. A selected single-head
-  repair did not meet its fixed development criteria. Code is MIT-licensed;
+  Naming inconsistencies repeated in both models on 64 untouched scenarios under
+  a publicly fixed plan. An unchanged internal repair corrected 16 of 40 complete
+  wrong answers in 30 eligible fresh scenarios while preserving 50 correct answers;
+  its practical usefulness remains uncertain. Earlier failed development tests
+  are retained. Code is MIT-licensed;
   original data, documentation, and manuscript are CC BY 4.0.

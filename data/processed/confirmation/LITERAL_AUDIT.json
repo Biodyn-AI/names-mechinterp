@@ -1,0 +1,2061 @@
+{
+  "all_reported_counts_match": true,
+  "audited_utc": "2026-11-16T17:49:05.051660+00:00",
+  "behavior": {
+    "phi": {
+      "by_probe_kind": {
+        "fact": {
+          "correct": 3782,
+          "count": 4608
+        },
+        "identity": {
+          "correct": 50,
+          "count": 1024
+        },
+        "status": {
+          "correct": 512,
+          "count": 512
+        }
+      },
+      "coreference": {
+        "both_correct": 1149,
+        "both_wrong": 196,
+        "different_answers": 223,
+        "discordant_one_correct": 191,
+        "discordant_wrong_object": 166,
+        "pair_count": 1536
+      },
+      "fact_errors": {
+        "unlisted_or_malformed": 280,
+        "wrong_object": 546
+      },
+      "independent_literal_behavior_audit": true,
+      "overall": {
+        "correct": 4344,
+        "count": 6144
+      },
+      "world_summaries": {
+        "confirmation:000": {
+          "coref_pairs": 24,
+          "fact_correct": 56,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:001": {
+          "coref_pairs": 24,
+          "fact_correct": 70,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:002": {
+          "coref_pairs": 24,
+          "fact_correct": 37,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 12
+        },
+        "confirmation:003": {
+          "coref_pairs": 24,
+          "fact_correct": 70,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 0
+        },
+        "confirmation:004": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 0
+        },
+        "confirmation:005": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 2
+        },
+        "confirmation:006": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:007": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:008": {
+          "coref_pairs": 24,
+          "fact_correct": 57,
+          "facts": 72,
+          "wrong_object": 15,
+          "wrong_object_coref": 0
+        },
+        "confirmation:009": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 0
+        },
+        "confirmation:010": {
+          "coref_pairs": 24,
+          "fact_correct": 48,
+          "facts": 72,
+          "wrong_object": 24,
+          "wrong_object_coref": 6
+        },
+        "confirmation:011": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 6
+        },
+        "confirmation:012": {
+          "coref_pairs": 24,
+          "fact_correct": 60,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 9
+        },
+        "confirmation:013": {
+          "coref_pairs": 24,
+          "fact_correct": 57,
+          "facts": 72,
+          "wrong_object": 15,
+          "wrong_object_coref": 7
+        },
+        "confirmation:014": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:015": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 4
+        },
+        "confirmation:016": {
+          "coref_pairs": 24,
+          "fact_correct": 46,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:017": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 2
+        },
+        "confirmation:018": {
+          "coref_pairs": 24,
+          "fact_correct": 45,
+          "facts": 72,
+          "wrong_object": 3,
+          "wrong_object_coref": 1
+        },
+        "confirmation:019": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:020": {
+          "coref_pairs": 24,
+          "fact_correct": 57,
+          "facts": 72,
+          "wrong_object": 15,
+          "wrong_object_coref": 0
+        },
+        "confirmation:021": {
+          "coref_pairs": 24,
+          "fact_correct": 66,
+          "facts": 72,
+          "wrong_object": 6,
+          "wrong_object_coref": 1
+        },
+        "confirmation:022": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:023": {
+          "coref_pairs": 24,
+          "fact_correct": 44,
+          "facts": 72,
+          "wrong_object": 28,
+          "wrong_object_coref": 2
+        },
+        "confirmation:024": {
+          "coref_pairs": 24,
+          "fact_correct": 56,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:025": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 0
+        },
+        "confirmation:026": {
+          "coref_pairs": 24,
+          "fact_correct": 65,
+          "facts": 72,
+          "wrong_object": 3,
+          "wrong_object_coref": 1
+        },
+        "confirmation:027": {
+          "coref_pairs": 24,
+          "fact_correct": 29,
+          "facts": 72,
+          "wrong_object": 22,
+          "wrong_object_coref": 10
+        },
+        "confirmation:028": {
+          "coref_pairs": 24,
+          "fact_correct": 69,
+          "facts": 72,
+          "wrong_object": 1,
+          "wrong_object_coref": 1
+        },
+        "confirmation:029": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 3
+        },
+        "confirmation:030": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 4
+        },
+        "confirmation:031": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:032": {
+          "coref_pairs": 24,
+          "fact_correct": 56,
+          "facts": 72,
+          "wrong_object": 16,
+          "wrong_object_coref": 0
+        },
+        "confirmation:033": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 3
+        },
+        "confirmation:034": {
+          "coref_pairs": 24,
+          "fact_correct": 45,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 0
+        },
+        "confirmation:035": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 8
+        },
+        "confirmation:036": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:037": {
+          "coref_pairs": 24,
+          "fact_correct": 68,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 4
+        },
+        "confirmation:038": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 5,
+          "wrong_object_coref": 0
+        },
+        "confirmation:039": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 2
+        },
+        "confirmation:040": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:041": {
+          "coref_pairs": 24,
+          "fact_correct": 50,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 4
+        },
+        "confirmation:042": {
+          "coref_pairs": 24,
+          "fact_correct": 67,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 4
+        },
+        "confirmation:043": {
+          "coref_pairs": 24,
+          "fact_correct": 44,
+          "facts": 72,
+          "wrong_object": 28,
+          "wrong_object_coref": 3
+        },
+        "confirmation:044": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 5
+        },
+        "confirmation:045": {
+          "coref_pairs": 24,
+          "fact_correct": 66,
+          "facts": 72,
+          "wrong_object": 6,
+          "wrong_object_coref": 4
+        },
+        "confirmation:046": {
+          "coref_pairs": 24,
+          "fact_correct": 44,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 0
+        },
+        "confirmation:047": {
+          "coref_pairs": 24,
+          "fact_correct": 61,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 3
+        },
+        "confirmation:048": {
+          "coref_pairs": 24,
+          "fact_correct": 53,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 7
+        },
+        "confirmation:049": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 5,
+          "wrong_object_coref": 5
+        },
+        "confirmation:050": {
+          "coref_pairs": 24,
+          "fact_correct": 57,
+          "facts": 72,
+          "wrong_object": 15,
+          "wrong_object_coref": 1
+        },
+        "confirmation:051": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:052": {
+          "coref_pairs": 24,
+          "fact_correct": 52,
+          "facts": 72,
+          "wrong_object": 13,
+          "wrong_object_coref": 0
+        },
+        "confirmation:053": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:054": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 0
+        },
+        "confirmation:055": {
+          "coref_pairs": 24,
+          "fact_correct": 70,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:056": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 6
+        },
+        "confirmation:057": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 2
+        },
+        "confirmation:058": {
+          "coref_pairs": 24,
+          "fact_correct": 55,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 5
+        },
+        "confirmation:059": {
+          "coref_pairs": 24,
+          "fact_correct": 55,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 16
+        },
+        "confirmation:060": {
+          "coref_pairs": 24,
+          "fact_correct": 41,
+          "facts": 72,
+          "wrong_object": 7,
+          "wrong_object_coref": 0
+        },
+        "confirmation:061": {
+          "coref_pairs": 24,
+          "fact_correct": 47,
+          "facts": 72,
+          "wrong_object": 19,
+          "wrong_object_coref": 0
+        },
+        "confirmation:062": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 0
+        },
+        "confirmation:063": {
+          "coref_pairs": 24,
+          "fact_correct": 63,
+          "facts": 72,
+          "wrong_object": 9,
+          "wrong_object_coref": 5
+        }
+      },
+      "worlds": 64,
+      "wrong_object_coreference_worlds": 38,
+      "wrong_object_worlds": 53
+    },
+    "qwen": {
+      "by_probe_kind": {
+        "fact": {
+          "correct": 3656,
+          "count": 4608
+        },
+        "identity": {
+          "correct": 699,
+          "count": 1024
+        },
+        "status": {
+          "correct": 512,
+          "count": 512
+        }
+      },
+      "coreference": {
+        "both_correct": 1063,
+        "both_wrong": 208,
+        "different_answers": 310,
+        "discordant_one_correct": 265,
+        "discordant_wrong_object": 265,
+        "pair_count": 1536
+      },
+      "fact_errors": {
+        "unlisted_or_malformed": 0,
+        "wrong_object": 952
+      },
+      "independent_literal_behavior_audit": true,
+      "overall": {
+        "correct": 4867,
+        "count": 6144
+      },
+      "world_summaries": {
+        "confirmation:000": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:001": {
+          "coref_pairs": 24,
+          "fact_correct": 60,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 0
+        },
+        "confirmation:002": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 6
+        },
+        "confirmation:003": {
+          "coref_pairs": 24,
+          "fact_correct": 68,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 0
+        },
+        "confirmation:004": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 10
+        },
+        "confirmation:005": {
+          "coref_pairs": 24,
+          "fact_correct": 52,
+          "facts": 72,
+          "wrong_object": 20,
+          "wrong_object_coref": 8
+        },
+        "confirmation:006": {
+          "coref_pairs": 24,
+          "fact_correct": 66,
+          "facts": 72,
+          "wrong_object": 6,
+          "wrong_object_coref": 4
+        },
+        "confirmation:007": {
+          "coref_pairs": 24,
+          "fact_correct": 70,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:008": {
+          "coref_pairs": 24,
+          "fact_correct": 55,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 0
+        },
+        "confirmation:009": {
+          "coref_pairs": 24,
+          "fact_correct": 52,
+          "facts": 72,
+          "wrong_object": 20,
+          "wrong_object_coref": 8
+        },
+        "confirmation:010": {
+          "coref_pairs": 24,
+          "fact_correct": 43,
+          "facts": 72,
+          "wrong_object": 29,
+          "wrong_object_coref": 9
+        },
+        "confirmation:011": {
+          "coref_pairs": 24,
+          "fact_correct": 65,
+          "facts": 72,
+          "wrong_object": 7,
+          "wrong_object_coref": 3
+        },
+        "confirmation:012": {
+          "coref_pairs": 24,
+          "fact_correct": 59,
+          "facts": 72,
+          "wrong_object": 13,
+          "wrong_object_coref": 0
+        },
+        "confirmation:013": {
+          "coref_pairs": 24,
+          "fact_correct": 43,
+          "facts": 72,
+          "wrong_object": 29,
+          "wrong_object_coref": 5
+        },
+        "confirmation:014": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:015": {
+          "coref_pairs": 24,
+          "fact_correct": 55,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 4
+        },
+        "confirmation:016": {
+          "coref_pairs": 24,
+          "fact_correct": 52,
+          "facts": 72,
+          "wrong_object": 20,
+          "wrong_object_coref": 4
+        },
+        "confirmation:017": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 3
+        },
+        "confirmation:018": {
+          "coref_pairs": 24,
+          "fact_correct": 65,
+          "facts": 72,
+          "wrong_object": 7,
+          "wrong_object_coref": 3
+        },
+        "confirmation:019": {
+          "coref_pairs": 24,
+          "fact_correct": 67,
+          "facts": 72,
+          "wrong_object": 5,
+          "wrong_object_coref": 5
+        },
+        "confirmation:020": {
+          "coref_pairs": 24,
+          "fact_correct": 38,
+          "facts": 72,
+          "wrong_object": 34,
+          "wrong_object_coref": 15
+        },
+        "confirmation:021": {
+          "coref_pairs": 24,
+          "fact_correct": 59,
+          "facts": 72,
+          "wrong_object": 13,
+          "wrong_object_coref": 1
+        },
+        "confirmation:022": {
+          "coref_pairs": 24,
+          "fact_correct": 71,
+          "facts": 72,
+          "wrong_object": 1,
+          "wrong_object_coref": 1
+        },
+        "confirmation:023": {
+          "coref_pairs": 24,
+          "fact_correct": 60,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 0
+        },
+        "confirmation:024": {
+          "coref_pairs": 24,
+          "fact_correct": 71,
+          "facts": 72,
+          "wrong_object": 1,
+          "wrong_object_coref": 0
+        },
+        "confirmation:025": {
+          "coref_pairs": 24,
+          "fact_correct": 48,
+          "facts": 72,
+          "wrong_object": 24,
+          "wrong_object_coref": 0
+        },
+        "confirmation:026": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 1
+        },
+        "confirmation:027": {
+          "coref_pairs": 24,
+          "fact_correct": 22,
+          "facts": 72,
+          "wrong_object": 50,
+          "wrong_object_coref": 6
+        },
+        "confirmation:028": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 12
+        },
+        "confirmation:029": {
+          "coref_pairs": 24,
+          "fact_correct": 50,
+          "facts": 72,
+          "wrong_object": 22,
+          "wrong_object_coref": 9
+        },
+        "confirmation:030": {
+          "coref_pairs": 24,
+          "fact_correct": 47,
+          "facts": 72,
+          "wrong_object": 25,
+          "wrong_object_coref": 9
+        },
+        "confirmation:031": {
+          "coref_pairs": 24,
+          "fact_correct": 59,
+          "facts": 72,
+          "wrong_object": 13,
+          "wrong_object_coref": 13
+        },
+        "confirmation:032": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 5
+        },
+        "confirmation:033": {
+          "coref_pairs": 24,
+          "fact_correct": 56,
+          "facts": 72,
+          "wrong_object": 16,
+          "wrong_object_coref": 1
+        },
+        "confirmation:034": {
+          "coref_pairs": 24,
+          "fact_correct": 47,
+          "facts": 72,
+          "wrong_object": 25,
+          "wrong_object_coref": 1
+        },
+        "confirmation:035": {
+          "coref_pairs": 24,
+          "fact_correct": 70,
+          "facts": 72,
+          "wrong_object": 2,
+          "wrong_object_coref": 2
+        },
+        "confirmation:036": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:037": {
+          "coref_pairs": 24,
+          "fact_correct": 38,
+          "facts": 72,
+          "wrong_object": 34,
+          "wrong_object_coref": 6
+        },
+        "confirmation:038": {
+          "coref_pairs": 24,
+          "fact_correct": 55,
+          "facts": 72,
+          "wrong_object": 17,
+          "wrong_object_coref": 5
+        },
+        "confirmation:039": {
+          "coref_pairs": 24,
+          "fact_correct": 60,
+          "facts": 72,
+          "wrong_object": 12,
+          "wrong_object_coref": 2
+        },
+        "confirmation:040": {
+          "coref_pairs": 24,
+          "fact_correct": 50,
+          "facts": 72,
+          "wrong_object": 22,
+          "wrong_object_coref": 2
+        },
+        "confirmation:041": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:042": {
+          "coref_pairs": 24,
+          "fact_correct": 59,
+          "facts": 72,
+          "wrong_object": 13,
+          "wrong_object_coref": 7
+        },
+        "confirmation:043": {
+          "coref_pairs": 24,
+          "fact_correct": 48,
+          "facts": 72,
+          "wrong_object": 24,
+          "wrong_object_coref": 2
+        },
+        "confirmation:044": {
+          "coref_pairs": 24,
+          "fact_correct": 52,
+          "facts": 72,
+          "wrong_object": 20,
+          "wrong_object_coref": 4
+        },
+        "confirmation:045": {
+          "coref_pairs": 24,
+          "fact_correct": 48,
+          "facts": 72,
+          "wrong_object": 24,
+          "wrong_object_coref": 0
+        },
+        "confirmation:046": {
+          "coref_pairs": 24,
+          "fact_correct": 68,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 4
+        },
+        "confirmation:047": {
+          "coref_pairs": 24,
+          "fact_correct": 44,
+          "facts": 72,
+          "wrong_object": 28,
+          "wrong_object_coref": 2
+        },
+        "confirmation:048": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 0
+        },
+        "confirmation:049": {
+          "coref_pairs": 24,
+          "fact_correct": 69,
+          "facts": 72,
+          "wrong_object": 3,
+          "wrong_object_coref": 0
+        },
+        "confirmation:050": {
+          "coref_pairs": 24,
+          "fact_correct": 64,
+          "facts": 72,
+          "wrong_object": 8,
+          "wrong_object_coref": 2
+        },
+        "confirmation:051": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 10
+        },
+        "confirmation:052": {
+          "coref_pairs": 24,
+          "fact_correct": 72,
+          "facts": 72,
+          "wrong_object": 0,
+          "wrong_object_coref": 0
+        },
+        "confirmation:053": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 12
+        },
+        "confirmation:054": {
+          "coref_pairs": 24,
+          "fact_correct": 66,
+          "facts": 72,
+          "wrong_object": 6,
+          "wrong_object_coref": 6
+        },
+        "confirmation:055": {
+          "coref_pairs": 24,
+          "fact_correct": 68,
+          "facts": 72,
+          "wrong_object": 4,
+          "wrong_object_coref": 4
+        },
+        "confirmation:056": {
+          "coref_pairs": 24,
+          "fact_correct": 45,
+          "facts": 72,
+          "wrong_object": 27,
+          "wrong_object_coref": 13
+        },
+        "confirmation:057": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 0
+        },
+        "confirmation:058": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 6
+        },
+        "confirmation:059": {
+          "coref_pairs": 24,
+          "fact_correct": 49,
+          "facts": 72,
+          "wrong_object": 23,
+          "wrong_object_coref": 13
+        },
+        "confirmation:060": {
+          "coref_pairs": 24,
+          "fact_correct": 58,
+          "facts": 72,
+          "wrong_object": 14,
+          "wrong_object_coref": 1
+        },
+        "confirmation:061": {
+          "coref_pairs": 24,
+          "fact_correct": 37,
+          "facts": 72,
+          "wrong_object": 35,
+          "wrong_object_coref": 4
+        },
+        "confirmation:062": {
+          "coref_pairs": 24,
+          "fact_correct": 62,
+          "facts": 72,
+          "wrong_object": 10,
+          "wrong_object_coref": 2
+        },
+        "confirmation:063": {
+          "coref_pairs": 24,
+          "fact_correct": 54,
+          "facts": 72,
+          "wrong_object": 18,
+          "wrong_object_coref": 8
+        }
+      },
+      "worlds": 64,
+      "wrong_object_coreference_worlds": 48,
+      "wrong_object_worlds": 59
+    }
+  },
+  "generator_source_sha256": "186e73abf1e541aaa1a23bc7728f3a4ccd61cde95fb319e23bc00e45bf669200",
+  "independent_literal_confirmation_audit": true,
+  "input_sha256": {
+    "CODE.json": "c88bab1da63d7b5dd939053f23fa3a28306e2a067e36a04d6793775e827572b1",
+    "PLAN.json": "2b2b498f3a51bf1c28dfdaf26f813237c3632bd1f695d3505440c83c6561c9c2",
+    "ROWS.json": "364e56bfe20d59eaa0856824378bba6cfe27e0fb94ed5ad741c2888c1e05feb5",
+    "TOKENS-phi.json": "88b0f0a3e761366a8905fd7b77b9fe5d057893913ff9959d6fe0979374d2fd55",
+    "TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "WORLDS.json": "ab81eefba053c6825b79167967f1b1e613ff6f01b1c24036f8ac7d302e65ada3",
+    "registration_sha256": "e45ce4883bdb6af99921018773055f90d683e1baf4c61b2c75338d4bb048bbf3"
+  },
+  "literal_audit_source_sha256": "c07e02d7fe24486881a1f3d02ae2b67def9f68d82a52d17d97387708a6041e4a",
+  "literal_parser_source_sha256": "01b1cd6eaeaea4fa23ad01eecdec8dd74be3338ce22372ca8a673d9e34617de8",
+  "native_proof_claimed": false,
+  "protocol_commit": "f1d7836c653a82c0183c8bfed59c2c1153f73e42",
+  "repair": {
+    "baseline": {
+      "donor_correct": 90,
+      "recipient_fields": 90,
+      "recipient_protected": 50,
+      "recipient_wrong": 40
+    },
+    "by_condition": {
+      "Rcolor": {
+        "by_world": {
+          "confirmation:002": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:004": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:005": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:006": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:007": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:009": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:010": {
+            "correct": 0,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:011": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:015": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:016": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:018": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:019": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:021": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:026": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:028": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:029": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:031": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:032": {
+            "correct": 1,
+            "damaged": 1,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:035": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:038": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:042": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:044": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:046": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:051": {
+            "correct": 0,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:053": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:054": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:055": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:058": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:059": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:062": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          }
+        },
+        "correct": 55,
+        "count": 90,
+        "protected_damaged": 1,
+        "repair_worlds": [
+          "confirmation:011",
+          "confirmation:031",
+          "confirmation:042",
+          "confirmation:044",
+          "confirmation:055",
+          "confirmation:062"
+        ],
+        "repaired_initial_errors": 6,
+        "truncated": 0
+      },
+      "frozenDiscoveryMean": {
+        "by_world": {
+          "confirmation:002": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:004": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:005": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:006": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:007": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.5,
+            "repaired": 1
+          },
+          "confirmation:009": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:010": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.3333333333333333,
+            "repaired": 1
+          },
+          "confirmation:011": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:015": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:016": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:018": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:019": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:021": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:026": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:028": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.5,
+            "repaired": 1
+          },
+          "confirmation:029": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:031": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:032": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:035": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:038": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:042": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:044": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:046": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:051": {
+            "correct": 0,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:053": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:054": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:055": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:058": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:059": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:062": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          }
+        },
+        "correct": 57,
+        "count": 90,
+        "protected_damaged": 0,
+        "repair_worlds": [
+          "confirmation:007",
+          "confirmation:010",
+          "confirmation:016",
+          "confirmation:018",
+          "confirmation:028",
+          "confirmation:042",
+          "confirmation:054"
+        ],
+        "repaired_initial_errors": 7,
+        "truncated": 0
+      },
+      "primaryDcolor": {
+        "by_world": {
+          "confirmation:002": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:004": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.5,
+            "repaired": 1
+          },
+          "confirmation:005": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:006": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:007": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.5,
+            "repaired": 1
+          },
+          "confirmation:009": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:010": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.3333333333333333,
+            "repaired": 1
+          },
+          "confirmation:011": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:015": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:016": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:018": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:019": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:021": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:026": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:028": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.5,
+            "repaired": 1
+          },
+          "confirmation:029": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:031": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:032": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:035": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:038": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:042": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:044": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:046": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:051": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.6666666666666666,
+            "repaired": 2
+          },
+          "confirmation:053": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:054": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:055": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          },
+          "confirmation:058": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:059": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:062": {
+            "correct": 3,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 1.0,
+            "repaired": 1
+          }
+        },
+        "correct": 66,
+        "count": 90,
+        "protected_damaged": 0,
+        "repair_worlds": [
+          "confirmation:004",
+          "confirmation:007",
+          "confirmation:010",
+          "confirmation:011",
+          "confirmation:016",
+          "confirmation:018",
+          "confirmation:028",
+          "confirmation:031",
+          "confirmation:042",
+          "confirmation:044",
+          "confirmation:046",
+          "confirmation:051",
+          "confirmation:054",
+          "confirmation:055",
+          "confirmation:062"
+        ],
+        "repaired_initial_errors": 16,
+        "truncated": 0
+      },
+      "selfRfield": {
+        "by_world": {
+          "confirmation:002": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:004": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:005": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:006": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:007": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:009": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:010": {
+            "correct": 0,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:011": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:015": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:016": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:018": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:019": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:021": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:026": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:028": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:029": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:031": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:032": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:035": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:038": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:042": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:044": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:046": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:051": {
+            "correct": 0,
+            "damaged": 0,
+            "initial_errors": 3,
+            "protected": 0,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:053": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:054": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:055": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:058": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:059": {
+            "correct": 1,
+            "damaged": 0,
+            "initial_errors": 2,
+            "protected": 1,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          },
+          "confirmation:062": {
+            "correct": 2,
+            "damaged": 0,
+            "initial_errors": 1,
+            "protected": 2,
+            "repair_fraction": 0.0,
+            "repaired": 0
+          }
+        },
+        "correct": 50,
+        "count": 90,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired_initial_errors": 0,
+        "truncated": 0
+      }
+    },
+    "eligible_worlds": 30,
+    "generations": 360,
+    "independent_literal_repair_audit": true
+  },
+  "scope": "Printed labels, full confirmation coverage, case eligibility, complete answers and exact behavioral/repair counts. Native receipts are authenticated but their tensor calculations are not repeated here. Statistical intervals require separate review.",
+  "stages": {
+    "phi": {
+      "GENERATIONS.json": "c5ba4a0a949f117551005a712bd55d86e258db73961518b71faa6bc0b092262b",
+      "RESULT.json": "866a7b4f851cccf07952d57c985399f7e45d77c5d5a517f9bfdd709fa90dd323",
+      "custody_sha256": "3467446f804fc5938f31749a77a2d34e843ce5b26f71d87b496fc0bbf379a3ca",
+      "native_audit_sha256": "34755cef3847d9211123a5f69e4aec7faab39233199ade0b9c2c382e487d020a"
+    },
+    "qwen": {
+      "GENERATIONS.json": "6b04ef948e3a654e675e68374112a792e11f25cdf5fa7edf45356c28ccbba81b",
+      "RESULT.json": "6ed8f681b50c90342ec1272a3c342e0b6322634ca1452325f130f9c8d0048100",
+      "custody_sha256": "deacf3f6f1c5a0564fdbcf5d6af70cd5cf409f89785d2930f8145e0dc5406f48",
+      "native_audit_sha256": "cd77bb6b5383d1b65116d19846ff213bf391940feb24ecd1d9eea227ae5af3e0"
+    },
+    "repair": {
+      "CASES.json": "f5ffc9532aae931ba0b9d0793484a82c93af4477a63d2897c0aae3fb3ca918d1",
+      "EXECUTION.json": "6797884b3bbc8ffc0f3d1ed6ad04fba16bf1454d22a52c7db77f60c64ca83c26",
+      "GENERATIONS.json": "98dd0592dff89b08bb69715d5f8e48dc10975bcd25e1bce45d2fa726e6177aed",
+      "RESULT.json": "82e479e01f52c4d3c2c135e09111197df336dc3e44eb59c13eaf3c561f5cb67c",
+      "custody_sha256": "952865e9e69e9fcba40c4ddc2f3ccd6060bcb539c1d59ede38dbe5084b8dcb75",
+      "native_audit_sha256": "be92e50954d30c8151a8d564e96ec4639fbcb12bfbbb2cae5ef34e24f80402eb"
+    }
+  },
+  "statistical_intervals_independently_recomputed": false
+}

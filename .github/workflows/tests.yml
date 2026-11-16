@@ -38,3 +38,5 @@ jobs:
         run: python -m names_mechinterp.verify --verify-compressed
       - name: Reproduce released processed results
         run: python -m names_mechinterp.reproduce --data-root data/processed --output results/reproduced.json
+      - name: Reproduce the separate completed confirmation from JSON only
+        run: python tools/reproduce_confirmation.py --data-root data/processed/confirmation --output results/confirmation_reproduced.json

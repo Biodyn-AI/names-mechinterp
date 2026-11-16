@@ -1,5 +1,6 @@
 # Original Linux / CUDA 12.4 inference environment, not required for CPU reproduction.
-# Python 3.12.15; NVIDIA A40; see docs/reproducing.md before running experiments.
+# Python 3.12.15; development NVIDIA A40, confirmation RTX A6000.
+# See docs/reproducing.md before running experiments.
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.6.0+cu124
 transformers==5.14.1

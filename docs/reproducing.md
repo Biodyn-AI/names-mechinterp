@@ -8,7 +8,8 @@
 | Original native audit | Saved registrations, checksums, and audit receipts; **not** all raw tensors | A record of the original checks, not a locally repeatable tensor audit |
 | New model execution | Dated sources plus separately downloaded pinned weights, GPU, and new output roots | A new experiment; numerical equivalence must be checked, not assumed |
 
-The default package and CI cover the first level. Recomputing a table from saved
+The default package and CI cover the first level, separately for the original
+development data and the completed 64-scenario confirmation. Recomputing a table from saved
 responses does not reproduce a model forward pass. Native audit receipts report
 CPU recomputation of saved component changes and checks of saved native score
 vectors; they do not mean the model was rerun on a CPU. The large native score
@@ -17,6 +18,9 @@ capture/kernel tensors are retained under `data/original/`; they are insufficien
 to replay a full-vocabulary native audit. The default analysis does not load them.
 Historical path strings and hashes in records identify original inputs;
 they are not instructions to connect to an original machine.
+The older 410-shard gap is described by `data/AVAILABILITY.json`; independent
+confirmation coverage is separate in `data/CONFIRMATION_AVAILABILITY.json`.
+At this working-update stage no public complete confirmation raw deposit is asserted.
 
 ## Offline processed replication
 
@@ -26,6 +30,56 @@ After the [quickstart](../README.md#quickstart-no-gpu-or-model-download):
 python -m names_mechinterp.reproduce --data-root data/processed --output results/reproduced.json
 python -m pytest tests -q
 ```
+
+For the completed confirmation, use its separate directory and helper:
+
+```bash
+python tools/reproduce_confirmation.py --data-root data/processed/confirmation --output results/confirmation_reproduced.json
+```
+
+The helper uses only Python's standard library. It verifies the frozen analysis
+source hashes, grades all 6,144 answers per model, rebuilds eligible repair cases
+and all four conditions, and recomputes the registered uncertainty ranges.
+A separately frozen parser derives facts from the printed question text and
+checks the counts independently. Saved `RESULT.json` files, when present, must
+agree: counts exactly, floating statistics within `1e-12`. The output path must
+not already exist. `CPU_REPRODUCTION.json` in the data folder is a saved result
+of this process, not evidence of a new model execution.
+
+This does not recheck native greedy choices, tokenizer decoding, head arithmetic,
+or full-score custody. The saved `NATIVE_AUDIT.json` receipts record separate
+cloud CPU audits of those original tensors. They cannot be rerun from JSON alone.
+
+## Native payload integrity and replay portability
+
+The independent confirmation expects 620 native-score files and 30 repair-capture
+files, supplied separately from the small JSON package. Their public deposit is
+not yet asserted in this working update. Once you have the complete payloads,
+arrange them as `qwen/raw-*.safetensors`, `phi/raw-*.safetensors`, and
+`repair/raw-*.safetensors` plus `repair/case-*.pt` below one extraction folder:
+
+```bash
+python tools/verify_confirmation_native.py --native-root /path/to/extracted-payloads --output results/confirmation_native_integrity.json
+```
+
+This standard-library helper checks every expected file against the matching
+metadata index and custody checksum. It checks sidecars when present, rejects
+escaping paths, and never loads tensor objects. Missing files produce
+`complete=false` and a nonzero exit; `--allow-missing` permits an explicitly
+incomplete progress report. The optional output path must be new. Indices record
+tensor shapes, not exact encoded-file sizes: the helper reports observed sizes
+and checks full-file hashes rather than inventing a size guarantee.
+
+File integrity is not a mathematical replay. The original cloud native audits
+passed, but their frozen registration binds specific cloud source, runtime and
+cache paths, and their audit commands seal outputs in single-use namespaces.
+The archived token JSON also requires lossless decompression to its original
+filenames in a separate working copy.
+An arbitrary checkout plus downloaded tensors is therefore **not** promised to
+run those exact commands unchanged. The payloads support portable byte checks
+and new native analyses; reproducing the original mathematical audit requires
+an explicitly documented environment/path setup, not editing the frozen evidence
+or treating existing audit receipts as fresh checks.
 
 Run from the repository root. The generated result is a new local file, not a
 replacement for a historical observation. The test suite uses only released
@@ -46,6 +100,9 @@ PyTorch `2.6.0+cu124`, Transformers `5.14.1`, tokenizers `0.22.2`, NumPy `2.5.1`
 safetensors `0.8.0`, and huggingface-hub `1.33.0`. These are historical recorded
 versions, not a claim that every platform can install the same wheels. The
 release-facing standard-library analysis does not depend on them.
+The independent confirmation used an NVIDIA RTX A6000 with the same pinned
+model and package versions and numerical settings. It is a new evaluation, not
+a bitwise replay of the A40 development answers.
 
 Model execution used batch size one, frozen evaluation-mode parameters, native
 float32, eager attention, TensorFloat-32 disabled, one CPU thread, and greedy
@@ -99,8 +156,10 @@ python experiments/error_reference_study_20261114/error_run.py rescore \
 
 Use `--model phi` for the other behavioral checkpoint. Never reuse or overwrite a
 failed output namespace; preparation and each model run are single-use. The
-runner only authorizes the development split. It does not authorize forwarding
-the 64 reserved confirmation worlds.
+archived runner only authorizes the development split and still refuses
+confirmation inputs. The completed confirmation used the separate, publicly
+frozen `experiments/error_reference_confirmation_20261116/` runner; its records
+are not permission to reopen the older failed mechanism search.
 
 The downstream causal sequence is preserved under the dated `experiments/`
 directories: `causal_run.py` → `routing_run.py` → `validation_run.py` →
@@ -110,7 +169,9 @@ stage's full native artifacts, sources, custody, and verified audit receipt—no
 just this repository's processed JSON. They cannot be restarted directly from
 the public processed release. Fresh reruns may change eligibility or head
 selection and must not be represented as a bitwise replay of the original.
-No GPU rerun or new paid computation was performed to package this release.
+The earlier 32-world release was packaged without new inference; the separate
+2026-11-16 confirmation was a new bounded cloud experiment. Copying its completed
+metadata into this working release does not perform any further model calls.
 `experiments/e30_14_work/` predates this study and is retained as an execution
 helper dependency; its older task fixtures are not additional observations in
 the 32-world results.
@@ -154,4 +215,6 @@ not silently regenerate or review documents.
   archived implementation, not a new inference run on the study models.
 - Not certified by default CI: the archived full GPU pipeline, native tensor
   replay without the missing raw artifacts, alternative hardware/precision,
-  additional models, or the reserved confirmation worlds.
+  additional models, or a new GPU execution of the confirmation. The new
+  confirmation JSON counts and statistics are checked offline, while its saved
+  native-audit receipts describe the separately completed cloud checks.

@@ -1,0 +1,530 @@
+{
+  "by_probe_kind": {
+    "fact": {
+      "accuracy": 0.7934027777777778,
+      "correct": 3656,
+      "count": 4608
+    },
+    "identity": {
+      "accuracy": 0.6826171875,
+      "correct": 699,
+      "count": 1024
+    },
+    "status": {
+      "accuracy": 1.0,
+      "correct": 512,
+      "count": 512
+    }
+  },
+  "coreference": {
+    "both_correct": 1063,
+    "both_wrong": 208,
+    "different_answers": 310,
+    "discordant_one_correct": 265,
+    "discordant_wrong_object": 265,
+    "pair_count": 1536
+  },
+  "fact_errors": {
+    "unlisted_or_malformed": 0,
+    "wrong_object": 952
+  },
+  "independent_worlds": 64,
+  "interval_scope": "Individual reference intervals, not simultaneous across models/endpoints; bootstrap intervals are descriptive and zero width is not a zero-risk guarantee.",
+  "mechanism_identified": false,
+  "prompts": 6144,
+  "sampling_assumption": "Intervals use an independent-world sampling approximation for this artificial task generator. Balanced margins and unique field assignments couple the generated worlds, so these are model-based reference intervals, not unconditional guarantees. Fixed-sample counts are exact descriptive results. Neither repeated questions nor the two models create additional independent worlds.",
+  "scope": "All 64 confirmation worlds; both models share them, not 128 independent worlds.",
+  "study_id": "reference-confirmation-20261116-v1",
+  "world_intervals": {
+    "fact_accuracy": {
+      "ci95": [
+        0.7582411024305555,
+        0.8268229166666666
+      ],
+      "mean": 0.7934027777777778,
+      "resamples": 2000,
+      "scope": "descriptive world bootstrap",
+      "worlds": 64
+    },
+    "wrong_object_coreference_rate": {
+      "ci95": [
+        0.131494140625,
+        0.216796875
+      ],
+      "mean": 0.17252604166666666,
+      "resamples": 2000,
+      "scope": "descriptive world bootstrap",
+      "worlds": 64
+    }
+  },
+  "world_prevalence_intervals": {
+    "wrong_object": {
+      "confidence": 0.95,
+      "events": 59,
+      "lower": 0.8270216709957923,
+      "method": "Clopper-Pearson binomial reference interval under the stated world-sampling approximation",
+      "upper": 0.9741461598320318,
+      "worlds": 64
+    },
+    "wrong_object_coreference": {
+      "confidence": 0.95,
+      "events": 48,
+      "lower": 0.6260095431181808,
+      "method": "Clopper-Pearson binomial reference interval under the stated world-sampling approximation",
+      "upper": 0.8498444259147273,
+      "worlds": 64
+    }
+  },
+  "world_summaries": {
+    "confirmation:000": {
+      "coref_pairs": 24,
+      "fact_correct": 72,
+      "facts": 72,
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "confirmation:001": {
+      "coref_pairs": 24,
+      "fact_correct": 60,
+      "facts": 72,
+      "wrong_object": 12,
+      "wrong_object_coref": 0
+    },
+    "confirmation:002": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 6
+    },
+    "confirmation:003": {
+      "coref_pairs": 24,
+      "fact_correct": 68,
+      "facts": 72,
+      "wrong_object": 4,
+      "wrong_object_coref": 0
+    },
+    "confirmation:004": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 10
+    },
+    "confirmation:005": {
+      "coref_pairs": 24,
+      "fact_correct": 52,
+      "facts": 72,
+      "wrong_object": 20,
+      "wrong_object_coref": 8
+    },
+    "confirmation:006": {
+      "coref_pairs": 24,
+      "fact_correct": 66,
+      "facts": 72,
+      "wrong_object": 6,
+      "wrong_object_coref": 4
+    },
+    "confirmation:007": {
+      "coref_pairs": 24,
+      "fact_correct": 70,
+      "facts": 72,
+      "wrong_object": 2,
+      "wrong_object_coref": 2
+    },
+    "confirmation:008": {
+      "coref_pairs": 24,
+      "fact_correct": 55,
+      "facts": 72,
+      "wrong_object": 17,
+      "wrong_object_coref": 0
+    },
+    "confirmation:009": {
+      "coref_pairs": 24,
+      "fact_correct": 52,
+      "facts": 72,
+      "wrong_object": 20,
+      "wrong_object_coref": 8
+    },
+    "confirmation:010": {
+      "coref_pairs": 24,
+      "fact_correct": 43,
+      "facts": 72,
+      "wrong_object": 29,
+      "wrong_object_coref": 9
+    },
+    "confirmation:011": {
+      "coref_pairs": 24,
+      "fact_correct": 65,
+      "facts": 72,
+      "wrong_object": 7,
+      "wrong_object_coref": 3
+    },
+    "confirmation:012": {
+      "coref_pairs": 24,
+      "fact_correct": 59,
+      "facts": 72,
+      "wrong_object": 13,
+      "wrong_object_coref": 0
+    },
+    "confirmation:013": {
+      "coref_pairs": 24,
+      "fact_correct": 43,
+      "facts": 72,
+      "wrong_object": 29,
+      "wrong_object_coref": 5
+    },
+    "confirmation:014": {
+      "coref_pairs": 24,
+      "fact_correct": 72,
+      "facts": 72,
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "confirmation:015": {
+      "coref_pairs": 24,
+      "fact_correct": 55,
+      "facts": 72,
+      "wrong_object": 17,
+      "wrong_object_coref": 4
+    },
+    "confirmation:016": {
+      "coref_pairs": 24,
+      "fact_correct": 52,
+      "facts": 72,
+      "wrong_object": 20,
+      "wrong_object_coref": 4
+    },
+    "confirmation:017": {
+      "coref_pairs": 24,
+      "fact_correct": 58,
+      "facts": 72,
+      "wrong_object": 14,
+      "wrong_object_coref": 3
+    },
+    "confirmation:018": {
+      "coref_pairs": 24,
+      "fact_correct": 65,
+      "facts": 72,
+      "wrong_object": 7,
+      "wrong_object_coref": 3
+    },
+    "confirmation:019": {
+      "coref_pairs": 24,
+      "fact_correct": 67,
+      "facts": 72,
+      "wrong_object": 5,
+      "wrong_object_coref": 5
+    },
+    "confirmation:020": {
+      "coref_pairs": 24,
+      "fact_correct": 38,
+      "facts": 72,
+      "wrong_object": 34,
+      "wrong_object_coref": 15
+    },
+    "confirmation:021": {
+      "coref_pairs": 24,
+      "fact_correct": 59,
+      "facts": 72,
+      "wrong_object": 13,
+      "wrong_object_coref": 1
+    },
+    "confirmation:022": {
+      "coref_pairs": 24,
+      "fact_correct": 71,
+      "facts": 72,
+      "wrong_object": 1,
+      "wrong_object_coref": 1
+    },
+    "confirmation:023": {
+      "coref_pairs": 24,
+      "fact_correct": 60,
+      "facts": 72,
+      "wrong_object": 12,
+      "wrong_object_coref": 0
+    },
+    "confirmation:024": {
+      "coref_pairs": 24,
+      "fact_correct": 71,
+      "facts": 72,
+      "wrong_object": 1,
+      "wrong_object_coref": 0
+    },
+    "confirmation:025": {
+      "coref_pairs": 24,
+      "fact_correct": 48,
+      "facts": 72,
+      "wrong_object": 24,
+      "wrong_object_coref": 0
+    },
+    "confirmation:026": {
+      "coref_pairs": 24,
+      "fact_correct": 62,
+      "facts": 72,
+      "wrong_object": 10,
+      "wrong_object_coref": 1
+    },
+    "confirmation:027": {
+      "coref_pairs": 24,
+      "fact_correct": 22,
+      "facts": 72,
+      "wrong_object": 50,
+      "wrong_object_coref": 6
+    },
+    "confirmation:028": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 12
+    },
+    "confirmation:029": {
+      "coref_pairs": 24,
+      "fact_correct": 50,
+      "facts": 72,
+      "wrong_object": 22,
+      "wrong_object_coref": 9
+    },
+    "confirmation:030": {
+      "coref_pairs": 24,
+      "fact_correct": 47,
+      "facts": 72,
+      "wrong_object": 25,
+      "wrong_object_coref": 9
+    },
+    "confirmation:031": {
+      "coref_pairs": 24,
+      "fact_correct": 59,
+      "facts": 72,
+      "wrong_object": 13,
+      "wrong_object_coref": 13
+    },
+    "confirmation:032": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 5
+    },
+    "confirmation:033": {
+      "coref_pairs": 24,
+      "fact_correct": 56,
+      "facts": 72,
+      "wrong_object": 16,
+      "wrong_object_coref": 1
+    },
+    "confirmation:034": {
+      "coref_pairs": 24,
+      "fact_correct": 47,
+      "facts": 72,
+      "wrong_object": 25,
+      "wrong_object_coref": 1
+    },
+    "confirmation:035": {
+      "coref_pairs": 24,
+      "fact_correct": 70,
+      "facts": 72,
+      "wrong_object": 2,
+      "wrong_object_coref": 2
+    },
+    "confirmation:036": {
+      "coref_pairs": 24,
+      "fact_correct": 72,
+      "facts": 72,
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "confirmation:037": {
+      "coref_pairs": 24,
+      "fact_correct": 38,
+      "facts": 72,
+      "wrong_object": 34,
+      "wrong_object_coref": 6
+    },
+    "confirmation:038": {
+      "coref_pairs": 24,
+      "fact_correct": 55,
+      "facts": 72,
+      "wrong_object": 17,
+      "wrong_object_coref": 5
+    },
+    "confirmation:039": {
+      "coref_pairs": 24,
+      "fact_correct": 60,
+      "facts": 72,
+      "wrong_object": 12,
+      "wrong_object_coref": 2
+    },
+    "confirmation:040": {
+      "coref_pairs": 24,
+      "fact_correct": 50,
+      "facts": 72,
+      "wrong_object": 22,
+      "wrong_object_coref": 2
+    },
+    "confirmation:041": {
+      "coref_pairs": 24,
+      "fact_correct": 72,
+      "facts": 72,
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "confirmation:042": {
+      "coref_pairs": 24,
+      "fact_correct": 59,
+      "facts": 72,
+      "wrong_object": 13,
+      "wrong_object_coref": 7
+    },
+    "confirmation:043": {
+      "coref_pairs": 24,
+      "fact_correct": 48,
+      "facts": 72,
+      "wrong_object": 24,
+      "wrong_object_coref": 2
+    },
+    "confirmation:044": {
+      "coref_pairs": 24,
+      "fact_correct": 52,
+      "facts": 72,
+      "wrong_object": 20,
+      "wrong_object_coref": 4
+    },
+    "confirmation:045": {
+      "coref_pairs": 24,
+      "fact_correct": 48,
+      "facts": 72,
+      "wrong_object": 24,
+      "wrong_object_coref": 0
+    },
+    "confirmation:046": {
+      "coref_pairs": 24,
+      "fact_correct": 68,
+      "facts": 72,
+      "wrong_object": 4,
+      "wrong_object_coref": 4
+    },
+    "confirmation:047": {
+      "coref_pairs": 24,
+      "fact_correct": 44,
+      "facts": 72,
+      "wrong_object": 28,
+      "wrong_object_coref": 2
+    },
+    "confirmation:048": {
+      "coref_pairs": 24,
+      "fact_correct": 64,
+      "facts": 72,
+      "wrong_object": 8,
+      "wrong_object_coref": 0
+    },
+    "confirmation:049": {
+      "coref_pairs": 24,
+      "fact_correct": 69,
+      "facts": 72,
+      "wrong_object": 3,
+      "wrong_object_coref": 0
+    },
+    "confirmation:050": {
+      "coref_pairs": 24,
+      "fact_correct": 64,
+      "facts": 72,
+      "wrong_object": 8,
+      "wrong_object_coref": 2
+    },
+    "confirmation:051": {
+      "coref_pairs": 24,
+      "fact_correct": 62,
+      "facts": 72,
+      "wrong_object": 10,
+      "wrong_object_coref": 10
+    },
+    "confirmation:052": {
+      "coref_pairs": 24,
+      "fact_correct": 72,
+      "facts": 72,
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "confirmation:053": {
+      "coref_pairs": 24,
+      "fact_correct": 58,
+      "facts": 72,
+      "wrong_object": 14,
+      "wrong_object_coref": 12
+    },
+    "confirmation:054": {
+      "coref_pairs": 24,
+      "fact_correct": 66,
+      "facts": 72,
+      "wrong_object": 6,
+      "wrong_object_coref": 6
+    },
+    "confirmation:055": {
+      "coref_pairs": 24,
+      "fact_correct": 68,
+      "facts": 72,
+      "wrong_object": 4,
+      "wrong_object_coref": 4
+    },
+    "confirmation:056": {
+      "coref_pairs": 24,
+      "fact_correct": 45,
+      "facts": 72,
+      "wrong_object": 27,
+      "wrong_object_coref": 13
+    },
+    "confirmation:057": {
+      "coref_pairs": 24,
+      "fact_correct": 58,
+      "facts": 72,
+      "wrong_object": 14,
+      "wrong_object_coref": 0
+    },
+    "confirmation:058": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 6
+    },
+    "confirmation:059": {
+      "coref_pairs": 24,
+      "fact_correct": 49,
+      "facts": 72,
+      "wrong_object": 23,
+      "wrong_object_coref": 13
+    },
+    "confirmation:060": {
+      "coref_pairs": 24,
+      "fact_correct": 58,
+      "facts": 72,
+      "wrong_object": 14,
+      "wrong_object_coref": 1
+    },
+    "confirmation:061": {
+      "coref_pairs": 24,
+      "fact_correct": 37,
+      "facts": 72,
+      "wrong_object": 35,
+      "wrong_object_coref": 4
+    },
+    "confirmation:062": {
+      "coref_pairs": 24,
+      "fact_correct": 62,
+      "facts": 72,
+      "wrong_object": 10,
+      "wrong_object_coref": 2
+    },
+    "confirmation:063": {
+      "coref_pairs": 24,
+      "fact_correct": 54,
+      "facts": 72,
+      "wrong_object": 18,
+      "wrong_object_coref": 8
+    }
+  },
+  "wrong_object_coreference_worlds": 48,
+  "wrong_object_worlds": 59
+}

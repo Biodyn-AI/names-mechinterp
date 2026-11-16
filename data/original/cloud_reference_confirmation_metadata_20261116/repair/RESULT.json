@@ -1,0 +1,1109 @@
+{
+  "by_condition": {
+    "Rcolor": {
+      "by_world": {
+        "confirmation:002": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:004": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:005": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:006": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:007": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:009": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:010": {
+          "correct": 0,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:011": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:015": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:016": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:018": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:019": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:021": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:026": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:028": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:029": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:031": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:032": {
+          "correct": 1,
+          "damaged": 1,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:035": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:038": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:042": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:044": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:046": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:051": {
+          "correct": 0,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:053": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:054": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:055": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:058": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:059": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:062": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        }
+      },
+      "complete_answers": 90,
+      "correct": 55,
+      "initial_errors": 40,
+      "pooled_fact_damage_rate": 0.02,
+      "pooled_repair_rate": 0.15,
+      "protected_damaged": 1,
+      "protected_facts": 50,
+      "protected_world_damage": {
+        "damaged_worlds": 1,
+        "method": "Exact one-sided binomial reference bound under the stated sampling approximation",
+        "protected_worlds": 28,
+        "risk_below_10_percent_demonstrated": false,
+        "upper_one_sided_95": 0.1585071743916358
+      },
+      "repaired_initial_errors": 6,
+      "world_balanced_repair": {
+        "ci95": [
+          0.0,
+          0.44795427851769826
+        ],
+        "mean": 0.2,
+        "method": "Hoeffding bounded-world interval under the stated independent-world approximation",
+        "worlds": 30
+      }
+    },
+    "frozenDiscoveryMean": {
+      "by_world": {
+        "confirmation:002": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:004": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:005": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:006": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:007": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.5,
+          "repaired": 1
+        },
+        "confirmation:009": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:010": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.3333333333333333,
+          "repaired": 1
+        },
+        "confirmation:011": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:015": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:016": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:018": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:019": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:021": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:026": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:028": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.5,
+          "repaired": 1
+        },
+        "confirmation:029": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:031": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:032": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:035": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:038": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:042": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:044": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:046": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:051": {
+          "correct": 0,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:053": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:054": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:055": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:058": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:059": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:062": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        }
+      },
+      "complete_answers": 90,
+      "correct": 57,
+      "initial_errors": 40,
+      "pooled_fact_damage_rate": 0.0,
+      "pooled_repair_rate": 0.175,
+      "protected_damaged": 0,
+      "protected_facts": 50,
+      "protected_world_damage": {
+        "damaged_worlds": 0,
+        "method": "Exact one-sided binomial reference bound under the stated sampling approximation",
+        "protected_worlds": 28,
+        "risk_below_10_percent_demonstrated": false,
+        "upper_one_sided_95": 0.1014657355727247
+      },
+      "repaired_initial_errors": 7,
+      "world_balanced_repair": {
+        "ci95": [
+          0.0,
+          0.425732056295476
+        ],
+        "mean": 0.17777777777777776,
+        "method": "Hoeffding bounded-world interval under the stated independent-world approximation",
+        "worlds": 30
+      }
+    },
+    "primaryDcolor": {
+      "by_world": {
+        "confirmation:002": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:004": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.5,
+          "repaired": 1
+        },
+        "confirmation:005": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:006": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:007": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.5,
+          "repaired": 1
+        },
+        "confirmation:009": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:010": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.3333333333333333,
+          "repaired": 1
+        },
+        "confirmation:011": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:015": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:016": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:018": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:019": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:021": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:026": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:028": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.5,
+          "repaired": 1
+        },
+        "confirmation:029": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:031": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:032": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:035": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:038": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:042": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:044": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:046": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:051": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.6666666666666666,
+          "repaired": 2
+        },
+        "confirmation:053": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:054": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:055": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        },
+        "confirmation:058": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:059": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:062": {
+          "correct": 3,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 1.0,
+          "repaired": 1
+        }
+      },
+      "complete_answers": 90,
+      "correct": 66,
+      "initial_errors": 40,
+      "pooled_fact_damage_rate": 0.0,
+      "pooled_repair_rate": 0.4,
+      "protected_damaged": 0,
+      "protected_facts": 50,
+      "protected_world_damage": {
+        "damaged_worlds": 0,
+        "method": "Exact one-sided binomial reference bound under the stated sampling approximation",
+        "protected_worlds": 28,
+        "risk_below_10_percent_demonstrated": false,
+        "upper_one_sided_95": 0.1014657355727247
+      },
+      "repaired_initial_errors": 16,
+      "world_balanced_repair": {
+        "ci95": [
+          0.16871238814896844,
+          0.664620945184365
+        ],
+        "mean": 0.4166666666666667,
+        "method": "Hoeffding bounded-world interval under the stated independent-world approximation",
+        "worlds": 30
+      }
+    },
+    "selfRfield": {
+      "by_world": {
+        "confirmation:002": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:004": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:005": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:006": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:007": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:009": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:010": {
+          "correct": 0,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:011": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:015": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:016": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:018": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:019": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:021": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:026": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:028": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:029": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:031": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:032": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:035": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:038": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:042": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:044": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:046": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:051": {
+          "correct": 0,
+          "damaged": 0,
+          "initial_errors": 3,
+          "protected": 0,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:053": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:054": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:055": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:058": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:059": {
+          "correct": 1,
+          "damaged": 0,
+          "initial_errors": 2,
+          "protected": 1,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        },
+        "confirmation:062": {
+          "correct": 2,
+          "damaged": 0,
+          "initial_errors": 1,
+          "protected": 2,
+          "repair_fraction": 0.0,
+          "repaired": 0
+        }
+      },
+      "complete_answers": 90,
+      "correct": 50,
+      "initial_errors": 40,
+      "pooled_fact_damage_rate": 0.0,
+      "pooled_repair_rate": 0.0,
+      "protected_damaged": 0,
+      "protected_facts": 50,
+      "protected_world_damage": {
+        "damaged_worlds": 0,
+        "method": "Exact one-sided binomial reference bound under the stated sampling approximation",
+        "protected_worlds": 28,
+        "risk_below_10_percent_demonstrated": false,
+        "upper_one_sided_95": 0.1014657355727247
+      },
+      "repaired_initial_errors": 0,
+      "world_balanced_repair": {
+        "ci95": [
+          0.0,
+          0.24795427851769825
+        ],
+        "mean": 0.0,
+        "method": "Hoeffding bounded-world interval under the stated independent-world approximation",
+        "worlds": 30
+      }
+    }
+  },
+  "eligible_worlds": 30,
+  "further_search_authorized": false,
+  "interval_scope": "Each interval is individual, not a simultaneous claim across conditions/endpoints. Pooled facts are repeated measurements, not independent trials.",
+  "new_entity_mechanism_established": false,
+  "old_positive_mechanism_gate_passed": false,
+  "overall_repair_utility": {
+    "interpretation": "Correcting old errors alone does not establish a useful repair. Benefit, comparison-control advantage and preservation are separate endpoints; these individual reference intervals are not a joint confidence statement.",
+    "maximum_protected_world_damage": 0.1,
+    "minimum_advantage_over_frozen_mean": 0.25,
+    "point_estimates_meet_all_practical_targets": false,
+    "simultaneous_95_percent_claim": false,
+    "status": "not_established_by_separate_intervals"
+  },
+  "primary_minus_frozen_mean": {
+    "ci95": [
+      -0.25701966814650756,
+      0.7347974459242854
+    ],
+    "mean": 0.2388888888888889,
+    "method": "Hoeffding bounded-world interval under the stated independent-world approximation",
+    "worlds": 30
+  },
+  "sampling_assumption": "Intervals use an independent-world sampling approximation for this artificial task generator. Balanced margins and unique field assignments couple the generated worlds, so these are model-based reference intervals, not unconditional guarantees. Fixed-sample counts are exact descriptive results. Neither repeated questions nor the two models create additional independent worlds.",
+  "scope": "Conditional fixed-repair test on every eligible confirmation world; not an unconditional repair rate or a new mechanism discovery.",
+  "study_id": "reference-confirmation-20261116-v1",
+  "usefulness": {
+    "conclusion": "uncertain",
+    "estimand": "Mean per-world fraction of initially wrong recipient facts repaired",
+    "minimum_worlds": 20,
+    "old_development_gate_redefined": false,
+    "preservation_is_separate": true,
+    "threshold": 0.5
+  }
+}

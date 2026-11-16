@@ -1,0 +1,755 @@
+{
+  "schema_version": "e30_14_us_state_facts_2020_v1",
+  "population_reference": "2020_census",
+  "scope": "The 50 U.S. states only; no District of Columbia or territories.",
+  "largest_city_convention": "Population on Census Day, April 1, 2020; city proper or Census statistical place equivalent, including consolidated-city balances, not metropolitan or urban-area populations. Honolulu is the standard city-name answer for Urban Honolulu CDP.",
+  "facts": {
+    "alabama": {
+      "capital": "Montgomery",
+      "largest_city": "Huntsville"
+    },
+    "alaska": {
+      "capital": "Juneau",
+      "largest_city": "Anchorage"
+    },
+    "arizona": {
+      "capital": "Phoenix",
+      "largest_city": "Phoenix"
+    },
+    "arkansas": {
+      "capital": "Little Rock",
+      "largest_city": "Little Rock"
+    },
+    "california": {
+      "capital": "Sacramento",
+      "largest_city": "Los Angeles"
+    },
+    "colorado": {
+      "capital": "Denver",
+      "largest_city": "Denver"
+    },
+    "connecticut": {
+      "capital": "Hartford",
+      "largest_city": "Bridgeport"
+    },
+    "delaware": {
+      "capital": "Dover",
+      "largest_city": "Wilmington"
+    },
+    "florida": {
+      "capital": "Tallahassee",
+      "largest_city": "Jacksonville"
+    },
+    "georgia": {
+      "capital": "Atlanta",
+      "largest_city": "Atlanta"
+    },
+    "hawaii": {
+      "capital": "Honolulu",
+      "largest_city": "Honolulu"
+    },
+    "idaho": {
+      "capital": "Boise",
+      "largest_city": "Boise"
+    },
+    "illinois": {
+      "capital": "Springfield",
+      "largest_city": "Chicago"
+    },
+    "indiana": {
+      "capital": "Indianapolis",
+      "largest_city": "Indianapolis"
+    },
+    "iowa": {
+      "capital": "Des Moines",
+      "largest_city": "Des Moines"
+    },
+    "kansas": {
+      "capital": "Topeka",
+      "largest_city": "Wichita"
+    },
+    "kentucky": {
+      "capital": "Frankfort",
+      "largest_city": "Louisville"
+    },
+    "louisiana": {
+      "capital": "Baton Rouge",
+      "largest_city": "New Orleans"
+    },
+    "maine": {
+      "capital": "Augusta",
+      "largest_city": "Portland"
+    },
+    "maryland": {
+      "capital": "Annapolis",
+      "largest_city": "Baltimore"
+    },
+    "massachusetts": {
+      "capital": "Boston",
+      "largest_city": "Boston"
+    },
+    "michigan": {
+      "capital": "Lansing",
+      "largest_city": "Detroit"
+    },
+    "minnesota": {
+      "capital": "Saint Paul",
+      "largest_city": "Minneapolis"
+    },
+    "mississippi": {
+      "capital": "Jackson",
+      "largest_city": "Jackson"
+    },
+    "missouri": {
+      "capital": "Jefferson City",
+      "largest_city": "Kansas City"
+    },
+    "montana": {
+      "capital": "Helena",
+      "largest_city": "Billings"
+    },
+    "nebraska": {
+      "capital": "Lincoln",
+      "largest_city": "Omaha"
+    },
+    "nevada": {
+      "capital": "Carson City",
+      "largest_city": "Las Vegas"
+    },
+    "new_hampshire": {
+      "capital": "Concord",
+      "largest_city": "Manchester"
+    },
+    "new_jersey": {
+      "capital": "Trenton",
+      "largest_city": "Newark"
+    },
+    "new_mexico": {
+      "capital": "Santa Fe",
+      "largest_city": "Albuquerque"
+    },
+    "new_york": {
+      "capital": "Albany",
+      "largest_city": "New York City"
+    },
+    "north_carolina": {
+      "capital": "Raleigh",
+      "largest_city": "Charlotte"
+    },
+    "north_dakota": {
+      "capital": "Bismarck",
+      "largest_city": "Fargo"
+    },
+    "ohio": {
+      "capital": "Columbus",
+      "largest_city": "Columbus"
+    },
+    "oklahoma": {
+      "capital": "Oklahoma City",
+      "largest_city": "Oklahoma City"
+    },
+    "oregon": {
+      "capital": "Salem",
+      "largest_city": "Portland"
+    },
+    "pennsylvania": {
+      "capital": "Harrisburg",
+      "largest_city": "Philadelphia"
+    },
+    "rhode_island": {
+      "capital": "Providence",
+      "largest_city": "Providence"
+    },
+    "south_carolina": {
+      "capital": "Columbia",
+      "largest_city": "Charleston"
+    },
+    "south_dakota": {
+      "capital": "Pierre",
+      "largest_city": "Sioux Falls"
+    },
+    "tennessee": {
+      "capital": "Nashville",
+      "largest_city": "Nashville"
+    },
+    "texas": {
+      "capital": "Austin",
+      "largest_city": "Houston"
+    },
+    "utah": {
+      "capital": "Salt Lake City",
+      "largest_city": "Salt Lake City"
+    },
+    "vermont": {
+      "capital": "Montpelier",
+      "largest_city": "Burlington"
+    },
+    "virginia": {
+      "capital": "Richmond",
+      "largest_city": "Virginia Beach"
+    },
+    "washington": {
+      "capital": "Olympia",
+      "largest_city": "Seattle"
+    },
+    "west_virginia": {
+      "capital": "Charleston",
+      "largest_city": "Charleston"
+    },
+    "wisconsin": {
+      "capital": "Madison",
+      "largest_city": "Milwaukee"
+    },
+    "wyoming": {
+      "capital": "Cheyenne",
+      "largest_city": "Cheyenne"
+    }
+  },
+  "answer_aliases": {
+    "alabama": {
+      "capital": [
+        "Montgomery"
+      ],
+      "largest_city": [
+        "Huntsville"
+      ]
+    },
+    "alaska": {
+      "capital": [
+        "Juneau"
+      ],
+      "largest_city": [
+        "Anchorage",
+        "Municipality of Anchorage",
+        "Anchorage municipality"
+      ]
+    },
+    "arizona": {
+      "capital": [
+        "Phoenix"
+      ],
+      "largest_city": [
+        "Phoenix"
+      ]
+    },
+    "arkansas": {
+      "capital": [
+        "Little Rock"
+      ],
+      "largest_city": [
+        "Little Rock"
+      ]
+    },
+    "california": {
+      "capital": [
+        "Sacramento"
+      ],
+      "largest_city": [
+        "Los Angeles"
+      ]
+    },
+    "colorado": {
+      "capital": [
+        "Denver"
+      ],
+      "largest_city": [
+        "Denver"
+      ]
+    },
+    "connecticut": {
+      "capital": [
+        "Hartford"
+      ],
+      "largest_city": [
+        "Bridgeport"
+      ]
+    },
+    "delaware": {
+      "capital": [
+        "Dover"
+      ],
+      "largest_city": [
+        "Wilmington"
+      ]
+    },
+    "florida": {
+      "capital": [
+        "Tallahassee"
+      ],
+      "largest_city": [
+        "Jacksonville"
+      ]
+    },
+    "georgia": {
+      "capital": [
+        "Atlanta"
+      ],
+      "largest_city": [
+        "Atlanta"
+      ]
+    },
+    "hawaii": {
+      "capital": [
+        "Honolulu",
+        "Urban Honolulu",
+        "Urban Honolulu CDP"
+      ],
+      "largest_city": [
+        "Honolulu",
+        "Urban Honolulu",
+        "Urban Honolulu CDP"
+      ]
+    },
+    "idaho": {
+      "capital": [
+        "Boise",
+        "Boise City"
+      ],
+      "largest_city": [
+        "Boise",
+        "Boise City"
+      ]
+    },
+    "illinois": {
+      "capital": [
+        "Springfield"
+      ],
+      "largest_city": [
+        "Chicago"
+      ]
+    },
+    "indiana": {
+      "capital": [
+        "Indianapolis",
+        "Indianapolis (balance)",
+        "Indianapolis city (balance)"
+      ],
+      "largest_city": [
+        "Indianapolis",
+        "Indianapolis (balance)",
+        "Indianapolis city (balance)"
+      ]
+    },
+    "iowa": {
+      "capital": [
+        "Des Moines"
+      ],
+      "largest_city": [
+        "Des Moines"
+      ]
+    },
+    "kansas": {
+      "capital": [
+        "Topeka"
+      ],
+      "largest_city": [
+        "Wichita"
+      ]
+    },
+    "kentucky": {
+      "capital": [
+        "Frankfort"
+      ],
+      "largest_city": [
+        "Louisville",
+        "Louisville/Jefferson County",
+        "Louisville-Jefferson County",
+        "Louisville/Jefferson County metro government (balance)"
+      ]
+    },
+    "louisiana": {
+      "capital": [
+        "Baton Rouge"
+      ],
+      "largest_city": [
+        "New Orleans"
+      ]
+    },
+    "maine": {
+      "capital": [
+        "Augusta"
+      ],
+      "largest_city": [
+        "Portland"
+      ]
+    },
+    "maryland": {
+      "capital": [
+        "Annapolis"
+      ],
+      "largest_city": [
+        "Baltimore"
+      ]
+    },
+    "massachusetts": {
+      "capital": [
+        "Boston"
+      ],
+      "largest_city": [
+        "Boston"
+      ]
+    },
+    "michigan": {
+      "capital": [
+        "Lansing"
+      ],
+      "largest_city": [
+        "Detroit"
+      ]
+    },
+    "minnesota": {
+      "capital": [
+        "Saint Paul",
+        "St. Paul",
+        "St Paul"
+      ],
+      "largest_city": [
+        "Minneapolis"
+      ]
+    },
+    "mississippi": {
+      "capital": [
+        "Jackson"
+      ],
+      "largest_city": [
+        "Jackson"
+      ]
+    },
+    "missouri": {
+      "capital": [
+        "Jefferson City"
+      ],
+      "largest_city": [
+        "Kansas City"
+      ]
+    },
+    "montana": {
+      "capital": [
+        "Helena"
+      ],
+      "largest_city": [
+        "Billings"
+      ]
+    },
+    "nebraska": {
+      "capital": [
+        "Lincoln"
+      ],
+      "largest_city": [
+        "Omaha"
+      ]
+    },
+    "nevada": {
+      "capital": [
+        "Carson City"
+      ],
+      "largest_city": [
+        "Las Vegas"
+      ]
+    },
+    "new_hampshire": {
+      "capital": [
+        "Concord"
+      ],
+      "largest_city": [
+        "Manchester"
+      ]
+    },
+    "new_jersey": {
+      "capital": [
+        "Trenton"
+      ],
+      "largest_city": [
+        "Newark"
+      ]
+    },
+    "new_mexico": {
+      "capital": [
+        "Santa Fe"
+      ],
+      "largest_city": [
+        "Albuquerque"
+      ]
+    },
+    "new_york": {
+      "capital": [
+        "Albany"
+      ],
+      "largest_city": [
+        "New York City",
+        "New York",
+        "City of New York",
+        "NYC"
+      ]
+    },
+    "north_carolina": {
+      "capital": [
+        "Raleigh"
+      ],
+      "largest_city": [
+        "Charlotte"
+      ]
+    },
+    "north_dakota": {
+      "capital": [
+        "Bismarck"
+      ],
+      "largest_city": [
+        "Fargo"
+      ]
+    },
+    "ohio": {
+      "capital": [
+        "Columbus"
+      ],
+      "largest_city": [
+        "Columbus"
+      ]
+    },
+    "oklahoma": {
+      "capital": [
+        "Oklahoma City"
+      ],
+      "largest_city": [
+        "Oklahoma City"
+      ]
+    },
+    "oregon": {
+      "capital": [
+        "Salem"
+      ],
+      "largest_city": [
+        "Portland"
+      ]
+    },
+    "pennsylvania": {
+      "capital": [
+        "Harrisburg"
+      ],
+      "largest_city": [
+        "Philadelphia"
+      ]
+    },
+    "rhode_island": {
+      "capital": [
+        "Providence"
+      ],
+      "largest_city": [
+        "Providence"
+      ]
+    },
+    "south_carolina": {
+      "capital": [
+        "Columbia"
+      ],
+      "largest_city": [
+        "Charleston"
+      ]
+    },
+    "south_dakota": {
+      "capital": [
+        "Pierre"
+      ],
+      "largest_city": [
+        "Sioux Falls"
+      ]
+    },
+    "tennessee": {
+      "capital": [
+        "Nashville",
+        "Nashville-Davidson",
+        "Nashville-Davidson (balance)",
+        "Nashville-Davidson metropolitan government (balance)"
+      ],
+      "largest_city": [
+        "Nashville",
+        "Nashville-Davidson",
+        "Nashville-Davidson (balance)",
+        "Nashville-Davidson metropolitan government (balance)"
+      ]
+    },
+    "texas": {
+      "capital": [
+        "Austin"
+      ],
+      "largest_city": [
+        "Houston"
+      ]
+    },
+    "utah": {
+      "capital": [
+        "Salt Lake City"
+      ],
+      "largest_city": [
+        "Salt Lake City"
+      ]
+    },
+    "vermont": {
+      "capital": [
+        "Montpelier"
+      ],
+      "largest_city": [
+        "Burlington"
+      ]
+    },
+    "virginia": {
+      "capital": [
+        "Richmond"
+      ],
+      "largest_city": [
+        "Virginia Beach"
+      ]
+    },
+    "washington": {
+      "capital": [
+        "Olympia"
+      ],
+      "largest_city": [
+        "Seattle"
+      ]
+    },
+    "west_virginia": {
+      "capital": [
+        "Charleston"
+      ],
+      "largest_city": [
+        "Charleston"
+      ]
+    },
+    "wisconsin": {
+      "capital": [
+        "Madison"
+      ],
+      "largest_city": [
+        "Milwaukee"
+      ]
+    },
+    "wyoming": {
+      "capital": [
+        "Cheyenne"
+      ],
+      "largest_city": [
+        "Cheyenne"
+      ]
+    }
+  },
+  "capital_largest_city_distinct": {
+    "alabama": true,
+    "alaska": true,
+    "arizona": false,
+    "arkansas": false,
+    "california": true,
+    "colorado": false,
+    "connecticut": true,
+    "delaware": true,
+    "florida": true,
+    "georgia": false,
+    "hawaii": false,
+    "idaho": false,
+    "illinois": true,
+    "indiana": false,
+    "iowa": false,
+    "kansas": true,
+    "kentucky": true,
+    "louisiana": true,
+    "maine": true,
+    "maryland": true,
+    "massachusetts": false,
+    "michigan": true,
+    "minnesota": true,
+    "mississippi": false,
+    "missouri": true,
+    "montana": true,
+    "nebraska": true,
+    "nevada": true,
+    "new_hampshire": true,
+    "new_jersey": true,
+    "new_mexico": true,
+    "new_york": true,
+    "north_carolina": true,
+    "north_dakota": true,
+    "ohio": false,
+    "oklahoma": false,
+    "oregon": true,
+    "pennsylvania": true,
+    "rhode_island": false,
+    "south_carolina": true,
+    "south_dakota": true,
+    "tennessee": false,
+    "texas": true,
+    "utah": false,
+    "vermont": true,
+    "virginia": true,
+    "washington": true,
+    "west_virginia": false,
+    "wisconsin": true,
+    "wyoming": false
+  },
+  "semantic_payload_sha256": "dc786663da9848b50e57ea7c4dd883ed864fe8b4eb4e4bc0f3aa0ca02d950f6d",
+  "provenance": {
+    "accessed_on": "2026-11-10",
+    "largest_city_derivation": "Transcribed the official Census published 2020 largest-place table; not recomputed from the unavailable API.",
+    "capital_derivation": "Transcribed the 50 state-capital pairs from USGS United States Concise Gazetteer, Table 1. Capital names are unchanged for the experiment's 2020 reference date.",
+    "source_hash_method": "SHA256 of the raw public PDF response bytes, fetched to a hashing pipe without saving the PDF or any CSV.",
+    "sources": {
+      "capital_usgs": {
+        "url": "https://pubs.usgs.gov/pp/1200us/report.pdf",
+        "title": "United States Concise Gazetteer",
+        "locator": "Table 1. Capitals",
+        "sha256": "d0828e3ffaf1dbf511f047f21db13398589edc5261e7c2b573589b6feab50221"
+      },
+      "largest_census_table": {
+        "url": "https://www2.census.gov/programs-surveys/sis/resources/slide-rule.pdf",
+        "title": "The United States Through the Decades",
+        "locator": "PDF page 3: The census where you live; Largest city/town/village in 2020 column",
+        "sha256": "6de4b49582a851f2395fd0b92c5a1d3ce13c19cf73eac3dd1a5189c81f6aa93a"
+      },
+      "census_geographic_definitions": {
+        "url": "https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/complete-tech-docs/summary-file/2020Census_PL94_171Redistricting_StatesTechDoc_English.pdf",
+        "title": "2020 Census State Redistricting Data (Public Law 94-171) Summary File: Geographic Terms and Concepts"
+      },
+      "honolulu_detail": {
+        "url": "https://www.census.gov/quickfacts/fact/table/urbanhonolulucdphawaii/POP815223",
+        "title": "QuickFacts: Urban Honolulu CDP, Hawaii",
+        "locator": "Population, Census, April 1, 2020: 350,964"
+      },
+      "nashville_detail": {
+        "url": "https://www.census.gov/quickfacts/fact/table/nashvilledavidsonmetropolitangovernmentbalancetennessee/HSG010224",
+        "title": "QuickFacts: Nashville-Davidson metropolitan government (balance), Tennessee",
+        "locator": "Population, Census, April 1, 2020: 689,447"
+      },
+      "indianapolis_detail": {
+        "url": "https://www.census.gov/quickfacts/fact/table/indianapoliscitybalanceindiana/IPE120223",
+        "title": "QuickFacts: Indianapolis city (balance), Indiana",
+        "locator": "Population, Census, April 1, 2020: 887,642"
+      },
+      "huntsville_detail": {
+        "url": "https://www.census.gov/quickfacts/fact/table/huntsvillecityalabama/AGE135223",
+        "title": "QuickFacts: Huntsville city, Alabama",
+        "locator": "Population, Census, April 1, 2020: 215,006"
+      }
+    },
+    "census_api_attempt": {
+      "url": "https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N&for=place:*&in=state:*",
+      "status": "unavailable_without_api_key",
+      "observed_response": "HTML page titled Missing Key, not Census JSON data. No key requested, opened or used."
+    }
+  },
+  "conventions_and_exceptions": {
+    "alabama": "Huntsville, not Birmingham; use 2020 Census rank, not older population rankings.",
+    "hawaii": "Census recognizes no incorporated places in Hawaii. Use Urban Honolulu CDP for the city-population comparison and Honolulu as canonical answer; do not substitute Honolulu County or the Honolulu urban area.",
+    "tennessee": "Nashville is shorthand for the Nashville-Davidson metropolitan government (balance); use the balance, not the entire consolidated county government or metropolitan area.",
+    "kentucky": "Louisville is shorthand for Louisville/Jefferson County metro government (balance), consistent with the Census published largest-place ranking.",
+    "indiana": "Indianapolis is shorthand for Indianapolis city (balance).",
+    "alaska": "Anchorage is a municipality counted as a place equivalent, not an Anchorage metropolitan-area population.",
+    "new_york": "New York City and the Census table's New York refer to the same city.",
+    "minnesota": "Saint Paul is the USGS canonical spelling; St. Paul and St Paul are the same capital.",
+    "answer_alias_policy": "Aliases denote the same city under the stated geographic convention; case, final punctuation and an optional state qualifier should be handled separately by the evaluator. Aliases do not change the two-relation facts or make same-city answers distinct."
+  },
+  "limitations": [
+    "The Census API was inaccessible without a key, so all-place maxima were not independently recomputed. The complete largest-place answers are verified against the Census Bureau's own published 2020 ranking table.",
+    "The Census table's population column is STATE population, not city population; it is not used as a city population field.",
+    "This is a fixed 2020 population reference, not a claim about current largest-city rankings or current estimate vintages."
+  ],
+  "uncertainties": []
+}

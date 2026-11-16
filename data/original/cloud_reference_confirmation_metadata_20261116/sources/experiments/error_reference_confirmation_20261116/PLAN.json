@@ -1,0 +1,113 @@
+{
+  "behavior": {
+    "equivalent_name_pairs_per_model": 1536,
+    "factual_questions_per_model": 4608,
+    "primary": "Strict correct-versus-finished-wrong-object disagreement counts, pair rates and affected-world prevalence, separately for both models.",
+    "publication_or_mechanism_pass_gate": null,
+    "questions_per_model": 6144,
+    "reporting": "Keep the complete fixed grid, all errors, all worlds and both models; no favorable subgroup replaces the primary result.",
+    "same_worlds_for_both_models": true,
+    "worlds": 64
+  },
+  "case_selection": {
+    "eligibility": "Donor strictly correct on all three facts and its identity; recipient has at least one finished wrong-object fact. All initially wrong recipient facts count, not only the screening fact.",
+    "one_context_per_eligible_world": true,
+    "replacements_or_outcome_based_stopping": false,
+    "scope": "Conditional on eligible correct-source/wrong-recipient contexts in the same 64 worlds used for behavior; not a second independent dataset.",
+    "seed": "reference-causal-discovery-20261115-v1",
+    "selection": "Old SHA256 world/context/screen-field ordering, applied to every eligible confirmation world using only unchanged answers."
+  },
+  "causal_model": "qwen",
+  "completion": "Report completed, failed and incomplete stages regardless of outcome. A compute deadline or insufficient sample is not evidence that the repair never works; no further search is automatically authorized.",
+  "conditions": [
+    "selfRfield",
+    "primaryDcolor",
+    "frozenDiscoveryMean",
+    "Rcolor"
+  ],
+  "execution": "Publish and freeze this protocol, complete source closure, input digests and model pins before the first pretrained confirmation forward. Require separate bounded spending approval, a recorded deadline and sufficient persistent storage. Do not alter archived runners or their development-only guards.",
+  "expected_input_sha256": {
+    "MODELS.json": "55204f97c88fd3e01ad23a86fca4d05ee17fb5882328826258a20ebaadfb44dd",
+    "PROTOCOL.json": "740fb5dc20129e2b51548e057716a4809b146a1be786f593a5d865ccbf322396",
+    "ROWS.json": "6dced70e9b20ba7059ea530d1200fd86d7e88a2d59de0e74fb51a90e38363085",
+    "TOKENS-phi.json": "88b0f0a3e761366a8905fd7b77b9fe5d057893913ff9959d6fe0979374d2fd55",
+    "TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7",
+    "generator.py": "186e73abf1e541aaa1a23bc7728f3a4ccd61cde95fb319e23bc00e45bf669200",
+    "old_decomposition_RESULT.json": "c468bcf6581e11ccded7ac1e611bc543f764882646a45e640eb8d9de73e9d77d",
+    "old_validation_PLAN.json": "ea5d8256e18b9cd8f5ab7d5364b0c80609b31b5f4902b9f75dc27e0d8941fc4d",
+    "old_validation_RESULT.json": "ffadf2f4098bd079542599055c0e8a30898d76754ce60ba25becde047a51cbbb"
+  },
+  "frozen_discovery_mean_Dcolor": [
+    0.17506461211422675,
+    0.6395382948200473,
+    0.024789365765038294,
+    0.16060772730068765
+  ],
+  "generation": {
+    "answer_rule": "Complete decoded response with case/whitespace/final punctuation normalization; unfinished responses and explanations remain errors.",
+    "attention": "eager",
+    "batch_size": 1,
+    "cache": false,
+    "dtype": "float32",
+    "max_new_tokens": 8,
+    "tf32": false
+  },
+  "minimum_eligible_worlds_for_usefulness_inference": 20,
+  "model_limits_bytes": {
+    "phi": 8000000000,
+    "qwen": 32000000000,
+    "repair": 5000000000
+  },
+  "models": {
+    "phi": {
+      "model_id": "microsoft/Phi-3.5-mini-instruct",
+      "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77"
+    },
+    "qwen": {
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+    }
+  },
+  "numeric": {
+    "first_step_bitwise_equivalence": true,
+    "max_query_head_drift": 2e-05,
+    "recipient_each_record_mass_at_least": 1e-08,
+    "self_whole_generation_bitwise": true,
+    "source_record_mass_at_least": 0.0001,
+    "unsupported_or_failed_oracle": "Stop the registered repair stage and retain the failure; no smoothing, case replacement, head search or relaxed tolerance."
+  },
+  "old_positive_mechanism_gate_passed": false,
+  "old_results_preserved": "The 1/8 development repair and failed follow-up remain failed; this new plan does not promote either to success.",
+  "overall_utility": "Report point-estimate practical requirements separately: world-balanced repair at least 0.50, advantage over frozen mean at least 0.25, and protected-world damage at most 0.10. The 0.25 advantage is a newly specified world-balanced comparison, not a redefinition of the earlier pooled 2/8 gate. Separate individual 95% intervals do not establish a simultaneous 95% overall-utility claim; no positive overall claim is automatically authorized.",
+  "preservation": "Report damaged protected facts and worlds separately. Compute an exact one-sided 95% binomial-reference upper bound on affected-world risk. A 10% risk threshold is reported, never assumed from zero observed damage.",
+  "purpose": "Independent behavioral repetition and estimation of one unchanged failed repair candidate.",
+  "repair": {
+    "baseline": "Saved complete unmodified behavior, not an extra condition chosen after intervention outcomes.",
+    "generation": "One first-step delta per destination question, reused at its original query position for all recomputed greedy steps; no cache or teacher forcing.",
+    "no_field_blind_or_general_entity_mechanism_claim": true,
+    "preserved": "Recipient total record attention, within-record relative token weights, nonrecord attention and recipient value vectors.",
+    "primary": "Copy the correct donor's color-question record shares unchanged across the three recipient property questions.",
+    "source_sees_color": true
+  },
+  "selected_head": {
+    "head_index": 0,
+    "layer_index": 28
+  },
+  "statistics": {
+    "behavior_bootstrap": {
+      "resamples": 2000,
+      "scope": "descriptive",
+      "seed": 20261116,
+      "unit": "world"
+    },
+    "family_scope": "Each interval is individual, not simultaneous across models, endpoints or controls. No family-wide confidence or significance claim.",
+    "repair_bounds": "Hoeffding bounded-world mean intervals on [0,1]; paired primary-minus-frozen-mean intervals on [-1,1], under the stated sampling approximation.",
+    "sampling_assumption": "Intervals use an independent-world sampling approximation for this artificial task generator. Balanced margins and unique field assignments couple the generated worlds, so these are model-based reference intervals, not unconditional guarantees. Fixed-sample counts are exact descriptive results. Neither repeated questions nor the two models create additional independent worlds.",
+    "world_prevalence": "Two-sided 95% Clopper-Pearson binomial reference bounds, including nonzero bounds after zero observed events."
+  },
+  "study_id": "reference-confirmation-20261116-v1",
+  "useful_world_balanced_repair_rate": 0.5,
+  "usefulness_decision": "With at least 20 eligible worlds: the targeted repair fraction is excluded only if the conservative 95% bounded-world upper interval is below 0.50; above-threshold repair benefit alone is supported only if its lower interval is at least 0.50; otherwise uncertain. Benefit alone is not a useful overall fix if it damages correct answers or lacks an advantage over the frozen-mean control. With fewer than 20 worlds report imprecision, not a qualified candidate.",
+  "usefulness_estimand": "Mean across eligible worlds of the fraction of that world's initially wrong recipient facts repaired. This world-balanced estimand differs from the earlier pooled 4/8 engineering target; both are reported, but the old gate is not redefined."
+}

@@ -1,0 +1,1722 @@
+[
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:none:fact:0:color",
+    "row_id": "confirmation:013:swap0:none:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:0:color::step00",
+      "confirmation:013:swap0:none:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap0:none:fact:0:shape",
+    "row_id": "confirmation:013:swap0:none:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:0:shape::step00",
+      "confirmation:013:swap0:none:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:none:fact:0:home",
+    "row_id": "confirmation:013:swap0:none:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:0:home::step00",
+      "confirmation:013:swap0:none:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:none:fact:1:color",
+    "row_id": "confirmation:013:swap0:none:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:1:color::step00",
+      "confirmation:013:swap0:none:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:none:fact:1:shape",
+    "row_id": "confirmation:013:swap0:none:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:1:shape::step00",
+      "confirmation:013:swap0:none:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:none:fact:1:home",
+    "row_id": "confirmation:013:swap0:none:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:1:home::step00",
+      "confirmation:013:swap0:none:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:none:fact:2:color",
+    "row_id": "confirmation:013:swap0:none:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:2:color::step00",
+      "confirmation:013:swap0:none:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:none:fact:2:shape",
+    "row_id": "confirmation:013:swap0:none:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:2:shape::step00",
+      "confirmation:013:swap0:none:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:none:fact:2:home",
+    "row_id": "confirmation:013:swap0:none:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:fact:2:home::step00",
+      "confirmation:013:swap0:none:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      22377,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"apple\" is bound to",
+    "id": "confirmation:013:swap0:none:identity:0:None",
+    "row_id": "confirmation:013:swap0:none:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:identity:0:None::step00",
+      "confirmation:013:swap0:none:identity:0:None::step01",
+      "confirmation:013:swap0:none:identity:0:None::step02",
+      "confirmation:013:swap0:none:identity:0:None::step03",
+      "confirmation:013:swap0:none:identity:0:None::step04",
+      "confirmation:013:swap0:none:identity:0:None::step05",
+      "confirmation:013:swap0:none:identity:0:None::step06",
+      "confirmation:013:swap0:none:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap0:none:identity:1:None",
+    "row_id": "confirmation:013:swap0:none:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:identity:1:None::step00",
+      "confirmation:013:swap0:none:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap0:none:status:None:None",
+    "row_id": "confirmation:013:swap0:none:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:none:status:None:None::step00",
+      "confirmation:013:swap0:none:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:coref_0:fact:0:color",
+    "row_id": "confirmation:013:swap0:coref_0:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:0:color::step00",
+      "confirmation:013:swap0:coref_0:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap0:coref_0:fact:0:shape",
+    "row_id": "confirmation:013:swap0:coref_0:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:0:shape::step00",
+      "confirmation:013:swap0:coref_0:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_0:fact:0:home",
+    "row_id": "confirmation:013:swap0:coref_0:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:0:home::step00",
+      "confirmation:013:swap0:coref_0:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:coref_0:fact:1:color",
+    "row_id": "confirmation:013:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:1:color::step00",
+      "confirmation:013:swap0:coref_0:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap0:coref_0:fact:1:shape",
+    "row_id": "confirmation:013:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:1:shape::step00",
+      "confirmation:013:swap0:coref_0:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_0:fact:1:home",
+    "row_id": "confirmation:013:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:1:home::step00",
+      "confirmation:013:swap0:coref_0:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:coref_0:fact:2:color",
+    "row_id": "confirmation:013:swap0:coref_0:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:2:color::step00",
+      "confirmation:013:swap0:coref_0:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:coref_0:fact:2:shape",
+    "row_id": "confirmation:013:swap0:coref_0:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:2:shape::step00",
+      "confirmation:013:swap0:coref_0:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_0:fact:2:home",
+    "row_id": "confirmation:013:swap0:coref_0:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:fact:2:home::step00",
+      "confirmation:013:swap0:coref_0:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      22377,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"apple\" is bound to",
+    "id": "confirmation:013:swap0:coref_0:identity:0:None",
+    "row_id": "confirmation:013:swap0:coref_0:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:identity:0:None::step00",
+      "confirmation:013:swap0:coref_0:identity:0:None::step01",
+      "confirmation:013:swap0:coref_0:identity:0:None::step02",
+      "confirmation:013:swap0:coref_0:identity:0:None::step03",
+      "confirmation:013:swap0:coref_0:identity:0:None::step04",
+      "confirmation:013:swap0:coref_0:identity:0:None::step05",
+      "confirmation:013:swap0:coref_0:identity:0:None::step06",
+      "confirmation:013:swap0:coref_0:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap0:coref_0:identity:1:None",
+    "row_id": "confirmation:013:swap0:coref_0:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:identity:1:None::step00",
+      "confirmation:013:swap0:coref_0:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap0:coref_0:status:None:None",
+    "row_id": "confirmation:013:swap0:coref_0:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_0:status:None:None::step00",
+      "confirmation:013:swap0:coref_0:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:coref_1:fact:0:color",
+    "row_id": "confirmation:013:swap0:coref_1:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:0:color::step00",
+      "confirmation:013:swap0:coref_1:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap0:coref_1:fact:0:shape",
+    "row_id": "confirmation:013:swap0:coref_1:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:0:shape::step00",
+      "confirmation:013:swap0:coref_1:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_1:fact:0:home",
+    "row_id": "confirmation:013:swap0:coref_1:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:0:home::step00",
+      "confirmation:013:swap0:coref_1:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap0:coref_1:fact:1:color",
+    "row_id": "confirmation:013:swap0:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:1:color::step00",
+      "confirmation:013:swap0:coref_1:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:coref_1:fact:1:shape",
+    "row_id": "confirmation:013:swap0:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:1:shape::step00",
+      "confirmation:013:swap0:coref_1:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_1:fact:1:home",
+    "row_id": "confirmation:013:swap0:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:1:home::step00",
+      "confirmation:013:swap0:coref_1:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:coref_1:fact:2:color",
+    "row_id": "confirmation:013:swap0:coref_1:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:2:color::step00",
+      "confirmation:013:swap0:coref_1:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:coref_1:fact:2:shape",
+    "row_id": "confirmation:013:swap0:coref_1:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:2:shape::step00",
+      "confirmation:013:swap0:coref_1:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:coref_1:fact:2:home",
+    "row_id": "confirmation:013:swap0:coref_1:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:fact:2:home::step00",
+      "confirmation:013:swap0:coref_1:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      22377,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"apple\" is bound to",
+    "id": "confirmation:013:swap0:coref_1:identity:0:None",
+    "row_id": "confirmation:013:swap0:coref_1:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:identity:0:None::step00",
+      "confirmation:013:swap0:coref_1:identity:0:None::step01",
+      "confirmation:013:swap0:coref_1:identity:0:None::step02",
+      "confirmation:013:swap0:coref_1:identity:0:None::step03",
+      "confirmation:013:swap0:coref_1:identity:0:None::step04",
+      "confirmation:013:swap0:coref_1:identity:0:None::step05",
+      "confirmation:013:swap0:coref_1:identity:0:None::step06",
+      "confirmation:013:swap0:coref_1:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      13718,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"bat\" is bound to",
+    "id": "confirmation:013:swap0:coref_1:identity:1:None",
+    "row_id": "confirmation:013:swap0:coref_1:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:identity:1:None::step00",
+      "confirmation:013:swap0:coref_1:identity:1:None::step01",
+      "confirmation:013:swap0:coref_1:identity:1:None::step02",
+      "confirmation:013:swap0:coref_1:identity:1:None::step03",
+      "confirmation:013:swap0:coref_1:identity:1:None::step04",
+      "confirmation:013:swap0:coref_1:identity:1:None::step05",
+      "confirmation:013:swap0:coref_1:identity:1:None::step06",
+      "confirmation:013:swap0:coref_1:identity:1:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap0:coref_1:status:None:None",
+    "row_id": "confirmation:013:swap0:coref_1:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:coref_1:status:None:None::step00",
+      "confirmation:013:swap0:coref_1:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:distractor:fact:0:color",
+    "row_id": "confirmation:013:swap0:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:0:color::step00",
+      "confirmation:013:swap0:distractor:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:distractor:fact:0:shape",
+    "row_id": "confirmation:013:swap0:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:0:shape::step00",
+      "confirmation:013:swap0:distractor:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:distractor:fact:0:home",
+    "row_id": "confirmation:013:swap0:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:0:home::step00",
+      "confirmation:013:swap0:distractor:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:distractor:fact:1:color",
+    "row_id": "confirmation:013:swap0:distractor:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:1:color::step00",
+      "confirmation:013:swap0:distractor:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:distractor:fact:1:shape",
+    "row_id": "confirmation:013:swap0:distractor:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:1:shape::step00",
+      "confirmation:013:swap0:distractor:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:distractor:fact:1:home",
+    "row_id": "confirmation:013:swap0:distractor:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:1:home::step00",
+      "confirmation:013:swap0:distractor:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap0:distractor:fact:2:color",
+    "row_id": "confirmation:013:swap0:distractor:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:2:color::step00",
+      "confirmation:013:swap0:distractor:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap0:distractor:fact:2:shape",
+    "row_id": "confirmation:013:swap0:distractor:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:2:shape::step00",
+      "confirmation:013:swap0:distractor:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap0:distractor:fact:2:home",
+    "row_id": "confirmation:013:swap0:distractor:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:fact:2:home::step00",
+      "confirmation:013:swap0:distractor:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      22377,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"apple\" is bound to",
+    "id": "confirmation:013:swap0:distractor:identity:0:None",
+    "row_id": "confirmation:013:swap0:distractor:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:identity:0:None::step00",
+      "confirmation:013:swap0:distractor:identity:0:None::step01",
+      "confirmation:013:swap0:distractor:identity:0:None::step02",
+      "confirmation:013:swap0:distractor:identity:0:None::step03",
+      "confirmation:013:swap0:distractor:identity:0:None::step04",
+      "confirmation:013:swap0:distractor:identity:0:None::step05",
+      "confirmation:013:swap0:distractor:identity:0:None::step06",
+      "confirmation:013:swap0:distractor:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      35,
+      151645
+    ],
+    "generated_text": "D",
+    "id": "confirmation:013:swap0:distractor:identity:1:None",
+    "row_id": "confirmation:013:swap0:distractor:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:identity:1:None::step00",
+      "confirmation:013:swap0:distractor:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap0:distractor:status:None:None",
+    "row_id": "confirmation:013:swap0:distractor:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap0:distractor:status:None:None::step00",
+      "confirmation:013:swap0:distractor:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:none:fact:0:color",
+    "row_id": "confirmation:013:swap1:none:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:0:color::step00",
+      "confirmation:013:swap1:none:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap1:none:fact:0:shape",
+    "row_id": "confirmation:013:swap1:none:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:0:shape::step00",
+      "confirmation:013:swap1:none:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:none:fact:0:home",
+    "row_id": "confirmation:013:swap1:none:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:0:home::step00",
+      "confirmation:013:swap1:none:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:none:fact:1:color",
+    "row_id": "confirmation:013:swap1:none:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:1:color::step00",
+      "confirmation:013:swap1:none:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:none:fact:1:shape",
+    "row_id": "confirmation:013:swap1:none:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:1:shape::step00",
+      "confirmation:013:swap1:none:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:none:fact:1:home",
+    "row_id": "confirmation:013:swap1:none:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:1:home::step00",
+      "confirmation:013:swap1:none:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:none:fact:2:color",
+    "row_id": "confirmation:013:swap1:none:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:2:color::step00",
+      "confirmation:013:swap1:none:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:none:fact:2:shape",
+    "row_id": "confirmation:013:swap1:none:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:2:shape::step00",
+      "confirmation:013:swap1:none:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:none:fact:2:home",
+    "row_id": "confirmation:013:swap1:none:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:fact:2:home::step00",
+      "confirmation:013:swap1:none:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      13718,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"bat\" is bound to",
+    "id": "confirmation:013:swap1:none:identity:0:None",
+    "row_id": "confirmation:013:swap1:none:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:identity:0:None::step00",
+      "confirmation:013:swap1:none:identity:0:None::step01",
+      "confirmation:013:swap1:none:identity:0:None::step02",
+      "confirmation:013:swap1:none:identity:0:None::step03",
+      "confirmation:013:swap1:none:identity:0:None::step04",
+      "confirmation:013:swap1:none:identity:0:None::step05",
+      "confirmation:013:swap1:none:identity:0:None::step06",
+      "confirmation:013:swap1:none:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap1:none:identity:1:None",
+    "row_id": "confirmation:013:swap1:none:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:identity:1:None::step00",
+      "confirmation:013:swap1:none:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap1:none:status:None:None",
+    "row_id": "confirmation:013:swap1:none:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:none:status:None:None::step00",
+      "confirmation:013:swap1:none:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:coref_0:fact:0:color",
+    "row_id": "confirmation:013:swap1:coref_0:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:0:color::step00",
+      "confirmation:013:swap1:coref_0:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap1:coref_0:fact:0:shape",
+    "row_id": "confirmation:013:swap1:coref_0:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:0:shape::step00",
+      "confirmation:013:swap1:coref_0:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_0:fact:0:home",
+    "row_id": "confirmation:013:swap1:coref_0:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:0:home::step00",
+      "confirmation:013:swap1:coref_0:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:coref_0:fact:1:color",
+    "row_id": "confirmation:013:swap1:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:1:color::step00",
+      "confirmation:013:swap1:coref_0:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:coref_0:fact:1:shape",
+    "row_id": "confirmation:013:swap1:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:1:shape::step00",
+      "confirmation:013:swap1:coref_0:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_0:fact:1:home",
+    "row_id": "confirmation:013:swap1:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:1:home::step00",
+      "confirmation:013:swap1:coref_0:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:coref_0:fact:2:color",
+    "row_id": "confirmation:013:swap1:coref_0:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:2:color::step00",
+      "confirmation:013:swap1:coref_0:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:coref_0:fact:2:shape",
+    "row_id": "confirmation:013:swap1:coref_0:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:2:shape::step00",
+      "confirmation:013:swap1:coref_0:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_0:fact:2:home",
+    "row_id": "confirmation:013:swap1:coref_0:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:fact:2:home::step00",
+      "confirmation:013:swap1:coref_0:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      16141,
+      25,
+      356,
+      151645
+    ],
+    "generated_text": "Answer: C",
+    "id": "confirmation:013:swap1:coref_0:identity:0:None",
+    "row_id": "confirmation:013:swap1:coref_0:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:identity:0:None::step00",
+      "confirmation:013:swap1:coref_0:identity:0:None::step01",
+      "confirmation:013:swap1:coref_0:identity:0:None::step02",
+      "confirmation:013:swap1:coref_0:identity:0:None::step03"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap1:coref_0:identity:1:None",
+    "row_id": "confirmation:013:swap1:coref_0:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:identity:1:None::step00",
+      "confirmation:013:swap1:coref_0:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap1:coref_0:status:None:None",
+    "row_id": "confirmation:013:swap1:coref_0:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_0:status:None:None::step00",
+      "confirmation:013:swap1:coref_0:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:coref_1:fact:0:color",
+    "row_id": "confirmation:013:swap1:coref_1:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:0:color::step00",
+      "confirmation:013:swap1:coref_1:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "confirmation:013:swap1:coref_1:fact:0:shape",
+    "row_id": "confirmation:013:swap1:coref_1:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:0:shape::step00",
+      "confirmation:013:swap1:coref_1:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_1:fact:0:home",
+    "row_id": "confirmation:013:swap1:coref_1:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:0:home::step00",
+      "confirmation:013:swap1:coref_1:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "confirmation:013:swap1:coref_1:fact:1:color",
+    "row_id": "confirmation:013:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:1:color::step00",
+      "confirmation:013:swap1:coref_1:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:coref_1:fact:1:shape",
+    "row_id": "confirmation:013:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:1:shape::step00",
+      "confirmation:013:swap1:coref_1:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_1:fact:1:home",
+    "row_id": "confirmation:013:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:1:home::step00",
+      "confirmation:013:swap1:coref_1:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:coref_1:fact:2:color",
+    "row_id": "confirmation:013:swap1:coref_1:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:2:color::step00",
+      "confirmation:013:swap1:coref_1:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:coref_1:fact:2:shape",
+    "row_id": "confirmation:013:swap1:coref_1:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:2:shape::step00",
+      "confirmation:013:swap1:coref_1:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:coref_1:fact:2:home",
+    "row_id": "confirmation:013:swap1:coref_1:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:fact:2:home::step00",
+      "confirmation:013:swap1:coref_1:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap1:coref_1:identity:0:None",
+    "row_id": "confirmation:013:swap1:coref_1:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:identity:0:None::step00",
+      "confirmation:013:swap1:coref_1:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:013:swap1:coref_1:identity:1:None",
+    "row_id": "confirmation:013:swap1:coref_1:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:identity:1:None::step00",
+      "confirmation:013:swap1:coref_1:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap1:coref_1:status:None:None",
+    "row_id": "confirmation:013:swap1:coref_1:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:coref_1:status:None:None::step00",
+      "confirmation:013:swap1:coref_1:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:distractor:fact:0:color",
+    "row_id": "confirmation:013:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:0:color::step00",
+      "confirmation:013:swap1:distractor:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:distractor:fact:0:shape",
+    "row_id": "confirmation:013:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:0:shape::step00",
+      "confirmation:013:swap1:distractor:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:distractor:fact:0:home",
+    "row_id": "confirmation:013:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:0:home::step00",
+      "confirmation:013:swap1:distractor:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:distractor:fact:1:color",
+    "row_id": "confirmation:013:swap1:distractor:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:1:color::step00",
+      "confirmation:013:swap1:distractor:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:distractor:fact:1:shape",
+    "row_id": "confirmation:013:swap1:distractor:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:1:shape::step00",
+      "confirmation:013:swap1:distractor:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "tower",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:distractor:fact:1:home",
+    "row_id": "confirmation:013:swap1:distractor:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:1:home::step00",
+      "confirmation:013:swap1:distractor:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "red",
+    "generated_ids": [
+      1151,
+      151645
+    ],
+    "generated_text": "red",
+    "id": "confirmation:013:swap1:distractor:fact:2:color",
+    "row_id": "confirmation:013:swap1:distractor:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:2:color::step00",
+      "confirmation:013:swap1:distractor:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "confirmation:013:swap1:distractor:fact:2:shape",
+    "row_id": "confirmation:013:swap1:distractor:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:2:shape::step00",
+      "confirmation:013:swap1:distractor:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:013:swap1:distractor:fact:2:home",
+    "row_id": "confirmation:013:swap1:distractor:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:fact:2:home::step00",
+      "confirmation:013:swap1:distractor:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      785,
+      15534,
+      330,
+      13718,
+      1,
+      374,
+      6822,
+      311
+    ],
+    "generated_text": "The alias \"bat\" is bound to",
+    "id": "confirmation:013:swap1:distractor:identity:0:None",
+    "row_id": "confirmation:013:swap1:distractor:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:identity:0:None::step00",
+      "confirmation:013:swap1:distractor:identity:0:None::step01",
+      "confirmation:013:swap1:distractor:identity:0:None::step02",
+      "confirmation:013:swap1:distractor:identity:0:None::step03",
+      "confirmation:013:swap1:distractor:identity:0:None::step04",
+      "confirmation:013:swap1:distractor:identity:0:None::step05",
+      "confirmation:013:swap1:distractor:identity:0:None::step06",
+      "confirmation:013:swap1:distractor:identity:0:None::step07"
+    ],
+    "stop_reason": "max_tokens",
+    "terminated": false,
+    "truncated": true
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      35,
+      151645
+    ],
+    "generated_text": "D",
+    "id": "confirmation:013:swap1:distractor:identity:1:None",
+    "row_id": "confirmation:013:swap1:distractor:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:identity:1:None::step00",
+      "confirmation:013:swap1:distractor:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:013:swap1:distractor:status:None:None",
+    "row_id": "confirmation:013:swap1:distractor:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:013:swap1:distractor:status:None:None::step00",
+      "confirmation:013:swap1:distractor:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  }
+]

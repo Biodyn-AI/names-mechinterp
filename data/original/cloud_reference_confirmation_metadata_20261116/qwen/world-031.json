@@ -1,0 +1,1634 @@
+[
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:none:fact:0:color",
+    "row_id": "confirmation:031:swap0:none:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:0:color::step00",
+      "confirmation:031:swap0:none:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap0:none:fact:0:shape",
+    "row_id": "confirmation:031:swap0:none:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:0:shape::step00",
+      "confirmation:031:swap0:none:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:none:fact:0:home",
+    "row_id": "confirmation:031:swap0:none:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:0:home::step00",
+      "confirmation:031:swap0:none:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:none:fact:1:color",
+    "row_id": "confirmation:031:swap0:none:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:1:color::step00",
+      "confirmation:031:swap0:none:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap0:none:fact:1:shape",
+    "row_id": "confirmation:031:swap0:none:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:1:shape::step00",
+      "confirmation:031:swap0:none:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:none:fact:1:home",
+    "row_id": "confirmation:031:swap0:none:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:1:home::step00",
+      "confirmation:031:swap0:none:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap0:none:fact:2:color",
+    "row_id": "confirmation:031:swap0:none:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:2:color::step00",
+      "confirmation:031:swap0:none:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap0:none:fact:2:shape",
+    "row_id": "confirmation:031:swap0:none:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:2:shape::step00",
+      "confirmation:031:swap0:none:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap0:none:fact:2:home",
+    "row_id": "confirmation:031:swap0:none:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:fact:2:home::step00",
+      "confirmation:031:swap0:none:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:none:identity:0:None",
+    "row_id": "confirmation:031:swap0:none:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:identity:0:None::step00",
+      "confirmation:031:swap0:none:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:none:identity:1:None",
+    "row_id": "confirmation:031:swap0:none:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:identity:1:None::step00",
+      "confirmation:031:swap0:none:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap0:none:status:None:None",
+    "row_id": "confirmation:031:swap0:none:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:none:status:None:None::step00",
+      "confirmation:031:swap0:none:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:coref_0:fact:0:color",
+    "row_id": "confirmation:031:swap0:coref_0:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:0:color::step00",
+      "confirmation:031:swap0:coref_0:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap0:coref_0:fact:0:shape",
+    "row_id": "confirmation:031:swap0:coref_0:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:0:shape::step00",
+      "confirmation:031:swap0:coref_0:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:coref_0:fact:0:home",
+    "row_id": "confirmation:031:swap0:coref_0:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:0:home::step00",
+      "confirmation:031:swap0:coref_0:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:coref_0:fact:1:color",
+    "row_id": "confirmation:031:swap0:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:1:color::step00",
+      "confirmation:031:swap0:coref_0:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap0:coref_0:fact:1:shape",
+    "row_id": "confirmation:031:swap0:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:1:shape::step00",
+      "confirmation:031:swap0:coref_0:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:coref_0:fact:1:home",
+    "row_id": "confirmation:031:swap0:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:1:home::step00",
+      "confirmation:031:swap0:coref_0:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap0:coref_0:fact:2:color",
+    "row_id": "confirmation:031:swap0:coref_0:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:2:color::step00",
+      "confirmation:031:swap0:coref_0:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap0:coref_0:fact:2:shape",
+    "row_id": "confirmation:031:swap0:coref_0:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:2:shape::step00",
+      "confirmation:031:swap0:coref_0:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap0:coref_0:fact:2:home",
+    "row_id": "confirmation:031:swap0:coref_0:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:fact:2:home::step00",
+      "confirmation:031:swap0:coref_0:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:coref_0:identity:0:None",
+    "row_id": "confirmation:031:swap0:coref_0:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:identity:0:None::step00",
+      "confirmation:031:swap0:coref_0:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:coref_0:identity:1:None",
+    "row_id": "confirmation:031:swap0:coref_0:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:identity:1:None::step00",
+      "confirmation:031:swap0:coref_0:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap0:coref_0:status:None:None",
+    "row_id": "confirmation:031:swap0:coref_0:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_0:status:None:None::step00",
+      "confirmation:031:swap0:coref_0:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:coref_1:fact:0:color",
+    "row_id": "confirmation:031:swap0:coref_1:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:0:color::step00",
+      "confirmation:031:swap0:coref_1:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap0:coref_1:fact:0:shape",
+    "row_id": "confirmation:031:swap0:coref_1:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:0:shape::step00",
+      "confirmation:031:swap0:coref_1:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:coref_1:fact:0:home",
+    "row_id": "confirmation:031:swap0:coref_1:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:0:home::step00",
+      "confirmation:031:swap0:coref_1:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:coref_1:fact:1:color",
+    "row_id": "confirmation:031:swap0:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:1:color::step00",
+      "confirmation:031:swap0:coref_1:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap0:coref_1:fact:1:shape",
+    "row_id": "confirmation:031:swap0:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:1:shape::step00",
+      "confirmation:031:swap0:coref_1:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:coref_1:fact:1:home",
+    "row_id": "confirmation:031:swap0:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:1:home::step00",
+      "confirmation:031:swap0:coref_1:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap0:coref_1:fact:2:color",
+    "row_id": "confirmation:031:swap0:coref_1:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:2:color::step00",
+      "confirmation:031:swap0:coref_1:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap0:coref_1:fact:2:shape",
+    "row_id": "confirmation:031:swap0:coref_1:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:2:shape::step00",
+      "confirmation:031:swap0:coref_1:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap0:coref_1:fact:2:home",
+    "row_id": "confirmation:031:swap0:coref_1:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:fact:2:home::step00",
+      "confirmation:031:swap0:coref_1:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:coref_1:identity:0:None",
+    "row_id": "confirmation:031:swap0:coref_1:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:identity:0:None::step00",
+      "confirmation:031:swap0:coref_1:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:coref_1:identity:1:None",
+    "row_id": "confirmation:031:swap0:coref_1:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:identity:1:None::step00",
+      "confirmation:031:swap0:coref_1:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap0:coref_1:status:None:None",
+    "row_id": "confirmation:031:swap0:coref_1:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:coref_1:status:None:None::step00",
+      "confirmation:031:swap0:coref_1:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap0:distractor:fact:0:color",
+    "row_id": "confirmation:031:swap0:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:0:color::step00",
+      "confirmation:031:swap0:distractor:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap0:distractor:fact:0:shape",
+    "row_id": "confirmation:031:swap0:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:0:shape::step00",
+      "confirmation:031:swap0:distractor:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:distractor:fact:0:home",
+    "row_id": "confirmation:031:swap0:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:0:home::step00",
+      "confirmation:031:swap0:distractor:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "confirmation:031:swap0:distractor:fact:1:color",
+    "row_id": "confirmation:031:swap0:distractor:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:1:color::step00",
+      "confirmation:031:swap0:distractor:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap0:distractor:fact:1:shape",
+    "row_id": "confirmation:031:swap0:distractor:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:1:shape::step00",
+      "confirmation:031:swap0:distractor:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap0:distractor:fact:1:home",
+    "row_id": "confirmation:031:swap0:distractor:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:1:home::step00",
+      "confirmation:031:swap0:distractor:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap0:distractor:fact:2:color",
+    "row_id": "confirmation:031:swap0:distractor:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:2:color::step00",
+      "confirmation:031:swap0:distractor:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap0:distractor:fact:2:shape",
+    "row_id": "confirmation:031:swap0:distractor:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:2:shape::step00",
+      "confirmation:031:swap0:distractor:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap0:distractor:fact:2:home",
+    "row_id": "confirmation:031:swap0:distractor:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:fact:2:home::step00",
+      "confirmation:031:swap0:distractor:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:distractor:identity:0:None",
+    "row_id": "confirmation:031:swap0:distractor:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:identity:0:None::step00",
+      "confirmation:031:swap0:distractor:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap0:distractor:identity:1:None",
+    "row_id": "confirmation:031:swap0:distractor:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:identity:1:None::step00",
+      "confirmation:031:swap0:distractor:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap0:distractor:status:None:None",
+    "row_id": "confirmation:031:swap0:distractor:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap0:distractor:status:None:None::step00",
+      "confirmation:031:swap0:distractor:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:none:fact:0:color",
+    "row_id": "confirmation:031:swap1:none:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:0:color::step00",
+      "confirmation:031:swap1:none:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap1:none:fact:0:shape",
+    "row_id": "confirmation:031:swap1:none:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:0:shape::step00",
+      "confirmation:031:swap1:none:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap1:none:fact:0:home",
+    "row_id": "confirmation:031:swap1:none:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:0:home::step00",
+      "confirmation:031:swap1:none:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:none:fact:1:color",
+    "row_id": "confirmation:031:swap1:none:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:1:color::step00",
+      "confirmation:031:swap1:none:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap1:none:fact:1:shape",
+    "row_id": "confirmation:031:swap1:none:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:1:shape::step00",
+      "confirmation:031:swap1:none:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:031:swap1:none:fact:1:home",
+    "row_id": "confirmation:031:swap1:none:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:1:home::step00",
+      "confirmation:031:swap1:none:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap1:none:fact:2:color",
+    "row_id": "confirmation:031:swap1:none:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:2:color::step00",
+      "confirmation:031:swap1:none:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap1:none:fact:2:shape",
+    "row_id": "confirmation:031:swap1:none:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:2:shape::step00",
+      "confirmation:031:swap1:none:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap1:none:fact:2:home",
+    "row_id": "confirmation:031:swap1:none:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:fact:2:home::step00",
+      "confirmation:031:swap1:none:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:none:identity:0:None",
+    "row_id": "confirmation:031:swap1:none:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:identity:0:None::step00",
+      "confirmation:031:swap1:none:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:none:identity:1:None",
+    "row_id": "confirmation:031:swap1:none:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:identity:1:None::step00",
+      "confirmation:031:swap1:none:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap1:none:status:None:None",
+    "row_id": "confirmation:031:swap1:none:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:none:status:None:None::step00",
+      "confirmation:031:swap1:none:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:coref_0:fact:0:color",
+    "row_id": "confirmation:031:swap1:coref_0:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:0:color::step00",
+      "confirmation:031:swap1:coref_0:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap1:coref_0:fact:0:shape",
+    "row_id": "confirmation:031:swap1:coref_0:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:0:shape::step00",
+      "confirmation:031:swap1:coref_0:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap1:coref_0:fact:0:home",
+    "row_id": "confirmation:031:swap1:coref_0:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:0:home::step00",
+      "confirmation:031:swap1:coref_0:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:coref_0:fact:1:color",
+    "row_id": "confirmation:031:swap1:coref_0:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:1:color::step00",
+      "confirmation:031:swap1:coref_0:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap1:coref_0:fact:1:shape",
+    "row_id": "confirmation:031:swap1:coref_0:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:1:shape::step00",
+      "confirmation:031:swap1:coref_0:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap1:coref_0:fact:1:home",
+    "row_id": "confirmation:031:swap1:coref_0:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:1:home::step00",
+      "confirmation:031:swap1:coref_0:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap1:coref_0:fact:2:color",
+    "row_id": "confirmation:031:swap1:coref_0:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:2:color::step00",
+      "confirmation:031:swap1:coref_0:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap1:coref_0:fact:2:shape",
+    "row_id": "confirmation:031:swap1:coref_0:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:2:shape::step00",
+      "confirmation:031:swap1:coref_0:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap1:coref_0:fact:2:home",
+    "row_id": "confirmation:031:swap1:coref_0:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:fact:2:home::step00",
+      "confirmation:031:swap1:coref_0:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:coref_0:identity:0:None",
+    "row_id": "confirmation:031:swap1:coref_0:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:identity:0:None::step00",
+      "confirmation:031:swap1:coref_0:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:coref_0:identity:1:None",
+    "row_id": "confirmation:031:swap1:coref_0:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:identity:1:None::step00",
+      "confirmation:031:swap1:coref_0:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap1:coref_0:status:None:None",
+    "row_id": "confirmation:031:swap1:coref_0:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_0:status:None:None::step00",
+      "confirmation:031:swap1:coref_0:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:coref_1:fact:0:color",
+    "row_id": "confirmation:031:swap1:coref_1:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:0:color::step00",
+      "confirmation:031:swap1:coref_1:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap1:coref_1:fact:0:shape",
+    "row_id": "confirmation:031:swap1:coref_1:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:0:shape::step00",
+      "confirmation:031:swap1:coref_1:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap1:coref_1:fact:0:home",
+    "row_id": "confirmation:031:swap1:coref_1:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:0:home::step00",
+      "confirmation:031:swap1:coref_1:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "confirmation:031:swap1:coref_1:fact:1:color",
+    "row_id": "confirmation:031:swap1:coref_1:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:1:color::step00",
+      "confirmation:031:swap1:coref_1:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap1:coref_1:fact:1:shape",
+    "row_id": "confirmation:031:swap1:coref_1:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:1:shape::step00",
+      "confirmation:031:swap1:coref_1:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:031:swap1:coref_1:fact:1:home",
+    "row_id": "confirmation:031:swap1:coref_1:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:1:home::step00",
+      "confirmation:031:swap1:coref_1:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap1:coref_1:fact:2:color",
+    "row_id": "confirmation:031:swap1:coref_1:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:2:color::step00",
+      "confirmation:031:swap1:coref_1:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap1:coref_1:fact:2:shape",
+    "row_id": "confirmation:031:swap1:coref_1:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:2:shape::step00",
+      "confirmation:031:swap1:coref_1:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap1:coref_1:fact:2:home",
+    "row_id": "confirmation:031:swap1:coref_1:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:fact:2:home::step00",
+      "confirmation:031:swap1:coref_1:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:coref_1:identity:0:None",
+    "row_id": "confirmation:031:swap1:coref_1:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:identity:0:None::step00",
+      "confirmation:031:swap1:coref_1:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:coref_1:identity:1:None",
+    "row_id": "confirmation:031:swap1:coref_1:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:identity:1:None::step00",
+      "confirmation:031:swap1:coref_1:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap1:coref_1:status:None:None",
+    "row_id": "confirmation:031:swap1:coref_1:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:coref_1:status:None:None::step00",
+      "confirmation:031:swap1:coref_1:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:distractor:fact:0:color",
+    "row_id": "confirmation:031:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:0:color::step00",
+      "confirmation:031:swap1:distractor:fact:0:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "confirmation:031:swap1:distractor:fact:0:shape",
+    "row_id": "confirmation:031:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:0:shape::step00",
+      "confirmation:031:swap1:distractor:fact:0:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "confirmation:031:swap1:distractor:fact:0:home",
+    "row_id": "confirmation:031:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:0:home::step00",
+      "confirmation:031:swap1:distractor:fact:0:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "yellow",
+    "generated_ids": [
+      27869,
+      151645
+    ],
+    "generated_text": "yellow",
+    "id": "confirmation:031:swap1:distractor:fact:1:color",
+    "row_id": "confirmation:031:swap1:distractor:fact:1:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:1:color::step00",
+      "confirmation:031:swap1:distractor:fact:1:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "square",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "confirmation:031:swap1:distractor:fact:1:shape",
+    "row_id": "confirmation:031:swap1:distractor:fact:1:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:1:shape::step00",
+      "confirmation:031:swap1:distractor:fact:1:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "forest",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "confirmation:031:swap1:distractor:fact:1:home",
+    "row_id": "confirmation:031:swap1:distractor:fact:1:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:1:home::step00",
+      "confirmation:031:swap1:distractor:fact:1:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "confirmation:031:swap1:distractor:fact:2:color",
+    "row_id": "confirmation:031:swap1:distractor:fact:2:color",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:2:color::step00",
+      "confirmation:031:swap1:distractor:fact:2:color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "confirmation:031:swap1:distractor:fact:2:shape",
+    "row_id": "confirmation:031:swap1:distractor:fact:2:shape",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:2:shape::step00",
+      "confirmation:031:swap1:distractor:fact:2:shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "market",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "confirmation:031:swap1:distractor:fact:2:home",
+    "row_id": "confirmation:031:swap1:distractor:fact:2:home",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:fact:2:home::step00",
+      "confirmation:031:swap1:distractor:fact:2:home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:distractor:identity:0:None",
+    "row_id": "confirmation:031:swap1:distractor:identity:0:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:identity:0:None::step00",
+      "confirmation:031:swap1:distractor:identity:0:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "C",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "generated_text": "C",
+    "id": "confirmation:031:swap1:distractor:identity:1:None",
+    "row_id": "confirmation:031:swap1:distractor:identity:1:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:identity:1:None::step00",
+      "confirmation:031:swap1:distractor:identity:1:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "clear",
+    "generated_ids": [
+      7422,
+      151645
+    ],
+    "generated_text": "clear",
+    "id": "confirmation:031:swap1:distractor:status:None:None",
+    "row_id": "confirmation:031:swap1:distractor:status:None:None",
+    "step_endpoint_ids": [
+      "confirmation:031:swap1:distractor:status:None:None::step00",
+      "confirmation:031:swap1:distractor:status:None:None::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  }
+]

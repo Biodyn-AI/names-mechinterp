@@ -1,6 +1,7 @@
 # Data dictionary
 
-All JSON is UTF-8. Counts below refer to the evaluated development set. No model
+All JSON is UTF-8. The original top-level processed files refer to the 32-world
+development set; the `confirmation/` subtree is a separate 64-world evaluation. No model
 weights or large native tensors are included. Use IDs to join records; array
 order is not a substitute for an ID. Fields retained from historical records may
 contain original path strings. Their presence does not make those paths public
@@ -10,7 +11,7 @@ or available.
 
 | File under `data/processed/` | Shape and unit |
 |---|---|
-| `worlds.json` | 32 objects; one independent registry per entry |
+| `worlds.json` | 32 scenario records; one registry of four objects per entry |
 | `prompts.json` | 3,072 objects; one question per entry, shared by both models |
 | `qwen_generations.json` | 3,072 objects; one Qwen response per question |
 | `phi_generations.json` | 3,072 objects; one Phi response per question |
@@ -22,7 +23,7 @@ or available.
 | Field | Meaning |
 |---|---|
 | `world_id` | Stable string such as `development:000` |
-| `split` | `development` in the released evaluated worlds |
+| `split` | `development` in the original top-level files; `confirmation` in the separate new subtree |
 | `objects` | Mapping A–D to `nameplate`, `color`, `shape`, and `home` strings |
 | `object_order` | Order in which the four records are printed |
 | `aliases` | Four lexical alias strings in semantic-role order |
@@ -37,6 +38,52 @@ Within a world, values are distinct for each factual field. A response matching
 another object's value for that same field therefore identifies a unique listed
 wrong object. Individual words recur across worlds; a world is not an entirely
 new vocabulary sample.
+
+## Independent confirmation files
+
+All paths in this section are below `data/processed/confirmation/`.
+
+| Path | Contents |
+|---|---|
+| `ROWS.json` | Complete shared grid of 6,144 questions; every `split` is `confirmation` |
+| `WORLDS.json` | 64 scenarios; both models use this same set |
+| `PLAN.json` | New publicly frozen plan; old failed success requirements remain failed |
+| `qwen/GENERATIONS.json`, `phi/GENERATIONS.json` | 6,144 complete response records each |
+| `qwen/RESULT.json`, `phi/RESULT.json` | Recomputed whole-answer counts, scenario summaries and reference intervals |
+| `repair/CASES.json` | One deterministic qualifying context from every eligible Qwen scenario: 30 contexts |
+| `repair/GENERATIONS.json` | 360 answers: 30 contexts × three properties × four comparisons |
+| `repair/RESULT.json` | Exact repair/damage counts, pooled and scenario-balanced rates, uncertainty and limitations |
+| `LITERAL_AUDIT.json` | Saved independently parsed text-answer checks; not native tensor replay |
+| `CPU_REPRODUCTION.json` | Portable helper's saved reconstruction of the processed inputs |
+
+The original `worlds.json` and `prompts.json` are unchanged development inputs.
+The two sets contain 32 and 64 scenarios, not two copies of a common sample.
+Questions within a scenario are repeated measurements. The repair contexts come
+from the confirmation scenarios, not from another 30 independent scenarios.
+
+Repair records join to their case through `case_id` and to the original question
+through `row_id`. Their own `id` distinguishes condition and property. The fixed
+conditions are `selfRfield` (unchanged), `primaryDcolor` (correct-name color
+profile), `frozenDiscoveryMean` (old fixed average profile), and `Rcolor`
+(recipient-name color profile). All preserve the same operation settings.
+`initial_wrong_fields` includes every initially incorrect recipient property,
+not only the finished wrong-object answer that makes the context eligible.
+`protected_correct_fields` identifies the initially correct recipient properties.
+
+The primary repair corrected 16/40 initially wrong facts and damaged 0/50 tested
+correct facts. Its scenario-balanced rate differs from the pooled fraction;
+neither should replace the other silently. The reported usefulness conclusion
+is `uncertain`. Reference intervals and their sampling assumptions are retained
+from the frozen plan, not recalibrated after the results.
+
+Original confirmation metadata are under
+`data/original/cloud_reference_confirmation_metadata_20261116/`. The two large
+`TOKENS-*.json.gz` files decompress to the exact historical bytes; their adjacent
+`TOKENS-*.json.sha256` sidecars refer to those decompressed bytes. The deterministic
+compression and every imported byte are documented in `IMPORT_RECEIPT.json`.
+Other raw-score and case-capture sidecars may refer to payloads not in Git.
+Use `data/CONFIRMATION_AVAILABILITY.json`, not the older development availability
+file, to inspect this distinct deposit's status.
 
 ### Prompt fields
 

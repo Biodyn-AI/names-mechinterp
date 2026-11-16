@@ -1,0 +1,35 @@
+{
+  "historical_input_sha256": {
+    "MODELS.json": "55204f97c88fd3e01ad23a86fca4d05ee17fb5882328826258a20ebaadfb44dd",
+    "PROTOCOL.json": "740fb5dc20129e2b51548e057716a4809b146a1be786f593a5d865ccbf322396",
+    "ROWS.json": "6dced70e9b20ba7059ea530d1200fd86d7e88a2d59de0e74fb51a90e38363085",
+    "TOKENS-phi.json": "88b0f0a3e761366a8905fd7b77b9fe5d057893913ff9959d6fe0979374d2fd55",
+    "TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7",
+    "generator.py": "186e73abf1e541aaa1a23bc7728f3a4ccd61cde95fb319e23bc00e45bf669200",
+    "old_decomposition_RESULT.json": "c468bcf6581e11ccded7ac1e611bc543f764882646a45e640eb8d9de73e9d77d",
+    "old_validation_PLAN.json": "ea5d8256e18b9cd8f5ab7d5364b0c80609b31b5f4902b9f75dc27e0d8941fc4d",
+    "old_validation_RESULT.json": "ffadf2f4098bd079542599055c0e8a30898d76754ce60ba25becde047a51cbbb"
+  },
+  "input_sha256": {
+    "CODE.json": "c88bab1da63d7b5dd939053f23fa3a28306e2a067e36a04d6793775e827572b1",
+    "PLAN.json": "2b2b498f3a51bf1c28dfdaf26f813237c3632bd1f695d3505440c83c6561c9c2",
+    "ROWS.json": "364e56bfe20d59eaa0856824378bba6cfe27e0fb94ed5ad741c2888c1e05feb5",
+    "TOKENS-phi.json": "88b0f0a3e761366a8905fd7b77b9fe5d057893913ff9959d6fe0979374d2fd55",
+    "TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "WORLDS.json": "ab81eefba053c6825b79167967f1b1e613ff6f01b1c24036f8ac7d302e65ada3"
+  },
+  "protocol_commit": "f1d7836c653a82c0183c8bfed59c2c1153f73e42",
+  "python_version": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "repo_root": "/workspace/fundamental-mechinterp/confirmation_source_20261116_v1",
+  "runtime_python": "/workspace/runtime/e30_13/bin/python",
+  "runtime_versions": {
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.5.1",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.6.0+cu124",
+    "transformers": "5.14.1"
+  },
+  "scope": "New independent evaluation; archived failed mechanism gates remain failed."
+}

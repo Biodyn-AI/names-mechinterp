@@ -1,0 +1,22 @@
+{
+  "schema": "names-mechinterp-confirmation-artifact-availability-v1",
+  "study_id": "reference-confirmation-20261116-v1",
+  "protocol_commit": "f1d7836c653a82c0183c8bfed59c2c1153f73e42",
+  "metadata_directory": "data/original/cloud_reference_confirmation_metadata_20261116",
+  "processed_directory": "data/processed/confirmation",
+  "metadata_and_complete_text_outcomes_included": true,
+  "cloud_native_audit_receipts_included": true,
+  "native_audits_replayed_by_this_packaging_step": false,
+  "expected_native_shards": 620,
+  "present_native_shards_in_git_checkout": 0,
+  "expected_repair_capture_files": 30,
+  "present_repair_capture_files_in_git_checkout": 0,
+  "public_raw_deposit_verified": false,
+  "raw_release_url": null,
+  "stages": {
+    "qwen": {"expected_native_shards": 132, "native_endpoints": 13088, "cloud_native_audit_exact_match": true},
+    "phi": {"expected_native_shards": 128, "native_endpoints": 13914, "cloud_native_audit_exact_match": true},
+    "repair": {"expected_native_shards": 360, "native_endpoints": 1260, "complete_generations": 360, "eligible_worlds": 30, "cloud_native_audit_exact_match": true}
+  },
+  "scope": "Working release metadata. The complete JSON/text outcomes and saved cloud audits are included. Native tensors and repair captures are not in the Git checkout, and no public full-raw deposit is asserted yet. This independent confirmation does not close the separate historical 410-shard development gap in AVAILABILITY.json."
+}

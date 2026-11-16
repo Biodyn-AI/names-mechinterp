@@ -48,6 +48,10 @@ def release_file(path, root):
 
 def build(repo_root, source_workspace):
     root, source = Path(repo_root).resolve(), Path(source_workspace).resolve()
+    confirmation_prefix = "data/original/cloud_reference_confirmation_metadata_20261116/"
+    confirmation_root = root / confirmation_prefix
+    import_receipt_path = confirmation_root / "IMPORT_RECEIPT.json"
+    import_receipt = json.loads(import_receipt_path.read_text()) if import_receipt_path.is_file() else None
     availability = native_availability(root / "data" / "original")
     (root / "data" / "AVAILABILITY.json").write_text(json.dumps(availability, sort_keys=True, indent=2) + "\n")
     original_zip = root / "data" / "original" / "supporting_data_archive" / "S1_Data.zip"
@@ -61,7 +65,37 @@ def build(repo_root, source_workspace):
                 relative = path.relative_to(root).as_posix()
                 record = {"path": relative, "size_bytes": path.stat().st_size, "sha256": digest(path)}
                 origin = None
-                if relative.startswith("experiments/"):
+                if relative.startswith(confirmation_prefix):
+                    if import_receipt is None:
+                        raise ValueError("confirmation metadata lack their import receipt")
+                    record["confirmation_import_receipt_sha256"] = digest(import_receipt_path)
+                    short = relative.removeprefix(confirmation_prefix)
+                    if short == "IMPORT_RECEIPT.json":
+                        record["adaptation"] = "Release-side checksum record of byte-identical metadata copies and deterministic token-JSON compression"
+                    else:
+                        imported = import_receipt["files"][short]
+                        if record["sha256"] != imported["sha256"]:
+                            raise ValueError("confirmation metadata changed after verified import")
+                        record.update(original_sha256=imported["original_sha256"], original_relative_path=imported["original_relative_path"], adaptation=imported["representation"])
+                        if short.endswith(".json.gz"):
+                            if digest(path, decompress=True) != imported["original_sha256"]:
+                                raise ValueError("compressed confirmation metadata differ from original bytes")
+                            record.update(uncompressed_sha256=imported["original_sha256"], uncompressed_size_bytes=imported["original_size_bytes"])
+                        else:
+                            record["byte_identical"] = record["sha256"] == imported["original_sha256"]
+                elif relative.startswith("data/processed/confirmation/"):
+                    member = relative.removeprefix("data/processed/confirmation/")
+                    if member == "CPU_REPRODUCTION.json":
+                        report = json.loads(path.read_text())
+                        if report["native_logit_replay_performed"] is not False or report["new_model_forward_count"] != 0:
+                            raise ValueError("processed confirmation report overstates its replay scope")
+                        record.update(adaptation="Standard-library recomputation of complete confirmation text outcomes and frozen statistics", analysis_source_sha256=report["analysis_source_sha256"])
+                    else:
+                        original_path = confirmation_root / member
+                        if not original_path.is_file() or digest(original_path) != record["sha256"]:
+                            raise ValueError("processed confirmation input differs from imported metadata")
+                        record.update(original_sha256=record["sha256"], byte_identical=True, source_metadata_path=original_path.relative_to(root).as_posix(), confirmation_import_receipt_sha256=digest(import_receipt_path))
+                elif relative.startswith("experiments/"):
                     short = relative.removeprefix("experiments/")
                     origin = source / ("paper_draft_20261115/" + path.name if short.startswith("paper_analysis/") else short)
                 elif relative.startswith("data/original/"):
@@ -81,9 +115,14 @@ def build(repo_root, source_workspace):
                     if member == "package_scope.json":
                         before, after = json.loads(original), json.loads(path.read_text())
                         changed = {key for key in before if before[key] != after.get(key)}
-                        if changed != {"scope", "raw_native_deposit", "license"}:
+                        expected_changes = {"scope", "raw_native_deposit", "license", "reserved_confirmation_outcomes_included"} if import_receipt is not None else {"scope", "raw_native_deposit", "license"}
+                        added = set(after) - set(before)
+                        expected_added = {"development_worlds", "confirmation_worlds", "confirmation_questions_per_model", "confirmation_directory", "confirmation_publication_status"} if import_receipt is not None else set()
+                        if changed != expected_changes or added != expected_added:
                             raise ValueError("processed scope has an undeclared scientific-data change")
-                        record["adaptation"] = "only release scope, explicit native-data limitation and author-approved license metadata updated"
+                        if import_receipt is not None and (after["worlds"] != 32 or after["development_worlds"] != 32 or after["confirmation_worlds"] != 64 or after["confirmation_questions_per_model"] != 6144 or after["confirmation_directory"] != "confirmation/" or after["reserved_confirmation_outcomes_included"] is not True):
+                            raise ValueError("development and confirmation sample scopes were mixed")
+                        record["adaptation"] = "Release scope, native-data limitations and license metadata; completed confirmation is separately indexed without changing development observations"
                     elif not record["byte_identical"]:
                         raise ValueError(f"processed supporting data changed: {member}")
                 if origin is not None and origin.is_file():
@@ -103,7 +142,7 @@ def build(repo_root, source_workspace):
               "licenses": {"code": "MIT", "data": "CC BY 4.0"}, "scientific_originals_mutated": False,
               "historical_paths": "Original provenance fields may retain author or cloud absolute paths; they are preserved records, not required portable runtime paths.",
               "excluded_categories": ["credentials and private keys", "cloud access guides", "operational spending ledgers", "machine/project/runtime archives", "model weights", "local virtual environments", "unrelated earlier experiment results"],
-              "native_data_scope": "Full native-logit shards are absent from this snapshot. Original indices/custody/audit receipts and available small tensor captures are preserved; see AVAILABILITY.json. SHA integrity and exact native mathematical rescore are distinct."}
+              "native_data_scope": "Full native-logit shards are not shipped in the Git checkout. See AVAILABILITY.json for the historical development gap and CONFIRMATION_AVAILABILITY.json for the separate confirmation deposit status. Indices/custody/audit receipts are not native payloads; SHA integrity and mathematical replay are distinct."}
     (root / "data" / "MANIFEST.json").write_text(json.dumps(result, sort_keys=True, indent=2) + "\n")
     return result
 

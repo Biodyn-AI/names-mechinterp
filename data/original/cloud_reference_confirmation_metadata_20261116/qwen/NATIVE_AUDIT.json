@@ -1,0 +1,9 @@
+{
+  "custody_sha256": "deacf3f6f1c5a0564fdbcf5d6af70cd5cf409f89785d2930f8145e0dc5406f48",
+  "exact_match": true,
+  "generation_sha256": "6b04ef948e3a654e675e68374112a792e11f25cdf5fa7edf45356c28ccbba81b",
+  "generations": 6144,
+  "native_steps": 13088,
+  "required_rows": 6144,
+  "required_worlds": 64
+}

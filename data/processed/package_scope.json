@@ -1,8 +1,13 @@
 {
-  "scope": "Processed supporting data for the names-mechinterp source release; not a complete native-logit deposit",
+  "scope": "Processed supporting data for the original 32 development worlds and a separate, completed 64-world confirmation; not a complete native-logit deposit. The figure1_points key preserves the original development figure. The current manuscript's Fig 1 instead uses world_summaries in confirmation/qwen/RESULT.json and confirmation/phi/RESULT.json, with 64 shared fresh worlds.",
   "worlds": 32,
-  "reserved_confirmation_outcomes_included": false,
-  "raw_native_deposit": "Full native-logit shards are not included in this repository snapshot; original indices and anchored audit receipts are preserved. See data/AVAILABILITY.json for exact artifact coverage.",
+  "development_worlds": 32,
+  "confirmation_worlds": 64,
+  "confirmation_questions_per_model": 6144,
+  "confirmation_directory": "confirmation/",
+  "confirmation_publication_status": "Working release update; raw-payload public deposit is not yet asserted",
+  "reserved_confirmation_outcomes_included": true,
+  "raw_native_deposit": "The original development native-score gap remains described in data/AVAILABILITY.json. Independent confirmation metadata and processed outcomes are included; its raw-payload public status is separate in data/CONFIRMATION_AVAILABILITY.json. Hashes and audit receipts are not the missing payloads.",
   "license": "Author-approved 2026-11-16: CC BY 4.0 data and manuscript; MIT source code. Original historical scope metadata is retained under data/original/supporting_data_archive/.",
   "figure1_points": {
     "qwen": [

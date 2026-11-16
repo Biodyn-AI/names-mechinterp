@@ -1,0 +1,266 @@
+[
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "selfRfield",
+    "expected_answer": "brown",
+    "field": "color",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::color",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::color::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::color::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "selfRfield",
+    "expected_answer": "square",
+    "field": "shape",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::shape",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::shape::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::shape::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "selfRfield",
+    "expected_answer": "bridge",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::home",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::home::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::home::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "primaryDcolor",
+    "expected_answer": "brown",
+    "field": "color",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::color",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::color::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::color::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "primaryDcolor",
+    "expected_answer": "square",
+    "field": "shape",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::shape::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::shape::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "primaryDcolor",
+    "expected_answer": "bridge",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::home",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::home::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::home::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "brown",
+    "field": "color",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::color::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::color::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "square",
+    "field": "shape",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::shape::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::shape::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "frozenDiscoveryMean",
+    "expected_answer": "bridge",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::home::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::home::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "Rcolor",
+    "expected_answer": "brown",
+    "field": "color",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::color",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::color::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:color",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::color::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "Rcolor",
+    "expected_answer": "square",
+    "field": "shape",
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::shape",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::shape::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:shape",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::shape::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "condition": "Rcolor",
+    "expected_answer": "bridge",
+    "field": "home",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::home",
+    "operator_endpoint_id": "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::home::operator",
+    "row_id": "confirmation:035:swap1:distractor:fact:0:home",
+    "step_endpoint_ids": [
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::home::step00",
+      "repair::confirmation:035:swap1:distractor:recipient0::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false,
+    "world_id": "confirmation:035"
+  }
+]

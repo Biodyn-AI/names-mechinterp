@@ -1,0 +1,850 @@
+[
+  {
+    "case_id": "confirmation:005:swap1:coref_1:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:005:swap1:coref_1:fact:1:color",
+      "home": "confirmation:005:swap1:coref_1:fact:1:home",
+      "shape": "confirmation:005:swap1:coref_1:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:005:swap1:coref_1:fact:0:color",
+      "home": "confirmation:005:swap1:coref_1:fact:0:home",
+      "shape": "confirmation:005:swap1:coref_1:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:005:swap1:coref_1:fact:0:shape",
+    "world_id": "confirmation:005",
+    "wrong_object_by_field": {
+      "shape": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:002:swap1:coref_1:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:002:swap1:coref_1:fact:1:color",
+      "home": "confirmation:002:swap1:coref_1:fact:1:home",
+      "shape": "confirmation:002:swap1:coref_1:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:002:swap1:coref_1:fact:0:color",
+      "home": "confirmation:002:swap1:coref_1:fact:0:home",
+      "shape": "confirmation:002:swap1:coref_1:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:002:swap1:coref_1:fact:0:home",
+    "world_id": "confirmation:002",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:028:swap1:distractor:recipient1",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:028:swap1:distractor:fact:0:color",
+      "home": "confirmation:028:swap1:distractor:fact:0:home",
+      "shape": "confirmation:028:swap1:distractor:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "shape",
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:028:swap1:distractor:fact:1:color",
+      "home": "confirmation:028:swap1:distractor:fact:1:home",
+      "shape": "confirmation:028:swap1:distractor:fact:1:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:028:swap1:distractor:fact:1:home",
+    "world_id": "confirmation:028",
+    "wrong_object_by_field": {
+      "home": "C",
+      "shape": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:062:swap1:distractor:recipient0",
+    "correct_object": "C",
+    "donor_row_ids": {
+      "color": "confirmation:062:swap1:distractor:fact:1:color",
+      "home": "confirmation:062:swap1:distractor:fact:1:home",
+      "shape": "confirmation:062:swap1:distractor:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:062:swap1:distractor:fact:0:color",
+      "home": "confirmation:062:swap1:distractor:fact:0:home",
+      "shape": "confirmation:062:swap1:distractor:fact:0:shape"
+    },
+    "reverse_object": "A",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:062:swap1:distractor:fact:0:home",
+    "world_id": "confirmation:062",
+    "wrong_object_by_field": {
+      "home": "A"
+    }
+  },
+  {
+    "case_id": "confirmation:019:swap0:distractor:recipient1",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:019:swap0:distractor:fact:0:color",
+      "home": "confirmation:019:swap0:distractor:fact:0:home",
+      "shape": "confirmation:019:swap0:distractor:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:019:swap0:distractor:fact:1:color",
+      "home": "confirmation:019:swap0:distractor:fact:1:home",
+      "shape": "confirmation:019:swap0:distractor:fact:1:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:019:swap0:distractor:fact:1:home",
+    "world_id": "confirmation:019",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:051:swap0:coref_0:recipient1",
+    "correct_object": "D",
+    "donor_row_ids": {
+      "color": "confirmation:051:swap0:coref_0:fact:0:color",
+      "home": "confirmation:051:swap0:coref_0:fact:0:home",
+      "shape": "confirmation:051:swap0:coref_0:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "color",
+      "shape",
+      "home"
+    ],
+    "protected_correct_fields": [],
+    "recipient_row_ids": {
+      "color": "confirmation:051:swap0:coref_0:fact:1:color",
+      "home": "confirmation:051:swap0:coref_0:fact:1:home",
+      "shape": "confirmation:051:swap0:coref_0:fact:1:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:051:swap0:coref_0:fact:1:color",
+    "world_id": "confirmation:051",
+    "wrong_object_by_field": {
+      "color": "C",
+      "home": "C",
+      "shape": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:029:swap0:none:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:029:swap0:none:fact:1:color",
+      "home": "confirmation:029:swap0:none:fact:1:home",
+      "shape": "confirmation:029:swap0:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color",
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:029:swap0:none:fact:0:color",
+      "home": "confirmation:029:swap0:none:fact:0:home",
+      "shape": "confirmation:029:swap0:none:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:029:swap0:none:fact:0:shape",
+    "world_id": "confirmation:029",
+    "wrong_object_by_field": {
+      "color": "D",
+      "shape": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:011:swap0:coref_1:recipient0",
+    "correct_object": "C",
+    "donor_row_ids": {
+      "color": "confirmation:011:swap0:coref_1:fact:1:color",
+      "home": "confirmation:011:swap0:coref_1:fact:1:home",
+      "shape": "confirmation:011:swap0:coref_1:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:011:swap0:coref_1:fact:0:color",
+      "home": "confirmation:011:swap0:coref_1:fact:0:home",
+      "shape": "confirmation:011:swap0:coref_1:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:011:swap0:coref_1:fact:0:home",
+    "world_id": "confirmation:011",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:055:swap1:coref_1:recipient1",
+    "correct_object": "D",
+    "donor_row_ids": {
+      "color": "confirmation:055:swap1:coref_1:fact:0:color",
+      "home": "confirmation:055:swap1:coref_1:fact:0:home",
+      "shape": "confirmation:055:swap1:coref_1:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:055:swap1:coref_1:fact:1:color",
+      "home": "confirmation:055:swap1:coref_1:fact:1:home",
+      "shape": "confirmation:055:swap1:coref_1:fact:1:shape"
+    },
+    "reverse_object": "A",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:055:swap1:coref_1:fact:1:shape",
+    "world_id": "confirmation:055",
+    "wrong_object_by_field": {
+      "shape": "A"
+    }
+  },
+  {
+    "case_id": "confirmation:009:swap1:coref_0:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:009:swap1:coref_0:fact:1:color",
+      "home": "confirmation:009:swap1:coref_0:fact:1:home",
+      "shape": "confirmation:009:swap1:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:009:swap1:coref_0:fact:0:color",
+      "home": "confirmation:009:swap1:coref_0:fact:0:home",
+      "shape": "confirmation:009:swap1:coref_0:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:009:swap1:coref_0:fact:0:color",
+    "world_id": "confirmation:009",
+    "wrong_object_by_field": {
+      "color": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:038:swap1:none:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:038:swap1:none:fact:1:color",
+      "home": "confirmation:038:swap1:none:fact:1:home",
+      "shape": "confirmation:038:swap1:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:038:swap1:none:fact:0:color",
+      "home": "confirmation:038:swap1:none:fact:0:home",
+      "shape": "confirmation:038:swap1:none:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:038:swap1:none:fact:0:shape",
+    "world_id": "confirmation:038",
+    "wrong_object_by_field": {
+      "shape": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:004:swap1:none:recipient0",
+    "correct_object": "D",
+    "donor_row_ids": {
+      "color": "confirmation:004:swap1:none:fact:1:color",
+      "home": "confirmation:004:swap1:none:fact:1:home",
+      "shape": "confirmation:004:swap1:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color",
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:004:swap1:none:fact:0:color",
+      "home": "confirmation:004:swap1:none:fact:0:home",
+      "shape": "confirmation:004:swap1:none:fact:0:shape"
+    },
+    "reverse_object": "B",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:004:swap1:none:fact:0:shape",
+    "world_id": "confirmation:004",
+    "wrong_object_by_field": {
+      "color": "B",
+      "shape": "B"
+    }
+  },
+  {
+    "case_id": "confirmation:015:swap1:distractor:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:015:swap1:distractor:fact:1:color",
+      "home": "confirmation:015:swap1:distractor:fact:1:home",
+      "shape": "confirmation:015:swap1:distractor:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:015:swap1:distractor:fact:0:color",
+      "home": "confirmation:015:swap1:distractor:fact:0:home",
+      "shape": "confirmation:015:swap1:distractor:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:015:swap1:distractor:fact:0:home",
+    "world_id": "confirmation:015",
+    "wrong_object_by_field": {
+      "home": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:016:swap1:coref_1:recipient1",
+    "correct_object": "D",
+    "donor_row_ids": {
+      "color": "confirmation:016:swap1:coref_1:fact:0:color",
+      "home": "confirmation:016:swap1:coref_1:fact:0:home",
+      "shape": "confirmation:016:swap1:coref_1:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:016:swap1:coref_1:fact:1:color",
+      "home": "confirmation:016:swap1:coref_1:fact:1:home",
+      "shape": "confirmation:016:swap1:coref_1:fact:1:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:016:swap1:coref_1:fact:1:color",
+    "world_id": "confirmation:016",
+    "wrong_object_by_field": {
+      "color": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:054:swap1:coref_0:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:054:swap1:coref_0:fact:1:color",
+      "home": "confirmation:054:swap1:coref_0:fact:1:home",
+      "shape": "confirmation:054:swap1:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:054:swap1:coref_0:fact:0:color",
+      "home": "confirmation:054:swap1:coref_0:fact:0:home",
+      "shape": "confirmation:054:swap1:coref_0:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:054:swap1:coref_0:fact:0:color",
+    "world_id": "confirmation:054",
+    "wrong_object_by_field": {
+      "color": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:058:swap0:none:recipient0",
+    "correct_object": "C",
+    "donor_row_ids": {
+      "color": "confirmation:058:swap0:none:fact:1:color",
+      "home": "confirmation:058:swap0:none:fact:1:home",
+      "shape": "confirmation:058:swap0:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:058:swap0:none:fact:0:color",
+      "home": "confirmation:058:swap0:none:fact:0:home",
+      "shape": "confirmation:058:swap0:none:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:058:swap0:none:fact:0:home",
+    "world_id": "confirmation:058",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:026:swap0:distractor:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:026:swap0:distractor:fact:1:color",
+      "home": "confirmation:026:swap0:distractor:fact:1:home",
+      "shape": "confirmation:026:swap0:distractor:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:026:swap0:distractor:fact:0:color",
+      "home": "confirmation:026:swap0:distractor:fact:0:home",
+      "shape": "confirmation:026:swap0:distractor:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:026:swap0:distractor:fact:0:home",
+    "world_id": "confirmation:026",
+    "wrong_object_by_field": {
+      "home": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:010:swap1:coref_1:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:010:swap1:coref_1:fact:1:color",
+      "home": "confirmation:010:swap1:coref_1:fact:1:home",
+      "shape": "confirmation:010:swap1:coref_1:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color",
+      "shape",
+      "home"
+    ],
+    "protected_correct_fields": [],
+    "recipient_row_ids": {
+      "color": "confirmation:010:swap1:coref_1:fact:0:color",
+      "home": "confirmation:010:swap1:coref_1:fact:0:home",
+      "shape": "confirmation:010:swap1:coref_1:fact:0:shape"
+    },
+    "reverse_object": "C",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:010:swap1:coref_1:fact:0:home",
+    "world_id": "confirmation:010",
+    "wrong_object_by_field": {
+      "color": "C",
+      "home": "C",
+      "shape": "C"
+    }
+  },
+  {
+    "case_id": "confirmation:053:swap1:none:recipient1",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:053:swap1:none:fact:0:color",
+      "home": "confirmation:053:swap1:none:fact:0:home",
+      "shape": "confirmation:053:swap1:none:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:053:swap1:none:fact:1:color",
+      "home": "confirmation:053:swap1:none:fact:1:home",
+      "shape": "confirmation:053:swap1:none:fact:1:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:053:swap1:none:fact:1:home",
+    "world_id": "confirmation:053",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:035:swap1:distractor:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:035:swap1:distractor:fact:1:color",
+      "home": "confirmation:035:swap1:distractor:fact:1:home",
+      "shape": "confirmation:035:swap1:distractor:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "shape",
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:035:swap1:distractor:fact:0:color",
+      "home": "confirmation:035:swap1:distractor:fact:0:home",
+      "shape": "confirmation:035:swap1:distractor:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:035:swap1:distractor:fact:0:shape",
+    "world_id": "confirmation:035",
+    "wrong_object_by_field": {
+      "home": "D",
+      "shape": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:018:swap0:distractor:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:018:swap0:distractor:fact:1:color",
+      "home": "confirmation:018:swap0:distractor:fact:1:home",
+      "shape": "confirmation:018:swap0:distractor:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:018:swap0:distractor:fact:0:color",
+      "home": "confirmation:018:swap0:distractor:fact:0:home",
+      "shape": "confirmation:018:swap0:distractor:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:018:swap0:distractor:fact:0:color",
+    "world_id": "confirmation:018",
+    "wrong_object_by_field": {
+      "color": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:006:swap1:none:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:006:swap1:none:fact:1:color",
+      "home": "confirmation:006:swap1:none:fact:1:home",
+      "shape": "confirmation:006:swap1:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:006:swap1:none:fact:0:color",
+      "home": "confirmation:006:swap1:none:fact:0:home",
+      "shape": "confirmation:006:swap1:none:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:006:swap1:none:fact:0:home",
+    "world_id": "confirmation:006",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:021:swap0:coref_0:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:021:swap0:coref_0:fact:1:color",
+      "home": "confirmation:021:swap0:coref_0:fact:1:home",
+      "shape": "confirmation:021:swap0:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:021:swap0:coref_0:fact:0:color",
+      "home": "confirmation:021:swap0:coref_0:fact:0:home",
+      "shape": "confirmation:021:swap0:coref_0:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:021:swap0:coref_0:fact:0:color",
+    "world_id": "confirmation:021",
+    "wrong_object_by_field": {
+      "color": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:059:swap0:none:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:059:swap0:none:fact:1:color",
+      "home": "confirmation:059:swap0:none:fact:1:home",
+      "shape": "confirmation:059:swap0:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "shape",
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:059:swap0:none:fact:0:color",
+      "home": "confirmation:059:swap0:none:fact:0:home",
+      "shape": "confirmation:059:swap0:none:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:059:swap0:none:fact:0:shape",
+    "world_id": "confirmation:059",
+    "wrong_object_by_field": {
+      "home": "D",
+      "shape": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:042:swap0:none:recipient1",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:042:swap0:none:fact:0:color",
+      "home": "confirmation:042:swap0:none:fact:0:home",
+      "shape": "confirmation:042:swap0:none:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "home"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:042:swap0:none:fact:1:color",
+      "home": "confirmation:042:swap0:none:fact:1:home",
+      "shape": "confirmation:042:swap0:none:fact:1:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:042:swap0:none:fact:1:home",
+    "world_id": "confirmation:042",
+    "wrong_object_by_field": {
+      "home": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:031:swap0:coref_0:recipient1",
+    "correct_object": "C",
+    "donor_row_ids": {
+      "color": "confirmation:031:swap0:coref_0:fact:0:color",
+      "home": "confirmation:031:swap0:coref_0:fact:0:home",
+      "shape": "confirmation:031:swap0:coref_0:fact:0:shape"
+    },
+    "initial_wrong_fields": [
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:031:swap0:coref_0:fact:1:color",
+      "home": "confirmation:031:swap0:coref_0:fact:1:home",
+      "shape": "confirmation:031:swap0:coref_0:fact:1:shape"
+    },
+    "reverse_object": "B",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:031:swap0:coref_0:fact:1:shape",
+    "world_id": "confirmation:031",
+    "wrong_object_by_field": {
+      "shape": "B"
+    }
+  },
+  {
+    "case_id": "confirmation:046:swap1:coref_0:recipient0",
+    "correct_object": "C",
+    "donor_row_ids": {
+      "color": "confirmation:046:swap1:coref_0:fact:1:color",
+      "home": "confirmation:046:swap1:coref_0:fact:1:home",
+      "shape": "confirmation:046:swap1:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:046:swap1:coref_0:fact:0:color",
+      "home": "confirmation:046:swap1:coref_0:fact:0:home",
+      "shape": "confirmation:046:swap1:coref_0:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:046:swap1:coref_0:fact:0:color",
+    "world_id": "confirmation:046",
+    "wrong_object_by_field": {
+      "color": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:032:swap1:none:recipient0",
+    "correct_object": "D",
+    "donor_row_ids": {
+      "color": "confirmation:032:swap1:none:fact:1:color",
+      "home": "confirmation:032:swap1:none:fact:1:home",
+      "shape": "confirmation:032:swap1:none:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color"
+    ],
+    "protected_correct_fields": [
+      "shape",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:032:swap1:none:fact:0:color",
+      "home": "confirmation:032:swap1:none:fact:0:home",
+      "shape": "confirmation:032:swap1:none:fact:0:shape"
+    },
+    "reverse_object": "A",
+    "screen_field": "color",
+    "screen_row_id": "confirmation:032:swap1:none:fact:0:color",
+    "world_id": "confirmation:032",
+    "wrong_object_by_field": {
+      "color": "A"
+    }
+  },
+  {
+    "case_id": "confirmation:044:swap0:coref_0:recipient0",
+    "correct_object": "A",
+    "donor_row_ids": {
+      "color": "confirmation:044:swap0:coref_0:fact:1:color",
+      "home": "confirmation:044:swap0:coref_0:fact:1:home",
+      "shape": "confirmation:044:swap0:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "shape"
+    ],
+    "protected_correct_fields": [
+      "color",
+      "home"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:044:swap0:coref_0:fact:0:color",
+      "home": "confirmation:044:swap0:coref_0:fact:0:home",
+      "shape": "confirmation:044:swap0:coref_0:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "shape",
+    "screen_row_id": "confirmation:044:swap0:coref_0:fact:0:shape",
+    "world_id": "confirmation:044",
+    "wrong_object_by_field": {
+      "shape": "D"
+    }
+  },
+  {
+    "case_id": "confirmation:007:swap0:coref_0:recipient0",
+    "correct_object": "B",
+    "donor_row_ids": {
+      "color": "confirmation:007:swap0:coref_0:fact:1:color",
+      "home": "confirmation:007:swap0:coref_0:fact:1:home",
+      "shape": "confirmation:007:swap0:coref_0:fact:1:shape"
+    },
+    "initial_wrong_fields": [
+      "color",
+      "home"
+    ],
+    "protected_correct_fields": [
+      "shape"
+    ],
+    "recipient_row_ids": {
+      "color": "confirmation:007:swap0:coref_0:fact:0:color",
+      "home": "confirmation:007:swap0:coref_0:fact:0:home",
+      "shape": "confirmation:007:swap0:coref_0:fact:0:shape"
+    },
+    "reverse_object": "D",
+    "screen_field": "home",
+    "screen_row_id": "confirmation:007:swap0:coref_0:fact:0:home",
+    "world_id": "confirmation:007",
+    "wrong_object_by_field": {
+      "color": "D",
+      "home": "D"
+    }
+  }
+]

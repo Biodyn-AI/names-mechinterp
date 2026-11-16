@@ -1,0 +1,815 @@
+{
+  "assessment": {
+    "address_specificity_passed": false,
+    "by_condition": {
+      "Rcolor": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.6111111111111112,
+        "other_listed_wrong": 7,
+        "predicted_target_hits": 11,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 1,
+        "task_correct": 11,
+        "three_field_joint_predicted_worlds": 1,
+        "unconditional_task_accuracy": 0.6111111111111112,
+        "unconditional_task_accuracy_bounds": [
+          0.6111111111111112,
+          0.6111111111111112
+        ]
+      },
+      "cyclicDcolor": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.9444444444444444,
+        "other_listed_wrong": 0,
+        "predicted_target_hits": 1,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 0,
+        "task_correct": 17,
+        "three_field_joint_predicted_worlds": 0,
+        "unconditional_task_accuracy": 0.9444444444444444,
+        "unconditional_task_accuracy_bounds": [
+          0.9444444444444444,
+          0.9444444444444444
+        ]
+      },
+      "frozenDiscoveryMean": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.5555555555555556,
+        "other_listed_wrong": 8,
+        "predicted_target_hits": 10,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 0,
+        "task_correct": 10,
+        "three_field_joint_predicted_worlds": 0,
+        "unconditional_task_accuracy": 0.5555555555555556,
+        "unconditional_task_accuracy_bounds": [
+          0.5555555555555556,
+          0.5555555555555556
+        ]
+      },
+      "primaryDcolor": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.6111111111111112,
+        "other_listed_wrong": 7,
+        "predicted_target_hits": 11,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 1,
+        "task_correct": 11,
+        "three_field_joint_predicted_worlds": 1,
+        "unconditional_task_accuracy": 0.6111111111111112,
+        "unconditional_task_accuracy_bounds": [
+          0.6111111111111112,
+          0.6111111111111112
+        ]
+      },
+      "reverseRscreen": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.9444444444444444,
+        "other_listed_wrong": 0,
+        "predicted_target_hits": 1,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 0,
+        "task_correct": 17,
+        "three_field_joint_predicted_worlds": 0,
+        "unconditional_task_accuracy": 0.9444444444444444,
+        "unconditional_task_accuracy_bounds": [
+          0.9444444444444444,
+          0.9444444444444444
+        ]
+      },
+      "selfRfield": {
+        "intended_fields": 18,
+        "malformed_or_truncated": 0,
+        "observed_fields": 18,
+        "observed_task_accuracy": 0.5555555555555556,
+        "other_listed_wrong": 0,
+        "predicted_target_hits": 18,
+        "protected_damaged": 0,
+        "repaired_initial_errors": 0,
+        "task_correct": 10,
+        "three_field_joint_predicted_worlds": 6,
+        "unconditional_task_accuracy": 0.5555555555555556,
+        "unconditional_task_accuracy_bounds": [
+          0.5555555555555556,
+          0.5555555555555556
+        ]
+      }
+    },
+    "confirmation_calls_authorized": false,
+    "cyclic_success_object_ids": [
+      "D"
+    ],
+    "intended_generations": 108,
+    "intended_worlds": 6,
+    "mechanism_identified": false,
+    "observed_generations": 108,
+    "practical_counts": {
+      "cyclic_hits": 1,
+      "cyclic_success_object_count": 1,
+      "cyclic_worlds": 1,
+      "mean_repaired": 0,
+      "primary_repair_worlds": 1,
+      "primary_repaired": 1,
+      "protected_damaged": 0,
+      "reverse_hits": 1,
+      "reverse_worlds": 1
+    },
+    "practical_status": "evaluated_development_targets_only",
+    "practical_targets": {
+      "cyclic_specific_hits_at_least": 9,
+      "cyclic_success_object_ids_at_least": 2,
+      "cyclic_success_worlds_at_least": 3,
+      "initial_error_repairs_at_least": 4,
+      "protected_damage_at_most": 1,
+      "repair_advantage_over_frozen_mean_at_least": 2,
+      "repair_worlds_at_least": 3,
+      "reverse_specific_hits_at_least": 9,
+      "reverse_success_worlds_at_least": 3
+    },
+    "primary_minus_frozen_mean_task_accuracy": 0.05555555555555555,
+    "repair_replication_passed": false,
+    "scope": "Conditional six-world development validation only. Reverse/cyclic hits are specific newly induced records, not generic damage. Unrelated unpatched aliases are not preservation evidence.",
+    "strong_candidate_passed": false,
+    "unsupported_conditions": []
+  },
+  "baseline": {
+    "donor_correct": 18,
+    "recipient_fields": 18,
+    "recipient_protected": 10,
+    "recipient_wrong": 8
+  },
+  "confirmation_calls": 0,
+  "counterfactual_metric_warning": "Task answers always remain the literal original E. Reverse/cyclic target hits are steering success, not factual accuracy.",
+  "further_studies_authorized": false,
+  "greedy_step_count": 216,
+  "native_forward_count": 360,
+  "natural_count": 36,
+  "operator_count": 108,
+  "oracles": [
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::primaryDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::primaryDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::primaryDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::selfRfield::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::selfRfield::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::selfRfield::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": true
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::Rcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::Rcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::Rcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::reverseRscreen::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::reverseRscreen::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::reverseRscreen::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::color",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::shape",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    },
+    {
+      "first_step_operator_equal": true,
+      "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::home",
+      "max_query_head_drift": 0.0,
+      "self_whole_trajectory_equal": false
+    }
+  ],
+  "scope": "Six conditional development worlds, not 64-world confirmation. Profiles see color; deltas are per-field and frozen across steps at the original query position. No unrelated-alias preservation claim.",
+  "selected_head": {
+    "head_index": 0,
+    "layer_index": 28
+  },
+  "status": "completed_six_world_validation",
+  "unsupported_conditions": []
+}

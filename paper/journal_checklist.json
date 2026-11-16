@@ -1,0 +1,131 @@
+{
+  "journal": "PLOS ONE",
+  "retrieved_date": "2026-11-15",
+  "status": "Draft-preparation checklist; not a submission-ready certification",
+  "sources": {
+    "submission": "https://journals.plos.org/plosone/s/submission-guidelines",
+    "statistics": "https://journals.plos.org/plosone/s/best-practices-in-research-reporting",
+    "data": "https://journals.plos.org/plosone/s/data-availability",
+    "code": "https://journals.plos.org/plosone/s/materials-and-software-sharing",
+    "AI": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "figures": "https://journals.plos.org/plosone/s/figures",
+    "supporting": "https://journals.plos.org/plosone/s/supporting-information",
+    "publication_criteria": "https://journals.plos.org/plosone/s/criteria-for-publication",
+    "authorship": "https://journals.plos.org/plosone/s/authorship",
+    "funding": "https://journals.plos.org/plosone/s/disclosure-of-funding-sources",
+    "interests": "https://journals.plos.org/plosone/s/competing-interests"
+  },
+  "submission_fields": {
+    "source": "submission",
+    "requirements": [
+      "File: unlocked DOCX (DOC/RTF also accepted); English, double-spaced, single-column, at most three heading levels, page numbers, continuous line numbers, no footnotes.",
+      "Titles: full at most 250 characters; short at most 100; sentence case.",
+      "Order: title/authors/affiliations page, abstract, introduction; Methods/Results/Discussion; Acknowledgments, references, supporting captions.",
+      "Abstract: at most 300 words, objectives/method/results, no citations; avoid abbreviations.",
+      "References: numbered square-bracket citations in first-appearance order, Vancouver format; verify current metadata.",
+      "Cover letter: separate, at most one page; contribution, prior work, research-article type, prior PLOS contact, suggested editors, opposed reviewers; fee support elsewhere.",
+      "Tables: editable, inserted after first citation.",
+      "Funding: financial-disclosure submission field only, not manuscript.",
+      "No overall article word or figure-count limit."
+    ]
+  },
+  "statistical_reporting": {
+    "source": "statistics",
+    "policy": [
+      "Describe replicable statistical methods in Methods, software versions, procedures and code identifier.",
+      "Identify independent units versus repeated measurements, design factors, sample-size rationale, exclusions, missing data, randomization and any blinding.",
+      "Explain assumptions, transformations, outlier treatment, selection procedures and multiple-comparison handling where applicable.",
+      "Report numerator/denominator with percentages, defined variability measures, effect sizes and confidence intervals when appropriate.",
+      "For significance tests, state alpha and exact p values when at least 0.001. Supply full fitted regression results as supporting information when applicable.",
+      "Make plot-level observations accessible. Publicly registered protocols need their actual accession/DOI; protocol supplements are allowed."
+    ],
+    "project_specific_actions_not_additional_journal_rules": [
+      "Treat worlds as independent experimental units; do not count repeated questions as independent replications.",
+      "Separate exploratory head selection, later validation and still-unopened confirmation data.",
+      "Label practical go/no-go thresholds as practical criteria, not statistical significance.",
+      "Keep numerical failures, unsupported cases and negative controls visible; describe conditional case selection and small causal cohorts.",
+      "Local dated/hash-sealed plans are not a journal Registered Report or proof of public preregistration."
+    ]
+  },
+  "data_availability": {
+    "source": "data",
+    "policy": [
+      "A Data Availability Statement is required at submission.",
+      "The data and metadata necessary to reproduce every reported finding must be unrestricted and public by publication, absent justified legal/ethical restrictions.",
+      "A suitable public repository is strongly recommended. State its name, real persistent identifiers and available licensing information.",
+      "Accessible supporting data may substitute for repository deposition; use reusable machine-readable formats. Each supporting file must be smaller than 20 MB.",
+      "The policy does not automatically require every unused raw file. Define the finding-reproduction minimum explicitly."
+    ],
+    "project_status": "Private RunPod storage and internal-SSD copies do not constitute public availability. No public deposit or DOI has been verified.",
+    "release_inventory_to_finalize": [
+      "Prompt/world definitions, labels, seeds, counterbalances, tokenization metadata and case IDs.",
+      "All reported natural/intervention outputs, control outcomes and analysis-ready per-world observations.",
+      "Frozen protocols, source manifests, custody/audit receipts and environment/model revision details.",
+      "Native logits/attention/kernel evidence sufficient to reproduce the reported audits and mechanism analyses; document any omitted unused arrays."
+    ],
+    "statement_template_unusable_until_filled": "Data supporting the reported findings are available at [PUBLIC REPOSITORY NAME, REAL PERSISTENT IDENTIFIER, LICENSE]. [Identify separately deposited large reproducibility artifacts and supporting tables.]"
+  },
+  "code_availability": {
+    "source": "code",
+    "policy": "Author-generated code underlying findings is expected to be publicly available without restrictions by publication, reusable and documented. A persistent-ID archive, explicit open-source license, dependency documentation and access instructions in the Data Availability Statement are recommended. Do not conflate recommendations for analysis code with extra requirements for software-as-the-main-contribution articles.",
+    "project_action": "Prepare an immutable, tested release with exact environment/model versions and reproduction commands; choose the license and archive, obtain a real identifier, then replace the placeholder. Review redistribution rights for third-party models/libraries separately.",
+    "placeholder": "[PUBLIC CODE RELEASE URL, COMMIT/RELEASE, PERSISTENT IDENTIFIER, LICENSE]"
+  },
+  "AI_disclosure": {
+    "source": "AI",
+    "policy": "Research/content assistance, including code generation, must be disclosed. Identify tools, affected work and output-validation procedures in Methods or Acknowledgments; figure-related assistance also belongs in relevant legends. AI cannot be an author. Humans retain accountability; language-only editing exemption does not cover this project.",
+    "proposed_statement_for_human_confirmation": "OpenAI Codex [model/version and use dates to confirm] assisted with protocol development, software and tests, automated experiment execution, computational audits, analysis and manuscript drafting. Computational checks included deterministic rescoring, native-output replay, tests and hash-bound provenance records [confirm exact included checks]. [Describe the human authors' actual independent review of code, raw results, references, interpretations and final text.] The listed authors approved the final work and accept responsibility for its accuracy and integrity [confirm before use].",
+    "open_items": [
+      "Confirm exact AI tools/models/versions where recoverable; do not invent a model identity.",
+      "Confirm the full research role and affected figures/supporting files.",
+      "State actual human review, not an unverified claim that humans independently checked everything."
+    ]
+  },
+  "figures": {
+    "source": "figures",
+    "publication_specs": "Final main figures: separate TIFF/EPS files; 300–600 dpi; width 6.68–19.05 cm, height at most 22.23 cm; smaller than 10 MB; Arial/Times/Symbol text 8–12 pt. TIFF: flattened, LZW-compressed, no alpha channel, one page. Use RGB or grayscale. Combine panels per figure.",
+    "captions_and_order": "Match numbered filenames, citations and captions. Put captions after the paragraph of first citation, not inside the figure. Upload each figure separately.",
+    "initial_submission_caveat": "The journal waives figure formatting until provisional Editorial Accept; publication requires compliance.",
+    "project_action": "Export exact data plots and check readability, denominators, units and underlying data links. Illustrative diagrams must not imply stronger causal results than measured."
+  },
+  "supporting_information": {
+    "source": "supporting",
+    "requirements": "Any file type is supported; DOCX is allowed, not mandated. Use whole-number S labels, match filenames and manuscript captions. Captions with item number/name belong at the manuscript end; a short title is recommended. Files are published as supplied without copyediting. In-text supporting citations are recommended, not compulsory or necessarily sequential.",
+    "size_reconciliation": "The dedicated page recommends files below 10 MB; the submission/data pages set a below-20-MB requirement. Target below 10 MB and put large evidence in a public repository.",
+    "project_action": "S1 Appendix.docx is a useful optional package, not a universal journal-required supplement format. Supply reusable data separately rather than only in DOCX tables."
+  },
+  "fit_and_claim_limits": {
+    "source": "publication_criteria",
+    "policy": "Original computational research fits the journal's scope. Negative/null findings are considered, but controls, replication, adequate sampling and conclusions supported by evidence remain necessary. Derivative or replication work needs a sound rationale and explicit relation to existing work. Preprints are allowed; simultaneous submission elsewhere is not.",
+    "project_application": "Frame as a bounded empirical study of alias-dependent retrieval errors and limits of a specified causal intervention. Do not claim discovery of an abstract entity representation, absence of entity coding, or broad mechanistic sufficiency from a small selected head/cohort. Final abstract/result numbers must match completed audit receipts."
+  },
+  "author_confirmations": {
+    "authorship_source": "authorship",
+    "authorship": "Confirm substantial human contributions, approval, accountability, author order and agreed CRediT roles. All corresponding authors need ORCID at submission, authenticated by acceptance; only each author can authenticate. Obtain permission for named acknowledgments.",
+    "author_names": "[AUTHOR NAMES AND ORDER]",
+    "affiliations": "[AFFILIATIONS AND LOCATIONS]",
+    "corresponding_contact": "[CORRESPONDING AUTHOR, EMAIL, ORCID]",
+    "CRediT": "[AUTHOR-APPROVED CONTRIBUTIONS]",
+    "funding_source": "funding",
+    "funding": "[CONFIRM ALL SUPPORT PER AUTHOR, GRANTS, COMPUTE/IN-KIND SUPPORT AND FUNDER ROLE; DO NOT ASSUME NO FUNDING]",
+    "funding_policy": "Every submission needs an online Funding Statement; disclose sources, grant numbers and funder roles, including an explicit no-role statement only if true.",
+    "interests_source": "interests",
+    "competing_interests": "[CONFIRM FINANCIAL AND NONFINANCIAL INTERESTS FOR ALL AUTHORS; DO NOT ASSUME NONE]",
+    "interests_policy": "Disclose relevant potential interests from the past five years and older interests if reasonably perceived as competing.",
+    "ethics_scope": "[CONFIRM SYNTHETIC COMPUTATIONAL STUDY ONLY: NO HUMAN PARTICIPANTS, PERSONAL DATA, ANIMAL WORK OR OTHER APPROVAL-REQUIRING ACTIVITIES; DO NOT INVENT AN ETHICS APPROVAL]",
+    "related_work": "[CONFIRM RELATED MANUSCRIPTS/PREPRINTS AND NO SIMULTANEOUS SUBMISSION]",
+    "publication_costs": "[AUTHOR TO CHECK CURRENT APC, INSTITUTIONAL COVERAGE OR ELIGIBILITY FOR SUPPORT BEFORE SUBMISSION]"
+  },
+  "outstanding_author_actions": [
+    "Review and take responsibility for the science, code, citations, limitations and final text.",
+    "Resolve identity, contribution, funding, interest and AI-use placeholders.",
+    "Authorize and complete an actual public data/code deposit; test anonymous access and replace persistent-ID placeholders.",
+    "Complete final audit reconciliation, file formatting and one-page cover letter review.",
+    "Recheck live journal policies at actual submission; this retrieval records 2026-11-15 requirements."
+  ],
+  "not_authorized_by_this_checklist": [
+    "Journal submission or external correspondence",
+    "Public upload or repository publication",
+    "Fee payment or new cloud resources"
+  ]
+}

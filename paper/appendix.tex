@@ -1,0 +1,245 @@
+% Generated from the official PLOS template version 3.8, April 2026.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage[nopatch=eqnum]{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% color can be used to apply background shading to table cells only
+\usepackage[table]{xcolor}
+
+% array package and thick rules for tables
+\usepackage{array}
+
+% create "+" rule type for thick vertical lines
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+% create \thickcline for thick horizontal lines of variable length
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+% \thickhline command for thick horizontal lines that span the table
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+\usepackage{setspace}
+\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Please use the included `plos2025.bst` as your BibTeX style
+\bibliographystyle{vendor/plos2025}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+%\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+%\setlength{\headheight}{27.023pt}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{16 November 2026}
+
+%% Include all user-defined macros below
+
+\newcommand{\lorem}{\textbf{LOREM}}
+\newcommand{\ipsum}{\textbf{IPSUM}}
+
+%% END MACROS SECTION
+
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\hypersetup{hidelinks}
+\setlength{\emergencystretch}{2em}
+
+
+\begin{document}
+
+\newgeometry{top=0.85in,left=1in,right=1in,footskip=0.75in}
+
+\fancyheadoffset[L]{0in}\fancyfootoffset[L]{0in}
+
+\section*{S1 Appendix}
+
+Detailed methods and audit records
+
+\linenumbers
+
+\section*{S1 Study scope and data construction}
+
+This study concerns explicit fictional registries, not the earlier country-fact experiments or four-world pilots. The new generator froze 32 development worlds and 64 planned confirmation worlds. Only development worlds received model inference. Files named REGISTRATION record local, hash-linked execution freezes, not public preregistration. The additional six-world diagnosis was designed after inspecting failed validation and is not independent confirmation.
+
+
+Each world contains four permanent object IDs, four distinct values for each of color, shape and home, and four alias bindings. Two aliases denote the same object; another denotes a distractor, and a fourth provides context. Nameplates are labels, not permanent IDs. The eight selected alias words were apple, bat, anchor, date, cat, basket, fig and dog. Selection used token geometry in both model tokenizers, without model answers. Lexemes recur across worlds, but complete ordered object-to-value assignments do not.
+
+
+Each world supplies 96 prompts: two equivalent-name orders, four Focus conditions, and twelve probes. These comprise nine factual questions over three aliases, two identity questions, and one registry-status question. Focus is absent, names either equivalent alias, or names an unrelated alias. Name orders exchange the equivalent words across binding-line locations without changing their referent. Across worlds, target-record and alias-line positions, object IDs, semantic name roles, and two wording formats are balanced; not every factor combination is fully crossed. Both models receive the same worlds: 3,072 prompts per model, not 64 independent worlds.
+
+
+\section*{S2 Pinned models, execution and grading}
+
+Models use their pinned tokenizer and chat rendering. Inference uses eager attention, batch size one, float32, disabled TensorFloat-32, one CPU thread, and native full-vocabulary output scores at one position. Answers are generated greedily. Whole decoded answers are normalized for case, whitespace and final punctuation; explanations are not silently cut off. Invalid or extra text remains an error. Causal generation permits eight new tokens and records end-of-sequence termination; none of the final diagnostic answers was truncated.
+
+
+\begingroup\small\setstretch{1.15}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{\dimexpr0.3100\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.6900\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|}
+\hline
+\textbf{Item} & \textbf{Pinned value}\\\hline
+\endfirsthead
+\hline
+\textbf{Item} & \textbf{Pinned value}\\\hline
+\endhead
+Qwen model & Qwen/Qwen3-4B-Instruct-2507; cdbee75f17c01a7cc42f958dc650907174af0554\\\hline
+Phi model & microsoft/Phi-3.5-mini-instruct; 2fe192450127e6a83f7441aef6e3ca586c338b77\\\hline
+Runtime & Python 3.12.15; PyTorch 2.6.0+cu124; CUDA 12.4; NVIDIA A40\\\hline
+Libraries & transformers 5.14.1; tokenizers 0.22.2; numpy 2.5.1; safetensors 0.8.0; huggingface-hub 1.33.0\\\hline
+\end{longtable}
+\endgroup
+
+\section*{S3 Search sequence and the six repair cases}
+
+The exploratory screen first replaced pre-field activations at the end-of-alias marker, before the requested field appeared. It searched 35 layer boundaries and then heads in two selected layers on eight development cases. A separate answer-position routing search used the same eight cases, with field-visible donors. Across all 36 layers and 32 heads, it selected two candidates using correct-versus-wrong record-attention contrasts. Selection used answer labels; the subsequent full four-record profile operation did not. The best candidate, zero-based layer 28, head 0, changed five of eight first-token choices. This is feasibility evidence, not complete-answer repair.
+
+
+Validation fixed that head and used the six remaining eligible development worlds, disjoint from the eight routing cases but already behavior-screened. Eligibility required a correct donor across all three fields and a listed wrong-record recipient answer. There were eight erroneous and ten protected correct recipient field answers. The final decomposition reopened these exact six worlds, keeping the component and cases fixed.
+
+
+\begingroup\small\setstretch{1.15}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{\dimexpr0.1000\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.2500\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.1000\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.2800\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.2700\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|}
+\hline
+\textbf{World} & \textbf{Recipient / donor} & \textbf{Correct ID} & \textbf{Wrong fields $\rightarrow$ wrong ID} & \textbf{Protected fields}\\\hline
+\endfirsthead
+\hline
+\textbf{World} & \textbf{Recipient / donor} & \textbf{Correct ID} & \textbf{Wrong fields $\rightarrow$ wrong ID} & \textbf{Protected fields}\\\hline
+\endhead
+014 & basket / cat & C & home $\rightarrow$ D & color, shape\\\hline
+000 & date / anchor & A & shape, home $\rightarrow$ D & color\\\hline
+006 & basket / cat & C & home $\rightarrow$ D & color, shape\\\hline
+004 & anchor / bat & B & shape, home $\rightarrow$ D & color\\\hline
+029 & anchor / date & C & home $\rightarrow$ D & color, shape\\\hline
+022 & anchor / bat & A & shape $\rightarrow$ B & color, home\\\hline
+\end{longtable}
+\endgroup
+
+\section*{S4 Example prompt and retained input geometry}
+
+The following is the actual unrendered recipient home question for world 014. Token IDs, offsets and the model-specific chat-rendered prompt are retained in decomposition INPUTS.json, row development:014:swap0:coref\_1:fact:1:home. Its answer is castle; the baseline generated market.
+
+
+This registry defines imaginary objects. An ID is permanent and a nameplate is just a label. Resolve a requested alias through its binding, then report the requested field only. Focus marks an alias for attention. Do not add an explanation.\newline Object B has nameplate Cedar, color brown, shape square, and home farm.\newline Object A has nameplate Fir, color red, shape star, and home bridge.\newline Object D has nameplate Elm, color yellow, shape oval, and home market.\newline Object C has nameplate Iris, color white, shape heart, and home castle.\newline Alias fig -> Object B.\newline Alias basket -> Object C.\newline Alias dog -> Object D.\newline Alias cat -> Object C.\newline Status word: ready.\newline [WORLD\_END]\newline Focus alias: basket.\newline [FOCUS\_END]\newline Read Alias basket.\newline [ALIAS\_END]\newline Return its home.\newline Answer:
+
+
+\section*{S5 Nine fixed decomposition operators}
+
+Record mass means summed attention probability over a printed object's record tokens. The profile divides each record's mass by total record attention; the within-record pattern divides each token's weight by its record mass. Four factor conditions retain recipient total record attention. Donor and recipient record value vectors must be bytewise identical. We compute head-output changes before the attention output projection, using float64 coefficients and float32 contractions. Each field-specific change is held fixed at the original answer-query position throughout decoding, not moved to newly generated positions.
+
+
+\begingroup\small\setstretch{1.15}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{\dimexpr0.3100\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.6900\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|}
+\hline
+\textbf{Operator} & \textbf{Change relative to recipient}\\\hline
+\endfirsthead
+\hline
+\textbf{Operator} & \textbf{Change relative to recipient}\\\hline
+\endhead
+Self & Zero change; exact replay control.\\\hline
+Old cross-field profile & Use donor color-question record shares; retain recipient within-record patterns and record total.\\\hline
+Same-field profile & Use same-field donor record shares; retain recipient patterns and total.\\\hline
+Within-record pattern & Use same-field donor token patterns; retain recipient record shares and total.\\\hline
+Profile plus pattern & Use both same-field donor factors; retain recipient record total.\\\hline
+Whole record contribution & Replace the complete attention-weighted contribution of all record tokens, including donor record total.\\\hline
+Nonrecord residual & Replace donor minus recipient remainder after subtracting their record contributions.\\\hline
+Whole donor head & Add donor minus recipient natural head output; comparator, not a performance upper bound.\\\hline
+Matched random & Deterministic random direction matching only the whole-head change's norm, not every factor's dose.\\\hline
+\end{longtable}
+\endgroup
+
+\section*{S6 Frozen criteria, failures and statistical scope}
+
+The original validation required four of eight repairs spanning at least three worlds, at most one damaged protected answer, and at least two more repairs than the frozen discovery-mean profile. Reverse and cyclic interventions each required nine of eighteen specific predicted-record answers across three worlds; cyclic success additionally required two target IDs. The primary profile repaired one error, in world 029. Reverse and cyclic tests each produced one specific hit. All gates failed; no untouched confirmation inference followed.
+
+
+The final nine-condition diagnosis generated 162 answers. Seven new conditions each repaired zero of eight errors; replaying the old profile retained its one repair. Every condition preserved the ten protected answers. This rejects the tested simple repair, not every possible binding mechanism. Saved first-step scores show genuine effects: the old profile improved the correct-minus-fixed-old-wrong canonical-token margin by 6.00 on average, same-field profile by 4.05, and whole-head transfer by 4.21. These are descriptive score changes, not complete-answer accuracy or accepted-variant probability sums.
+
+
+Behavioral intervals resample whole worlds 2,000 times, retaining repeated questions and conditions. They are descriptive development intervals, not confirmation or independent-question tests. Additional wrong-record intervals use retrospective seed 20261115. Predictive comparisons hold out whole-world folds; intervals conditional on saved predictions do not include refitting or model-selection uncertainty.
+
+
+\section*{S7 Numerical audits and source anchors}
+
+Natural head reconstruction and frozen-query drift were bounded by 0.00002; observed query drift was zero. Record profiles require total mass at least 0.0001 and per-record support at least 0.00000001. Full-head reconstruction, record/residual recombination and random-norm checks passed. Thirty-six natural forwards replayed; eighteen self and eighteen old-profile full-answer trajectories matched exactly. Saved tensors reproduced native scores, and independent literal grading agreed. The final run used 360 native forwards. No failed gate, component or dose was changed to obtain success.
+
+
+The stage labels below identify the corresponding records in S1 Data. Twelve-character digest prefixes are navigation aids only. Full original paths, SHA-256 digests and artifact links are retained in S1 Data and the original registration, custody and audit records. These records establish local provenance, not public preregistration or a public data deposit.
+
+
+\begingroup\small\setstretch{1.15}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{\dimexpr0.4000\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.4000\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|>{\raggedright\arraybackslash}p{\dimexpr0.2000\linewidth-2\tabcolsep-2\arrayrulewidth\relax}|}
+\hline
+\textbf{Study stage} & \textbf{Artifact} & \textbf{Digest prefix}\\\hline
+\endfirsthead
+\hline
+\textbf{Study stage} & \textbf{Artifact} & \textbf{Digest prefix}\\\hline
+\endhead
+Behavioral study & REGISTRATION.json & 47d5c22145bc\\\hline
+Routing discovery & REGISTRATION.json & 82a32615da8b\\\hline
+Repair validation & REGISTRATION.json & 52a4738c24c1\\\hline
+Component diagnosis & REGISTRATION.json & b5969b386ffb\\\hline
+Component diagnosis & decomposition/RESULT.json & c468bcf6581e\\\hline
+Component diagnosis & reference-decomposition-20261115-native-audit.json & c6acaae16d52\\\hline
+Component diagnosis & INDEPENDENT\_LITERAL\_AUDIT.json & bec3d76f4104\\\hline
+\end{longtable}
+\endgroup
+
+\end{document}

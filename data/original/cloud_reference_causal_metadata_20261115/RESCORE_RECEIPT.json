@@ -1,0 +1,15 @@
+{
+  "audited_utc": "2026-11-15T12:08:45.988235+00:00",
+  "causal_calls": 0,
+  "confirmation_calls": 0,
+  "custody_sha256": "79c74a7a4dca278b5ac93577590ca2177b10b3de2b8d573fb8e5c9e164165ff5",
+  "exact_match": true,
+  "generations_sha256": "cbd21a3e4f2e5668f5b7c428048986085270a55b550dc49d562114ae25777dcb",
+  "model": "qwen",
+  "native_steps": 6444,
+  "raw_index_sha256": "7286f9b46a3aeef8284bc406de4b7a046e6a84070ded7786612cf87d91e2ee8c",
+  "receipt_source_sha256": "ed3b9f2ad32e48a478f628366091a0ad5a74dee8ad95ea76fdb6b094fd4ecc4c",
+  "registration_sha256": "47d5c22145bca82f1f2dd86b8932d7e8cf0990aa2d2c9a92e8bae24c83407ff5",
+  "result_sha256": "2a7894f1bb833a9d29de8b0c94cf4b2a9c16fc5525d0fb1e61968d52aab76022",
+  "source_manifest_sha256": "f50dd192f98b752acdecb0ada50686ba2205b6b32516c72dadcf1e9f05b95dd0"
+}

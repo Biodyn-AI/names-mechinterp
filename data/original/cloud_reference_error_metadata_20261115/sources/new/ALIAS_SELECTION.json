@@ -1,0 +1,1897 @@
+{
+  "candidate_count": 96,
+  "candidates": [
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "apple"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "apricot"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "avocado"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "banana"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "berry"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "cherry"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "coconut"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "date"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "fig"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "grape"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "guava"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "kiwi"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "lemon"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "melon"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "mango"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        8,
+        7,
+        12,
+        11,
+        11,
+        10,
+        18,
+        17
+      ],
+      "word": "nectarine"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "orange"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "papaya"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "pear"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "peach"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "plum"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "quince"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "raisin"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "raspberry"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "strawberry"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        8,
+        7,
+        12,
+        11,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "tangerine"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "walnut"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "almond"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "cashew"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "peanut"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "pecan"
+    },
+    {
+      "category": "alias_qualification",
+      "category_label": "fruit",
+      "length_signature": [
+        8,
+        7,
+        12,
+        11,
+        11,
+        10,
+        18,
+        17
+      ],
+      "word": "pistachio"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "badger"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "bat"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "beaver"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "bison"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "buffalo"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "camel"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "cat"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        8,
+        7,
+        12,
+        11,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "cheetah"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "cougar"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "coyote"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "deer"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "dog"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "donkey"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "elephant"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "ferret"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "fox"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "gazelle"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "giraffe"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "goat"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "hamster"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "horse"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "hyena"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "jaguar"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        11,
+        10,
+        18,
+        17
+      ],
+      "word": "kangaroo"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "leopard"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "lion"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "llama"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "monkey"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "moose"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "mouse"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "otter"
+    },
+    {
+      "category": "alias_validation",
+      "category_label": "animal",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "panda"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "anchor"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "apron"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "basket"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "bell"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "blanket"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "book"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "bottle"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "bowl"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "box"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "broom"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "brush"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "bucket"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "button"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "candle"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "canvas"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "carpet"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "chain"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "chair"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "clock"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "coat"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "comb"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "compass"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "cup"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "drum"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "flag"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "fork"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "glove"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "hammer"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "hat"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ],
+      "word": "helmet"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ],
+      "word": "jar"
+    },
+    {
+      "category": "alias_test",
+      "category_label": "object",
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ],
+      "word": "kettle"
+    }
+  ],
+  "chosen_group": {
+    "candidates": [
+      {
+        "category": "alias_qualification",
+        "word": "apple"
+      },
+      {
+        "category": "alias_qualification",
+        "word": "date"
+      },
+      {
+        "category": "alias_qualification",
+        "word": "fig"
+      },
+      {
+        "category": "alias_qualification",
+        "word": "orange"
+      },
+      {
+        "category": "alias_validation",
+        "word": "bat"
+      },
+      {
+        "category": "alias_validation",
+        "word": "cat"
+      },
+      {
+        "category": "alias_validation",
+        "word": "dog"
+      },
+      {
+        "category": "alias_validation",
+        "word": "horse"
+      },
+      {
+        "category": "alias_validation",
+        "word": "mouse"
+      },
+      {
+        "category": "alias_test",
+        "word": "anchor"
+      },
+      {
+        "category": "alias_test",
+        "word": "basket"
+      },
+      {
+        "category": "alias_test",
+        "word": "bell"
+      },
+      {
+        "category": "alias_test",
+        "word": "book"
+      },
+      {
+        "category": "alias_test",
+        "word": "box"
+      },
+      {
+        "category": "alias_test",
+        "word": "bucket"
+      },
+      {
+        "category": "alias_test",
+        "word": "button"
+      },
+      {
+        "category": "alias_test",
+        "word": "canvas"
+      },
+      {
+        "category": "alias_test",
+        "word": "chain"
+      },
+      {
+        "category": "alias_test",
+        "word": "chair"
+      },
+      {
+        "category": "alias_test",
+        "word": "clock"
+      },
+      {
+        "category": "alias_test",
+        "word": "coat"
+      },
+      {
+        "category": "alias_test",
+        "word": "comb"
+      },
+      {
+        "category": "alias_test",
+        "word": "cup"
+      },
+      {
+        "category": "alias_test",
+        "word": "drum"
+      },
+      {
+        "category": "alias_test",
+        "word": "flag"
+      },
+      {
+        "category": "alias_test",
+        "word": "fork"
+      },
+      {
+        "category": "alias_test",
+        "word": "hat"
+      },
+      {
+        "category": "alias_test",
+        "word": "jar"
+      }
+    ],
+    "count": 28,
+    "length_signature": [
+      6,
+      5,
+      10,
+      9,
+      8,
+      7,
+      15,
+      14
+    ]
+  },
+  "created_utc_date": "2026-11-14",
+  "eligible_groups": [
+    {
+      "category_counts": {
+        "alias_qualification": 4,
+        "alias_test": 19,
+        "alias_validation": 5
+      },
+      "count": 28,
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ]
+    },
+    {
+      "category_counts": {
+        "alias_qualification": 11,
+        "alias_test": 10,
+        "alias_validation": 9
+      },
+      "count": 30,
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        9,
+        8,
+        16,
+        15
+      ]
+    },
+    {
+      "category_counts": {
+        "alias_qualification": 5,
+        "alias_test": 1,
+        "alias_validation": 3
+      },
+      "count": 9,
+      "length_signature": [
+        6,
+        5,
+        10,
+        9,
+        10,
+        9,
+        17,
+        16
+      ]
+    },
+    {
+      "category_counts": {
+        "alias_qualification": 7,
+        "alias_test": 2,
+        "alias_validation": 10
+      },
+      "count": 19,
+      "length_signature": [
+        7,
+        6,
+        11,
+        10,
+        9,
+        8,
+        16,
+        15
+      ]
+    }
+  ],
+  "limits": [
+    "This receipt checks the declared isolated input frames only. Verify all complete rendered prompts, spans, and donor/recipient alignments before any intervention.",
+    "Input length matching is not a single-token answer guarantee. Use registered full-answer multi-token scoring.",
+    "Category labels retain the source bank names only for provenance; they do not assign different categories to different new-study splits."
+  ],
+  "model_inference_performed": false,
+  "model_outputs_used": false,
+  "rule": {
+    "failure_policy": "If no signature is eligible, report failure; do not use model outputs to select or expand candidates.",
+    "minimum_categories_per_eligible_group": 2,
+    "minimum_eligible_group_size": 8,
+    "required_selected_count": 8,
+    "signature_choice": "Choose the lexicographically smallest length-signature tuple whose group has at least eight words from at least two declared categories.",
+    "within_group_choice": "Round-robin category_order; take the earliest remaining word in each category according to the original declared candidate order; skip exhausted categories; stop after eight words."
+  },
+  "schema": "wrong-object-error-study-alias-tokenizer-selection-v1",
+  "selected": [
+    {
+      "category": "alias_qualification",
+      "word": "apple"
+    },
+    {
+      "category": "alias_validation",
+      "word": "bat"
+    },
+    {
+      "category": "alias_test",
+      "word": "anchor"
+    },
+    {
+      "category": "alias_qualification",
+      "word": "date"
+    },
+    {
+      "category": "alias_validation",
+      "word": "cat"
+    },
+    {
+      "category": "alias_test",
+      "word": "basket"
+    },
+    {
+      "category": "alias_qualification",
+      "word": "fig"
+    },
+    {
+      "category": "alias_validation",
+      "word": "dog"
+    }
+  ],
+  "selection_digest": {
+    "canonical_payload": {
+      "selected": [
+        {
+          "category": "alias_qualification",
+          "word": "apple"
+        },
+        {
+          "category": "alias_validation",
+          "word": "bat"
+        },
+        {
+          "category": "alias_test",
+          "word": "anchor"
+        },
+        {
+          "category": "alias_qualification",
+          "word": "date"
+        },
+        {
+          "category": "alias_validation",
+          "word": "cat"
+        },
+        {
+          "category": "alias_test",
+          "word": "basket"
+        },
+        {
+          "category": "alias_qualification",
+          "word": "fig"
+        },
+        {
+          "category": "alias_validation",
+          "word": "dog"
+        }
+      ],
+      "signature": [
+        6,
+        5,
+        10,
+        9,
+        8,
+        7,
+        15,
+        14
+      ]
+    },
+    "canonical_sha256": "9e07ad87fbe84155350e12f9786d4f4f01b27fc9ee26f074a92bdef86126422d"
+  },
+  "selection_scope": "NEW wrong-object error study only; does not amend or reopen the sealed prior qualification or positive-editing pilot.",
+  "source_candidate_banks": {
+    "banks": {
+      "alias_qualification": [
+        "apple",
+        "apricot",
+        "avocado",
+        "banana",
+        "berry",
+        "cherry",
+        "coconut",
+        "date",
+        "fig",
+        "grape",
+        "guava",
+        "kiwi",
+        "lemon",
+        "melon",
+        "mango",
+        "nectarine",
+        "orange",
+        "papaya",
+        "pear",
+        "peach",
+        "plum",
+        "quince",
+        "raisin",
+        "raspberry",
+        "strawberry",
+        "tangerine",
+        "walnut",
+        "almond",
+        "cashew",
+        "peanut",
+        "pecan",
+        "pistachio"
+      ],
+      "alias_test": [
+        "anchor",
+        "apron",
+        "basket",
+        "bell",
+        "blanket",
+        "book",
+        "bottle",
+        "bowl",
+        "box",
+        "broom",
+        "brush",
+        "bucket",
+        "button",
+        "candle",
+        "canvas",
+        "carpet",
+        "chain",
+        "chair",
+        "clock",
+        "coat",
+        "comb",
+        "compass",
+        "cup",
+        "drum",
+        "flag",
+        "fork",
+        "glove",
+        "hammer",
+        "hat",
+        "helmet",
+        "jar",
+        "kettle"
+      ],
+      "alias_validation": [
+        "badger",
+        "bat",
+        "beaver",
+        "bison",
+        "buffalo",
+        "camel",
+        "cat",
+        "cheetah",
+        "cougar",
+        "coyote",
+        "deer",
+        "dog",
+        "donkey",
+        "elephant",
+        "ferret",
+        "fox",
+        "gazelle",
+        "giraffe",
+        "goat",
+        "hamster",
+        "horse",
+        "hyena",
+        "jaguar",
+        "kangaroo",
+        "leopard",
+        "lion",
+        "llama",
+        "monkey",
+        "moose",
+        "mouse",
+        "otter",
+        "panda"
+      ]
+    },
+    "canonical_json_serialization": "JSON with sorted object keys, comma and colon separators without whitespace, UTF-8, and no trailing newline.",
+    "canonical_sha256": "0c28bbe5419abea857590f12a887c43246624b6978888686fe446be74fafcd11",
+    "category_labels": {
+      "alias_qualification": "fruit",
+      "alias_test": "object",
+      "alias_validation": "animal"
+    },
+    "category_order": [
+      "alias_qualification",
+      "alias_validation",
+      "alias_test"
+    ],
+    "source_file": "e30_15_work/e30_15_protocol.py",
+    "source_file_sha256": "2d0a67563e5de32d5f14e84485a1f1ce5e715819f86476037ceb98e967bc102d"
+  },
+  "tokenization": {
+    "add_special_tokens": false,
+    "frame_order": [
+      "Alias {word} -> Object A.\n",
+      "Focus alias: {word}.\n",
+      "Requested alias: {word}.\n[ALIAS_END]\n",
+      "Read Alias {word}.\n[ALIAS_END]\n"
+    ],
+    "local_files_only": true,
+    "model_order": [
+      {
+        "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "snapshot_subpath": "models--Qwen--Qwen3-4B-Instruct-2507/snapshots/cdbee75f17c01a7cc42f958dc650907174af0554",
+        "tokenizer_config_sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+        "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      {
+        "model_id": "microsoft/Phi-3.5-mini-instruct",
+        "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+        "snapshot_subpath": "models--microsoft--Phi-3.5-mini-instruct/snapshots/2fe192450127e6a83f7441aef6e3ca586c338b77",
+        "tokenizer_config_sha256": "92a6e3f894075fda19f47d8755c6ce65b2a974716307d13ae5d79196011ebb44",
+        "tokenizer_sha256": "9e2ae3d66819f163cdcfedba5078f3a3af8118c2712491ed60912f77886bda6f"
+      }
+    ],
+    "signature_layout": "For each model in model_order, append the token count of each entire rendered frame in frame_order. The signature therefore contains eight integer lengths.",
+    "tokenizers_version": "0.22.2",
+    "transformers_version": "5.14.1",
+    "trust_remote_code": false
+  }
+}

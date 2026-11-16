@@ -1,0 +1,1593 @@
+{
+  "assessment": {
+    "all_fixed_branches_failed": true,
+    "branches_for_possible_new_plan": [],
+    "conditions": {
+      "normMatchedRandomFullHead": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "oldDcolorMass": {
+        "correct": 11,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [
+          "development:029"
+        ],
+        "repaired": 1,
+        "truncated": 0
+      },
+      "sameFieldFullHead": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldMass": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldNonrecordResidual": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldProfileWithin": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldRecordContribution": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldWithinOnly": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "self": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      }
+    },
+    "confirmation_authorized": false,
+    "full_head_beats_matched_random_by_two_repairs": false,
+    "full_head_repair_advantage_over_matched_random": 0,
+    "new_entity_mechanism_established": false,
+    "per_question": [
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": true,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      }
+    ]
+  },
+  "audited_utc": "2026-11-15T15:19:34.194030+00:00",
+  "baseline": {
+    "recipient_protected": 10,
+    "recipient_wrong": 8
+  },
+  "custody_sha256": "de54c4879b30e7806c2a7372ab40e1a6c7c2200b455b569c366c1c639bf64fb5",
+  "generations": 162,
+  "generations_sha256": "5dee6edd0d99c324800f5394ff4693b2cb11d02710556abd5dafce1ce1f99fcd",
+  "independent_literal_whole_answer_audit": true,
+  "independent_worlds": 6,
+  "inputs_sha256": "3c0df04dd69afdcf7ffea73176d2f595aa34f0c4da2c1c7592d13cce81207cf6",
+  "literal_audit_source_sha256": "16931afd1b0002ca76451d4998c7d44c897ae4a0f5453c3f5f7e88d24417501b",
+  "literal_parser_source_sha256": "01b1cd6eaeaea4fa23ad01eecdec8dd74be3338ce22372ca8a673d9e34617de8",
+  "native_proof_claimed": false,
+  "plan_sha256": "8739c1694c09df8bd8be44209f338e148dee5b49f79467722e7a5c1179b791ed",
+  "registration_sha256": "b5969b386ffb7512ffddb6525b8b6ecf6747e8d9791b2d0f9c22cf7c3e36d004",
+  "reported_assessment_match": true,
+  "result_sha256": "c468bcf6581e11ccded7ac1e611bc543f764882646a45e640eb8d9de73e9d77d",
+  "scope": "Printed-registry labels, old baselines, whole-answer metadata and diagnostic counts only. Native argmax/EOS-token, hidden-state and delta proof belongs to the separate anchored CPU audit. Six reopened development worlds are not confirmation.",
+  "source_manifest_sha256": "26edaeb1e9ddab565a3de8316b62cb39b726ffefe6b47c3870cc0bee7a570f9f"
+}

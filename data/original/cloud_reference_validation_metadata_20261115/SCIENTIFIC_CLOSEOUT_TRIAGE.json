@@ -1,0 +1,144 @@
+{
+  "triage_id": "six-world-routing-negative-closeout-20261115-v1",
+  "scope": "Read-only post-result scientific triage. No further experiments, model calls, head selection, threshold changes or confirmation outputs. Discovery was exploratory; six unused development worlds tested the frozen candidate.",
+  "input_sha256": {
+    "PLAN.json": "ea5d8256e18b9cd8f5ab7d5364b0c80609b31b5f4902b9f75dc27e0d8941fc4d",
+    "validation/RESULT.json": "ffadf2f4098bd079542599055c0e8a30898d76754ce60ba25becde047a51cbbb",
+    "validation/GENERATIONS.json": "aa698bacdb6920cff5a80f46aba65babb27fa4518c8cf5b0c5e41d36bca5afb1",
+    "validation/NATURAL_SUMMARIES.json": "4c6136b399ae493709725f5840f5ef527dcdff6e1fa7fe40b0178639c5eaa83f",
+    "validation/SOURCES_SELECTED.json": "a5632df15993def0e42e9edf5909ccf8b9031cd575c81cd8b7728c53eb0f0082",
+    "INDEPENDENT_LITERAL_AUDIT.json": "0fea22a9177447a4d7935b44175a630757c707d7aaf1ee5c51b3924bd4d7537e",
+    "../cloud_reference_routing_metadata_20261115/routing/RESULT.json": "05c26aadaf97283b7a4e3e95fb9013230dc68753dbf14f9c1e9c5b7544707b2d",
+    "../cloud_reference_routing_metadata_20261115/PLAN.json": "0f3383d3aed7f479b837fe446dcd491f9528e48b1b7c7547fcb1e88903109976",
+    "../cloud_reference_routing_metadata_20261115/routing/CAPTURE_SUMMARIES.json": "3660bdeee91b42fa36bf553ed6b24b01c64c21c48e717125e7a243c55884e316",
+    "../cloud_reference_error_metadata_20261115/WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7",
+    "../cloud_reference_error_metadata_20261115/TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "../cloud_reference_error_metadata_20261115/qwen/GENERATIONS.json": "cbd21a3e4f2e5668f5b7c428048986085270a55b550dc49d562114ae25777dcb",
+    "../cloud_reference_error_metadata_20261115/qwen/RESULT.json": "2a7894f1bb833a9d29de8b0c94cf4b2a9c16fc5525d0fb1e61968d52aab76022",
+    "../cloud_reference_error_metadata_20261115/phi/RESULT.json": "86cd5c9a89dacf7f1ccee87a38c9f1645ec6ce4d233eaffc612df399298e7dfa"
+  },
+  "audit_scope": {
+    "literal_audit": "Independent whole-text audit agrees with the saved validation counts and failed practical flags.",
+    "native_rescore_at_triage_creation": "Root reported the final independent CPU native rescore was running. This triage itself does not load all raw native tensors and must not be mistaken for that receipt. Final resource closeout should retain the completed native audit separately.",
+    "reported_runtime_checks": "All 36 natural replays, 108 first-step operator/additive equivalence checks and 18 self whole-generation checks passed. Maximum original-query head drift was zero. All 108 generations ended in exactly two tokens including EOS."
+  },
+  "frozen_candidate": {"layer_index": 28, "head_index": 0},
+  "main_result": {
+    "discovery": {"worlds": 8, "selected_wrong_questions": 8, "primary_first_token_repairs": 5, "endpoint_scope": "First-token success only; no complete-answer repair was established on discovery."},
+    "validation": {"worlds": 6, "initial_wrong_facts": 8, "primary_complete_answer_repairs": 1, "repair_worlds": 1, "protected_correct_facts": 10, "protected_damaged": 0, "primary_correct_all_fields": 11, "all_fields": 18, "frozen_mean_repairs": 0, "Rcolor_repairs": 1},
+    "reverse": {"specific_W_hits": 1, "intended_facts": 18, "worlds_with_hit": 1},
+    "cyclic": {"specific_pi_E_hits": 1, "intended_facts": 18, "worlds_with_hit": 1, "successful_predicted_object_ids": ["D"]},
+    "repair_replication_passed": false,
+    "address_specificity_passed": false,
+    "strong_candidate_passed": false,
+    "decision": "Stop this candidate under the prospectively frozen rules. No head replacement, no new GPU experiments and no 64-world confirmation run."
+  },
+  "discovery_case_outcomes": [
+    {"world": "development:001", "field": "shape", "format": 1, "target": "B", "old_wrong_object": "D", "alias": "bat", "focus": "coref_1", "first_token_repaired": false},
+    {"world": "development:013", "field": "shape", "format": 1, "target": "B", "old_wrong_object": "A", "alias": "dog", "focus": "none", "first_token_repaired": true},
+    {"world": "development:031", "field": "home", "format": 0, "target": "B", "old_wrong_object": "A", "alias": "basket", "focus": "coref_0", "first_token_repaired": true},
+    {"world": "development:027", "field": "shape", "format": 0, "target": "A", "old_wrong_object": "C", "alias": "apple", "focus": "none", "first_token_repaired": false},
+    {"world": "development:016", "field": "home", "format": 1, "target": "B", "old_wrong_object": "D", "alias": "cat", "focus": "none", "first_token_repaired": true},
+    {"world": "development:007", "field": "shape", "format": 0, "target": "D", "old_wrong_object": "C", "alias": "apple", "focus": "distractor", "first_token_repaired": true},
+    {"world": "development:011", "field": "home", "format": 0, "target": "B", "old_wrong_object": "C", "alias": "basket", "focus": "distractor", "first_token_repaired": true},
+    {"world": "development:017", "field": "shape", "format": 0, "target": "B", "old_wrong_object": "A", "alias": "apple", "focus": "coref_1", "first_token_repaired": false}
+  ],
+  "validation_initial_error_outcomes": [
+    {"world": "development:014", "field": "home", "format": 1, "target": "C", "alias": "basket", "focus": "coref_1", "before": "market", "truth": "castle", "after": "market", "repaired": false},
+    {"world": "development:000", "field": "shape", "format": 0, "target": "A", "alias": "date", "focus": "coref_0", "before": "square", "truth": "oval", "after": "square", "repaired": false},
+    {"world": "development:000", "field": "home", "format": 0, "target": "A", "alias": "date", "focus": "coref_0", "before": "market", "truth": "river", "after": "market", "repaired": false},
+    {"world": "development:006", "field": "home", "format": 1, "target": "C", "alias": "basket", "focus": "coref_0", "before": "farm", "truth": "castle", "after": "farm", "repaired": false},
+    {"world": "development:004", "field": "shape", "format": 0, "target": "B", "alias": "anchor", "focus": "coref_0", "before": "triangle", "truth": "heart", "after": "triangle", "repaired": false},
+    {"world": "development:004", "field": "home", "format": 0, "target": "B", "alias": "anchor", "focus": "coref_0", "before": "tower", "truth": "bridge", "after": "tower", "repaired": false},
+    {"world": "development:029", "field": "home", "format": 1, "target": "C", "alias": "anchor", "focus": "coref_0", "before": "forest", "truth": "farm", "after": "farm", "repaired": true},
+    {"world": "development:022", "field": "shape", "format": 0, "target": "A", "alias": "anchor", "focus": "distractor", "before": "diamond", "truth": "circle", "after": "diamond", "repaired": false}
+  ],
+  "descriptive_breakdowns": {
+    "field": {
+      "discovery": {"shape": {"repaired": 2, "count": 5}, "home": {"repaired": 3, "count": 3}},
+      "validation_initial_errors": {"shape": {"repaired": 0, "count": 3}, "home": {"repaired": 1, "count": 5}}
+    },
+    "format": {
+      "discovery": {"0": {"repaired": 3, "count": 5}, "1": {"repaired": 2, "count": 3}},
+      "validation_initial_errors": {"0": {"repaired": 0, "count": 5}, "1": {"repaired": 1, "count": 3}}
+    },
+    "target_object_id": {
+      "discovery": {"A": {"repaired": 0, "count": 1}, "B": {"repaired": 4, "count": 6}, "D": {"repaired": 1, "count": 1}},
+      "validation_initial_errors": {"A": {"repaired": 0, "count": 3}, "B": {"repaired": 0, "count": 2}, "C": {"repaired": 1, "count": 3}},
+      "validation_world_distribution": {"A": 2, "B": 1, "C": 3},
+      "repeated_questions_warning": "The two B errors are from one world, and two of the three A errors are from one world. Do not treat these as independent subgroup samples."
+    },
+    "focus": {
+      "discovery": {"none": {"repaired": 2, "count": 3}, "coref_0": {"repaired": 1, "count": 1}, "coref_1": {"repaired": 0, "count": 2}, "distractor": {"repaired": 2, "count": 2}},
+      "validation_initial_errors": {"coref_0": {"repaired": 1, "count": 6}, "coref_1": {"repaired": 0, "count": 1}, "distractor": {"repaired": 0, "count": 1}}
+    }
+  },
+  "why_no_single_factor_explanation_is_justified": [
+    "Home questions were three-for-three in discovery but one-for-five in validation, so a simple change in the shape/home mixture cannot explain the entire drop.",
+    "B-target repairs fell from four-for-six discovery questions to zero-for-two validation errors. The new C/A-heavy cohort matters as a distribution shift, but ID shift alone is not established as the cause.",
+    "Both formats had discovery successes. Three C/home/format-1 validation cases produced only one repair, so that combination alone does not determine success.",
+    "The alias anchor appears in the sole successful validation case and in three unsuccessful validation errors. Marginal spelling differences do not isolate a causal name effect.",
+    "The head and its eventual winner were selected using discovery data, making discovery performance optimistic. Selection effects, field, ID, wording, Focus, lexical names, fact contents and world-specific margins remain entangled; these small subgroup tables cannot identify which caused nonreplication."
+  ],
+  "attention_signature_vs_causal_control": {
+    "signature": "For the selected head, compare donor-minus-recipient same-field normalized record attention on E versus W, using the prospectively declared score.",
+    "discovery_mean_same_field_contrast": 0.8176672148229369,
+    "validation_mean_same_field_contrast": 0.8330313611115897,
+    "total_record_attention_budget": {
+      "definition": "Sum the four raw record masses before normalizing the within-record profile; this is the record-versus-nonrecord attention budget beta.",
+      "discovery_donor_color": {"mean": 0.8478202923863705, "min": 0.6424502833270154, "max": 0.940673510464352},
+      "validation_donor_color": {"mean": 0.8526058811359594, "min": 0.796652702911814, "max": 0.8929149513326315},
+      "discovery_recipient_screen": {"mean": 0.9488628086583836, "min": 0.880815558786253, "max": 0.9807546282081674},
+      "validation_recipient_screen": {"mean": 0.9583685698759484, "min": 0.9109490971218537, "max": 0.9899196528619467},
+      "discovery_world_totals": [
+        {"world": "development:001", "donor_color": 0.7494634453021831, "recipient_screen": 0.9659308176809631},
+        {"world": "development:013", "donor_color": 0.6424502833270154, "recipient_screen": 0.880815558786253},
+        {"world": "development:031", "donor_color": 0.9212244427956193, "recipient_screen": 0.9807546282081674},
+        {"world": "development:027", "donor_color": 0.8553454732075636, "recipient_screen": 0.9715495302693267},
+        {"world": "development:016", "donor_color": 0.8387678173081525, "recipient_screen": 0.935744892024303},
+        {"world": "development:007", "donor_color": 0.9025316371014966, "recipient_screen": 0.9403030754923947},
+        {"world": "development:011", "donor_color": 0.9321057295845812, "recipient_screen": 0.9716471681716818},
+        {"world": "development:017", "donor_color": 0.940673510464352, "recipient_screen": 0.9441567986339789}
+      ],
+      "validation_world_totals": [
+        {"world": "development:014", "donor_color": 0.8925775002979321, "recipient_screen": 0.9595169661101899},
+        {"world": "development:000", "donor_color": 0.8929149513326315, "recipient_screen": 0.9899196528619467},
+        {"world": "development:006", "donor_color": 0.8191074029304559, "recipient_screen": 0.9541871553998469},
+        {"world": "development:004", "donor_color": 0.8243294874343476, "recipient_screen": 0.9842490910894905},
+        {"world": "development:029", "donor_color": 0.796652702911814, "recipient_screen": 0.9513894566723629},
+        {"world": "development:022", "donor_color": 0.8900532419085749, "recipient_screen": 0.9109490971218537}
+      ],
+      "interpretation": "There is no observed collapse of total record attention in validation; its mean is slightly higher. The intervention deliberately preserves recipient beta, however, so possible joint effects of total access, relative allocation and within-record token patterns were not tested. These remain hypotheses, not established explanations or permission for further computation."
+    },
+    "validation_cases": [
+      {"world": "development:014", "same_field_contrast": 0.778149495267684, "donor_color_E_share": 0.97595223834911, "recipient_screen_total_record_mass": 0.9595169661101899, "primary_profile_L1_change": 0.8366704345474931},
+      {"world": "development:000", "same_field_contrast": 1.660387050371884, "donor_color_E_share": 0.9756476570702998, "recipient_screen_total_record_mass": 0.9899196528619467, "primary_profile_L1_change": 1.9223970814794251},
+      {"world": "development:006", "same_field_contrast": 0.5665171314071014, "donor_color_E_share": 0.9580386935199173, "recipient_screen_total_record_mass": 0.9541871553998469, "primary_profile_L1_change": 0.9859975624134402},
+      {"world": "development:004", "same_field_contrast": 1.0196264840525344, "donor_color_E_share": 0.813041428095943, "recipient_screen_total_record_mass": 0.9842490910894905, "primary_profile_L1_change": 1.6215475463049764},
+      {"world": "development:029", "same_field_contrast": 0.42047627343167715, "donor_color_E_share": 0.8840235592859554, "recipient_screen_total_record_mass": 0.9513894566723629, "primary_profile_L1_change": 1.2208344512464744},
+      {"world": "development:022", "same_field_contrast": 0.5530317321386578, "donor_color_E_share": 0.9180657461757011, "recipient_screen_total_record_mass": 0.9109490971218537, "primary_profile_L1_change": 1.4337990961241693}
+    ],
+    "interpretation": "All six natural attention contrasts remain positive, source color profiles strongly emphasize the correct record, and recipient record mass is substantial. Nevertheless, transferring those profiles rarely repairs answers. The negative result is not simply absence of the selected attention pattern, an unsupported tiny-mass intervention, or a near-zero profile change. Natural record-attention association did not establish broadly sufficient causal control through this one-head interface.",
+    "limits": "This does not prove attention is irrelevant, that no entity information exists, or that no other route could work. Record-position values can mix contextual information; later computation and competing paths are untested explanations, not diagnoses established here. Do not launch a replacement-head search from this closeout."
+  },
+  "control_details": {
+    "primary_and_Rcolor": "All eighteen decoded primary and Rcolor answers are identical. Each repairs only development:029 home. This does not support an alias-exclusive repair route.",
+    "frozen_mean_and_self": "All eighteen decoded frozen-mean and self answers are identical to the old recipient baseline. Their failure to repair is retained, not reclassified as success.",
+    "primary_unchanged_answers": 17,
+    "primary_total_answers": 18,
+    "reverse_only_hit": {"world": "development:004", "field": "shape", "predicted_object": "D", "generated_value": "triangle"},
+    "cyclic_only_hit": {"world": "development:006", "field": "home", "predicted_object": "D", "generated_value": "farm"},
+    "steering_interpretation": "Seventeen of eighteen donor answers remain correct under each steering control. One D-only cyclic hit falls far short of coherent, object-specific content steering. No three-field joint reverse or cyclic success occurred."
+  },
+  "surviving_behavioral_findings": {
+    "qwen": {"independent_worlds": 32, "wrong_object_worlds": 30, "wrong_object_fact_answers": 647, "wrong_object_coref_pairs": 117, "coref_discordance_worlds": 23, "malformed_fact_answers": 0},
+    "phi": {"independent_worlds": 32, "wrong_object_worlds": 26, "wrong_object_fact_answers": 260, "wrong_object_coref_pairs": 69, "coref_discordance_worlds": 14, "malformed_fact_answers": 64},
+    "scope": "Wrong-object selection and co-referring-name inconsistency recur on fresh counterbalanced worlds in two model families. This preserves the behavioral research lead, not a two-model causal mechanism or evidence that each model universally understood identity."
+  },
+  "claim_boundary": "The frozen one-head record-allocation candidate did not meet its practical replication or address-specificity targets. Preserve discovery and negative validation together. Do not claim an abstract entity variable, a general semantic editor, a successful cross-attribute mechanism, global unrelated-alias preservation, or a paper-ready breakthrough from this run.",
+  "future_boundary": "Any later research would need a freshly stated, counterbalanced question separating ID, field, wording and world effects. This closeout proposes no new experiment and authorizes no head fishing, resource creation or confirmation run.",
+  "model_calls_made_for_triage": 0,
+  "confirmation_outputs_read": false,
+  "confirmation_calls_authorized": false,
+  "additional_experiments_authorized": false
+}

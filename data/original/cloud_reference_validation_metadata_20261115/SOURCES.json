@@ -1,0 +1,51 @@
+{
+  "new": {
+    "DESIGN_DRAFT.json": "e1a95f1e92dd521fff371da63dda4fe68910a07d5b29297fc550c3b7d5ad936a",
+    "query_delta_hooks.py": "82409a4a48e655c1e01f147e4cfd651899a7ed46cccbbda438d1d650bb76801e",
+    "test_query_delta_hooks.py": "85432e65370cf6c5540df826f50d02bc64380989532ec0136b487cf0b0298c13",
+    "test_validation_plan.py": "b3642500fc7e0b4ced2efdcaf303f4bc421cae5b91600eeb1f99aa07e2e6a424",
+    "test_validation_run.py": "71808977e102a3767092436ed0efbf46c37033d7890853db714e11477782155e",
+    "validation_plan.py": "67367c646675c2a580006bad54efa9fe520bb31df25a49e5bdb60a6ecaac15b1",
+    "validation_run.py": "28506b7b4771b23999d15c3e0b9f58b12850d240051a60491076ff29dbea6336"
+  },
+  "routing": {
+    "new": {
+      "record_routing_hooks.py": "4fb8d58aec35ae50513873a8730bc4297a980260cdff19470d848d52ad43e8eb",
+      "routing_plan.py": "1d003e04f691ab72faf15ad8b0ec720ab3a2742f973697f9a1898f7bbbef9a35",
+      "routing_run.py": "eab7a2fecde616c773ae36b72cda9bd8201f50bdf49c5f160e08efc4111a7301",
+      "test_actual_qwen_dispatch.py": "48f7ae0c82e307a3e289602c5eb7dc70de366ed5bb904eb30561f85719a0347f",
+      "test_record_routing_hooks.py": "69d17fa9f8877b3432d07e8376f0fc47baa5ef8df208419843d982e933f0296d",
+      "test_routing_plan.py": "f9c30c591d8c1633cb8505f2e3356d298d485aeb58fa1ffa3c8356711cb4a174",
+      "test_routing_run.py": "cf8b2fc6f39ad2c6f02c22cc06fd007fa4fc13cfd8818b654725b17cb21aa9fc"
+    },
+    "old_screen": {
+      "behavior": {
+        "new": {
+          "ALIAS_SELECTION.json": "14b47bfa1ae5771ce7c05b0ac8e3b675373e1a426b5224f857d1ae0121cd6bb6",
+          "error_analysis.py": "23d5b7490605630fbd7a9fbe550fdbbcef6d58b7a7c6eb4626ef2de0e1cd7917",
+          "error_protocol.py": "186e73abf1e541aaa1a23bc7728f3a4ccd61cde95fb319e23bc00e45bf669200",
+          "error_run.py": "da76ad0b554a0c8c760628fb34913a4a369bd8dbc68cf499f6784728a30db0b4",
+          "test_error_analysis.py": "bbb4a44cceda91151ce85d73067181e2659785f0c573d3704254eecab8ef6590",
+          "test_error_protocol.py": "e0a76ea6bc2b6a7c0f2af57810a3ec2f9eb2c64250deb3372b917f94ab73c591",
+          "test_error_run.py": "d04f11830af8b662937c2480dad96f4b29c0ee2a0e7b8540b36d793b99d2b064"
+        },
+        "old": {
+          "e30_14_alignment.py": "6bbcb78358a181796cb6167e7efa2dbdd1318e15eeba449c9b98aa25ecd7f8c9",
+          "e30_14_capture.py": "e607ab1d33ca3cf6ff7bc71a079c9059a5df63e18c81bbcc6074d9df613e42fc",
+          "e30_14_evaluate.py": "de9c7043352a6a5f91fd4317295c4875e8cd3e8b717e7929f57dba51c6a252ac",
+          "e30_14_protocol.py": "f3409161f87b9af842fec450840e1026e0ff8914470af7fc9bb4cec88d1f6613",
+          "e30_14_run.py": "567e40e8c3a6f83dede79aff174ac760fbe806cb8894ff398fdb19ca15a47aa1",
+          "e30_14_summary.py": "78bbcf6e6329e99b7ffbb40518c8ef0bf04cd1c4637e411b4db7248c49203aab"
+        }
+      },
+      "causal": {
+        "causal_plan.py": "60be7d5a6d39b282c8f44c1a6d2be0f1300c92d8e8ffc104c0d3974faaece190",
+        "causal_run.py": "05238d8d595d0c8be93601a1c4f9aad5fcff9180c7b99eafc761b0f61e3be2a7",
+        "prefix_hooks.py": "0e1308f472b39a081d25ab596de367e00be5e2bc4e83607b9d4161a1a8b25f1c",
+        "test_causal_plan.py": "d110bb40d796996027695357ca1f0cd31bbf06ed64ed1ae64d849c379f7c07a4",
+        "test_causal_run.py": "ad7f4c7cd7885bf12fe17c857f99be372bf7934c56217e30e65a6c20a6d43561",
+        "test_prefix_hooks.py": "fd7bd3290fddc59520c0c95100cd75d318d44077be621d4d3da4ff60d912b610"
+      }
+    }
+  }
+}

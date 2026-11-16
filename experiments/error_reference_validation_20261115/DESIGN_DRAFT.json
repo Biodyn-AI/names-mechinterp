@@ -1,0 +1,102 @@
+{
+  "design_id": "six-world-complete-answer-routing-validation-20261115-v1",
+  "status": "Design formalized after the routing discovery result, before any validation calls. The head-selection rule, six-world hash rule, condition destinations and numerical tolerances were fixed in discussion before this formalization; this file is not falsely dated as a pre-discovery registration.",
+  "input_anchors": {
+    "old_marker_PLAN.json": "03fe33f0618336a75d72a66f41b6d9942dfdd38daadaf7a965accf29d6ee788e",
+    "old_behavior_GENERATIONS.json": "cbd21a3e4f2e5668f5b7c428048986085270a55b550dc49d562114ae25777dcb",
+    "old_behavior_TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "old_behavior_WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7"
+  },
+  "entry_gate": "Require exact native rescores for the old behavior and routing discovery, including its passing primary practical gate. Freeze a new registration and remaining budget/deadline before execution. No automatic validation or confirmation calls are authorized by this draft.",
+  "head_freeze": {
+    "rule": "Among discovery heads passing the predefined primary gate, maximize primary-minus-LOOWmean margin gain; break ties by larger primary mean gain, then more newly correct answers, then smaller layer and head indices. Freeze one head only; do not switch heads if validation is unsupported or unsuccessful.",
+    "selected_from_reported_discovery": {"layer_index": 28, "head_index": 0},
+    "must_verify_against_sealed_result_and_rescore": true
+  },
+  "cohort": {
+    "source": "Exactly the six unused eligible development worlds from the old marker plan. Reconstruct all eligibility from the complete old behavior only, not from validation or intervention outcomes.",
+    "selection_seed": "reference-causal-discovery-20261115-v1",
+    "condition_rule": "For each frozen unused world choose the eligible condition minimizing SHA256(canonical JSON [seed, condition, case_id]); choose its screen field using the original [seed, case_id, field] hash. Verify the old first eight cases and the six unused worlds instead of selecting replacements.",
+    "cases": [
+      {"case_id": "development:014:swap0:coref_1:recipient1", "correct_object": "C", "screen_field": "home", "reverse_object": "D", "initial_wrong_fields": ["home"], "protected_correct_fields": ["color", "shape"], "cyclic_object": "D", "reverse_answers": {"color": "yellow", "shape": "oval", "home": "market"}, "cyclic_answers": {"color": "yellow", "shape": "oval", "home": "market"}},
+      {"case_id": "development:000:swap1:coref_0:recipient0", "correct_object": "A", "screen_field": "home", "reverse_object": "D", "initial_wrong_fields": ["shape", "home"], "protected_correct_fields": ["color"], "cyclic_object": "B", "reverse_answers": {"color": "brown", "shape": "square", "home": "market"}, "cyclic_answers": {"color": "red", "shape": "circle", "home": "tower"}},
+      {"case_id": "development:006:swap1:coref_0:recipient0", "correct_object": "C", "screen_field": "home", "reverse_object": "D", "initial_wrong_fields": ["home"], "protected_correct_fields": ["color", "shape"], "cyclic_object": "D", "reverse_answers": {"color": "gray", "shape": "oval", "home": "farm"}, "cyclic_answers": {"color": "gray", "shape": "oval", "home": "farm"}},
+      {"case_id": "development:004:swap0:coref_0:recipient1", "correct_object": "B", "screen_field": "home", "reverse_object": "D", "initial_wrong_fields": ["shape", "home"], "protected_correct_fields": ["color"], "cyclic_object": "C", "reverse_answers": {"color": "green", "shape": "triangle", "home": "tower"}, "cyclic_answers": {"color": "red", "shape": "star", "home": "station"}},
+      {"case_id": "development:029:swap0:coref_0:recipient0", "correct_object": "C", "screen_field": "home", "reverse_object": "D", "initial_wrong_fields": ["home"], "protected_correct_fields": ["color", "shape"], "cyclic_object": "D", "reverse_answers": {"color": "brown", "shape": "square", "home": "forest"}, "cyclic_answers": {"color": "brown", "shape": "square", "home": "forest"}},
+      {"case_id": "development:022:swap0:distractor:recipient1", "correct_object": "A", "screen_field": "shape", "reverse_object": "B", "initial_wrong_fields": ["shape"], "protected_correct_fields": ["color", "home"], "cyclic_object": "B", "reverse_answers": {"color": "white", "shape": "diamond", "home": "station"}, "cyclic_answers": {"color": "white", "shape": "diamond", "home": "station"}}
+    ],
+    "target_distribution": {"A": 2, "B": 1, "C": 3, "D": 0},
+    "baseline_recipient_fact_count": 18,
+    "baseline_recipient_wrong_facts": 8,
+    "protected_recipient_correct_facts": 10,
+    "donor_correct_facts": 18,
+    "interpretation": "These worlds have not been used for intervention selection, but their behavior informed eligibility. They remain conditional development validation, not the untouched 64-world confirmation set."
+  },
+  "frozen_profiles": {
+    "primary": "One natural correct-donor color profile per validation world, reused unchanged across color, shape and home.",
+    "alternative": "One natural recipient-alias color profile per validation world, reused across all fields. In the old frozen six cases every recipient color answer was correct; this is an alternative positive source, not a required negative control.",
+    "reverse": "One natural incorrect recipient screen-field profile per world, reused on all three correct donor-alias queries.",
+    "default_control": "The simple mean of the eight discovery worlds' natural donor-color profiles, keyed by object IDs A-D. Freeze it once for the selected head. Do not recompute a validation-world mean or a validation leave-one-out mean.",
+    "cyclic": "Permute the world's donor-color profile using fixed pi(A)=B, pi(B)=C, pi(C)=D, pi(D)=A: q_cyclic[pi(j)]=q_donor_color[j]. No true/wrong object labels enter this operation.",
+    "self": "Use each recipient field's own native profile. A single screen-field profile reused on other fields would not be a self intervention.",
+    "causal_scope": "The common quantity across attributes is the four-number source profile. The actual additive head delta is recomputed separately for every world, field, condition and destination query. Donors see color; there is no field-blind-state claim."
+  },
+  "conditions": [
+    {"name": "primaryDcolor", "destination": "recipient alias R", "profile": "world donor-color", "prediction": "correct E value for each field"},
+    {"name": "selfRfield", "destination": "recipient alias R", "profile": "that exact recipient field's native profile", "prediction": "exact original entire greedy generation, including mistakes"},
+    {"name": "frozenDiscoveryMean", "destination": "recipient alias R", "profile": "frozen mean of all eight discovery donor-color profiles", "prediction": "default-ID comparison, not a desired-answer oracle"},
+    {"name": "Rcolor", "destination": "recipient alias R", "profile": "world recipient-color", "prediction": "alternative positive cross-field repair; equality with primary does not invalidate allocation causality"},
+    {"name": "reverseRscreen", "destination": "correct donor alias D", "profile": "world recipient's original wrong-screen-field profile", "prediction": "the predeclared W record's color, shape and home values, not generic accuracy loss"},
+    {"name": "cyclicDcolor", "destination": "correct donor alias D", "profile": "fixed cyclic permutation of world donor-color profile", "prediction": "pi(E)'s corresponding three values, newly induced from an originally correct donor baseline"}
+  ],
+  "greedy_intervention": {
+    "first_step": "Use the actual record-mass operator on the complete initial query to compute one native float32 head delta from recipient values. Save full native logits, original head vector, recipient value matrix, old/new record weights, profile and delta.",
+    "equivalence_oracle": "On the same complete initial query, add that saved delta to the corresponding head slice at o_proj input. The complete native logit vector must be bitwise identical to the actual first-step mass-operator vector before generation continues.",
+    "fixed_position": "Let Q=len(original_prompt_ids)-1. On every recomputed greedy step patch this same original Q, not the last generated token. Do not use a cache or teacher-forced answer.",
+    "fixed_delta": "Within a generation, every step uses the identical saved float32 delta with the same hash. Its per-field construction is not repeated using generated answer tokens.",
+    "causal_assumption": "The original query position cannot attend to later generated tokens. However, changing total sequence length can alter FP32 kernel rounding. Do not assume bitwise prefix invariance across shapes.",
+    "drift_oracle": "At every step observe the unpatched selected head vector at original Q before adding delta. Its maximum absolute difference from the first-step natural head vector must be at most 2e-5. Stop on failure; do not relax the threshold or change the site.",
+    "zero_delta": "For self, preserve the exact zero-delta fast path. Require all generated IDs, complete native logits at every step, decoded text, EOS location and truncation status to match the old native generation exactly.",
+    "generation": "Batch one, native float32, eager attention, no TF32, no cache, full-vocabulary greedy argmax, at most eight new tokens including the terminating EOS. Strip only that final EOS; preserve other special tokens. Apply the frozen whole-answer normalization without extracting a first word or ID. No EOS within eight tokens means a truncated error, even if a prefix looks correct."
+  },
+  "support_and_value_checks": {
+    "first_step_values": "For all six natural donor/recipient field queries within each world, require aligned record masks and bitwise equal complete record-V hashes. First-step mass and additive interventions must not replace recipient V values. Changes to later query-state values caused by the intervention are expected, not a violation.",
+    "source_support": "Each newly measured source profile requires total record mass at least 1e-4. Freeze source profiles before examining generated intervention answers.",
+    "recipient_support": "For each world and condition, all three destination fields require total record mass at least 1e-4 and each record mass at least 1e-8 before any three-field claim. Zero desired masses are allowed; zero recipient support is not repaired with epsilon or nudging.",
+    "unsupported": "If ANY condition lacks support on ANY field, stop the ENTIRE six-world validation after its 36 natural captures, before any operator or greedy intervention. Retain per-condition unsupported counts and the supported draft jobs for transparency only. Do not run supported subsets, substitute another world, head or profile, or leave an unsupported field unpatched and call it preserved.",
+    "missing_results": "Report all six intended worlds and all 18 intended fields. If unsupported results prevent exact unconditional rates, report coverage and best/worst bounds rather than publishing only a supported-subset accuracy. Observed supported-only rates may appear separately and must be labeled conditional.",
+    "numerical_failure": "A failed first-step equivalence, fixed-position, fixed-delta, drift or self replay oracle invalidates interpretation of that generation. Preserve partial evidence and distinguish numerical failure from behavioral failure or absence of a mechanism."
+  },
+  "outcomes": {
+    "R_conditions": "For primary, frozen mean and Rcolor report strict complete-answer accuracy across all 18 recipient fields, repair of the eight originally wrong fields, damage among the ten originally correct fields, and paired primary-minus-frozen-mean differences. Self is a numerical control, not repair evidence.",
+    "D_conditions": "For reverse and cyclic conditions, all 18 donor baseline answers were correct. Count exact newly induced W or pi(E) values, unrelated wrong values, correct values and malformed/truncated outputs separately. Generic damage is not successful content steering.",
+    "joint_predictions": "Report each world's three-field joint predicted-record success. The wrong object W is fixed from the original screen field even if another field naturally selected a different object; do not redefine W after outputs.",
+    "scope_of_preservation": "Only already-correct facts for the affected alias are preservation endpoints. Unrelated aliases and untouched questions are not counted as preserved. This is not a global model edit.",
+    "identity_secondary": "Not included in this bounded six-condition plan. Adding identity questions requires a separately frozen explicit extension; untouched identity answers cannot be pooled as intervention successes.",
+    "statistics": "Six whole-world units, with paired field/condition repeats retained within worlds. Report counts and world-level effects; no claim of population safety from a degenerate zero-error bootstrap interval. These six worlds alone cannot establish a paper-ready general mechanism.",
+    "interpretation": "Primary repair above the frozen discovery mean supports context-specific allocation rather than merely a global ID prior. Reverse and cyclic predictions test specific record content. Equal Rcolor effects can support field-dependent retrieval without an alias-exclusive pathway. Failure of the reverse specific-record prediction limits explanation of natural errors even if allocation remains a useful control knob."
+  },
+  "prospective_practical_flags": {
+    "scope": "Frozen before six-world outcomes. Practical development targets only, not significance tests, population inference, or publication readiness. Do not loosen after observing results.",
+    "repair_replication_passed": "Primary corrects at least four of eight initially wrong facts in at least three distinct worlds, damages at most one of ten initially correct facts, and corrects at least two more initial errors than the frozen discovery-mean control.",
+    "address_specificity_passed": "Reverse produces W values on at least nine of eighteen donor facts spanning at least three worlds; cyclic produces pi(E) values on at least nine of eighteen facts spanning at least three worlds; cyclic successes cover at least two predicted object IDs, excluding D-only default behavior.",
+    "strong_candidate_passed": "Both flags above. Even success authorizes no automatic confirmation calls or publication claim.",
+    "world_coverage": "A world counts as represented when at least one corresponding success occurs. Also report all-three-field joint successes separately.",
+    "unsupported_or_numerical_failure": "Flags are not evaluable if the full registered generation grid is unavailable or invalid. Do not equate unsupported routing or failed oracles with a negative behavioral result."
+  },
+  "budget": {
+    "natural_first_step_captures_max": 36,
+    "mass_operator_first_step_oracles_max": 108,
+    "greedy_native_forwards_max": 864,
+    "native_forwards_total_max": 1008,
+    "raw_native_float32_logit_bytes_max": 612605952,
+    "aggregate_output_cap_bytes": 1000000000,
+    "retention": "Persist all native logits. Full all-layer attention rows may be retained only for the 36 natural and 108 first-step operator captures. Greedy replay stores only the targeted prehook/head evidence; do not retain every layer's attention rows on every greedy step.",
+    "prospective_estimate": "About 613 MB logits plus 120 MB first-step attention rows, 10 MB value matrices/operands, and a 64 MiB metadata allowance, leaving margin below one GB. Recompute against actual geometry before registration; stop rather than exceed the cap.",
+    "resources": "No new resource or automatic session authority. Require a fresh registration, deadline inside the existing machine's deletion guard, and sufficient remaining approved compute/storage before execution."
+  },
+  "no_confirmation_authority": "The 64 untouched confirmation worlds remain closed. Any such run needs a separately frozen hypothesis, registration and explicit execution decision after development validation.",
+  "model_calls_made_for_this_design": 0,
+  "execution_authorized": false,
+  "confirmation_calls_authorized": false
+}

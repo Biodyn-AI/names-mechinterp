@@ -1,0 +1,1016 @@
+{
+  "by_field": {
+    "color": {
+      "accuracy": 0.8997395833333334,
+      "correct": 691,
+      "count": 768
+    },
+    "home": {
+      "accuracy": 0.80859375,
+      "correct": 621,
+      "count": 768
+    },
+    "shape": {
+      "accuracy": 0.8697916666666666,
+      "correct": 668,
+      "count": 768
+    }
+  },
+  "by_probe_kind": {
+    "fact": {
+      "accuracy": 0.859375,
+      "correct": 1980,
+      "count": 2304
+    },
+    "identity": {
+      "accuracy": 0.041015625,
+      "correct": 21,
+      "count": 512
+    },
+    "status": {
+      "accuracy": 1.0,
+      "correct": 256,
+      "count": 256
+    }
+  },
+  "by_template": {
+    "0": {
+      "accuracy": 0.7447916666666666,
+      "correct": 1144,
+      "count": 1536
+    },
+    "1": {
+      "accuracy": 0.724609375,
+      "correct": 1113,
+      "count": 1536
+    }
+  },
+  "causal_calls_authorized": false,
+  "confirmation_model_calls_authorized": false,
+  "coreference": {
+    "both_correct": 641,
+    "both_wrong": 40,
+    "different_answers": 97,
+    "discordant_one_correct": 87,
+    "discordant_wrong_object": 69,
+    "first_only_wrong": 34,
+    "pair_count": 768,
+    "second_only_wrong": 53
+  },
+  "cue_match_interpretation": "Overlapping descriptive matches, not causal attribution or a fitted retrieval-mixture explanation.",
+  "cue_matches_on_wrong_object": {
+    "alias_line_record_position": 95,
+    "alias_line_stable_id_ordinal": 76,
+    "first_record": 28,
+    "focus_object": 152,
+    "last_record": 82
+  },
+  "fact_errors": {
+    "unlisted_or_malformed": 64,
+    "wrong_object": 260
+  },
+  "feasibility": {
+    "criteria": {
+      "discordant_coref_pairs_at_least": 24,
+      "discordant_coref_worlds_at_least": 8,
+      "wrong_object_worlds_at_least": 12
+    },
+    "discordant_coref_pairs": 69,
+    "discordant_coref_worlds": 14,
+    "interpretation": "Feasibility, not evidence of novelty or a paper-ready result.",
+    "passed": true,
+    "wrong_object_worlds": 26
+  },
+  "focus_comparisons": {
+    "coref_0": {
+      "changed": 81,
+      "correct_to_wrong": 56,
+      "count": 768,
+      "wrong_to_correct": 14,
+      "wrong_to_different_wrong": 11
+    },
+    "coref_1": {
+      "changed": 76,
+      "correct_to_wrong": 55,
+      "count": 768,
+      "wrong_to_correct": 10,
+      "wrong_to_different_wrong": 11
+    },
+    "distractor": {
+      "changed": 89,
+      "correct_to_wrong": 55,
+      "count": 768,
+      "wrong_to_correct": 11,
+      "wrong_to_different_wrong": 23
+    }
+  },
+  "interval_scope": "Descriptive development bootstrap only. A zero observed rate and degenerate bootstrap interval do not establish a zero population risk or a conservative damage upper bound.",
+  "name_swap_comparisons": {
+    "all_focus_conditions": {
+      "changed": 108,
+      "correct_to_wrong": 26,
+      "count": 1536,
+      "wrong_to_correct": 57,
+      "wrong_to_different_wrong": 25
+    },
+    "no_focus_only": {
+      "changed": 18,
+      "correct_to_wrong": 4,
+      "count": 384,
+      "wrong_to_correct": 13,
+      "wrong_to_different_wrong": 1
+    }
+  },
+  "overall": {
+    "accuracy": 0.7347005208333334,
+    "correct": 2257,
+    "count": 3072
+  },
+  "study_id": "reference-errors-20261114-v1",
+  "world_intervals": {
+    "accuracy": {
+      "ci95": [
+        0.7102864583333334,
+        0.7578206380208333
+      ],
+      "mean": 0.7347005208333334,
+      "resamples": 2000,
+      "unit": "world",
+      "worlds": 32
+    },
+    "coref_discordance": {
+      "ci95": [
+        0.0703125,
+        0.16276041666666666
+      ],
+      "mean": 0.11328125,
+      "resamples": 2000,
+      "unit": "world",
+      "worlds": 32
+    },
+    "fact_accuracy": {
+      "ci95": [
+        0.8276909722222222,
+        0.8893229166666666
+      ],
+      "mean": 0.859375,
+      "resamples": 2000,
+      "unit": "world",
+      "worlds": 32
+    },
+    "identity_accuracy": {
+      "ci95": [
+        0.005859375,
+        0.10161132812499973
+      ],
+      "mean": 0.041015625,
+      "resamples": 2000,
+      "unit": "world",
+      "worlds": 32
+    },
+    "status_accuracy": {
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean": 1.0,
+      "resamples": 2000,
+      "unit": "world",
+      "worlds": 32
+    }
+  },
+  "world_summaries": {
+    "development:000": {
+      "accuracy": {
+        "accuracy": 0.6875,
+        "correct": 66,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 10,
+      "fact_accuracy": {
+        "accuracy": 0.8055555555555556,
+        "correct": 58,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 14,
+      "wrong_object_coref": 10
+    },
+    "development:001": {
+      "accuracy": {
+        "accuracy": 0.7395833333333334,
+        "correct": 71,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 1,
+      "fact_accuracy": {
+        "accuracy": 0.875,
+        "correct": 63,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 9,
+      "wrong_object_coref": 1
+    },
+    "development:002": {
+      "accuracy": {
+        "accuracy": 0.7083333333333334,
+        "correct": 68,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 5,
+      "fact_accuracy": {
+        "accuracy": 0.7916666666666666,
+        "correct": 57,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.1875,
+        "correct": 3,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 11,
+      "wrong_object_coref": 3
+    },
+    "development:003": {
+      "accuracy": {
+        "accuracy": 0.65625,
+        "correct": 63,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 1,
+      "fact_accuracy": {
+        "accuracy": 0.7361111111111112,
+        "correct": 53,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.125,
+        "correct": 2,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 18,
+      "wrong_object_coref": 0
+    },
+    "development:004": {
+      "accuracy": {
+        "accuracy": 0.6145833333333334,
+        "correct": 59,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 7,
+      "fact_accuracy": {
+        "accuracy": 0.7083333333333334,
+        "correct": 51,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 21,
+      "wrong_object_coref": 7
+    },
+    "development:005": {
+      "accuracy": {
+        "accuracy": 0.6875,
+        "correct": 66,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 5,
+      "fact_accuracy": {
+        "accuracy": 0.8055555555555556,
+        "correct": 58,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 13,
+      "wrong_object_coref": 5
+    },
+    "development:006": {
+      "accuracy": {
+        "accuracy": 0.6979166666666666,
+        "correct": 67,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.8055555555555556,
+        "correct": 58,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0625,
+        "correct": 1,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 14,
+      "wrong_object_coref": 0
+    },
+    "development:007": {
+      "accuracy": {
+        "accuracy": 0.7708333333333334,
+        "correct": 74,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.9166666666666666,
+        "correct": 66,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 6,
+      "wrong_object_coref": 0
+    },
+    "development:008": {
+      "accuracy": {
+        "accuracy": 0.6458333333333334,
+        "correct": 62,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 2,
+      "fact_accuracy": {
+        "accuracy": 0.75,
+        "correct": 54,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 3,
+      "wrong_object_coref": 1
+    },
+    "development:009": {
+      "accuracy": {
+        "accuracy": 0.7395833333333334,
+        "correct": 71,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 1,
+      "fact_accuracy": {
+        "accuracy": 0.875,
+        "correct": 63,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 1,
+      "wrong_object_coref": 1
+    },
+    "development:010": {
+      "accuracy": {
+        "accuracy": 0.84375,
+        "correct": 81,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.8333333333333334,
+        "correct": 60,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.8125,
+        "correct": 13,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 12,
+      "wrong_object_coref": 0
+    },
+    "development:011": {
+      "accuracy": {
+        "accuracy": 0.8333333333333334,
+        "correct": 80,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 1.0,
+        "correct": 72,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "development:012": {
+      "accuracy": {
+        "accuracy": 0.7395833333333334,
+        "correct": 71,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 5,
+      "fact_accuracy": {
+        "accuracy": 0.875,
+        "correct": 63,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 9,
+      "wrong_object_coref": 5
+    },
+    "development:013": {
+      "accuracy": {
+        "accuracy": 0.78125,
+        "correct": 75,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.9305555555555556,
+        "correct": 67,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 5,
+      "wrong_object_coref": 0
+    },
+    "development:014": {
+      "accuracy": {
+        "accuracy": 0.8020833333333334,
+        "correct": 77,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.9444444444444444,
+        "correct": 68,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0625,
+        "correct": 1,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 4,
+      "wrong_object_coref": 0
+    },
+    "development:015": {
+      "accuracy": {
+        "accuracy": 0.7604166666666666,
+        "correct": 73,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 5,
+      "fact_accuracy": {
+        "accuracy": 0.9027777777777778,
+        "correct": 65,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 7,
+      "wrong_object_coref": 5
+    },
+    "development:016": {
+      "accuracy": {
+        "accuracy": 0.7291666666666666,
+        "correct": 70,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.8472222222222222,
+        "correct": 61,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0625,
+        "correct": 1,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 11,
+      "wrong_object_coref": 0
+    },
+    "development:017": {
+      "accuracy": {
+        "accuracy": 0.8333333333333334,
+        "correct": 80,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 1.0,
+        "correct": 72,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "development:018": {
+      "accuracy": {
+        "accuracy": 0.5416666666666666,
+        "correct": 52,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 14,
+      "fact_accuracy": {
+        "accuracy": 0.6111111111111112,
+        "correct": 44,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 28,
+      "wrong_object_coref": 14
+    },
+    "development:019": {
+      "accuracy": {
+        "accuracy": 0.71875,
+        "correct": 69,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 2,
+      "fact_accuracy": {
+        "accuracy": 0.8472222222222222,
+        "correct": 61,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 2,
+      "wrong_object_coref": 0
+    },
+    "development:020": {
+      "accuracy": {
+        "accuracy": 0.71875,
+        "correct": 69,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 4,
+      "fact_accuracy": {
+        "accuracy": 0.8472222222222222,
+        "correct": 61,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 11,
+      "wrong_object_coref": 4
+    },
+    "development:021": {
+      "accuracy": {
+        "accuracy": 0.75,
+        "correct": 72,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 4,
+      "fact_accuracy": {
+        "accuracy": 0.8888888888888888,
+        "correct": 64,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 8,
+      "wrong_object_coref": 4
+    },
+    "development:022": {
+      "accuracy": {
+        "accuracy": 0.8229166666666666,
+        "correct": 79,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 1,
+      "fact_accuracy": {
+        "accuracy": 0.9861111111111112,
+        "correct": 71,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 1,
+      "wrong_object_coref": 1
+    },
+    "development:023": {
+      "accuracy": {
+        "accuracy": 0.7083333333333334,
+        "correct": 68,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.8333333333333334,
+        "correct": 60,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 12,
+      "wrong_object_coref": 0
+    },
+    "development:024": {
+      "accuracy": {
+        "accuracy": 0.75,
+        "correct": 72,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 2,
+      "fact_accuracy": {
+        "accuracy": 0.8888888888888888,
+        "correct": 64,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "development:025": {
+      "accuracy": {
+        "accuracy": 0.7708333333333334,
+        "correct": 74,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 6,
+      "fact_accuracy": {
+        "accuracy": 0.9166666666666666,
+        "correct": 66,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "development:026": {
+      "accuracy": {
+        "accuracy": 0.8333333333333334,
+        "correct": 80,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 1.0,
+        "correct": 72,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    },
+    "development:027": {
+      "accuracy": {
+        "accuracy": 0.75,
+        "correct": 72,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 8,
+      "fact_accuracy": {
+        "accuracy": 0.8888888888888888,
+        "correct": 64,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 8,
+      "wrong_object_coref": 8
+    },
+    "development:028": {
+      "accuracy": {
+        "accuracy": 0.65625,
+        "correct": 63,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 3,
+      "fact_accuracy": {
+        "accuracy": 0.7638888888888888,
+        "correct": 55,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 6,
+      "wrong_object_coref": 0
+    },
+    "development:029": {
+      "accuracy": {
+        "accuracy": 0.6666666666666666,
+        "correct": 64,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.7777777777777778,
+        "correct": 56,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 16,
+      "wrong_object_coref": 0
+    },
+    "development:030": {
+      "accuracy": {
+        "accuracy": 0.7291666666666666,
+        "correct": 70,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 0,
+      "fact_accuracy": {
+        "accuracy": 0.8611111111111112,
+        "correct": 62,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 10,
+      "wrong_object_coref": 0
+    },
+    "development:031": {
+      "accuracy": {
+        "accuracy": 0.8229166666666666,
+        "correct": 79,
+        "count": 96
+      },
+      "coref_pairs": 24,
+      "discordant_coref": 1,
+      "fact_accuracy": {
+        "accuracy": 0.9861111111111112,
+        "correct": 71,
+        "count": 72
+      },
+      "identity_accuracy": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "count": 16
+      },
+      "status_accuracy": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "count": 8
+      },
+      "wrong_object": 0,
+      "wrong_object_coref": 0
+    }
+  }
+}

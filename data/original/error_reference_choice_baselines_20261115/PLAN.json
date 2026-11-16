@@ -1,0 +1,13 @@
+{
+  "schema": "expanded-choice-baselines-20261115-v1",
+  "scope": "New predictive analysis of already collected development outputs; no new model inference and no confirmation outcomes.",
+  "reason": "The first eight-cue mixture omitted constant object preferences and middle record positions. Its failure therefore cannot exclude simple retrieval biases.",
+  "unit": "32 independent worlds, repeated questions grouped within world",
+  "folds": "Reuse the original fixed four whole-world folds, fit on 24 and evaluate on 8 worlds.",
+  "models": ["original_global_mixture", "expanded_global_mixture", "expanded_field_mixture", "expanded_field_format_mixture", "field_value_prior", "alias_field_value_prior"],
+  "expanded_components": "Original eight cues plus constant A, B, C, D, second printed record, third printed record.",
+  "value_prior": "Fit output-word frequencies with unit pseudocounts on training worlds only. Score the four currently listed field values plus malformed. Condition on field, or query alias and field, with field fallback for unseen alias groups.",
+  "report": "Held-out probability loss and exact choice prediction, wrong-object conditional metrics, every world, fitted weights and convergence. Paired uncertainty resamples whole worlds, not questions.",
+  "bootstrap": {"seed": 20261115, "replicates": 10000, "interval": "2.5 and 97.5 percentiles of paired world-mean differences"},
+  "interpretation_limit": "Predictive controls are not causal mechanisms. Neither improved prediction nor residual errors alone establish novelty. This is exploratory analysis of previously inspected outcomes, not independent confirmation. No best model is selected for a mechanistic claim."
+}

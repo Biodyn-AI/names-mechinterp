@@ -1,0 +1,11 @@
+{
+  "attention": "eager",
+  "batch_size": 1,
+  "cpu_threads": 1,
+  "cuda": "12.4",
+  "device": "NVIDIA A40",
+  "dtype": "float32",
+  "lm_head_positions": 1,
+  "tf32": false,
+  "torch": "2.6.0+cu124"
+}

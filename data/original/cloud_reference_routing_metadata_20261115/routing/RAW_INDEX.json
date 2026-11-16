@@ -1,0 +1,913 @@
+{
+  "endpoints": {
+    "capture::development:001:swap0:coref_1:recipient1::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:001:swap0:coref_1:recipient1::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:001:swap0:coref_1:recipient1::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:001:swap0:coref_1:recipient1::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:001:swap0:coref_1:recipient1::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:001:swap0:coref_1:recipient1::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:001:swap0:coref_1:recipient1::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:001:swap0:coref_1:recipient1::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:007:swap1:distractor:recipient0::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:007:swap1:distractor:recipient0::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:007:swap1:distractor:recipient0::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:007:swap1:distractor:recipient0::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:007:swap1:distractor:recipient0::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:007:swap1:distractor:recipient0::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:007:swap1:distractor:recipient0::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:007:swap1:distractor:recipient0::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:011:swap1:distractor:recipient0::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:011:swap1:distractor:recipient0::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:011:swap1:distractor:recipient0::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:011:swap1:distractor:recipient0::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:011:swap1:distractor:recipient0::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:011:swap1:distractor:recipient0::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:011:swap1:distractor:recipient0::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:011:swap1:distractor:recipient0::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:013:swap1:none:recipient0::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:013:swap1:none:recipient0::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:013:swap1:none:recipient0::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:013:swap1:none:recipient0::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:013:swap1:none:recipient0::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:013:swap1:none:recipient0::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:013:swap1:none:recipient0::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:013:swap1:none:recipient0::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:016:swap0:none:recipient1::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:016:swap0:none:recipient1::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:016:swap0:none:recipient1::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:016:swap0:none:recipient1::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:016:swap0:none:recipient1::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:016:swap0:none:recipient1::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:016:swap0:none:recipient1::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:016:swap0:none:recipient1::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:017:swap0:coref_1:recipient1::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:017:swap0:coref_1:recipient1::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:017:swap0:coref_1:recipient1::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:017:swap0:coref_1:recipient1::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:017:swap0:coref_1:recipient1::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:017:swap0:coref_1:recipient1::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:017:swap0:coref_1:recipient1::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:017:swap0:coref_1:recipient1::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:027:swap0:none:recipient1::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:027:swap0:none:recipient1::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:027:swap0:none:recipient1::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:027:swap0:none:recipient1::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:027:swap0:none:recipient1::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:027:swap0:none:recipient1::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:027:swap0:none:recipient1::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:027:swap0:none:recipient1::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:031:swap1:coref_0:recipient1::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:031:swap1:coref_0:recipient1::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:031:swap1:coref_0:recipient1::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:031:swap1:coref_0:recipient1::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:031:swap1:coref_0:recipient1::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:031:swap1:coref_0:recipient1::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "capture::development:031:swap1:coref_0:recipient1::Rscreen": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "capture::development:031:swap1:coref_0:recipient1::Rscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:001:swap0:coref_1:recipient1::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:001:swap0:coref_1:recipient1::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:007:swap1:distractor:recipient0::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:007:swap1:distractor:recipient0::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:011:swap1:distractor:recipient0::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:011:swap1:distractor:recipient0::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:013:swap1:none:recipient0::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:013:swap1:none:recipient0::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:016:swap0:none:recipient1::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:016:swap0:none:recipient1::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:017:swap0:coref_1:recipient1::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:017:swap0:coref_1:recipient1::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:027:swap0:none:recipient1::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:027:swap0:none:recipient1::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l28::h00::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l28::h00::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l28::h00::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l28::h00::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l28::h00::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l28::h00::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l28::h00::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l28::h00::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l28::h00::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l28::h00::selfRscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l29::h11::Dcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l29::h11::Dcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l29::h11::Dscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l29::h11::Dscreen",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l29::h11::LOOWmeanDcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l29::h11::LOOWmeanDcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l29::h11::Rcolor": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l29::h11::Rcolor",
+      "shape": [
+        151936
+      ]
+    },
+    "route::development:031:swap1:coref_0:recipient1::l29::h11::selfRscreen": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "route::development:031:swap1:coref_0:recipient1::l29::h11::selfRscreen",
+      "shape": [
+        151936
+      ]
+    }
+  },
+  "schema_version": "e30_14_native_float32_v1",
+  "shards": [
+    {
+      "endpoint_count": 32,
+      "file": "raw-0000.safetensors",
+      "sha256": "c1f7ef30414f026f8be683c6355a06e11a458d5a6fb9699965dd7c780a462970"
+    },
+    {
+      "endpoint_count": 80,
+      "file": "raw-0001.safetensors",
+      "sha256": "96f4513c78a3c7075b79024ef4c249a3301307f348f1ea882b7803ed91a95ef3"
+    }
+  ]
+}

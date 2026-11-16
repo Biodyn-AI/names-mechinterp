@@ -1,0 +1,2594 @@
+[
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::self::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::self::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::self::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::self::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::self::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::self::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::self::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::self::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::self::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::self::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::self::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::self::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::self::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::self::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::self::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::self",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::self::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::self",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::self::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::self",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::self::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::self::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "white",
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead::step00",
+      "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "green",
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "oval",
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead::step00",
+      "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "diamond",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "castle",
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead::step00",
+      "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "blue",
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "heart",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "bridge",
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead::step00",
+      "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "black",
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "triangle",
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "farm",
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead::step00",
+      "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "brown",
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "circle",
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "expected_answer": "river",
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead",
+    "step_endpoint_ids": [
+      "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead::step00",
+      "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead::step01"
+    ],
+    "stop_reason": "eos",
+    "terminated": true,
+    "truncated": false
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "assessment": {
+    "confirmation_calls_authorized": false,
+    "further_validation_authorized": false,
+    "head_results": [
+      {
+        "Rcolor_source_correct_count": 6,
+        "case_count": 8,
+        "head_index": 0,
+        "layer_index": 28,
+        "mean_alias_contrast": 0.8176672148229369,
+        "mean_gains": {
+          "Dcolor": 5.554913756618026,
+          "Dscreen": 3.790092858647528,
+          "LOOWmeanDcolor": 3.513800517371219,
+          "Rcolor": 3.1582513516712374,
+          "selfRscreen": 0.0
+        },
+        "newly_correct": 5,
+        "passed": true,
+        "primary_minus_Dscreen_gain_descriptive": 1.7648208979704978,
+        "primary_minus_LOOWmean_gain": 2.041113239246807,
+        "primary_minus_Rcolor_gain_descriptive": 2.3966624049467886
+      },
+      {
+        "Rcolor_source_correct_count": 6,
+        "case_count": 8,
+        "head_index": 11,
+        "layer_index": 29,
+        "mean_alias_contrast": 0.6987929400427548,
+        "mean_gains": {
+          "Dcolor": 2.13543576130427,
+          "Dscreen": 1.6834869469542166,
+          "LOOWmeanDcolor": 1.0347363240325196,
+          "Rcolor": 0.8629836532632238,
+          "selfRscreen": 0.0
+        },
+        "newly_correct": 4,
+        "passed": true,
+        "primary_minus_Dscreen_gain_descriptive": 0.4519488143500534,
+        "primary_minus_LOOWmean_gain": 1.1006994372717505,
+        "primary_minus_Rcolor_gain_descriptive": 1.2724521080410462
+      }
+    ],
+    "passed": true,
+    "scope": "Development first-token feasibility only, not complete-answer repair or confirmation."
+  },
+  "audited_utc": "2026-11-15T13:48:35.782433+00:00",
+  "capture_summaries_sha256": "3660bdeee91b42fa36bf553ed6b24b01c64c21c48e717125e7a243c55884e316",
+  "confirmation_calls": 0,
+  "counts_sha256": "fc5a1c13a9958249e3c423b893c2257788351761763d655ad872da78a5dd701d",
+  "custody_sha256": "c88be9ba6bdb3cf9a36b6b68decd84a79b00ef8241b05d8d78712c94f8bc9491",
+  "exact_match": true,
+  "further_validation_authorized": false,
+  "inputs_sha256": "c6eaa0fcb60b70281af270ca80baf9c24e19d76afe19d87f609543c8b59ec908",
+  "interventions_sha256": "b4e9aeebe373146837f69a193360ed97a322e44e2bff70a852d1971ec84ac1cb",
+  "native_forward_count": 112,
+  "natural_sha256": "cc13cc84640966b8508e6e7df6c8040caab2fdc3d571d44e395e59c6eb5fbfe3",
+  "plan_sha256": "0f3383d3aed7f479b837fe446dcd491f9528e48b1b7c7547fcb1e88903109976",
+  "raw_index_sha256": "e849e710024a9801ac1c4e855052ba928ebc79dfa54974942bf6993e9bc6d452",
+  "receipt_source_sha256": "3f7a47d862a5a29c602c5c7a94061d30a8b714bf6aa864902ce7b88d87bf3b3d",
+  "registration_sha256": "82a32615da8bc6794c9e849ede3c5ef24d96db37ae45a3c1fff3d988c6314021",
+  "result_sha256": "05c26aadaf97283b7a4e3e95fb9013230dc68753dbf14f9c1e9c5b7544707b2d",
+  "selected_plan_sha256": "355f5b8375e16c346e13fa15665b021146cfa4191b1d0629f721995a68480898",
+  "source_manifest_sha256": "c75371035726eb615f8ab03d6205e001ab3639014524b74514d64a5c5c609f12",
+  "status": "completed_routing_discovery"
+}

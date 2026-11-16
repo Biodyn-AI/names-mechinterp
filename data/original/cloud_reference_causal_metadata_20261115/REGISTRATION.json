@@ -1,0 +1,34 @@
+{
+  "behavior_root": "/workspace/fundamental-mechinterp/runs/reference_errors_development_20261115_v1",
+  "behavior_source_root": "/workspace/fundamental-mechinterp/reference_error_source_20261115/error_reference_study_20261114",
+  "confirmation_calls_authorized": false,
+  "execution_scope": {
+    "attention": "eager",
+    "batch_size": 1,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "lm_head_positions": 1,
+    "tf32": false
+  },
+  "input_sha256": {
+    "INPUTS.json": "18c1d5858103fd75a8762236355e9f2979c9d7b8a95d17d960086865dfe2e2b2",
+    "PLAN.json": "03fe33f0618336a75d72a66f41b6d9942dfdd38daadaf7a965accf29d6ee788e",
+    "RESCORE_RECEIPT.json": "284f62440b91e3b3632a44e5cb088c74bada57334627149fa8605bff83862eff",
+    "SOURCES.json": "e0e546a2764b79db397260044af58a61e89b93df2e75f6c747cc77ba056b1acf"
+  },
+  "model": "qwen",
+  "oracle_tolerance": 0.0002,
+  "python_version": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "raw_cap_bytes": 1000000000,
+  "runtime_python": "/workspace/runtime/e30_13/bin/python",
+  "runtime_versions": {
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.5.1",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.6.0+cu124",
+    "transformers": "5.14.1"
+  },
+  "stage": "development_first_token_screen_only",
+  "verified_rescore_path": "/workspace/runtime/reference-errors-20261115-qwen-native-audit.json"
+}

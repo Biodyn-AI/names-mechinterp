@@ -1,0 +1,99 @@
+{
+  "design_id": "conditional-routing-disambiguation-20261115-v1",
+  "status": "Prospective design only, not an executable plan or a change to the registered discovery screen.",
+  "conditional_on": "The current screen first identifies a meaningful, numerically validated head candidate. If it finds no candidate, do not run this design or expand the search to rescue it.",
+  "current_registered_python_files_modified": false,
+  "new_model_calls_authorized": false,
+  "confirmation_calls_authorized": false,
+  "intervention_outcomes_seen_when_designed": false,
+  "central_validity_problem": {
+    "shared_past": "Original donor and recipient prefixes contain exactly the same complete registry and differ only in the requested alias word and its later query tokens.",
+    "causal_consequence": "Every record-token value vector before that changed query word should be identical. Binding-line value vectors are also shared in this original comparison. Only the changed query token and subsequent prefix positions can have different values.",
+    "factorization_limit": "Donor attention weights multiplied by recipient values can consequently approximate the full donor head almost by construction; recipient weights multiplied by donor values may be null because almost all values were already identical. This alone does not identify an entity variable or establish an address-selection mechanism.",
+    "pre_field_limit": "A donor captured before the requested field cannot copy that particular requested answer. It can still carry a bundle of facts or a lexical query-name signal."
+  },
+  "prospective_entry_checks": {
+    "registered_screen": "Require a completed, independently rescored screen with passed clean and self-replacement oracles and at least one head selected under its existing positive-gain rule. Do not change the existing screen's stopping rule.",
+    "meaningful_beyond_roundoff": "Before a new stage is registered, require its selected candidate's mean margin gain to exceed ten times the maximum observed clean/self native-logit discrepancy, with positive gains beyond that same bound in at least four of the eight screened worlds. This is an engineering feasibility check, not a significance or novelty test.",
+    "no_additional_search": "Use the already selected head or prespecified at-most-two-head set. Do not choose new heads, source regions, doses or cases after seeing these new intervention outcomes.",
+    "scope": "All eight worlds are development cases. Their results can refine an explanation but cannot become held-out confirmation."
+  },
+  "token_regions": {
+    "definition_method": "Define character spans from the registry generator, then freeze tokenizer-offset-based position sets before forwarding the new prompts. Tokens crossing region boundaries form a separate boundary region rather than being silently assigned to a preferred object.",
+    "regions": [
+      "the correct object's complete record line E",
+      "the screen field's preregistered wrong object's complete record line W",
+      "the other two object record lines, separately",
+      "alias-binding name tokens",
+      "alias-binding target-ID tokens and remaining binding-line tokens",
+      "Focus, status, instructions and boundary tokens",
+      "the requested query alias and subsequent pre-field query/marker tokens"
+    ],
+    "semantic_caution": "A token situated in object E's record can already contain information about earlier records. Region attribution identifies a source-position contribution, not proof that its value vector contains only E's information."
+  },
+  "stage_one_exact_region_decomposition": {
+    "head_output": "At ALIAS_END, write the head's pre-output-projection vector as z = sum_i a_i V_i. Use the actual selected query head's grouped-value mapping and native eager-attention weights.",
+    "region_delta": "For each frozen source region R, compute delta_R = sum_{i in R}(a_donor_i V_donor_i - a_recipient_i V_recipient_i). Across all regions, these deltas must reconstruct the complete donor-minus-recipient head vector.",
+    "tests": [
+      "Full donor head replacement, as the reference effect.",
+      "Only the E-and-W record contribution delta, leaving all other recipient contributions unchanged.",
+      "Only the binding-name contribution delta versus only binding-ID/remaining-binding contributions.",
+      "Only the changed-query-tail contribution delta.",
+      "Full donor replacement with the E-and-W record delta removed, testing whether that region is required for the full donor intervention's effect.",
+      "Self reconstruction and norm-matched random-vector controls, with doses derived from the natural deltas rather than tuned on outcomes."
+    ],
+    "interpretation": "These are additive activation-component interventions, not necessarily normalized attention distributions. Nonlinear downstream effects need not sum across regions. Sufficiency or necessity here concerns this particular donor intervention, not every natural route used by the model.",
+    "decision": "If query-tail or binding-name contributions account for the effect and record contrasts do not, do not label the head an object-record selector. Preserve that negative result."
+  },
+  "stage_two_probability_valid_E_W_mass_test": {
+    "purpose": "Change only allocation between the two prespecified object-record address regions, without changing query-self attention, other source regions, total E-plus-W attention mass, or stored value vectors.",
+    "recipient_masses": "m_E = sum_{i in E} a_recipient_i; m_W = sum_{i in W} a_recipient_i; M = m_E + m_W.",
+    "donor_ratio": "q = sum_{i in E} a_donor_i / sum_{i in E union W} a_donor_i.",
+    "replacement": "For i in E, set a_prime_i = M*q*a_recipient_i/m_E. For i in W, set a_prime_i = M*(1-q)*a_recipient_i/m_W. Outside E union W, copy a_recipient_i unchanged. Compute z_prime = sum_i a_prime_i V_recipient_i and replace only this head at ALIAS_END.",
+    "preserved": [
+      "All recipient V vectors, including query and binding-line vectors.",
+      "Every attention weight outside E and W, bitwise unchanged in the constructed distribution.",
+      "Total E-plus-W mass, within the fixed numeric tolerance.",
+      "The recipient's relative weight pattern inside each record, within the fixed numeric tolerance.",
+      "All other heads and positions."
+    ],
+    "zero_mass_policy": "If either recipient record mass is exactly zero, or donor E-plus-W mass is exactly zero, the ratio intervention is undefined. Record the case as unsupported; do not add epsilon, nudge logits, insert uniform weights, change regions or drop it from the unconditional denominator. An aggregate route claim must report supported and unsupported case counts.",
+    "small_positive_mass_policy": "Sum and divide the captured probabilities in float64, without pseudocounts, then cast once to the model's native float32. If representability or normalization checks fail, record a numerical failure and stop interpreting that case; do not tune a mass floor after seeing outcomes.",
+    "zero_resulting_mass_policy": "A donor ratio of exactly zero or one is valid if its joint E-plus-W mass is positive. The resulting zero-allocation record has all weights zero. Verify the declared multiplicative weight formula directly; do not divide by the new zero mass to check a conditional within-record distribution.",
+    "reverse_test": "Use the incorrect source's E-to-W allocation ratio in the originally correct co-referring query, keeping that query's values and nonrecord attention unchanged. Predict the same prespecified W record's color, shape and home values, not whichever wrong answer happens to appear."
+  },
+  "stage_three_constant_spelling_binding_counterfactual": {
+    "factorial_cells": [
+      "Query alias X; both X and Y bind to E.",
+      "Query alias Y; both X and Y bind to E.",
+      "Query alias X; both X and Y bind to W.",
+      "Query alias Y; both X and Y bind to W."
+    ],
+    "fixed": "Keep every record line, record order, fact value, nameplate, query spelling within each binding contrast, and unrelated alias binding unchanged. Change only the two co-referring aliases' target-ID tokens in their binding lines. Those lines occur after all object records.",
+    "why_nontrivial": "Binding target can change while query spelling stays constant. Since binding edits follow the records, record V vectors must remain exactly fixed. The test asks whether the selected head follows a contextual binding rather than merely reacting differently to X and Y.",
+    "geometry_gate": "All four prefixes must have identical token counts and aligned record and marker positions under the pinned tokenizer. If the declared ID substitutions break geometry, fail the contrast; do not search alternative symbols after observing behavior.",
+    "Focus_control": "Freeze an explicit no-Focus setting for this additional factorial diagnostic before new calls, avoiding changes in the referent of a highlighted co-referring alias as an unacknowledged cue. This is a new diagnostic, not a replacement for the original frozen screen cases or its error rates.",
+    "natural_behavior": "Measure all four cells on every future field before interpreting interventions. Do not retain only cells in which the model happened to answer correctly. If the model does not follow the rebinding, do not assert that the head tracks the intended referent.",
+    "causal_test": "Apply the same E-to-W record-mass allocation intervention while holding query spelling fixed and using the unchanged recipient values. Require the particular record predictions across color, shape and home. Query-name-only changes and binding-target-only changes must be reported separately.",
+    "coherent_record_prediction": "E and W are fixed from the original correct target and the originally screened wrong field. Even if natural errors select different objects for different fields, reverse answers are prospectively W's corresponding three values. Failure of this prediction rejects the shared-wrong-record account rather than redefining W per field."
+  },
+  "numeric_and_custody_checks": {
+    "runtime": "Frozen pinned model and tokenizer; native float32, batch one, evaluation mode, eager attention, no cache, no TF32. Strict pre-field prefix captures only.",
+    "record_value_invariance": "Use bitwise tensor equality for every record-token V vector across original query-name contrasts and the constant-record binding counterfactuals. If equality fails, stop the shared-V interpretation and diagnose the capture or deterministic execution; do not silently substitute an approximate-invariance claim.",
+    "native_head_reconstruction": "Reconstructed recipient and donor head outputs must satisfy absolute tolerance 1e-6 and relative tolerance 1e-5 against their captured native head vectors. Preserve failures rather than tuning tolerances after outcomes.",
+    "region_delta_reconstruction": "The sum of the complete frozen region deltas must reconstruct the native donor-minus-recipient head vector under the same 1e-6 absolute and 1e-5 relative tolerances.",
+    "probabilities": "Require finite nonnegative probabilities; original and constructed row sums must differ from one by no more than 1e-6. E-plus-W mass and the declared within-record multiplicative scaling formula use absolute tolerance 1e-6 and relative tolerance 1e-5. Never divide by a new zero region mass. Outside-region weights must be bitwise identical.",
+    "self_forward_oracles": "Require per-case clean and self-reconstructed forwards to match the original native logits with maximum absolute discrepancy no greater than 2e-4. A failed oracle invalidates interpretation; it is not a behavioral no-go or permission to choose different cases.",
+    "outputs": "Store complete native full-vocabulary logits for every endpoint, all pre-field weights and value vectors used to construct interventions, exact operand hashes, prefix tokens, region positions, and generated answers with explicit termination metadata. First-token margin evidence must not be described as complete-answer repair."
+  },
+  "preservation_limits": "For query-time interventions, report already-correct fields and identity of the affected alias. Unrelated queries left unpatched are not preservation evidence. A global repair claim would require one frozen routing-rule change applied across queries and separately tested.",
+  "baseline_and_novelty_limits": [
+    "The current development errors strongly favor object IDs C and D. Keep absolute-ID priors, field-dependent and wording-dependent retrieval mixtures, alias-line position, record position and Focus as competing accounts.",
+    "Probability-valid record-mass steering and rebinding-sensitive attention are already close to established retrieval mechanisms. Success would identify a particular causal route, not automatically establish a novel general principle.",
+    "An attention head reading a contextual identifier is not by itself an abstract entity representation. Four literal object IDs do not establish invariance to arbitrary identifiers, record formats, lexical names or model families.",
+    "Freeze a quantitative account and predictions using development only, then evaluate unchanged on untouched worlds. Do not claim known accounts are ruled out merely because the existing global eight-cue mixture is weak."
+  ],
+  "execution_prerequisites": "Prepare a separate future-stage registration with exact conditions, endpoint counts, numeric checks, raw-data cap, deadline and remaining approved compute budget. Audit it before model calls. This JSON authorizes no execution and does not modify the current registered Python source manifest.",
+  "model_calls_made": 0,
+  "confirmation_outputs_read": false
+}

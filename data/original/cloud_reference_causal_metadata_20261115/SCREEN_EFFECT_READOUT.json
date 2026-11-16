@@ -1,0 +1,1481 @@
+{
+  "all_screen_argmax_changes": {
+    "head": {
+      "argmax_changed_count": 1,
+      "cases_with_any_argmax_change": [
+        "development:016:swap0:none:recipient1"
+      ],
+      "job_count": 512
+    },
+    "layer": {
+      "argmax_changed_count": 4,
+      "cases_with_any_argmax_change": [
+        "development:016:swap0:none:recipient1"
+      ],
+      "job_count": 280
+    }
+  },
+  "caveats": [
+    "Layer/head selection and measurement reuse the same eight development worlds; selection bias remains and maxima are not confirmation.",
+    "A correct first token or a token flip does not establish a completed-answer repair, preservation, reverse induction or a new mechanism.",
+    "Correct-label probability sums every frozen whole-label accepted token ID over the complete native vocabulary using CPU float64 softmax.",
+    "An argmax token that is not a complete listed label remains unclassified; it is not silently treated as a completed wrong-object answer."
+  ],
+  "complete_answer_repair_established": false,
+  "input_hash_anchors": {
+    "custody_sha256": "ad3ff300b2611ee29efc2f4237afac6218d7b60888b2bd33c1a9d31924a7fd42",
+    "readout_source_sha256": "704ad350d9b18908543ccab92d458189336b953d128013ee427e09a6da876d16",
+    "registered_inputs": {
+      "INPUTS.json": "18c1d5858103fd75a8762236355e9f2979c9d7b8a95d17d960086865dfe2e2b2",
+      "PLAN.json": "03fe33f0618336a75d72a66f41b6d9942dfdd38daadaf7a965accf29d6ee788e",
+      "RESCORE_RECEIPT.json": "284f62440b91e3b3632a44e5cb088c74bada57334627149fa8605bff83862eff",
+      "SOURCES.json": "e0e546a2764b79db397260044af58a61e89b93df2e75f6c747cc77ba056b1acf"
+    },
+    "registration_sha256": "88fe33ce230ec250526385c3de4f05c40ad696463a0f6de55df3a0df44daf9a0",
+    "screen_artifacts": {
+      "EXECUTION.json": "3ba0592c63bffd94dbddfb06be2ef05676437cd2ab959c9e6559811d1d5de3e1",
+      "FORWARD_COUNTS.json": "d0134f8d2014b9554491c754909efedcd697cad912d22f600c9e6146521777a3",
+      "MODEL_FILES.json": "e4921b6f4df4b19cb5592eb06e972d1df45631e7da9097fd211593439ed41336",
+      "PREFIXES.pt": "ab3e3cb42b7e5c1c08ba811f21aeb0c79e6418460ab558ad7bd908cef849704a",
+      "RAW_INDEX.json": "7aa2afc57ca9ed78e23c70505a6bc7f96bf8aeb77f39714d7b402dc42ff60621",
+      "RESULT.json": "61d3f0272f228113a862d5d239d1cc3cec3fbc68e55dca61bd626a7f42162f28",
+      "RUNTIME.json": "bc8f83b7ebbcc10c30e1bd218467380d89bb5fc706c43da0ff7b7274aae214a7",
+      "raw-0000.safetensors": "c545aa16a2ab05460b19c149a3d13454b4af23b511f272b49b02c79af78ac02d",
+      "raw-0001.safetensors": "d56ee94ce1c9395ed85544f22e87ba39d47f7b70674ce6c6438f62328b864e37",
+      "raw-0002.safetensors": "3216b568419b413c54341add78c649be9be4585498db82faf5f03b52b6b5e176",
+      "raw-0003.safetensors": "9f23e2580bd172310dd99a35bb29c9ec06b52c4ab57bdce8bd6980725adf16b0",
+      "raw-0004.safetensors": "3a72a8410cea89a082516967b1a2d4086ba7403a47ca192e8f76cdcd6c6541a6",
+      "raw-0005.safetensors": "fd4d76731642b520579918b9f1fc00c537bd8d8414800971938633f00da8fa88",
+      "raw-0006.safetensors": "b46d650a38fcb7d4c5b04b227e31657bc38502842647a0a14e9b3cab057988ed",
+      "raw-0007.safetensors": "8009417ff82550cf79ff86b7e6186509165a5df200f43a0b9fd4f7d0471fd2c2",
+      "raw-0008.safetensors": "b6ca4dfd70eaaf74247bc4c5aafb325b0ac90e3f658bd0a59ffce3bc3fb24c61",
+      "raw-0009.safetensors": "bd3b33f54ed76fbcfa567808afe89238968710d774643c0ab042080c63c5196d",
+      "raw-0010.safetensors": "42d7ec7a20f60128ec724150e2e34c040e4e4969f414b6e160a41f409453cfd4",
+      "raw-0011.safetensors": "1029df545cc2a59f1df510d5e1aa2e1e05d7bd6090e542d8614f95738262d972"
+    }
+  },
+  "model_calls": 0,
+  "schema": "saved-screen-first-token-effect-readout-20261115-v1",
+  "selected_targets": [
+    {
+      "head_index": null,
+      "kind": "layer",
+      "layer_index": 16,
+      "per_case": [
+        {
+          "case_id": "development:001:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.3622060603347676e-05,
+            "correct_minus_wrong_margin": -10.653296964960465,
+            "predicted_wrong_label_probability": 0.9999674542590253
+          },
+          "correct_label": "oval",
+          "correct_label_probability_change": 5.512590774276671e-06,
+          "correct_label_token_ids": [
+            13516,
+            55689,
+            60037
+          ],
+          "correct_minus_wrong_margin_change": 0.20975488056358316,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:001:swap0:coref_1:recipient1::l16",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.9134651377624347e-05,
+            "correct_minus_wrong_margin": -10.443542084396881,
+            "predicted_wrong_label_probability": 0.9999597620070682
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:001"
+        },
+        {
+          "case_id": "development:013:swap1:none:recipient0",
+          "clean": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.02006343996287333,
+            "correct_minus_wrong_margin": -3.8879339778208077,
+            "predicted_wrong_label_probability": 0.9792952980186664
+          },
+          "correct_label": "square",
+          "correct_label_probability_change": 0.008148906275153883,
+          "correct_label_token_ids": [
+            9334,
+            15619,
+            33271,
+            37476,
+            92282
+          ],
+          "correct_minus_wrong_margin_change": 0.3493453481055866,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:013:swap1:none:recipient0::l16",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.028212346238027212,
+            "correct_minus_wrong_margin": -3.538588629715221,
+            "predicted_wrong_label_probability": 0.9710212198991002
+          },
+          "predicted_wrong_label": "triangle",
+          "predicted_wrong_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:013"
+        },
+        {
+          "case_id": "development:031:swap1:coref_0:recipient1",
+          "clean": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20979463522306294,
+            "correct_minus_wrong_margin": -1.3260790319236975,
+            "predicted_wrong_label_probability": 0.7901384289651542
+          },
+          "correct_label": "market",
+          "correct_label_probability_change": 0.030764829063346544,
+          "correct_label_token_ids": [
+            3081,
+            7993,
+            19301,
+            38822
+          ],
+          "correct_minus_wrong_margin_change": 0.17655177625390905,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:031:swap1:coref_0:recipient1::l16",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.24055946428640948,
+            "correct_minus_wrong_margin": -1.1495272556697884,
+            "predicted_wrong_label_probability": 0.7593741197898962
+          },
+          "predicted_wrong_label": "farm",
+          "predicted_wrong_label_token_ids": [
+            8785,
+            18438,
+            65811,
+            70994
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:031"
+        },
+        {
+          "case_id": "development:027:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.749194049065284e-11,
+            "correct_minus_wrong_margin": -23.579376237049868,
+            "predicted_wrong_label_probability": 0.9999998937205969
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -1.0622952387732197e-12,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.01865012793613019,
+          "correct_object": "A",
+          "endpoint_id": "layer::development:027:swap0:none:recipient1::l16",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.642964525187962e-11,
+            "correct_minus_wrong_margin": -23.598026364985998,
+            "predicted_wrong_label_probability": 0.9999998945023493
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:027"
+        },
+        {
+          "case_id": "development:016:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4822499390846268,
+            "correct_minus_wrong_margin": -0.06977077210937921,
+            "predicted_wrong_label_probability": 0.5170984581021986
+          },
+          "correct_label": "bridge",
+          "correct_label_probability_change": 0.03617319517591061,
+          "correct_label_token_ids": [
+            13709,
+            14164,
+            19874,
+            32848
+          ],
+          "correct_minus_wrong_margin_change": 0.14486127875736088,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:016:swap0:none:recipient1::l16",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "bridge",
+            "argmax_listed_object": "B",
+            "argmax_token_id": 13709,
+            "correct_first_token": true,
+            "correct_label_probability": 0.5184231342605374,
+            "correct_minus_wrong_margin": 0.07509050664798167,
+            "predicted_wrong_label_probability": 0.4809201575310636
+          },
+          "predicted_wrong_label": "tower",
+          "predicted_wrong_label_token_ids": [
+            21271,
+            21938,
+            77578,
+            95824
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:016"
+        },
+        {
+          "case_id": "development:007:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40710501824647777,
+            "correct_minus_wrong_margin": -0.37593581305556256,
+            "predicted_wrong_label_probability": 0.5928888800219424
+          },
+          "correct_label": "triangle",
+          "correct_label_probability_change": 0.0009348982080090718,
+          "correct_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "correct_minus_wrong_margin_change": 0.0038719132266678002,
+          "correct_object": "D",
+          "endpoint_id": "layer::development:007:swap1:distractor:recipient0::l16",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40803991645448684,
+            "correct_minus_wrong_margin": -0.37206389982889476,
+            "predicted_wrong_label_probability": 0.5919539850428381
+          },
+          "predicted_wrong_label": "diamond",
+          "predicted_wrong_label_token_ids": [
+            22205,
+            24334,
+            76510,
+            88576
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:007"
+        },
+        {
+          "case_id": "development:011:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20221415256748462,
+            "correct_minus_wrong_margin": -1.3576922261174431,
+            "predicted_wrong_label_probability": 0.786049307908635
+          },
+          "correct_label": "castle",
+          "correct_label_probability_change": -0.004645901467044522,
+          "correct_label_token_ids": [
+            26889,
+            32584,
+            35108,
+            86603
+          ],
+          "correct_minus_wrong_margin_change": -0.028938168463405134,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:011:swap1:distractor:recipient0::l16",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.1975682511004401,
+            "correct_minus_wrong_margin": -1.3866303945808482,
+            "predicted_wrong_label_probability": 0.7905386071977455
+          },
+          "predicted_wrong_label": "station",
+          "predicted_wrong_label_token_ids": [
+            8056,
+            16629,
+            19765,
+            20155
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:011"
+        },
+        {
+          "case_id": "development:017:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.000607285940290751,
+            "correct_minus_wrong_margin": -7.405903037882702,
+            "predicted_wrong_label_probability": 0.9993924160317992
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -5.710212487223328e-05,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.09880446844935165,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:017:swap0:coref_1:recipient1::l16",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.0005501838154185177,
+            "correct_minus_wrong_margin": -7.504707506332053,
+            "predicted_wrong_label_probability": 0.9994495321735062
+          },
+          "predicted_wrong_label": "heart",
+          "predicted_wrong_label_token_ids": [
+            4746,
+            17735,
+            17965,
+            45384
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:017"
+        }
+      ],
+      "summary": {
+        "argmax_token_changed_count": 1,
+        "case_count": 8,
+        "clean_correct_first_token_count": 0,
+        "mean_correct_label_probability_change": 0.008915542215026917,
+        "mean_correct_minus_wrong_margin_change": 0.09224905400727756,
+        "patched_correct_first_token_count": 1
+      }
+    },
+    {
+      "head_index": null,
+      "kind": "layer",
+      "layer_index": 12,
+      "per_case": [
+        {
+          "case_id": "development:001:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.3622060603347676e-05,
+            "correct_minus_wrong_margin": -10.653296964960465,
+            "predicted_wrong_label_probability": 0.9999674542590253
+          },
+          "correct_label": "oval",
+          "correct_label_probability_change": 5.773528516456525e-08,
+          "correct_label_token_ids": [
+            13516,
+            55689,
+            60037
+          ],
+          "correct_minus_wrong_margin_change": 0.002441459312173322,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:001:swap0:coref_1:recipient1::l12",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.367979588851224e-05,
+            "correct_minus_wrong_margin": -10.650855505648291,
+            "predicted_wrong_label_probability": 0.9999671386296557
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:001"
+        },
+        {
+          "case_id": "development:013:swap1:none:recipient0",
+          "clean": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.02006343996287333,
+            "correct_minus_wrong_margin": -3.8879339778208077,
+            "predicted_wrong_label_probability": 0.9792952980186664
+          },
+          "correct_label": "square",
+          "correct_label_probability_change": 0.0038612712987510997,
+          "correct_label_token_ids": [
+            9334,
+            15619,
+            33271,
+            37476,
+            92282
+          ],
+          "correct_minus_wrong_margin_change": 0.1800142648034715,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:013:swap1:none:recipient0::l12",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.02392471126162443,
+            "correct_minus_wrong_margin": -3.7079197130173362,
+            "predicted_wrong_label_probability": 0.9753843337659511
+          },
+          "predicted_wrong_label": "triangle",
+          "predicted_wrong_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:013"
+        },
+        {
+          "case_id": "development:031:swap1:coref_0:recipient1",
+          "clean": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20979463522306294,
+            "correct_minus_wrong_margin": -1.3260790319236975,
+            "predicted_wrong_label_probability": 0.7901384289651542
+          },
+          "correct_label": "market",
+          "correct_label_probability_change": 0.014742561991531428,
+          "correct_label_token_ids": [
+            3081,
+            7993,
+            19301,
+            38822
+          ],
+          "correct_minus_wrong_margin_change": 0.08674621298354879,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:031:swap1:coref_0:recipient1::l12",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.22453719721459436,
+            "correct_minus_wrong_margin": -1.2393328189401487,
+            "predicted_wrong_label_probability": 0.775396259721787
+          },
+          "predicted_wrong_label": "farm",
+          "predicted_wrong_label_token_ids": [
+            8785,
+            18438,
+            65811,
+            70994
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:031"
+        },
+        {
+          "case_id": "development:027:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.749194049065284e-11,
+            "correct_minus_wrong_margin": -23.579376237049868,
+            "predicted_wrong_label_probability": 0.9999998937205969
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -6.469268440185929e-13,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.011316266016422105,
+          "correct_object": "A",
+          "endpoint_id": "layer::development:027:swap0:none:recipient1::l12",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.6845013646634246e-11,
+            "correct_minus_wrong_margin": -23.59069250306629,
+            "predicted_wrong_label_probability": 0.9999998927862408
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:027"
+        },
+        {
+          "case_id": "development:016:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4822499390846268,
+            "correct_minus_wrong_margin": -0.06977077210937921,
+            "predicted_wrong_label_probability": 0.5170984581021986
+          },
+          "correct_label": "bridge",
+          "correct_label_probability_change": 0.015646014105043515,
+          "correct_label_token_ids": [
+            13709,
+            14164,
+            19874,
+            32848
+          ],
+          "correct_minus_wrong_margin_change": 0.06262925906266759,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:016:swap0:none:recipient1::l12",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.49789595318967034,
+            "correct_minus_wrong_margin": -0.007141513046711623,
+            "predicted_wrong_label_probability": 0.5014644105614271
+          },
+          "predicted_wrong_label": "tower",
+          "predicted_wrong_label_token_ids": [
+            21271,
+            21938,
+            77578,
+            95824
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:016"
+        },
+        {
+          "case_id": "development:007:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40710501824647777,
+            "correct_minus_wrong_margin": -0.37593581305556256,
+            "predicted_wrong_label_probability": 0.5928888800219424
+          },
+          "correct_label": "triangle",
+          "correct_label_probability_change": 0.014217877592345551,
+          "correct_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "correct_minus_wrong_margin_change": 0.05860135421284696,
+          "correct_object": "D",
+          "endpoint_id": "layer::development:007:swap1:distractor:recipient0::l12",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4213228958388233,
+            "correct_minus_wrong_margin": -0.3173344588427156,
+            "predicted_wrong_label_probability": 0.5786709288447163
+          },
+          "predicted_wrong_label": "diamond",
+          "predicted_wrong_label_token_ids": [
+            22205,
+            24334,
+            76510,
+            88576
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:007"
+        },
+        {
+          "case_id": "development:011:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20221415256748462,
+            "correct_minus_wrong_margin": -1.3576922261174431,
+            "predicted_wrong_label_probability": 0.786049307908635
+          },
+          "correct_label": "castle",
+          "correct_label_probability_change": 0.002624282085153834,
+          "correct_label_token_ids": [
+            26889,
+            32584,
+            35108,
+            86603
+          ],
+          "correct_minus_wrong_margin_change": 0.01623155677938115,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:011:swap1:distractor:recipient0::l12",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20483843465263846,
+            "correct_minus_wrong_margin": -1.341460669338062,
+            "predicted_wrong_label_probability": 0.7834303909209746
+          },
+          "predicted_wrong_label": "station",
+          "predicted_wrong_label_token_ids": [
+            8056,
+            16629,
+            19765,
+            20155
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:011"
+        },
+        {
+          "case_id": "development:017:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.000607285940290751,
+            "correct_minus_wrong_margin": -7.405903037882702,
+            "predicted_wrong_label_probability": 0.9993924160317992
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -4.25635682488833e-05,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.0727081250550512,
+          "correct_object": "B",
+          "endpoint_id": "layer::development:017:swap0:coref_1:recipient1::l12",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.0005647223720418677,
+            "correct_minus_wrong_margin": -7.478611162937753,
+            "predicted_wrong_label_probability": 0.9994349981113853
+          },
+          "predicted_wrong_label": "heart",
+          "predicted_wrong_label_token_ids": [
+            4746,
+            17735,
+            17965,
+            45384
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:017"
+        }
+      ],
+      "summary": {
+        "argmax_token_changed_count": 0,
+        "case_count": 8,
+        "clean_correct_first_token_count": 0,
+        "mean_correct_label_probability_change": 0.006381187654901848,
+        "mean_correct_minus_wrong_margin_change": 0.040329964510327,
+        "patched_correct_first_token_count": 0
+      }
+    },
+    {
+      "head_index": 21,
+      "kind": "head",
+      "layer_index": 16,
+      "per_case": [
+        {
+          "case_id": "development:001:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.3622060603347676e-05,
+            "correct_minus_wrong_margin": -10.653296964960465,
+            "predicted_wrong_label_probability": 0.9999674542590253
+          },
+          "correct_label": "oval",
+          "correct_label_probability_change": 2.9650680249656174e-06,
+          "correct_label_token_ids": [
+            13516,
+            55689,
+            60037
+          ],
+          "correct_minus_wrong_margin_change": 0.11824976955055888,
+          "correct_object": "B",
+          "endpoint_id": "head::development:001:swap0:coref_1:recipient1::l16::h21",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.6587128628313294e-05,
+            "correct_minus_wrong_margin": -10.535047195409906,
+            "predicted_wrong_label_probability": 0.9999638506223698
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:001"
+        },
+        {
+          "case_id": "development:013:swap1:none:recipient0",
+          "clean": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.02006343996287333,
+            "correct_minus_wrong_margin": -3.8879339778208077,
+            "predicted_wrong_label_probability": 0.9792952980186664
+          },
+          "correct_label": "square",
+          "correct_label_probability_change": 0.0008592271027180846,
+          "correct_label_token_ids": [
+            9334,
+            15619,
+            33271,
+            37476,
+            92282
+          ],
+          "correct_minus_wrong_margin_change": 0.042824429483545146,
+          "correct_object": "B",
+          "endpoint_id": "head::development:013:swap1:none:recipient0::l16::h21",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.020922667065591413,
+            "correct_minus_wrong_margin": -3.8451095483372626,
+            "predicted_wrong_label_probability": 0.9784235639030436
+          },
+          "predicted_wrong_label": "triangle",
+          "predicted_wrong_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:013"
+        },
+        {
+          "case_id": "development:031:swap1:coref_0:recipient1",
+          "clean": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20979463522306294,
+            "correct_minus_wrong_margin": -1.3260790319236975,
+            "predicted_wrong_label_probability": 0.7901384289651542
+          },
+          "correct_label": "market",
+          "correct_label_probability_change": 0.010101868406683756,
+          "correct_label_token_ids": [
+            3081,
+            7993,
+            19301,
+            38822
+          ],
+          "correct_minus_wrong_margin_change": 0.05989455593218196,
+          "correct_object": "B",
+          "endpoint_id": "head::development:031:swap1:coref_0:recipient1::l16::h21",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.2198965036297467,
+            "correct_minus_wrong_margin": -1.2661844759915155,
+            "predicted_wrong_label_probability": 0.7800370929418429
+          },
+          "predicted_wrong_label": "farm",
+          "predicted_wrong_label_token_ids": [
+            8785,
+            18438,
+            65811,
+            70994
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:031"
+        },
+        {
+          "case_id": "development:027:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.749194049065284e-11,
+            "correct_minus_wrong_margin": -23.579376237049868,
+            "predicted_wrong_label_probability": 0.9999998937205969
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": 8.40592998029585e-14,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": 0.0014610379849422372,
+          "correct_object": "A",
+          "endpoint_id": "head::development:027:swap0:none:recipient1::l16::h21",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.75759997904558e-11,
+            "correct_minus_wrong_margin": -23.577915199064925,
+            "predicted_wrong_label_probability": 0.9999998937024511
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:027"
+        },
+        {
+          "case_id": "development:016:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4822499390846268,
+            "correct_minus_wrong_margin": -0.06977077210937921,
+            "predicted_wrong_label_probability": 0.5170984581021986
+          },
+          "correct_label": "bridge",
+          "correct_label_probability_change": 0.013865249942606461,
+          "correct_label_token_ids": [
+            13709,
+            14164,
+            19874,
+            32848
+          ],
+          "correct_minus_wrong_margin_change": 0.05552246245967041,
+          "correct_object": "B",
+          "endpoint_id": "head::development:016:swap0:none:recipient1::l16::h21",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4961151890272333,
+            "correct_minus_wrong_margin": -0.014248309649708801,
+            "predicted_wrong_label_probability": 0.503234591140685
+          },
+          "predicted_wrong_label": "tower",
+          "predicted_wrong_label_token_ids": [
+            21271,
+            21938,
+            77578,
+            95824
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:016"
+        },
+        {
+          "case_id": "development:007:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40710501824647777,
+            "correct_minus_wrong_margin": -0.37593581305556256,
+            "predicted_wrong_label_probability": 0.5928888800219424
+          },
+          "correct_label": "triangle",
+          "correct_label_probability_change": -0.0003995417738905105,
+          "correct_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "correct_minus_wrong_margin_change": -0.0016555799289506012,
+          "correct_object": "D",
+          "endpoint_id": "head::development:007:swap1:distractor:recipient0::l16::h21",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40670547647258726,
+            "correct_minus_wrong_margin": -0.37759139298451316,
+            "predicted_wrong_label_probability": 0.5932884296797891
+          },
+          "predicted_wrong_label": "diamond",
+          "predicted_wrong_label_token_ids": [
+            22205,
+            24334,
+            76510,
+            88576
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:007"
+        },
+        {
+          "case_id": "development:011:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20221415256748462,
+            "correct_minus_wrong_margin": -1.3576922261174431,
+            "predicted_wrong_label_probability": 0.786049307908635
+          },
+          "correct_label": "castle",
+          "correct_label_probability_change": -0.004222915470202787,
+          "correct_label_token_ids": [
+            26889,
+            32584,
+            35108,
+            86603
+          ],
+          "correct_minus_wrong_margin_change": -0.026508221313129354,
+          "correct_object": "B",
+          "endpoint_id": "head::development:011:swap1:distractor:recipient0::l16::h21",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.19799123709728184,
+            "correct_minus_wrong_margin": -1.3842004474305725,
+            "predicted_wrong_label_probability": 0.7903083771061435
+          },
+          "predicted_wrong_label": "station",
+          "predicted_wrong_label_token_ids": [
+            8056,
+            16629,
+            19765,
+            20155
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:011"
+        },
+        {
+          "case_id": "development:017:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.000607285940290751,
+            "correct_minus_wrong_margin": -7.405903037882702,
+            "predicted_wrong_label_probability": 0.9993924160317992
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -1.9070283468289903e-05,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.031925197533752225,
+          "correct_object": "B",
+          "endpoint_id": "head::development:017:swap0:coref_1:recipient1::l16::h21",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.0005882156568224611,
+            "correct_minus_wrong_margin": -7.437828235416454,
+            "predicted_wrong_label_probability": 0.9994114946503379
+          },
+          "predicted_wrong_label": "heart",
+          "predicted_wrong_label_token_ids": [
+            4746,
+            17735,
+            17965,
+            45384
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:017"
+        }
+      ],
+      "summary": {
+        "argmax_token_changed_count": 0,
+        "case_count": 8,
+        "clean_correct_first_token_count": 0,
+        "mean_correct_label_probability_change": 0.0025234728740694675,
+        "mean_correct_minus_wrong_margin_change": 0.027232907079383306,
+        "patched_correct_first_token_count": 0
+      }
+    },
+    {
+      "head_index": 1,
+      "kind": "head",
+      "layer_index": 12,
+      "per_case": [
+        {
+          "case_id": "development:001:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.3622060603347676e-05,
+            "correct_minus_wrong_margin": -10.653296964960465,
+            "predicted_wrong_label_probability": 0.9999674542590253
+          },
+          "correct_label": "oval",
+          "correct_label_probability_change": 8.766848238629412e-07,
+          "correct_label_token_ids": [
+            13516,
+            55689,
+            60037
+          ],
+          "correct_minus_wrong_margin_change": 0.03644168752150634,
+          "correct_object": "B",
+          "endpoint_id": "head::development:001:swap0:coref_1:recipient1::l12::h01",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 2.4498745427210618e-05,
+            "correct_minus_wrong_margin": -10.616855277438958,
+            "predicted_wrong_label_probability": 0.9999666292184325
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:001"
+        },
+        {
+          "case_id": "development:013:swap1:none:recipient0",
+          "clean": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.02006343996287333,
+            "correct_minus_wrong_margin": -3.8879339778208077,
+            "predicted_wrong_label_probability": 0.9792952980186664
+          },
+          "correct_label": "square",
+          "correct_label_probability_change": 0.0015861902126027873,
+          "correct_label_token_ids": [
+            9334,
+            15619,
+            33271,
+            37476,
+            92282
+          ],
+          "correct_minus_wrong_margin_change": 0.07774104416702343,
+          "correct_object": "B",
+          "endpoint_id": "head::development:013:swap1:none:recipient0::l12::h01",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "triangle",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 55114,
+            "correct_first_token": false,
+            "correct_label_probability": 0.021649630175476116,
+            "correct_minus_wrong_margin": -3.8101929336537843,
+            "predicted_wrong_label_probability": 0.9776789126860038
+          },
+          "predicted_wrong_label": "triangle",
+          "predicted_wrong_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:013"
+        },
+        {
+          "case_id": "development:031:swap1:coref_0:recipient1",
+          "clean": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20979463522306294,
+            "correct_minus_wrong_margin": -1.3260790319236975,
+            "predicted_wrong_label_probability": 0.7901384289651542
+          },
+          "correct_label": "market",
+          "correct_label_probability_change": -0.0012361290509880218,
+          "correct_label_token_ids": [
+            3081,
+            7993,
+            19301,
+            38822
+          ],
+          "correct_minus_wrong_margin_change": -0.007472990650342126,
+          "correct_object": "B",
+          "endpoint_id": "head::development:031:swap1:coref_0:recipient1::l12::h01",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "farm",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 65811,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20855850617207491,
+            "correct_minus_wrong_margin": -1.3335520225740396,
+            "predicted_wrong_label_probability": 0.7913747552500567
+          },
+          "predicted_wrong_label": "farm",
+          "predicted_wrong_label_token_ids": [
+            8785,
+            18438,
+            65811,
+            70994
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:031"
+        },
+        {
+          "case_id": "development:027:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.749194049065284e-11,
+            "correct_minus_wrong_margin": -23.579376237049868,
+            "predicted_wrong_label_probability": 0.9999998937205969
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": 7.483339325989118e-14,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": 0.001300786305229451,
+          "correct_object": "A",
+          "endpoint_id": "head::development:027:swap0:none:recipient1::l12::h01",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "star",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 11870,
+            "correct_first_token": false,
+            "correct_label_probability": 5.756677388391273e-11,
+            "correct_minus_wrong_margin": -23.578075450744638,
+            "predicted_wrong_label_probability": 0.9999998937872362
+          },
+          "predicted_wrong_label": "star",
+          "predicted_wrong_label_token_ids": [
+            6774,
+            7679,
+            11870,
+            12699,
+            56745,
+            67061
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:027"
+        },
+        {
+          "case_id": "development:016:swap0:none:recipient1",
+          "clean": {
+            "argmax_decoded_token": "tower",
+            "argmax_listed_object": "D",
+            "argmax_token_id": 77578,
+            "correct_first_token": false,
+            "correct_label_probability": 0.4822499390846268,
+            "correct_minus_wrong_margin": -0.06977077210937921,
+            "predicted_wrong_label_probability": 0.5170984581021986
+          },
+          "correct_label": "bridge",
+          "correct_label_probability_change": 0.03238432522469209,
+          "correct_label_token_ids": [
+            13709,
+            14164,
+            19874,
+            32848
+          ],
+          "correct_minus_wrong_margin_change": 0.12964528455802338,
+          "correct_object": "B",
+          "endpoint_id": "head::development:016:swap0:none:recipient1::l12::h01",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "bridge",
+            "argmax_listed_object": "B",
+            "argmax_token_id": 13709,
+            "correct_first_token": true,
+            "correct_label_probability": 0.5146342643093189,
+            "correct_minus_wrong_margin": 0.05987451244864417,
+            "predicted_wrong_label_probability": 0.48472512104590487
+          },
+          "predicted_wrong_label": "tower",
+          "predicted_wrong_label_token_ids": [
+            21271,
+            21938,
+            77578,
+            95824
+          ],
+          "predicted_wrong_object": "D",
+          "world_id": "development:016"
+        },
+        {
+          "case_id": "development:007:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.40710501824647777,
+            "correct_minus_wrong_margin": -0.37593581305556256,
+            "predicted_wrong_label_probability": 0.5928888800219424
+          },
+          "correct_label": "triangle",
+          "correct_label_probability_change": 0.0030087761870356,
+          "correct_label_token_ids": [
+            21495,
+            38031,
+            51942,
+            55114
+          ],
+          "correct_minus_wrong_margin_change": 0.0124511662474589,
+          "correct_object": "D",
+          "endpoint_id": "head::development:007:swap1:distractor:recipient0::l12::h01",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "diamond",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 88576,
+            "correct_first_token": false,
+            "correct_label_probability": 0.41011379443351337,
+            "correct_minus_wrong_margin": -0.36348464680810366,
+            "predicted_wrong_label_probability": 0.5898801114952185
+          },
+          "predicted_wrong_label": "diamond",
+          "predicted_wrong_label_token_ids": [
+            22205,
+            24334,
+            76510,
+            88576
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:007"
+        },
+        {
+          "case_id": "development:011:swap1:distractor:recipient0",
+          "clean": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.20221415256748462,
+            "correct_minus_wrong_margin": -1.3576922261174431,
+            "predicted_wrong_label_probability": 0.786049307908635
+          },
+          "correct_label": "castle",
+          "correct_label_probability_change": -0.00784139220231983,
+          "correct_label_token_ids": [
+            26889,
+            32584,
+            35108,
+            86603
+          ],
+          "correct_minus_wrong_margin_change": -0.04935041172481647,
+          "correct_object": "B",
+          "endpoint_id": "head::development:011:swap1:distractor:recipient0::l12::h01",
+          "field": "home",
+          "patched": {
+            "argmax_decoded_token": "station",
+            "argmax_listed_object": "C",
+            "argmax_token_id": 20155,
+            "correct_first_token": false,
+            "correct_label_probability": 0.1943727603651648,
+            "correct_minus_wrong_margin": -1.4070426378422596,
+            "predicted_wrong_label_probability": 0.7937911556275608
+          },
+          "predicted_wrong_label": "station",
+          "predicted_wrong_label_token_ids": [
+            8056,
+            16629,
+            19765,
+            20155
+          ],
+          "predicted_wrong_object": "C",
+          "world_id": "development:011"
+        },
+        {
+          "case_id": "development:017:swap0:coref_1:recipient1",
+          "clean": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.000607285940290751,
+            "correct_minus_wrong_margin": -7.405903037882702,
+            "predicted_wrong_label_probability": 0.9993924160317992
+          },
+          "correct_label": "circle",
+          "correct_label_probability_change": -3.644406155831157e-05,
+          "correct_label_token_ids": [
+            12671,
+            21224,
+            25199,
+            25857
+          ],
+          "correct_minus_wrong_margin_change": -0.06192397766870528,
+          "correct_object": "B",
+          "endpoint_id": "head::development:017:swap0:coref_1:recipient1::l12::h01",
+          "field": "shape",
+          "patched": {
+            "argmax_decoded_token": "heart",
+            "argmax_listed_object": "A",
+            "argmax_token_id": 17735,
+            "correct_first_token": false,
+            "correct_label_probability": 0.0005708418787324395,
+            "correct_minus_wrong_margin": -7.467827015551407,
+            "predicted_wrong_label_probability": 0.9994288721412249
+          },
+          "predicted_wrong_label": "heart",
+          "predicted_wrong_label_token_ids": [
+            4746,
+            17735,
+            17965,
+            45384
+          ],
+          "predicted_wrong_object": "A",
+          "world_id": "development:017"
+        }
+      ],
+      "summary": {
+        "argmax_token_changed_count": 1,
+        "case_count": 8,
+        "clean_correct_first_token_count": 0,
+        "mean_correct_label_probability_change": 0.003483275374295376,
+        "mean_correct_minus_wrong_margin_change": 0.017354073594422204,
+        "patched_correct_first_token_count": 1
+      }
+    }
+  ]
+}

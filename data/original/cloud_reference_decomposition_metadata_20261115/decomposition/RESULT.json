@@ -1,0 +1,3370 @@
+{
+  "assessment": {
+    "all_fixed_branches_failed": true,
+    "branches_for_possible_new_plan": [],
+    "conditions": {
+      "normMatchedRandomFullHead": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "oldDcolorMass": {
+        "correct": 11,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [
+          "development:029"
+        ],
+        "repaired": 1,
+        "truncated": 0
+      },
+      "sameFieldFullHead": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldMass": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldNonrecordResidual": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldProfileWithin": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldRecordContribution": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "sameFieldWithinOnly": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      },
+      "self": {
+        "correct": 10,
+        "count": 18,
+        "diagnostic_passed": false,
+        "initial_errors": 8,
+        "initial_protected": 10,
+        "protected_damaged": 0,
+        "repair_worlds": [],
+        "repaired": 0,
+        "truncated": 0
+      }
+    },
+    "confirmation_authorized": false,
+    "full_head_beats_matched_random_by_two_repairs": false,
+    "full_head_repair_advantage_over_matched_random": 0,
+    "new_entity_mechanism_established": false,
+    "per_question": [
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "self",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "self",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::self",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": true,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "oldDcolorMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldMass",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldWithinOnly",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldProfileWithin",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldRecordContribution",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldNonrecordResidual",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "sameFieldFullHead",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:014"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:000"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:006"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:004"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "shape",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "home",
+        "id": "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:029"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "color",
+        "id": "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": false,
+        "field": "shape",
+        "id": "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      },
+      {
+        "condition": "normMatchedRandomFullHead",
+        "correct": true,
+        "field": "home",
+        "id": "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead",
+        "protected_damaged": false,
+        "repaired": false,
+        "world_id": "development:022"
+      }
+    ],
+    "scope": "Six previously opened development worlds; exploratory diagnosis only. A full natural-head transfer is a comparator, not a mathematical performance bound or proof of entity abstraction. Random control matches only the full-head delta norm, not factor doses."
+  },
+  "automatic_followup_authorized": false,
+  "confirmation_calls": 0,
+  "generations": 162,
+  "native_forward_count": 360,
+  "natural_count": 36,
+  "old_validation_result_preserved": {
+    "assessment": {
+      "address_specificity_passed": false,
+      "by_condition": {
+        "Rcolor": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.6111111111111112,
+          "other_listed_wrong": 7,
+          "predicted_target_hits": 11,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 1,
+          "task_correct": 11,
+          "three_field_joint_predicted_worlds": 1,
+          "unconditional_task_accuracy": 0.6111111111111112,
+          "unconditional_task_accuracy_bounds": [
+            0.6111111111111112,
+            0.6111111111111112
+          ]
+        },
+        "cyclicDcolor": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.9444444444444444,
+          "other_listed_wrong": 0,
+          "predicted_target_hits": 1,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 0,
+          "task_correct": 17,
+          "three_field_joint_predicted_worlds": 0,
+          "unconditional_task_accuracy": 0.9444444444444444,
+          "unconditional_task_accuracy_bounds": [
+            0.9444444444444444,
+            0.9444444444444444
+          ]
+        },
+        "frozenDiscoveryMean": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.5555555555555556,
+          "other_listed_wrong": 8,
+          "predicted_target_hits": 10,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 0,
+          "task_correct": 10,
+          "three_field_joint_predicted_worlds": 0,
+          "unconditional_task_accuracy": 0.5555555555555556,
+          "unconditional_task_accuracy_bounds": [
+            0.5555555555555556,
+            0.5555555555555556
+          ]
+        },
+        "primaryDcolor": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.6111111111111112,
+          "other_listed_wrong": 7,
+          "predicted_target_hits": 11,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 1,
+          "task_correct": 11,
+          "three_field_joint_predicted_worlds": 1,
+          "unconditional_task_accuracy": 0.6111111111111112,
+          "unconditional_task_accuracy_bounds": [
+            0.6111111111111112,
+            0.6111111111111112
+          ]
+        },
+        "reverseRscreen": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.9444444444444444,
+          "other_listed_wrong": 0,
+          "predicted_target_hits": 1,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 0,
+          "task_correct": 17,
+          "three_field_joint_predicted_worlds": 0,
+          "unconditional_task_accuracy": 0.9444444444444444,
+          "unconditional_task_accuracy_bounds": [
+            0.9444444444444444,
+            0.9444444444444444
+          ]
+        },
+        "selfRfield": {
+          "intended_fields": 18,
+          "malformed_or_truncated": 0,
+          "observed_fields": 18,
+          "observed_task_accuracy": 0.5555555555555556,
+          "other_listed_wrong": 0,
+          "predicted_target_hits": 18,
+          "protected_damaged": 0,
+          "repaired_initial_errors": 0,
+          "task_correct": 10,
+          "three_field_joint_predicted_worlds": 6,
+          "unconditional_task_accuracy": 0.5555555555555556,
+          "unconditional_task_accuracy_bounds": [
+            0.5555555555555556,
+            0.5555555555555556
+          ]
+        }
+      },
+      "confirmation_calls_authorized": false,
+      "cyclic_success_object_ids": [
+        "D"
+      ],
+      "intended_generations": 108,
+      "intended_worlds": 6,
+      "mechanism_identified": false,
+      "observed_generations": 108,
+      "practical_counts": {
+        "cyclic_hits": 1,
+        "cyclic_success_object_count": 1,
+        "cyclic_worlds": 1,
+        "mean_repaired": 0,
+        "primary_repair_worlds": 1,
+        "primary_repaired": 1,
+        "protected_damaged": 0,
+        "reverse_hits": 1,
+        "reverse_worlds": 1
+      },
+      "practical_status": "evaluated_development_targets_only",
+      "practical_targets": {
+        "cyclic_specific_hits_at_least": 9,
+        "cyclic_success_object_ids_at_least": 2,
+        "cyclic_success_worlds_at_least": 3,
+        "initial_error_repairs_at_least": 4,
+        "protected_damage_at_most": 1,
+        "repair_advantage_over_frozen_mean_at_least": 2,
+        "repair_worlds_at_least": 3,
+        "reverse_specific_hits_at_least": 9,
+        "reverse_success_worlds_at_least": 3
+      },
+      "primary_minus_frozen_mean_task_accuracy": 0.05555555555555555,
+      "repair_replication_passed": false,
+      "scope": "Conditional six-world development validation only. Reverse/cyclic hits are specific newly induced records, not generic damage. Unrelated unpatched aliases are not preservation evidence.",
+      "strong_candidate_passed": false,
+      "unsupported_conditions": []
+    },
+    "baseline": {
+      "donor_correct": 18,
+      "recipient_fields": 18,
+      "recipient_protected": 10,
+      "recipient_wrong": 8
+    },
+    "confirmation_calls": 0,
+    "counterfactual_metric_warning": "Task answers always remain the literal original E. Reverse/cyclic target hits are steering success, not factual accuracy.",
+    "further_studies_authorized": false,
+    "greedy_step_count": 216,
+    "native_forward_count": 360,
+    "natural_count": 36,
+    "operator_count": 108,
+    "oracles": [
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::primaryDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::primaryDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::primaryDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::selfRfield::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::selfRfield::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::selfRfield::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": true
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::Rcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::Rcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::Rcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::reverseRscreen::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::reverseRscreen::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::reverseRscreen::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::color",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::shape",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      },
+      {
+        "first_step_operator_equal": true,
+        "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::home",
+        "max_query_head_drift": 0.0,
+        "self_whole_trajectory_equal": false
+      }
+    ],
+    "scope": "Six conditional development worlds, not 64-world confirmation. Profiles see color; deltas are per-field and frozen across steps at the original query position. No unrelated-alias preservation claim.",
+    "selected_head": {
+      "head_index": 0,
+      "layer_index": 28
+    },
+    "status": "completed_six_world_validation",
+    "unsupported_conditions": []
+  },
+  "oracles": [
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.4479772707234891,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.4479772707234891,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0659214582798777,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.4329508848138654,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.289100999463467,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.08698397193995723,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.3080742561371532,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.3080742502223275,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.3177403946051657,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.5322250760562843,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.16443412961309944,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.5024454362208903,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.7664775677734355,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.03636977956328103,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.765862645274182,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.765862649036565,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 6.244231570335807,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 6.066787151599287,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.6245350080515579,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.1980553128554625,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.38154529955319,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0563504874633272,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.392832063286326,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.392832095682726,
+      "id": "decompose::development:014:swap0:coref_1:recipient1::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 2.0566643838866843,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 2.0566643838866843,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.4369592767179081,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.0969145226245614,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.570219030679686,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.19181676300559866,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.602630942626164,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.6026309330699617,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 12.584271364436296,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 12.390740349584808,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.318144044689796,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 12.792882697645473,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 13.371429406600761,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.2843695238964594,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 13.38565371568982,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 13.385653681834551,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 16.106367036025116,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 13.871942474810595,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.825110437674217,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 14.477187090361532,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 14.366389651770735,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.020609632203512963,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 14.366671366747903,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 14.366671294911045,
+      "id": "decompose::development:000:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.05405360282559259,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.05405360282559259,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.026694824341301448,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.06248902759464652,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.5312114028212179,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0843011483817722,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.546184883328488,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.5461848828098768,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.25148362853805006,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.08134720207393042,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.01294522694011192,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.09215001361750061,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.12232158063795147,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.04724833600754237,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.12973189900185988,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.1297318979561038,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 7.230298287711199,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 4.199883856727204,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.14689846804905612,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.321295748204985,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.279636984943063,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.030511192202899686,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.284091103094532,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.284091078915619,
+      "id": "decompose::development:006:swap1:coref_0:recipient0::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.8431933963881684,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.8431933963881684,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.040623421473114,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.8575225126856781,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.7978199906345538,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.13575442059398055,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.8174940718777025,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.8174940748756933,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 13.665622817837644,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 6.625006246686686,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.15414974435874632,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.716629918942613,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.720622505945266,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.026440062096809172,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.718580524730672,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 6.718580559369952,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 14.134473157804464,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 9.297511526407083,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.7317030778025149,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 9.762248721421598,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 9.741001484144277,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.01788832260975672,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 9.741600835722775,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 9.74160084869149,
+      "id": "decompose::development:004:swap0:coref_0:recipient1::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.13392800787970238,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.13392800787970238,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.02734733747832238,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.1305061806673642,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.14294627284709305,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.06839619113791415,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.15640616157847548,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.15640616150297776,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 1.0153245355755711,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.1928806925472177,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.026844688708468765,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.1985550554478334,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.206797954644636,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.017432950827896726,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.20716046823252446,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.2071604685281612,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 7.928900316599545,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 2.820101533183756,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.05243601736425473,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.8631454736373514,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.8640241127632966,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.012862189967271705,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.8634259820936343,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 2.8634259803599567,
+      "id": "decompose::development:029:swap0:coref_0:recipient0::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.05941715736666851,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 0.05941715736666851,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.11156991934299547,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.09071818581571907,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.2861260677156783,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.08499366308418715,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.29870689167466624,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.29870689072132267,
+      "id": "decompose::development:022:swap0:distractor:recipient1::color::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 8.141606946020058,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 4.108976599151086,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.14036471472206613,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.155807207453191,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.321276109624015,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.19935620755422434,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.3354402368711025,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 4.335440257720366,
+      "id": "decompose::development:022:swap0:distractor:recipient1::shape::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.0,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::self",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 1.2885459421241146,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::oldDcolorMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": true
+    },
+    {
+      "delta_norm": 1.4086106952169193,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldMass",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.1346954217535954,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldWithinOnly",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.4205655069889593,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldProfileWithin",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.4189001738616223,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldRecordContribution",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 0.009975140879367675,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldNonrecordResidual",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.4192763410838753,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::sameFieldFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    },
+    {
+      "delta_norm": 1.419276350687815,
+      "id": "decompose::development:022:swap0:distractor:recipient1::home::normMatchedRandomFullHead",
+      "max_query_head_drift": 0.0,
+      "old_trajectory_replayed": false
+    }
+  ],
+  "scope": "Same already-opened six development worlds; diagnostic only, no abstract-entity or generalization claim; random controls full-head norm only; full-head is not a performance bound.",
+  "status": "completed_fixed_head_decomposition"
+}

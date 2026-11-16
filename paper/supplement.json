@@ -1,0 +1,100 @@
+{
+  "title": "Detailed methods and audit records",
+  "sections": [
+    {
+      "heading": "S1. Study scope and data construction",
+      "paragraphs": [
+        "This study concerns explicit fictional registries, not the earlier country-fact experiments or four-world pilots. The new generator froze 32 development worlds and 64 planned confirmation worlds. Only development worlds received model inference. Files named REGISTRATION record local, hash-linked execution freezes, not public preregistration. The additional six-world diagnosis was designed after inspecting failed validation and is not independent confirmation.",
+        "Each world contains four permanent object IDs, four distinct values for each of color, shape and home, and four alias bindings. Two aliases denote the same object; another denotes a distractor, and a fourth provides context. Nameplates are labels, not permanent IDs. The eight selected alias words were apple, bat, anchor, date, cat, basket, fig and dog. Selection used token geometry in both model tokenizers, without model answers. Lexemes recur across worlds, but complete ordered object-to-value assignments do not.",
+        "Each world supplies 96 prompts: two equivalent-name orders, four Focus conditions, and twelve probes. These comprise nine factual questions over three aliases, two identity questions, and one registry-status question. Focus is absent, names either equivalent alias, or names an unrelated alias. Name orders exchange the equivalent words across binding-line locations without changing their referent. Across worlds, target-record and alias-line positions, object IDs, semantic name roles, and two wording formats are balanced; not every factor combination is fully crossed. Both models receive the same worlds: 3,072 prompts per model, not 64 independent worlds."
+      ]
+    },
+    {
+      "heading": "S2. Pinned models, execution and grading",
+      "paragraphs": [
+        "Models use their pinned tokenizer and chat rendering. Inference uses eager attention, batch size one, float32, disabled TensorFloat-32, one CPU thread, and native full-vocabulary output scores at one position. Answers are generated greedily. Whole decoded answers are normalized for case, whitespace and final punctuation; explanations are not silently cut off. Invalid or extra text remains an error. Causal generation permits eight new tokens and records end-of-sequence termination; none of the final diagnostic answers was truncated."
+      ],
+      "table": {
+        "headers": ["Item", "Pinned value"],
+        "rows": [
+          ["Qwen model", "Qwen/Qwen3-4B-Instruct-2507; cdbee75f17c01a7cc42f958dc650907174af0554"],
+          ["Phi model", "microsoft/Phi-3.5-mini-instruct; 2fe192450127e6a83f7441aef6e3ca586c338b77"],
+          ["Runtime", "Python 3.12.15; PyTorch 2.6.0+cu124; CUDA 12.4; NVIDIA A40"],
+          ["Libraries", "transformers 5.14.1; tokenizers 0.22.2; numpy 2.5.1; safetensors 0.8.0; huggingface-hub 1.33.0"]
+        ]
+      }
+    },
+    {
+      "heading": "S3. Search sequence and the six repair cases",
+      "paragraphs": [
+        "The exploratory screen first replaced pre-field activations at the end-of-alias marker, before the requested field appeared. It searched 35 layer boundaries and then heads in two selected layers on eight development cases. A separate answer-position routing search used the same eight cases, with field-visible donors. Across all 36 layers and 32 heads, it selected two candidates using correct-versus-wrong record-attention contrasts. Selection used answer labels; the subsequent full four-record profile operation did not. The best candidate, zero-based layer 28, head 0, changed five of eight first-token choices. This is feasibility evidence, not complete-answer repair.",
+        "Validation fixed that head and used the six remaining eligible development worlds, disjoint from the eight routing cases but already behavior-screened. Eligibility required a correct donor across all three fields and a listed wrong-record recipient answer. There were eight erroneous and ten protected correct recipient field answers. The final decomposition reopened these exact six worlds, keeping the component and cases fixed."
+      ],
+      "table": {
+        "headers": ["World", "Recipient / donor", "Correct ID", "Wrong fields → wrong ID", "Protected fields"],
+        "rows": [
+          ["014", "basket / cat", "C", "home → D", "color, shape"],
+          ["000", "date / anchor", "A", "shape, home → D", "color"],
+          ["006", "basket / cat", "C", "home → D", "color, shape"],
+          ["004", "anchor / bat", "B", "shape, home → D", "color"],
+          ["029", "anchor / date", "C", "home → D", "color, shape"],
+          ["022", "anchor / bat", "A", "shape → B", "color, home"]
+        ]
+      }
+    },
+    {
+      "heading": "S4. Example prompt and retained input geometry",
+      "paragraphs": [
+        "The following is the actual unrendered recipient home question for world 014. Token IDs, offsets and the model-specific chat-rendered prompt are retained in decomposition INPUTS.json, row development:014:swap0:coref_1:fact:1:home. Its answer is castle; the baseline generated market.",
+        "This registry defines imaginary objects. An ID is permanent and a nameplate is just a label. Resolve a requested alias through its binding, then report the requested field only. Focus marks an alias for attention. Do not add an explanation.\nObject B has nameplate Cedar, color brown, shape square, and home farm.\nObject A has nameplate Fir, color red, shape star, and home bridge.\nObject D has nameplate Elm, color yellow, shape oval, and home market.\nObject C has nameplate Iris, color white, shape heart, and home castle.\nAlias fig -> Object B.\nAlias basket -> Object C.\nAlias dog -> Object D.\nAlias cat -> Object C.\nStatus word: ready.\n[WORLD_END]\nFocus alias: basket.\n[FOCUS_END]\nRead Alias basket.\n[ALIAS_END]\nReturn its home.\nAnswer:"
+      ]
+    },
+    {
+      "heading": "S5. Nine fixed decomposition operators",
+      "paragraphs": [
+        "Record mass means summed attention probability over a printed object's record tokens. The profile divides each record's mass by total record attention; the within-record pattern divides each token's weight by its record mass. Four factor conditions retain recipient total record attention. Donor and recipient record value vectors must be bytewise identical. We compute head-output changes before the attention output projection, using float64 coefficients and float32 contractions. Each field-specific change is held fixed at the original answer-query position throughout decoding, not moved to newly generated positions."
+      ],
+      "table": {
+        "headers": ["Operator", "Change relative to recipient"],
+        "rows": [
+          ["Self", "Zero change; exact replay control."],
+          ["Old cross-field profile", "Use donor color-question record shares; retain recipient within-record patterns and record total."],
+          ["Same-field profile", "Use same-field donor record shares; retain recipient patterns and total."],
+          ["Within-record pattern", "Use same-field donor token patterns; retain recipient record shares and total."],
+          ["Profile plus pattern", "Use both same-field donor factors; retain recipient record total."],
+          ["Whole record contribution", "Replace the complete attention-weighted contribution of all record tokens, including donor record total."],
+          ["Nonrecord residual", "Replace donor minus recipient remainder after subtracting their record contributions."],
+          ["Whole donor head", "Add donor minus recipient natural head output; comparator, not a performance upper bound."],
+          ["Matched random", "Deterministic random direction matching only the whole-head change's norm, not every factor's dose."]
+        ]
+      }
+    },
+    {
+      "heading": "S6. Frozen criteria, failures and statistical scope",
+      "paragraphs": [
+        "The original validation required four of eight repairs spanning at least three worlds, at most one damaged protected answer, and at least two more repairs than the frozen discovery-mean profile. Reverse and cyclic interventions each required nine of eighteen specific predicted-record answers across three worlds; cyclic success additionally required two target IDs. The primary profile repaired one error, in world 029. Reverse and cyclic tests each produced one specific hit. All gates failed; no untouched confirmation inference followed.",
+        "The final nine-condition diagnosis generated 162 answers. Seven new conditions each repaired zero of eight errors; replaying the old profile retained its one repair. Every condition preserved the ten protected answers. This rejects the tested simple repair, not every possible binding mechanism. Saved first-step scores show genuine effects: the old profile improved the correct-minus-fixed-old-wrong canonical-token margin by 6.00 on average, same-field profile by 4.05, and whole-head transfer by 4.21. These are descriptive score changes, not complete-answer accuracy or accepted-variant probability sums.",
+        "Behavioral intervals resample whole worlds 2,000 times, retaining repeated questions and conditions. They are descriptive development intervals, not confirmation or independent-question tests. Additional wrong-record intervals use retrospective seed 20261115. Predictive comparisons hold out whole-world folds; intervals conditional on saved predictions do not include refitting or model-selection uncertainty."
+      ]
+    },
+    {
+      "heading": "S7. Numerical audits and source anchors",
+      "paragraphs": [
+        "Natural head reconstruction and frozen-query drift were bounded by 0.00002; observed query drift was zero. Record profiles require total mass at least 0.0001 and per-record support at least 0.00000001. Full-head reconstruction, record/residual recombination and random-norm checks passed. Thirty-six natural forwards replayed; eighteen self and eighteen old-profile full-answer trajectories matched exactly. Saved tensors reproduced native scores, and independent literal grading agreed. The final run used 360 native forwards. No failed gate, component or dose was changed to obtain success.",
+        "The stage labels below identify the corresponding records in S1 Data. Twelve-character digest prefixes are navigation aids only. Full original paths, SHA-256 digests and artifact links are retained in S1 Data and the original registration, custody and audit records. These records establish local provenance, not public preregistration or a public data deposit."
+      ],
+      "table": {
+        "headers": ["Study stage", "Artifact", "Digest prefix"],
+        "rows": [
+          ["Behavioral study", "REGISTRATION.json", "47d5c22145bc"],
+          ["Routing discovery", "REGISTRATION.json", "82a32615da8b"],
+          ["Repair validation", "REGISTRATION.json", "52a4738c24c1"],
+          ["Component diagnosis", "REGISTRATION.json", "b5969b386ffb"],
+          ["Component diagnosis", "decomposition/RESULT.json", "c468bcf6581e"],
+          ["Component diagnosis", "reference-decomposition-20261115-native-audit.json", "c6acaae16d52"],
+          ["Component diagnosis", "INDEPENDENT_LITERAL_AUDIT.json", "bec3d76f4104"]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "audited_utc": "2026-11-15T12:26:52.230891+00:00",
+  "causal_calls": 0,
+  "confirmation_calls": 0,
+  "custody_sha256": "2083e7c6ec1108b95c659b07a914654cd79b96f743ad33b76d1d25f8110c81cf",
+  "exact_match": true,
+  "generations_sha256": "ceaf588772fefbeb1f2b7811416b136ee4e8028e9434eeff0ab1686c2eb137b0",
+  "model": "phi",
+  "native_steps": 6918,
+  "raw_index_sha256": "88086cf54fcd98fa841c1b6c75c56f9d21042e889be3d7c01e7e26a7b9baf00f",
+  "receipt_source_sha256": "ed3b9f2ad32e48a478f628366091a0ad5a74dee8ad95ea76fdb6b094fd4ecc4c",
+  "registration_sha256": "47d5c22145bca82f1f2dd86b8932d7e8cf0990aa2d2c9a92e8bae24c83407ff5",
+  "result_sha256": "86cd5c9a89dacf7f1ccee87a38c9f1645ec6ce4d233eaffc612df399298e7dfa",
+  "source_manifest_sha256": "f50dd192f98b752acdecb0ada50686ba2205b6b32516c72dadcf1e9f05b95dd0"
+}

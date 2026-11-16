@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Biodyn-AI/names-mechinterp",
+  "version": "v0.1.0",
+  "public_release_verified": false,
+  "code_license": "MIT",
+  "data_paper_license": "CC BY 4.0",
+  "complete_raw_native_archive_included": false,
+  "native_scope": "Selected attention and component captures and historical audit receipts are included. The complete original raw native-logit safetensor archive is not included, so not every historical full-vocabulary audit can be repeated from this release.",
+  "archive_DOI": null,
+  "release_date": "2026-11-16"
+}

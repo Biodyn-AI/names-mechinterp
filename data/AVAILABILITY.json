@@ -1,0 +1,2139 @@
+{
+  "expected_native_shards": 410,
+  "included_tensor_artifacts": [
+    "cloud_reference_routing_metadata_20261115/routing/NATURAL.pt",
+    "cloud_reference_validation_metadata_20261115/validation/NATURAL.pt",
+    "cloud_reference_decomposition_metadata_20261115/decomposition/KERNELS.pt",
+    "cloud_reference_decomposition_metadata_20261115/decomposition/NATURAL.pt",
+    "cloud_reference_decomposition_metadata_20261115/decomposition/TRACES.pt"
+  ],
+  "missing_non_native_tensor_artifacts": [
+    {
+      "path": "cloud_reference_causal_metadata_20261115/screen/PREFIXES.pt",
+      "sha256": "ab3e3cb42b7e5c1c08ba811f21aeb0c79e6418460ab558ad7bd908cef849704a",
+      "stage": "prefix_screen"
+    },
+    {
+      "path": "cloud_reference_routing_metadata_20261115/routing/INTERVENTIONS.pt",
+      "sha256": "b4e9aeebe373146837f69a193360ed97a322e44e2bff70a852d1971ec84ac1cb",
+      "stage": "routing"
+    },
+    {
+      "path": "cloud_reference_validation_metadata_20261115/validation/GREEDY_TRACES.pt",
+      "sha256": "05ad78493f3ac0c95e4b964ee1d06069e89ec258f5eea68d3523529f4fc78314",
+      "stage": "validation"
+    },
+    {
+      "path": "cloud_reference_validation_metadata_20261115/validation/OPERATORS.pt",
+      "sha256": "ed45e5a13b2721600d671be77342267ad0e7400c6b348c361721b7026f413858",
+      "stage": "validation"
+    }
+  ],
+  "native_file_sha256_checked": false,
+  "native_shards_complete": false,
+  "native_tensor_rescore_performed": false,
+  "new_model_forward_count": 0,
+  "present_native_shards": 0,
+  "schema": "names-mechinterp-artifact-availability-v1",
+  "scope": "File availability and optional SHA-256 integrity only, not newly repeated native argmax, tokenizer decoding, mathematical tensor rescore or whole-answer evaluation. Native roots mirror metadata-relative stage paths.",
+  "stages": {
+    "behavior_phi": {
+      "expected_shards": 62,
+      "missing": [
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0000.safetensors",
+          "sha256": "f1bcd125cf42a8546d2b0bbe7ca7abe9c04a89e844cbd1a8e3daf5b6fedbe93a"
+        },
+        {
+          "endpoint_count": 95,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0001.safetensors",
+          "sha256": "fa581b57e1b13d312cadff1393f0d913c8d82b5f8d7f3534efc5200152d24578"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0002.safetensors",
+          "sha256": "60ce12aa233bbe753e254ea2357c0777d2b17dbe449f52aa703c71d5f47b8bf1"
+        },
+        {
+          "endpoint_count": 102,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0003.safetensors",
+          "sha256": "fe72b3259f6e5f3e3a62fb7836ee47424917d823e7900d4d8eb00430acf3c0e8"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0004.safetensors",
+          "sha256": "b4f6038b6d1bd6286041523302f7a92a221462334f6d894d28f11f3a02a618c2"
+        },
+        {
+          "endpoint_count": 103,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0005.safetensors",
+          "sha256": "bcb26a8dfdf8c82f74757d03c812e4b0439f68ef50be3b63c1608bde00441c1b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0006.safetensors",
+          "sha256": "3890128ab4fe2007eba188ad623fc37f20136bf6f5b02b188e5fc9c516c175fc"
+        },
+        {
+          "endpoint_count": 106,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0007.safetensors",
+          "sha256": "76ba73b64eb416d25844f3f3f4616b320b20d2b062a94e8d15cea217cc750733"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0008.safetensors",
+          "sha256": "edc8e2bd2996ce0df4ef6784adae01253ecaf136bbc45d474ef713404fe913bb"
+        },
+        {
+          "endpoint_count": 93,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0009.safetensors",
+          "sha256": "691f816c115c831978530956f5a85d6f1373a9af9066e7358ecd11c52730d9ff"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0010.safetensors",
+          "sha256": "cdc9b4972ec5098e5a553851205af0cdc2b2aa6224fb83ef6943299694e96449"
+        },
+        {
+          "endpoint_count": 108,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0011.safetensors",
+          "sha256": "170e30610248ac50966f39ca31d38adb83b14783db743adc8544f03927d77d78"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0012.safetensors",
+          "sha256": "c86afb8eb7339a96d26bc4af7d52c5b084b30c629e039c196c385fc6b7061ab3"
+        },
+        {
+          "endpoint_count": 103,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0013.safetensors",
+          "sha256": "7349b838a8f42c6ab7e9442fc725a2db9555a17359a2d42700f6e81ce8947a4a"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0014.safetensors",
+          "sha256": "3583007c284b304392cbd1c4bef6c5c174d6915184338c63b815a97bb0145df2"
+        },
+        {
+          "endpoint_count": 94,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0015.safetensors",
+          "sha256": "99666b3cfe37b4f308928fd117536797484051074476191fad9fda4c736c3a3c"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0016.safetensors",
+          "sha256": "fbb9a7b68c50f2474248a509381615964a3e2f4d27de7b1e9fd24b88dabc975f"
+        },
+        {
+          "endpoint_count": 105,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0017.safetensors",
+          "sha256": "4cd6353f0f195612851fe18eea30b004512eb9a980971b07b909ac18e0ef6210"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0018.safetensors",
+          "sha256": "dec52cd88696008c545259f9260cf4e489211bf944e5ebfb1ae1994be601b1a4"
+        },
+        {
+          "endpoint_count": 96,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0019.safetensors",
+          "sha256": "e6c87c4fb304a7acc43a63ffba06197d6d2df7ee0731e6d232438cbdf4f38b64"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0020.safetensors",
+          "sha256": "c32ef75bac49ae4cde635845c074e298ad6efc0db550ac2fdc804e68decdae73"
+        },
+        {
+          "endpoint_count": 92,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0021.safetensors",
+          "sha256": "4e609902de160cb9ca7ae0ba0664d3039a5ddc0d576a7ff63c098836ecc7583d"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0022.safetensors",
+          "sha256": "e24b9ae78b6aa013117011b86300c911f64d681a3c1a8f6099633ca63bbb9a5f"
+        },
+        {
+          "endpoint_count": 95,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0023.safetensors",
+          "sha256": "aaf08bd1dd873516db542f4bc62f1dbcddb51cba1cbc28db764e32d4039141c2"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0024.safetensors",
+          "sha256": "c70af34780582b031b876f309a35688f1ef2f87db205ec4715fca0a8d41c9802"
+        },
+        {
+          "endpoint_count": 93,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0025.safetensors",
+          "sha256": "ab5a9ce4e112d0aeb3b60e2e1133e9fbbac31c23c7cab026679541d76ee15cc1"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0026.safetensors",
+          "sha256": "02622047c4fa1f22b060df43d13cd81fc80869188e7270a817c58aa7376e8172"
+        },
+        {
+          "endpoint_count": 88,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0027.safetensors",
+          "sha256": "6c4e271eae212386a08d2b0956f28e28b24a87277270c0d9201520e0631ecfdb"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0028.safetensors",
+          "sha256": "1c9ff4eef398636513b3fc133890b07f9b44a598c0af823a6fccb69e3a309ce0"
+        },
+        {
+          "endpoint_count": 89,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0029.safetensors",
+          "sha256": "43277f31e121d1a6183a95d02a8dfb96694c9a974e0f3a94e5af2b98a386b000"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0030.safetensors",
+          "sha256": "80c72921ed65588796125a3c8eac19696d2093e29d6a05284a40fb187b548eea"
+        },
+        {
+          "endpoint_count": 88,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0031.safetensors",
+          "sha256": "faa87d6c593ca3c6d57a7f31929d7efe2f8a14a77765604e19c5ec6fd4e82845"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0032.safetensors",
+          "sha256": "126617ddbcffbf872a4a8955f9c8f2650d85c3bc44b605f470a631e52cb7d0a8"
+        },
+        {
+          "endpoint_count": 87,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0033.safetensors",
+          "sha256": "7333e53bf71c13a80feb753c11dc493990d28e6bc7a74969c5a11544a5b03596"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0034.safetensors",
+          "sha256": "81757d8461886543777f36a08d1edae8e40f050adbc217b236017b5cea7ee253"
+        },
+        {
+          "endpoint_count": 90,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0035.safetensors",
+          "sha256": "0d68a8ab36e0be294fa53ff04157a01bfd3e3e73b8cb771b7c523841f5aad53b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0036.safetensors",
+          "sha256": "444d17f51326d9590b329a54dd5f2d3cec79e62c9b52d9effe3010bd94894bfd"
+        },
+        {
+          "endpoint_count": 113,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0037.safetensors",
+          "sha256": "1a83478c86d57d8c78a0fd723bde6253515911b7f6ed468bfc88dca1814efe5b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0038.safetensors",
+          "sha256": "cdc88100045353da8e0bd4a52aa9476a821a209be603e57dc171892332192784"
+        },
+        {
+          "endpoint_count": 103,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0039.safetensors",
+          "sha256": "6fe6c1fec2aa8e216fdcf5c1b5c84ede62deacacf14b73db1e71c30054d50269"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0040.safetensors",
+          "sha256": "c05247fe8cc9a3cd609fe0c5a1d0298868bfe101b9665033b5f30faee8b94ee2"
+        },
+        {
+          "endpoint_count": 100,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0041.safetensors",
+          "sha256": "f93d149b815286266e6d25b08252e5bcc9e440f4ea9d96c616b0d0690f29cd64"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0042.safetensors",
+          "sha256": "4cad27507ab7d30573c05bdcb0569b0006d0f60038a66bd07584f164982117e9"
+        },
+        {
+          "endpoint_count": 91,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0043.safetensors",
+          "sha256": "006b5b741716c0b22d34c7249bac74dcd2ae457b0b9e1cfe02b92da4d63bb699"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0044.safetensors",
+          "sha256": "b51c5c70ab90bb435fd320de4f84017cb97ee7e63cb4ac713dc4c015d3a81bb1"
+        },
+        {
+          "endpoint_count": 88,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0045.safetensors",
+          "sha256": "98b68be2af2987fdc481ef84651a536a4fb552e1311f7fae7a40c0b8fb290415"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0046.safetensors",
+          "sha256": "d8db1833961b904284c38817027ef27be844bac5345c2a434b9490a692fdc6c7"
+        },
+        {
+          "endpoint_count": 106,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0047.safetensors",
+          "sha256": "f9042a4d4fa7ec4122410d0c97f2fbebc72b4fd51d699d5618d949732c890688"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0048.safetensors",
+          "sha256": "675f4a311a496c05530ad1ba3921b103462a351c93748e2aa919629cee2a44c6"
+        },
+        {
+          "endpoint_count": 102,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0049.safetensors",
+          "sha256": "6ebf566651c75773ae93f51abc3bb8b3526a24912afd09c90cef9c2f739d1db0"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0050.safetensors",
+          "sha256": "7a35cd88994b181c8b3df7be95f941143a20bab9893bca52a229fb53b0e4bb02"
+        },
+        {
+          "endpoint_count": 88,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0051.safetensors",
+          "sha256": "e0360cef1ce75ecae06e3141cff97481a4ca7e401b0ffce78b9c4dcb0d16da58"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0052.safetensors",
+          "sha256": "0781739847f3c4a74d25ff78214818efbd0f3c33642c427ec88009269e6ed5a7"
+        },
+        {
+          "endpoint_count": 93,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0053.safetensors",
+          "sha256": "ea6edbfc538fe731064958c41d242629912b458d7948174970dba39675b5c9ef"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0054.safetensors",
+          "sha256": "4aacad2a35eef4289dea0f5a79744dd1387efd28ba87fcfd75eba4eb8009b118"
+        },
+        {
+          "endpoint_count": 112,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0055.safetensors",
+          "sha256": "80405c9a8782cd3c3bc21a73470dfb281d1ebeb624f8f4236f2d0e333290a355"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0056.safetensors",
+          "sha256": "68e605307d62ceccae6970cf1f34bc5d3c2406548e3b29ae2278a83b070b7dd5"
+        },
+        {
+          "endpoint_count": 93,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0057.safetensors",
+          "sha256": "afd0f5d86342e744ae6d834363b72606723bccdeda0f1482e84c6f0c36c0c78c"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0058.safetensors",
+          "sha256": "32b54c05b152218bda4ca38a723609a3e14f74afde530bf98b0286d33809e7b6"
+        },
+        {
+          "endpoint_count": 106,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0059.safetensors",
+          "sha256": "d57988b46a2050a48fbd5d0da2f68b1763791e84efb7cd03cb642d8b46d06693"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0060.safetensors",
+          "sha256": "82dec813c33eea187112b221351d9ea3cffaf8005dbd88f3097e7929d98cfae8"
+        },
+        {
+          "endpoint_count": 28,
+          "path": "cloud_reference_error_metadata_20261115/phi/raw-0061.safetensors",
+          "sha256": "95cb5557541dfbd4ab7a847c777e3bb62ee8dac0fa78665174fa49bb148eeb85"
+        }
+      ],
+      "native_endpoint_count": 6918,
+      "present": [],
+      "present_shards": 0
+    },
+    "behavior_qwen": {
+      "expected_shards": 62,
+      "missing": [
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0000.safetensors",
+          "sha256": "167b9c24c5a0d6d48295619b56324cda9b0db58a4176126d284df23c249963a9"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0001.safetensors",
+          "sha256": "7c18faa2a088d84bdabc62aa58fbd1a3dcef1747720918108c7498dfcd25a2bd"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0002.safetensors",
+          "sha256": "ce898d942051da78ac2d319e0a6ee057aa4793eb6fc245e1b84994158f993437"
+        },
+        {
+          "endpoint_count": 108,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0003.safetensors",
+          "sha256": "ea3319e842a7b168eefad7bf5492263116b6a70f679a7157240ee9cdd4d2154b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0004.safetensors",
+          "sha256": "2926c9b90d6e95aa50300e6a826b693f77a44a60b9d03470776d80ee048a641b"
+        },
+        {
+          "endpoint_count": 126,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0005.safetensors",
+          "sha256": "db67e87a13f0eb58ff2c229c505ec35d9f430a1a11699b69ec156ee9c1a586e7"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0006.safetensors",
+          "sha256": "b0ee300ced6f292970c4943e3e5870067bc8674b44b220ba64c430ca09b43604"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0007.safetensors",
+          "sha256": "15c22b29f09bd6d217955e642c3ba4b6a132121e408ee0afb6fa0c3525c0af31"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0008.safetensors",
+          "sha256": "56ed382a0f04df82c8537913bed8b1ae147fc9202800fe52389aaa4540a4c99d"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0009.safetensors",
+          "sha256": "6973d608b0abc7e3758034fd96d4375306a74b3dd3104824d135d4609d2735d7"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0010.safetensors",
+          "sha256": "b52b81c325cea239f412147204ba9af160f8e77cb17cc02da5bd29287ed79b8f"
+        },
+        {
+          "endpoint_count": 78,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0011.safetensors",
+          "sha256": "65db92b70643d84df6dcc848ea4d14d91c02ed3bc77e5c4c8979b21dbaf47009"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0012.safetensors",
+          "sha256": "f13d0f8cc38690bbb79c9fd40feacb9a47787c282c236034fb21b27fde3393e2"
+        },
+        {
+          "endpoint_count": 98,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0013.safetensors",
+          "sha256": "40dede5964a35c2650d4d11fb31b2072220b1216254b2c82a86caa9d7e903a9d"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0014.safetensors",
+          "sha256": "2abd4d7088eb081752126d3d0c318f184653cadebfdbb1333def9231eacbc0ac"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0015.safetensors",
+          "sha256": "312d3ad5c43d4f61b832390028100f18ace84d684eee811245c578d7bc8894b4"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0016.safetensors",
+          "sha256": "4996d87e4db69e8c2e87375eacfca39efd2ddc4dd10520a9a8072c31e016e544"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0017.safetensors",
+          "sha256": "4de114b7e1e04d100c594d427ab112033c9695f4408fe028876ba9271258456e"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0018.safetensors",
+          "sha256": "426f26036f79107e3395118b45349169e507fc968a7c845eb45f80924b9a43c6"
+        },
+        {
+          "endpoint_count": 76,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0019.safetensors",
+          "sha256": "679467dd7c901433eea5633e18be46f0e704d58d1fdb87082cb52b24f8f41d2f"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0020.safetensors",
+          "sha256": "a8fb88108dcc11610c941bf37b2d13f62cd2362df8636d8afa6db2e8ea4c114a"
+        },
+        {
+          "endpoint_count": 80,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0021.safetensors",
+          "sha256": "3a39ee83deee0447bad4a502f9e31cea7f9f5e6b3631407beb58c6a81ec51a48"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0022.safetensors",
+          "sha256": "7ca879e6d267e5e58dbbc18a2a2c9871e7282d4ffd727730373df43eb6248a34"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0023.safetensors",
+          "sha256": "58e39596879f260be7b3490c0b0aff8e5fef160eab8bbc159684491e2019844d"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0024.safetensors",
+          "sha256": "a3bf8d82034a8df7a5a3013057d92bad1921e93a51baddd41029c9e4f75736bd"
+        },
+        {
+          "endpoint_count": 78,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0025.safetensors",
+          "sha256": "c34e62b4747397131e10fa630436fa746b408b54383c91a47ecc6a538534cb62"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0026.safetensors",
+          "sha256": "ae1de2f6c0cc05e438f5d38fa364da323268f9bf7a78b70e447e0a302bf20692"
+        },
+        {
+          "endpoint_count": 98,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0027.safetensors",
+          "sha256": "db0ff3c8754e05935d003e0f554f8231ea942db25ece3387042fab30344a5063"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0028.safetensors",
+          "sha256": "fac8e3af85a2f75323328ec018aa94bae6bc4756197c6fe22db710869a56a910"
+        },
+        {
+          "endpoint_count": 76,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0029.safetensors",
+          "sha256": "a3150c12744b10a4b4c88414944a51b515255c1af43ff3c7fa7370ae43a1102e"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0030.safetensors",
+          "sha256": "4420b25a1913893d4401810055b6da69b4f9825e036afe8444caa6c957dfb512"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0031.safetensors",
+          "sha256": "f13ab52ee21f3b309e07f385904c12bfbbaae7f7633186883f242281ccfc8e72"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0032.safetensors",
+          "sha256": "b79079f8bf2baaf1335f535ccbbc2fa9c4095d3d3d4734ccfac38a40681f950d"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0033.safetensors",
+          "sha256": "c78d53e6fec343bbdbf101cc3536bbd972fa6a76f6091d403f1d1f868e368523"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0034.safetensors",
+          "sha256": "e638e3dbd5ec9ab55b9a8a785944e9be987f665b445ec228e90a74ecd47f6789"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0035.safetensors",
+          "sha256": "44902e077cb21edba37916b6c036b4dcc21ed2d5482b9e93c49340deb70d1d4c"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0036.safetensors",
+          "sha256": "a16155b72567ba6c94a6ba85979c29ffacbbb14613cc3b2c680346622a90dcb8"
+        },
+        {
+          "endpoint_count": 84,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0037.safetensors",
+          "sha256": "dcee7d672848999de7e532ed11ff921f23a354b62b13461af31bdd234719c186"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0038.safetensors",
+          "sha256": "2385bf9518fe158b25cfcc1bec201b73945ad38f6a599687f0dde5172ff4f298"
+        },
+        {
+          "endpoint_count": 90,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0039.safetensors",
+          "sha256": "9a931381247015ce8a490d9316df4de5c873ac8e8dacbd89921cb63da2fbcbc6"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0040.safetensors",
+          "sha256": "ded97ed385e42182e488a56018aed85f1fb6d5cf2a0b4a7197dc9f6cee75538f"
+        },
+        {
+          "endpoint_count": 92,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0041.safetensors",
+          "sha256": "84f28908c85aae52ccba6726d884a1e62c7e252b00d3d76dfca4f25d28acb562"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0042.safetensors",
+          "sha256": "c8b624ffc45b15c42b483c68e83d4709437feebf06e60f7eb5db8dbf1594d4d6"
+        },
+        {
+          "endpoint_count": 78,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0043.safetensors",
+          "sha256": "4d3db979df1b3c28f5326f6e1fafc06ecb41bae47da4dc9eeca44102df615735"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0044.safetensors",
+          "sha256": "1e4b55a16f7fb67cc9bc93ea77e56d7e122c09570194b9bcecbd06a6dfb1ed15"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0045.safetensors",
+          "sha256": "3baded04c50306414fe09ea9de16426e70c0a79b94d29ebdc44b7793b1c2e8b4"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0046.safetensors",
+          "sha256": "f3f009dd803bfee20972253eacef2d225112508381c9e3ef9b4364d367a228b2"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0047.safetensors",
+          "sha256": "61895e1ddb07d5f746a09d6d23778e3fdc48ac4a05f2a1900632859e7dfd687a"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0048.safetensors",
+          "sha256": "7ab50d789d0ff2c3f4bfa412499668b14ad6fcf760646f0df018cd84f122e9f0"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0049.safetensors",
+          "sha256": "f07c8bc08ef4be3d060cdf0e6afea1e8d6543809f7f50d79fc66731c0eb49ed7"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0050.safetensors",
+          "sha256": "e9596bceece0e853e061e79cf7f5e3bfe89e1d5ffec1e86b9f4f28d4d0e5b0c5"
+        },
+        {
+          "endpoint_count": 72,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0051.safetensors",
+          "sha256": "1b9363ec64e848255e2355ed3ea931ed2384fc6dccc868a1cae34491d935c3e4"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0052.safetensors",
+          "sha256": "33c977f818370715831d8541d67edfe62787a8531d426a6833f520601bd41998"
+        },
+        {
+          "endpoint_count": 78,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0053.safetensors",
+          "sha256": "05c33b3d7963f22477ec438321a4c868b5fd963953f2ab7d4feecd16f6715b2c"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0054.safetensors",
+          "sha256": "503cbadf41ae656e184639b06254024313b28a6a5e596f16ec57e84928e7482a"
+        },
+        {
+          "endpoint_count": 74,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0055.safetensors",
+          "sha256": "6caa3457cce2822513be6d784a766c4fcf0beb1fe3ae71eead69cf87ed39726b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0056.safetensors",
+          "sha256": "7175b812111836d6e2203f3e39121feb2460f2cd9b472eeee60e12e70ace605f"
+        },
+        {
+          "endpoint_count": 102,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0057.safetensors",
+          "sha256": "bcda5a4b4b294e54f8a3e6e64373e7c1a558ee3204ee52068e6d3d6e35da683b"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0058.safetensors",
+          "sha256": "fabf3c9813a86502ebece815a4d8baf7468a7e03fa0f6b83f04a16c4518eb3b7"
+        },
+        {
+          "endpoint_count": 108,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0059.safetensors",
+          "sha256": "f64988010333b653b7e4cdd18a08d228ba20ac011f0104f6ff62345f1f65fcad"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0060.safetensors",
+          "sha256": "ab8baf358608dde3b729ee4fc317d7b57e27c8499d35be1366ca9fbb3b6ef9cf"
+        },
+        {
+          "endpoint_count": 16,
+          "path": "cloud_reference_error_metadata_20261115/qwen/raw-0061.safetensors",
+          "sha256": "3aea404c8466cb54ac0dadbf802d60b72a9292c8c8cf01361ab8a2d23260f4db"
+        }
+      ],
+      "native_endpoint_count": 6444,
+      "present": [],
+      "present_shards": 0
+    },
+    "decomposition": {
+      "expected_shards": 163,
+      "missing": [
+        {
+          "endpoint_count": 36,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0000.safetensors",
+          "sha256": "8cad4615b8e1a15d95f0b0ff9ca27055a9a236d3a5f29f0dbd5490b42d979ff1"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0001.safetensors",
+          "sha256": "4e373a26d0283c36af8d6edfd5c763023d5c44976522b9ce570a29c6840e62a0"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0002.safetensors",
+          "sha256": "740aef078208e8f9c511a7d7510ad13810892547ac5af25723c72304191ee45e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0003.safetensors",
+          "sha256": "d5e0f70172365cc8855882b50b08ab7bb6513399f61ce0147c7e79a7fa818d9c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0004.safetensors",
+          "sha256": "a2f7319d25299d83def89d6c639cb05f4f508c47c346512d85578bfb5102ab7b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0005.safetensors",
+          "sha256": "e835a8d52556e2bd94218cf0b27ce22548efd02a13636149f7d9c4e52368159f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0006.safetensors",
+          "sha256": "a003a627bc78cc76ef6fde93697c248cf3b59d08724851666c9e9dfaaef4e013"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0007.safetensors",
+          "sha256": "01c29e936d9a76df8ba232681bf9a0ebd303eb64b98d5e71fda8210c9170e4bc"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0008.safetensors",
+          "sha256": "45f09ca43e59da71a6e801a6760af106298868e102f7d5c8ae3a051fd6b855a2"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0009.safetensors",
+          "sha256": "8121e5a3bddff0394840781f31130e0afee9f6079b13b2db702d366fccc0e10d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0010.safetensors",
+          "sha256": "ec796e7da6c9bd386fa1f2892bfd6399b4c0230e93f19c329ab42184d58450db"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0011.safetensors",
+          "sha256": "d2e79b2dc44c57df04d808f1de30148ea61522dfeb300167730250aeb3f09895"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0012.safetensors",
+          "sha256": "9afb7db45ae06cab36f4fdb2347d44a93426383b03f52e12eb858c62ed39b669"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0013.safetensors",
+          "sha256": "79489aac5a4cda391a321674f861dcc54dd5d1fd435475cce8c540bf04975765"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0014.safetensors",
+          "sha256": "c63449d1adadaebafca3661dd718b34a95e98dcb436afc55c819efd43eaeb860"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0015.safetensors",
+          "sha256": "652285188c5d7bc909824800bb53525a46b847ac402f02531e77845f43465be2"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0016.safetensors",
+          "sha256": "a24a2e302ba819cc98e9facad1afb585dcafaae41d7c7b233f2a68f5d320cb00"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0017.safetensors",
+          "sha256": "cea2601875c25158d91a006561894a0f90b387dfdaf03323960455284e83f1a7"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0018.safetensors",
+          "sha256": "4e6ded6a0520fc4bb6ff74849c2535df9c8efcc9d18a9f960086e6ecec39a6b8"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0019.safetensors",
+          "sha256": "633b7139f8c727f82dd238f8ffcee4ba1567fb7928a15b5a36102cb2fec2237b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0020.safetensors",
+          "sha256": "76188310d2d52d98cb498a489b8f3a6d8c90f99b1f3fcfd625fdab6ea244f981"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0021.safetensors",
+          "sha256": "4ae37bb4edcc01c2265b939505cbe64f1f0dbc1c8af6e3cb902e04e04842a002"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0022.safetensors",
+          "sha256": "8f2585074faa41664b9fdf40844406413f67030c9b50e4ce54b09c06bc963b41"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0023.safetensors",
+          "sha256": "551e14f598568a36b42debd431df2b09ee773f1db89552ae57197a6319b10b3d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0024.safetensors",
+          "sha256": "4aa03856384be5f0d7bc00e99fe95ce6c94c8180d91605e5c5b9d9e42c843f01"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0025.safetensors",
+          "sha256": "a60e101ee9adf35c2560f63eb3ac32078cdba060a3994ae941224ccccee1be11"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0026.safetensors",
+          "sha256": "e75e36db82db4e5538e561a203aca6b6748e94053cb5014a9a67f252831509a3"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0027.safetensors",
+          "sha256": "945bf60c01a5adb4b8211bd8a89c0ae1494b8120e653f3e1a64ecd811cdc0a38"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0028.safetensors",
+          "sha256": "7b620b6b621482a17bba1ba22fc736c879f64557dd5d38e95e0b35472ec17b36"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0029.safetensors",
+          "sha256": "af13299b23269411f155521f2889acc83b355d903275995b734051f2d2bc573b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0030.safetensors",
+          "sha256": "6f91698d6f7d841e1f43f7b8d43c83abe7880e7733ae9701f732424fa7c8cc18"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0031.safetensors",
+          "sha256": "815230b70868baf77c031d4acb1744ad9c62ed0092e50880c2b895be852f1c5f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0032.safetensors",
+          "sha256": "3c5fc34728bbf04a6233a62482184d00fa292f9606ac2a8de6871a6eb9dd5b32"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0033.safetensors",
+          "sha256": "55b808c95519ba5003d42be5ac87b6b25dbbdc5136883097f80316546fdf3db7"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0034.safetensors",
+          "sha256": "778283a6f3b917d929070f8055f75f16d23f283c6ec533045c96bcf49a0391c9"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0035.safetensors",
+          "sha256": "63dd3d0122cded56c2f39e5bde328f3c70212eca0554e0bbaa63c6e0340a229e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0036.safetensors",
+          "sha256": "92da48cd28e2826ed716660682d20fa4f74b6e21e1e9ee7724dc71e09d4c9ee7"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0037.safetensors",
+          "sha256": "966658f11121e1dafc8b57f3d7aa417b2b0c0a82eeab64dd3100c2710c27f7ce"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0038.safetensors",
+          "sha256": "b79e9be64a577bf7e0ca2f428239770da568b2dbefdc4a3b59dd8ffa40596b78"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0039.safetensors",
+          "sha256": "8e9290c96682b58ac3d51ad258f44bd77fc136b7193716449291bf3b15d00229"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0040.safetensors",
+          "sha256": "1e38e5d19e2ffc54e7af004b962daa6b7a27f2c7a516ac96538f014cbcc20eaa"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0041.safetensors",
+          "sha256": "01a7a18086e5ecf005f904ee9e6a444e105e1090e1b4870e9a2665604fe0e2cd"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0042.safetensors",
+          "sha256": "e3d7c9373420088713c408a54a9e753076d794f8ac8793e5c936eb68dc99ad1e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0043.safetensors",
+          "sha256": "85a31e628d3b94b866a74e3682dcb25ff296deb8f6096df29a31ea1ecbe53348"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0044.safetensors",
+          "sha256": "1a87dd6af2ac435c3bdc1a1f83a23778e8ad2158efe5e2e6e231c8e14d64b309"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0045.safetensors",
+          "sha256": "73d8bf6d43a4b4a2d14c07a1d39bdd283d8e70678ad55897448beceb4ad5484e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0046.safetensors",
+          "sha256": "992c473f9badcab004dfb27fdf0822cebc5cafc78b7aa4d23eab93ea09213dd3"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0047.safetensors",
+          "sha256": "ebcb9778d1ef5f41490ad2bab5394fa13257cbfeffcee973ad7def18b636633e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0048.safetensors",
+          "sha256": "e4272ca9f35cc6c49dd175f5ec1c97eda670aa4d78eead72d8482ad0402bafb8"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0049.safetensors",
+          "sha256": "c70fa75461a60e35a586cceb14a9ebc1d504205fa83327b94cb5a759cd9a74e9"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0050.safetensors",
+          "sha256": "782ba2ea0e8bd4c36c47b7757697042493d9b85fa2547fb492600073eed3570d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0051.safetensors",
+          "sha256": "7351e8c9711fd8304c8547caaee6dd531ca0b7b4c2cf70b866c92747e47a8a34"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0052.safetensors",
+          "sha256": "4d4d40995665da104902eb1eea7a0cdeaff19e7d84daf3bcdacb4f5fc3e515ed"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0053.safetensors",
+          "sha256": "f2ea488cbedf0b94f08684e76bb1893c78ae89c4ee85d0d474ca67af8b25284c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0054.safetensors",
+          "sha256": "49ecb18e9bed6c6a4c9b46fdb7cee750aa6d41fdb3141a52fc0b73a84ac77900"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0055.safetensors",
+          "sha256": "15f00023543b925e3cf4c3630fd31bced697d5061791d6ca5a2c9e2fab54642b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0056.safetensors",
+          "sha256": "501f78ba7d8e74b5b3e339d5ec73cc415b98e3eee790a600481e3440a62a0121"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0057.safetensors",
+          "sha256": "da9ab5fec25b695a02341fc03d6ff92dd5e4fcd7a41ea2cbecd5985fd685c46f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0058.safetensors",
+          "sha256": "a566976cc03744dedab87e78ff98478af6d234fcc93c199072978c8ba2c1ddef"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0059.safetensors",
+          "sha256": "5cc946dc5f1783f5bd0ec3bee5d88591b01b9d15f8398934550e91c4521eece6"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0060.safetensors",
+          "sha256": "67fbdabcfae7714bf5018a436b620e182e9271d490fcfd941261dd5dd3928d08"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0061.safetensors",
+          "sha256": "ff8f61251a1ac6febf7d41eef161d6cc8c4669f24dcf2a792d63b9d7dd38e26b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0062.safetensors",
+          "sha256": "22d384d0f4b7b644e25dca706301676c9134f649ed5fc88d86ac30565ba06a6d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0063.safetensors",
+          "sha256": "98d6d4252a7ed349ea2cb77ae52b546a688aed5afcd5530b72ce190bddbd4a11"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0064.safetensors",
+          "sha256": "4192968153cf86e07d58c70570ce8055111cc91c4209e2e15ae57e90acb58ca8"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0065.safetensors",
+          "sha256": "502a241a512761d941cb34d79891d6246731e52ae9307af8e2baeafe0904af62"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0066.safetensors",
+          "sha256": "7cb3c5b1ae1c0edfc19a01c04c2779d7f02b743bf03748ee57698fd7cabb2a8f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0067.safetensors",
+          "sha256": "a91c1122eea714b3c87b7eb0f5236e40ddbd8de8f5c6d4a41831ef1c74424b47"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0068.safetensors",
+          "sha256": "e483194323497ab9a1fcce3ed3b1629d50c79a4f18cdc0c4ab27c3c910079cf5"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0069.safetensors",
+          "sha256": "f6336fa4299b356f17d38409ee0f176d5cbfc6769d93da7ae01beb4cca9aa34b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0070.safetensors",
+          "sha256": "cd31143cddbea3112060d542b8aafcfaae5cf6c377c413d62aceac225d934baa"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0071.safetensors",
+          "sha256": "a38249cbe34fdc2828304429b0697bab33f4d95b90f91a61a2d90cf496902020"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0072.safetensors",
+          "sha256": "bb5ee50845d1cf0c67b94ad06e7b2b979effa7c468f65d19da64456aaad08eee"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0073.safetensors",
+          "sha256": "8f64fa3c6f594df095d3ada6688dfa010413a48cba544f65cf093fd2f27eee43"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0074.safetensors",
+          "sha256": "b2bdc8c7123be309e5238ceba91db89c02685c72eba82208b2ffba67b4e339e8"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0075.safetensors",
+          "sha256": "037082a1d22e6c81d07c0d1e17fff7c211c166c7511ea0a3eeb4158e0acc0433"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0076.safetensors",
+          "sha256": "8d2caaa218b4dec7d56a0dcfa4f1975c7f6e3c55b7043cfbb2ab699142d635e6"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0077.safetensors",
+          "sha256": "fd81fed923e2d5b5a37904a351428b7b4f2c9be80c96a5d700de277be3f51ba4"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0078.safetensors",
+          "sha256": "a70cb745e033488e76cd8f22714cda2a980973a2c6eafd114d55e82a09929429"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0079.safetensors",
+          "sha256": "665179125ef00ebe860ad04b8a5bc9e621ba556eefeab2dbb47941da762ac275"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0080.safetensors",
+          "sha256": "ca2ae2af4c35c1167ee943df9761acdc131b8139120835739560f6e5867e581a"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0081.safetensors",
+          "sha256": "378701f5eb5c3347374f828961094c3811b767b950171c4ca97fad064e85b839"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0082.safetensors",
+          "sha256": "510b7e90cec0d3de16ebef5f5c1a856509102219c1aa5f5bf135e8684a2c6957"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0083.safetensors",
+          "sha256": "f773ac7adef9d251066f4b5d638995d84cd29bbff632c205d126fe1cebd08795"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0084.safetensors",
+          "sha256": "ae545f4cc04e2e743814892d36435d4fe0ad6dcba2b31a5725f175b394270fcb"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0085.safetensors",
+          "sha256": "ba87d3fc1e6060b81bffdda05731b2014b09a78496d1bacddfd3b116fcfd0dac"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0086.safetensors",
+          "sha256": "26bf35c783194b918dfac29009724d35a1a46983c701ba7f5fd5d91dffaef3aa"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0087.safetensors",
+          "sha256": "4de32c4c75a8cdb7ab8e1ba6f6232c1566b1d26d07bc0cd9a8bbb35ac25c2565"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0088.safetensors",
+          "sha256": "5fd3c3fede1f1dee7d10ddbaa4d277955195828a57dc9712827c2323380a5dba"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0089.safetensors",
+          "sha256": "d9c13cfa92c5eebc705d0edd9ba99d6059a7472d42d821955bf24fca53c65493"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0090.safetensors",
+          "sha256": "d6c4ca69482aec4be70951843c4880214c6f37342d3f43bf871bc87d3ca12e79"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0091.safetensors",
+          "sha256": "8bcdad824bfdd3044238336c2f923b5bb90230c47c8f535f114cb91ac430a45e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0092.safetensors",
+          "sha256": "c71ca1b9a232c088fb98fbbe614462f682271f2a84478b608f1759f7421eb0b1"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0093.safetensors",
+          "sha256": "a740534231c931183bd55ee9ce1259aaeea98f8086df607486c21057d4a43e6c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0094.safetensors",
+          "sha256": "54a86790833378c652d9a1c84e2a6d0298872e0f67ad63bf4876061ac6c7e197"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0095.safetensors",
+          "sha256": "bc31a3db54e17bdbcba1d28e7d56704d2a3e5ed8c8384555f1424082ba4a33f4"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0096.safetensors",
+          "sha256": "b51a296c2f58d32eaa6d855b2cb974bca6612a4a6ec8c39b9e4b84204ec080ea"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0097.safetensors",
+          "sha256": "fbfe80b9290a193b75d9c956e7ea4179e1ed894e9ef0b7cbec534a9070cb912a"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0098.safetensors",
+          "sha256": "bd7d24f7e1bb035be3b7594941870648a5f74b2ff85e307f4e18704edc10c876"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0099.safetensors",
+          "sha256": "6055b15582cfa5ffe9efec56abeba047620194f30397c9bd80f21a43d1646354"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0100.safetensors",
+          "sha256": "7111bb22583c21aa17f6db9302657617ac29b009c9fd3f2683f31c2ff6a1ff32"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0101.safetensors",
+          "sha256": "cc43971ea46989684e5ff3d36331e9a24a62858e40865289712029ace2cee8a5"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0102.safetensors",
+          "sha256": "b4803d93985432d8a51a28dda7989f05500a70fb40555f8bcb6256148171fcb7"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0103.safetensors",
+          "sha256": "2923f1c5ab6f00fc886c7adae0b87fc77923226cd2630e422b89a10ded2bbe6e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0104.safetensors",
+          "sha256": "e7f14b4ce20202c3a2e400b103583918d93cc851923c63a2b5fa4130c6ed3450"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0105.safetensors",
+          "sha256": "ed70670fde11766cb7d22aac35f93aa31842879a349f6e5893bf915bb2207d6d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0106.safetensors",
+          "sha256": "1a81c331c130f701195ef1426096da7a6088390a84cc16ea258914a8e0ba040e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0107.safetensors",
+          "sha256": "0db466cc0b6462161e16ace2883935d63e2b772b6116242a31036b4d69d224be"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0108.safetensors",
+          "sha256": "76cfd9fe6d5003bae68e44cb8348a0eccca492538365388b59eefb836d9c7fd4"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0109.safetensors",
+          "sha256": "893fa08bc75f10d8af4dee86458e022ac8afa5f0ec389591b5d5a20d46909852"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0110.safetensors",
+          "sha256": "a7ae8c08092c5e9314d29b33ecdc99b9fec2e2028bd9b433fc9e6995b39e5551"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0111.safetensors",
+          "sha256": "994a3f0d79c456ed4341d4bd8b58e38432bb602f96fc7be8ac9c144124093aae"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0112.safetensors",
+          "sha256": "02109b2d9ac4af4c42250eeee0628ef8101f226b0b33efabaccd22dd33da6e70"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0113.safetensors",
+          "sha256": "fea292e97eeffaf38edd0a9f1bacccbecb6950d1fafa7b23b9ee7ea9ab50cb2b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0114.safetensors",
+          "sha256": "6d76caeb24bfd67cd9b3b11090fbb029100f007f145c0211d917a2511d404a13"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0115.safetensors",
+          "sha256": "6a77fe35528337a53c149de3648d4da558f411f052a4d4b73ca90a43c3e131ff"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0116.safetensors",
+          "sha256": "9275596bb2686415b7061ff67adc684b4f53e62196b7196d7747468e80ebc559"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0117.safetensors",
+          "sha256": "7cf46c68c43a7d2bb6d65152fa8c87783d56aede8a140a7d9865948d1d33a9f1"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0118.safetensors",
+          "sha256": "9c8b7155d5047b305d95ab46c3fcf05a13cb484b74d5b8c3d2136b64e6497bf9"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0119.safetensors",
+          "sha256": "7fc93a59da26d310afc3956f531d5a330b41d8cabaa396263135dbbe59dcba49"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0120.safetensors",
+          "sha256": "87d46beb737b91dfed3a530e81a20e487678fc07b73cfca5564d2cb9f3ddd60c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0121.safetensors",
+          "sha256": "ac852d411ce75bc5a2494e17349752f7b24b245338d39f51cd048cbe1ce8253f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0122.safetensors",
+          "sha256": "c9f71386c55f95f31edf7822cba98c5a70a1cb3bbfaa3f6ed6902184c5bd77f3"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0123.safetensors",
+          "sha256": "2fe1f3dad1fd98258fb9179e848e0317fbd28b31652a13f75a736769476babfc"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0124.safetensors",
+          "sha256": "7e825c451e0c0f1ff3f0e62343fb5fdfaed328d13c31cb3b6d470ce035da932d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0125.safetensors",
+          "sha256": "fbc0e0052d6ddf257a9d84a8fe7c79ca39dec1f02efa308da11ae25620bf88d7"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0126.safetensors",
+          "sha256": "73dc7612e4b86282afb3ec3d7a58af3de2d6595600e7dd0c9f6603e15553da2e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0127.safetensors",
+          "sha256": "036a56deabeb9b046c394b672100439543755e6fed5045ba5d60065b84b3938c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0128.safetensors",
+          "sha256": "aec6a610987b6a1456725c444fcbfe15f353d5bb342a0fb5a0a4cc8e3f092f8c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0129.safetensors",
+          "sha256": "dfb86c49381beda60506a1dcd8e796784e743ee064ada7988f47c649d1deae26"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0130.safetensors",
+          "sha256": "07416b48f39876a387a219a81c29bbf76a3a0c44839efcb297b7cae4fc9aa798"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0131.safetensors",
+          "sha256": "d73fe16e4706f84b49d04188ef9cd9faa1be1e0bf0812b093d415932e6a105c0"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0132.safetensors",
+          "sha256": "bc0ebf2982647220288b4140116c68cf4b6ee74b3ed6663d17ae8068956c547a"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0133.safetensors",
+          "sha256": "1d69ff6ed489d1e976e3ec2328ca23fbfe50dad8dea1b5bc996949dea5e98027"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0134.safetensors",
+          "sha256": "dc68408250658391d9d7d708658d9cc7ab3447cae58491e936f67fc3324ff514"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0135.safetensors",
+          "sha256": "68bce54236eac47b94b19311ac89e06be621d810f3b621d5afc29c24d7a7592e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0136.safetensors",
+          "sha256": "a8026bd13b38f37d2022bf7dee683038645d23fcb2fc021306c6fc134ace67a9"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0137.safetensors",
+          "sha256": "93fa64e4570b1a404f1f7a98340b724ee164c1d06db4bfe75bb6a0f5ecef5131"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0138.safetensors",
+          "sha256": "18c8712b1ea9501d0801832def2797ff0c0d10f0ec027d893ad5142ef45dc2fe"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0139.safetensors",
+          "sha256": "64b534d6692a11456a0df61f75dbbc8f38f518a46729e8fdfda6689d8bca7c87"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0140.safetensors",
+          "sha256": "5c2ef51f750ddfa672e80092a8d247a1f18bd5753ed99535c717f7e1594319f1"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0141.safetensors",
+          "sha256": "a0d23b64e8216f934c61e161fad8b87c3e0fa9ab619530d4a77318637736a8ff"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0142.safetensors",
+          "sha256": "0c06077819032d0d884065f78d31177f819c7f08154d3908c218940479e4426d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0143.safetensors",
+          "sha256": "07c809f76191860e1fbfedea58f73cd1320a653640a6b3b60cc61329cbc5279c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0144.safetensors",
+          "sha256": "1af5aea14621b53412b60be576c7c611c7d70d6bce6d2d4347073013e57cb5c8"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0145.safetensors",
+          "sha256": "2dac89066dd73ebd4537cda01cd9216e3097c3cd2ae9f5bbabefd183e03b260e"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0146.safetensors",
+          "sha256": "7a314e406e33a1d3a19771f7eae16a2227d01278115316b4e9de441f964a02d3"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0147.safetensors",
+          "sha256": "8419f4f817061376e092c7b1f927249d7e0d11709be10d3b5e0e993d4d447a6b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0148.safetensors",
+          "sha256": "a0517b8c4ce3ae580befcf40281c23d561f6203a5322665de9fde7adf0e98e17"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0149.safetensors",
+          "sha256": "6d47c1f32d26d20d0b8bc3786844f39dc11ef7ce254ea3a3f550fdfd1a871f86"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0150.safetensors",
+          "sha256": "c54fec739aa2464c008430ed44fc5f1240a72e1e1ec38ca45f808bd12bedc426"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0151.safetensors",
+          "sha256": "fa26b16a32214d5c23c9f57458765bb616295b9511f9ed5522b586c679a68c3c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0152.safetensors",
+          "sha256": "6f94d187ee662031026ae7de6a31bbcf9254c0b5a5716397dd7a8b742636cb0c"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0153.safetensors",
+          "sha256": "20f7c7d78dc293f11cd833f2ce8fdfc5a280529b6c3afeaef058306f1c195260"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0154.safetensors",
+          "sha256": "8841ec47ddf5d6b9d81b1b32b03bb0b8353df624ff0d8aaf3511d4d970275a40"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0155.safetensors",
+          "sha256": "b4f0dc1337d2031495b8d7218e1566cd32a7a59832ed7a1b900f69a3cc47041b"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0156.safetensors",
+          "sha256": "c33f19d1f92ebf5c677a7eae50221505c68b7a5ab0e6570630d643bf02314f41"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0157.safetensors",
+          "sha256": "fb11954194748b84906dbf71a067edfeaac0170034f325b235cdfa648b8e30c5"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0158.safetensors",
+          "sha256": "783b1a36bb5eb0606005a18f91f7f25bdbc07a928821c3c9dcabc3dcc1efae9f"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0159.safetensors",
+          "sha256": "a7c4fe86dbeccf6e02f41ba0d2e33032b82de419d144ee479a1c2dd66077b109"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0160.safetensors",
+          "sha256": "30a0fa3fa459dc552d3d2dbc8db027ef7f4c219e1e560f012bcafc578486194d"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0161.safetensors",
+          "sha256": "eb3d07bed86d217000374c4930a31d405686bddb729206762eeb5a9f56918d78"
+        },
+        {
+          "endpoint_count": 2,
+          "path": "cloud_reference_decomposition_metadata_20261115/decomposition/raw-0162.safetensors",
+          "sha256": "ff3715c9b12bb3150cf4866eafd20cb7aae1f8d4f68382ce68407a2cb476515b"
+        }
+      ],
+      "native_endpoint_count": 360,
+      "present": [],
+      "present_shards": 0
+    },
+    "prefix_screen": {
+      "expected_shards": 12,
+      "missing": [
+        {
+          "endpoint_count": 8,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0000.safetensors",
+          "sha256": "c545aa16a2ab05460b19c149a3d13454b4af23b511f272b49b02c79af78ac02d"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0001.safetensors",
+          "sha256": "d56ee94ce1c9395ed85544f22e87ba39d47f7b70674ce6c6438f62328b864e37"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0002.safetensors",
+          "sha256": "3216b568419b413c54341add78c649be9be4585498db82faf5f03b52b6b5e176"
+        },
+        {
+          "endpoint_count": 24,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0003.safetensors",
+          "sha256": "9f23e2580bd172310dd99a35bb29c9ec06b52c4ab57bdce8bd6980725adf16b0"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0004.safetensors",
+          "sha256": "3a72a8410cea89a082516967b1a2d4086ba7403a47ca192e8f76cdcd6c6541a6"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0005.safetensors",
+          "sha256": "fd4d76731642b520579918b9f1fc00c537bd8d8414800971938633f00da8fa88"
+        },
+        {
+          "endpoint_count": 24,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0006.safetensors",
+          "sha256": "b46d650a38fcb7d4c5b04b227e31657bc38502842647a0a14e9b3cab057988ed"
+        },
+        {
+          "endpoint_count": 64,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0007.safetensors",
+          "sha256": "8009417ff82550cf79ff86b7e6186509165a5df200f43a0b9fd4f7d0471fd2c2"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0008.safetensors",
+          "sha256": "b6ca4dfd70eaaf74247bc4c5aafb325b0ac90e3f658bd0a59ffce3bc3fb24c61"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0009.safetensors",
+          "sha256": "bd3b33f54ed76fbcfa567808afe89238968710d774643c0ab042080c63c5196d"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0010.safetensors",
+          "sha256": "42d7ec7a20f60128ec724150e2e34c040e4e4969f414b6e160a41f409453cfd4"
+        },
+        {
+          "endpoint_count": 128,
+          "path": "cloud_reference_causal_metadata_20261115/screen/raw-0011.safetensors",
+          "sha256": "1029df545cc2a59f1df510d5e1aa2e1e05d7bd6090e542d8614f95738262d972"
+        }
+      ],
+      "native_endpoint_count": 1144,
+      "present": [],
+      "present_shards": 0
+    },
+    "routing": {
+      "expected_shards": 2,
+      "missing": [
+        {
+          "endpoint_count": 32,
+          "path": "cloud_reference_routing_metadata_20261115/routing/raw-0000.safetensors",
+          "sha256": "c1f7ef30414f026f8be683c6355a06e11a458d5a6fb9699965dd7c780a462970"
+        },
+        {
+          "endpoint_count": 80,
+          "path": "cloud_reference_routing_metadata_20261115/routing/raw-0001.safetensors",
+          "sha256": "96f4513c78a3c7075b79024ef4c249a3301307f348f1ea882b7803ed91a95ef3"
+        }
+      ],
+      "native_endpoint_count": 112,
+      "present": [],
+      "present_shards": 0
+    },
+    "validation": {
+      "expected_shards": 109,
+      "missing": [
+        {
+          "endpoint_count": 36,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0000.safetensors",
+          "sha256": "8cad4615b8e1a15d95f0b0ff9ca27055a9a236d3a5f29f0dbd5490b42d979ff1"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0001.safetensors",
+          "sha256": "c63dc9efe0af5f81c8946e86b6d003980c1b09141f1c4fda7f50bfd9e873d6aa"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0002.safetensors",
+          "sha256": "bb829abcf4b33561ed1fad3f37a2b48613cbe91de08b4f210ec5f2817136247c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0003.safetensors",
+          "sha256": "c0d23bfce55ad3098d7d47d1026146827d7db880e279188619b4946db4a26c04"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0004.safetensors",
+          "sha256": "1caf64c0be2e8431003494d669510f6bf847a65f050214ee0d996e5c918ce339"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0005.safetensors",
+          "sha256": "20beb4422618995a949eef481180decfec94fc3e6e89e9704f8fb7d47c551a2e"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0006.safetensors",
+          "sha256": "55b2837bce44d8eadb77ef27443a280a04508e1b945a2ea50421cfc72a71f483"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0007.safetensors",
+          "sha256": "9433ef236a1775b3565ba54a750f7961a85ec288d1934ed273998f9c1d75ac3c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0008.safetensors",
+          "sha256": "8121a064eef1da933c5e93127c6b202729c19495c3641305da72b5e3628db0ee"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0009.safetensors",
+          "sha256": "f9b35740674facdc4509ed927a49ffbe1aa453c04bacca67436f70508fff34b2"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0010.safetensors",
+          "sha256": "64de2bfa700c3baf06a8ddfea198031277cf1a58bd41b84897d4ee13c6f69996"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0011.safetensors",
+          "sha256": "ff6cd0a66bb0eedff96f5553eb7a3946ea55cb6b6cdec4c218215184ec7d554d"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0012.safetensors",
+          "sha256": "9a011b091e81c8cb900ab85107c72001a5cd49e3072968cf346938fb0376b501"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0013.safetensors",
+          "sha256": "926b22e00e4850515da1df3e40f0d2376c1df5d97f2b8780f5dddca01c3f4087"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0014.safetensors",
+          "sha256": "34ac586801614c07023360dcd6deee117d9d86d7518f33e0557f65927a9af293"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0015.safetensors",
+          "sha256": "c9a050b12142e8fce480209ce5658f8db6573dc04a6437d25649be0c7f660e5a"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0016.safetensors",
+          "sha256": "188ecea196ca01d6223e0aeee965e530497ec5def8a3b15cad82b607017be3fd"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0017.safetensors",
+          "sha256": "2ec7409fc2647108f54fb0d7c01dbbaa9675feadb171c55c1d4acbae82160dd5"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0018.safetensors",
+          "sha256": "1e026f1c0a819ebc1f656e49c995a7acb11fcd8146dc4ffdc958958e87d89d1b"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0019.safetensors",
+          "sha256": "487d46e5c64145e80877f0111aed3c4d1c2c59161047616b9b7e592bcd06311b"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0020.safetensors",
+          "sha256": "a8baa90ee9a068f3f69270b5bf808f1919607eecda1133fe3bb390f59e63c3f7"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0021.safetensors",
+          "sha256": "5278b2e675420dece613a131e5172da2de648c87c44611d59cca0e5b7d5fc804"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0022.safetensors",
+          "sha256": "4015ad12ad92887b075ef1ea3f0cb175beb22eabb152b19bb9b62175defc72ac"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0023.safetensors",
+          "sha256": "b38a968844e2bf6824c469376a126f2a504abca6ec747c36f2b3576a47d8bf7c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0024.safetensors",
+          "sha256": "1435b21ab9fbac17b099dbe1cb12aedf58606cb154bcab85f852ed521ab445da"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0025.safetensors",
+          "sha256": "ddf2820be2a46015b7071d6bd5d3d9df4c76dfab1a41c2fbef07b32619c03437"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0026.safetensors",
+          "sha256": "aba60d8a7174c270426301d5c3b8cacd61fa8053c85f9075ba98ebe2addf4377"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0027.safetensors",
+          "sha256": "5666d13c39b086b42c2fe43dd52ef3566228070c76d00b6fa2988763550f9d76"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0028.safetensors",
+          "sha256": "fab82565721c69777a5e30808170d7118dbf2d85f2689a2e3113963063d00306"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0029.safetensors",
+          "sha256": "e8aec71b374a2bfaa6f22db1dcac96542e920023673ef5dc057e09c53f0ce8a9"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0030.safetensors",
+          "sha256": "7acb8596ca3f2a539c215bea67d0247cfdb90e9028f4567b0837d23864e573ff"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0031.safetensors",
+          "sha256": "dad0e874c182ebb8598dd82a056083809b0ebfe7b44772fc5caed2e3c26e6c4c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0032.safetensors",
+          "sha256": "575dc57461af272829e3f0eba3d15a7508f7dccf47fcbfd1d860202dd64c16d8"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0033.safetensors",
+          "sha256": "c0f10977d02027877b0936fc6b695e73fc1df24abd0b3c263033182131c36613"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0034.safetensors",
+          "sha256": "be0dc291779787f21555ce4ca97231fa2430016b14829711fc05b7d55ff4dc60"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0035.safetensors",
+          "sha256": "8f22de2e10b0b46c133fe57ab0a6e147e04cd8d785468e4e1bd82c5cbab99998"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0036.safetensors",
+          "sha256": "ecea33c23899d97feb19dc021c8fff817eb56a33df367de38ada78cb842c36cf"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0037.safetensors",
+          "sha256": "343165739ae1c3d012dbdf30a42889a2b9d128f9aacaf4786277df21f9aa4422"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0038.safetensors",
+          "sha256": "abf50bfaf5fb4b78f6a622ecdeb91a1aadf191b3cca508672e0ef268bbc8c4cb"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0039.safetensors",
+          "sha256": "f2fa8d347d0b0b4615cdc247829ed207bfb1b174c6c8def417d3dd7af6f8d557"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0040.safetensors",
+          "sha256": "89823d668910a159d62fd1f444e0dbe3d093c0b4c01e2861668001807f139f55"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0041.safetensors",
+          "sha256": "9b2492082485412df44f5292fcedb9d50a585bfbbe7be43ad7d0e64096714f5f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0042.safetensors",
+          "sha256": "f9ecf8be31eea0124d2201f61e6db6c1bab0ee2ef0d066cee16610d28c48ad86"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0043.safetensors",
+          "sha256": "d89a766558dd7a9abea5a4249d86eb8feb496236a95e492fc0029e38a51d098c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0044.safetensors",
+          "sha256": "74b56dc43b456e3116e602baa436f514270e37f06aee8200f198268052ab6bba"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0045.safetensors",
+          "sha256": "5ef5e19e15cf8ae3c758ca063706f090cfdccc7ef66bb0143cf6bca354c11329"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0046.safetensors",
+          "sha256": "c8b0acb77c56d4a82a76d4cb2d1a959c77903cc0797637261380b0c7274c4612"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0047.safetensors",
+          "sha256": "5d20f308f9a63db7735372d0307160b066a3bacd4314f313f3347903a06bf599"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0048.safetensors",
+          "sha256": "a79b5cc280227e0d950ea7701657cd769a82e70fe8cbc6ba293bc8d1745f3c4a"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0049.safetensors",
+          "sha256": "eaeeea4480bdd48dfaccf70f460d52d279198c41ee8a832318c8e85a4d9a8a38"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0050.safetensors",
+          "sha256": "6e04c01eac273904a966ed116a9d3b8203e4e16dea3922dbfc707b3739ae85cc"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0051.safetensors",
+          "sha256": "c0c97a90402a9211ac6074e931d734041d9d663879abbc8d02b8f94d6cfce2cb"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0052.safetensors",
+          "sha256": "2ce9630e05d5b1703385ba2823f697d65c6373e3599c4d2bf131f969edee7885"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0053.safetensors",
+          "sha256": "30f2f97749dff469be14916844da3efa348f16639d3f96f1a6b06b874c18d842"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0054.safetensors",
+          "sha256": "c37ca36f6d711ca7d235c42e86618014fa83e7b60775623df243cd343d079dfd"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0055.safetensors",
+          "sha256": "1b32846301d5adcf8aeb7924b7c9b102b755c6a3e74b98028f7e7378c9f25ef5"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0056.safetensors",
+          "sha256": "9924c45e5fde31a7ba06282c683c730a94464e1e399e796f83afd34571e0215f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0057.safetensors",
+          "sha256": "548c4443030f6e1284229e2b2847445e731265887d931fa8fdf1b8e01e71cfce"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0058.safetensors",
+          "sha256": "cd2745923c676010266c3a38ff2b82379c5fe77d29c163a6f4191470b264f65f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0059.safetensors",
+          "sha256": "55936752e365de792302bc7cff430f1f00e2a352522df0558f0baa33f6b2ea98"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0060.safetensors",
+          "sha256": "3ab727dea7438b69d54b07494f83cea43190cacf33942a2f2778a4b91c16e113"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0061.safetensors",
+          "sha256": "f324bc05e63f85ac48cd7bb4e5fad589df786c2ffa72f0c5e01ab79093541aad"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0062.safetensors",
+          "sha256": "3cee0d3bbb2967793cb555bbbd458e896d80e2f6e04cb69cfbe398c640212e9d"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0063.safetensors",
+          "sha256": "abd76b26f101414646348fadc00c607befd5d84e8bc40b9e0c5300897b9815e2"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0064.safetensors",
+          "sha256": "336c8e38879b71720518ae6faf7aec411568470d2c56ead657ef87de9f8b72c7"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0065.safetensors",
+          "sha256": "fae0eed28f86afc63c30291263325b6be1e0ab0ff1570156847f2752620e6668"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0066.safetensors",
+          "sha256": "7585399376f6788d711999c43f5f679f222d78b1b4ed2dbaac811ee4173e2e64"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0067.safetensors",
+          "sha256": "da071a88fb72febd52036953603809824fe0edf49a260511e8bc97ed71fc66ef"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0068.safetensors",
+          "sha256": "56a1ef6f868b4506d9efa2e2186259d335e984690683a97e3967610e09c2cf1e"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0069.safetensors",
+          "sha256": "e3d7deee46a65dcd0eaa92768a22fd156aac7c146de23fc2ff18eb87d28a99ea"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0070.safetensors",
+          "sha256": "2d7f33962781731c3762e045e85d25920ca81c4b284e9fa246f833b50b32cfc4"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0071.safetensors",
+          "sha256": "c1928366153e2ab262d697470583c6b035b271fa8aa3a44852e82ca9c8c6e5aa"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0072.safetensors",
+          "sha256": "cc2f6648fd83161cc596b889217df3dbc9a67e52d7818d8b73870e0295e78358"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0073.safetensors",
+          "sha256": "310633ec33de0b35c42e71b19ccfe73e1d7fc98885e8bb31f70f99581fec2653"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0074.safetensors",
+          "sha256": "ed33846a57e6371bb4c9551513fbc29667dcd9a005e5748ffe86cbe7a7eb283d"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0075.safetensors",
+          "sha256": "43c4f09b07ec13b892f13629d5119a521c28c079aba84aa10850791e71ea55af"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0076.safetensors",
+          "sha256": "d1927978cf492993f4e2aae6c0a18c1c1261bac9db0a33965daacd2a64d8de65"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0077.safetensors",
+          "sha256": "afa67d135f892ffea643e68998ffc0dc6381c9f144042419e7a45f2cc2c40c2c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0078.safetensors",
+          "sha256": "f677d76098b11cf2e3415f733bfcd293caa1feb91ca9c0092fc437d11c5359b4"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0079.safetensors",
+          "sha256": "7839751551afac383af9520db94acdec65f2faa38f4abd7c5ccb139c77721830"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0080.safetensors",
+          "sha256": "abec8e5753c2071d3c3e5b5914e52dfdc3de150c9868ffbe48e6996d51821c99"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0081.safetensors",
+          "sha256": "2a344fb55afedcf4e31f2c25090b7d1fcfa7d0d6fb8c144a52b7565fcbfc874b"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0082.safetensors",
+          "sha256": "a61be3dd4b50265865f2eff3c5af8f4eb793ee293e57ea23c9192784f20a3e44"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0083.safetensors",
+          "sha256": "e07277b93bc91d2ae2c78de6b849e82a671a01ed28187ad38549b6673bedbbe6"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0084.safetensors",
+          "sha256": "27478a0f7e180aeae307c99387fff2d202ad6857e4f2c72a0057c83cbc39be5f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0085.safetensors",
+          "sha256": "1aa47c2a4ccd049a942458e60460df015b1d82e515f740a5fd2601952f354c25"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0086.safetensors",
+          "sha256": "400c0768e1dc47c199833943f47787ab0e445296c9f6f5cb3fa08ca3ad65ba81"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0087.safetensors",
+          "sha256": "416ece9a32123a5fe04f25f91c4b00daf5e8ed1db09fac598844b36617861fcd"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0088.safetensors",
+          "sha256": "c414feeff6f4fcd9369211f224a0b7686f0d23621b4dce66fcfe7ed18d2c3d04"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0089.safetensors",
+          "sha256": "51926f8d66c94242294010769130c7dff0118efac7b1fe08ea6982704d3766f7"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0090.safetensors",
+          "sha256": "b33fdcca4b493a306fb71d2caecfa03407b43e3f12306f126f5fa4f4ac9257ac"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0091.safetensors",
+          "sha256": "fbe3edb1c26488753ae1d2dcba5b6ad5010ba157f875f682b700876a67083a82"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0092.safetensors",
+          "sha256": "b443357c556795011aff118a93f76e27e60b25b52053b08d5671284a584ad71f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0093.safetensors",
+          "sha256": "fbdb4fb7a9f273d5a87a13bb573b93f00de6a45ce347ea369cc8aeebfbb5f77b"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0094.safetensors",
+          "sha256": "c038c9642c2039d2997ad7c335116ac8b3595b76a990284fb670c1ad235a00ef"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0095.safetensors",
+          "sha256": "69ce7276f7488a8720b2d1ef1150adfcb0500938e18e09e89af26555a4936238"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0096.safetensors",
+          "sha256": "9e88c12671db545756a2c8ea0616a9b5adb8dbe8420de76e70a39a2089fae210"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0097.safetensors",
+          "sha256": "afd11a80dbf9a516f93c3ee9bef642a2214881cdfeb6bc1e5a063376d53cc03a"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0098.safetensors",
+          "sha256": "f31c6eabb57e3553811175d7bbc214870824039166ef91ff417f8f4ab422b966"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0099.safetensors",
+          "sha256": "afe7b25d6477ec4ccfe6b52f55e359a8a4444bb77fb8c8c2197889cf52f68c34"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0100.safetensors",
+          "sha256": "6ed9d9440f57b08636ac3cf646ea2c9c9387b6dc398f70c6731edde4ad5596c4"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0101.safetensors",
+          "sha256": "f21e05fd5f4d6afe18991f3105480a8f6b6864a347e0e0969a04eb483a172f05"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0102.safetensors",
+          "sha256": "5da8d627afb1886af8e899fa9fd599a37594f45060c6287589867526affe6632"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0103.safetensors",
+          "sha256": "0a6d5625359a6073840f4c1cb57f0fead4844ea03e2a998eac7fb0065383b83c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0104.safetensors",
+          "sha256": "bce215d35f832ae40382fa62b45961817f8adbe8d1665cb9357559607e64d20c"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0105.safetensors",
+          "sha256": "9ce21156fc1b17fe5e3156dd53649f2136f049e8a25011d9d5721a3074e6f2f4"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0106.safetensors",
+          "sha256": "93eac9a821db499b3f0bd29667ef76129cd9375d24ba3b1423c14a81efe5430a"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0107.safetensors",
+          "sha256": "92ad0ec0d0b2d899524c6b4d5b829dbb03fe0bb0109259354bc094b4f1ebf38f"
+        },
+        {
+          "endpoint_count": 3,
+          "path": "cloud_reference_validation_metadata_20261115/validation/raw-0108.safetensors",
+          "sha256": "bef20e9c3d035b6388baab1dece7e2e8d57a6bac737745539af02f03436bb3df"
+        }
+      ],
+      "native_endpoint_count": 360,
+      "present": [],
+      "present_shards": 0
+    }
+  }
+}

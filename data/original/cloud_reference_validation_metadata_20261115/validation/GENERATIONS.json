@@ -1,0 +1,1946 @@
+[
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::selfRfield::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::selfRfield::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::selfRfield::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:014:swap0:coref_1:recipient1::selfRfield::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::selfRfield::home",
+    "predicted_target_answer": "market",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::selfRfield::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::selfRfield::color",
+    "predicted_target_answer": "green",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "development:000:swap1:coref_0:recipient0::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::selfRfield::shape",
+    "predicted_target_answer": "square",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:000:swap1:coref_0:recipient0::selfRfield::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::selfRfield::home",
+    "predicted_target_answer": "market",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::selfRfield::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::selfRfield::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::selfRfield::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:006:swap1:coref_0:recipient0::selfRfield::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::selfRfield::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::selfRfield::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::selfRfield::color",
+    "predicted_target_answer": "blue",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:004:swap0:coref_0:recipient1::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::selfRfield::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "development:004:swap0:coref_0:recipient1::selfRfield::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::selfRfield::home",
+    "predicted_target_answer": "tower",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::selfRfield::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::selfRfield::color",
+    "predicted_target_answer": "black",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::selfRfield::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "development:029:swap0:coref_0:recipient0::selfRfield::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::selfRfield::home",
+    "predicted_target_answer": "forest",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::selfRfield::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::selfRfield::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:022:swap0:distractor:recipient1::selfRfield::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::selfRfield::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::selfRfield::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::selfRfield::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:014:swap0:coref_1:recipient1::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::Rcolor::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::Rcolor::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::Rcolor::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:014:swap0:coref_1:recipient1::Rcolor::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::Rcolor::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::color",
+    "predicted_target_answer": "yellow",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      35108,
+      151645
+    ],
+    "generated_text": "castle",
+    "id": "development:014:swap0:coref_1:recipient1::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::home",
+    "predicted_target_answer": "market",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5782,
+      151645
+    ],
+    "generated_text": "white",
+    "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::color",
+    "predicted_target_answer": "yellow",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "white",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      35108,
+      151645
+    ],
+    "generated_text": "castle",
+    "id": "development:014:swap0:coref_1:recipient1::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::home",
+    "predicted_target_answer": "market",
+    "step_endpoint_ids": [
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step00",
+      "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::color",
+    "predicted_target_answer": "green",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:000:swap1:coref_0:recipient0::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+    "predicted_target_answer": "green",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::Rcolor::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::Rcolor::color",
+    "predicted_target_answer": "green",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      37476,
+      151645
+    ],
+    "generated_text": "square",
+    "id": "development:000:swap1:coref_0:recipient0::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::Rcolor::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      19301,
+      151645
+    ],
+    "generated_text": "market",
+    "id": "development:000:swap1:coref_0:recipient0::Rcolor::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::Rcolor::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::shape",
+    "predicted_target_answer": "square",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:000:swap1:coref_0:recipient0::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::home",
+    "predicted_target_answer": "market",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13250,
+      151645
+    ],
+    "generated_text": "green",
+    "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::color",
+    "predicted_target_answer": "red",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "green",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13516,
+      151645
+    ],
+    "generated_text": "oval",
+    "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape",
+    "predicted_target_answer": "circle",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "oval",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:000:swap1:coref_0:recipient0::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::home",
+    "predicted_target_answer": "tower",
+    "step_endpoint_ids": [
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step00",
+      "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:006:swap1:coref_0:recipient0::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::Rcolor::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::Rcolor::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::Rcolor::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:006:swap1:coref_0:recipient0::Rcolor::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::Rcolor::home",
+    "predicted_target_answer": "castle",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::color",
+    "predicted_target_answer": "gray",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      35108,
+      151645
+    ],
+    "generated_text": "castle",
+    "id": "development:006:swap1:coref_0:recipient0::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::color",
+    "predicted_target_answer": "gray",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape",
+    "predicted_target_answer": "oval",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "diamond",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:006:swap1:coref_0:recipient0::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step00",
+      "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "castle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::color",
+    "predicted_target_answer": "blue",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "development:004:swap0:coref_0:recipient1::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::home",
+    "predicted_target_answer": "bridge",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+    "predicted_target_answer": "blue",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+    "predicted_target_answer": "bridge",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::Rcolor::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::Rcolor::color",
+    "predicted_target_answer": "blue",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:004:swap0:coref_0:recipient1::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::Rcolor::shape",
+    "predicted_target_answer": "heart",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      77578,
+      151645
+    ],
+    "generated_text": "tower",
+    "id": "development:004:swap0:coref_0:recipient1::Rcolor::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::Rcolor::home",
+    "predicted_target_answer": "bridge",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::color",
+    "predicted_target_answer": "green",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13709,
+      151645
+    ],
+    "generated_text": "bridge",
+    "id": "development:004:swap0:coref_0:recipient1::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::home",
+    "predicted_target_answer": "tower",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      12203,
+      151645
+    ],
+    "generated_text": "blue",
+    "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::color",
+    "predicted_target_answer": "red",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "blue",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      17735,
+      151645
+    ],
+    "generated_text": "heart",
+    "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape",
+    "predicted_target_answer": "star",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "heart",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      13709,
+      151645
+    ],
+    "generated_text": "bridge",
+    "id": "development:004:swap0:coref_0:recipient1::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::home",
+    "predicted_target_answer": "station",
+    "step_endpoint_ids": [
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step00",
+      "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "bridge",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::color",
+    "predicted_target_answer": "black",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:029:swap0:coref_0:recipient0::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color",
+    "predicted_target_answer": "black",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      50655,
+      151645
+    ],
+    "generated_text": "forest",
+    "id": "development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::Rcolor::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::Rcolor::color",
+    "predicted_target_answer": "black",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::Rcolor::shape",
+    "predicted_target_answer": "triangle",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:029:swap0:coref_0:recipient0::Rcolor::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::Rcolor::home",
+    "predicted_target_answer": "farm",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::shape",
+    "predicted_target_answer": "square",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:029:swap0:coref_0:recipient0::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::home",
+    "predicted_target_answer": "forest",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      11453,
+      151645
+    ],
+    "generated_text": "black",
+    "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "black",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      55114,
+      151645
+    ],
+    "generated_text": "triangle",
+    "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape",
+    "predicted_target_answer": "square",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "triangle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      65811,
+      151645
+    ],
+    "generated_text": "farm",
+    "id": "development:029:swap0:coref_0:recipient0::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::home",
+    "predicted_target_answer": "forest",
+    "step_endpoint_ids": [
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step00",
+      "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "farm",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::primaryDcolor::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:022:swap0:distractor:recipient1::primaryDcolor::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::shape",
+    "predicted_target_answer": "circle",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::primaryDcolor::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape",
+    "predicted_target_answer": "circle",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::Rcolor::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::Rcolor::color",
+    "predicted_target_answer": "brown",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      88576,
+      151645
+    ],
+    "generated_text": "diamond",
+    "id": "development:022:swap0:distractor:recipient1::Rcolor::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::Rcolor::shape",
+    "predicted_target_answer": "circle",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::Rcolor::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::Rcolor::home",
+    "predicted_target_answer": "river",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::reverseRscreen::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "development:022:swap0:distractor:recipient1::reverseRscreen::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::reverseRscreen::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::home",
+    "predicted_target_answer": "station",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      64461,
+      151645
+    ],
+    "generated_text": "brown",
+    "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::color",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::color",
+    "predicted_target_answer": "white",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step00",
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "brown",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      25857,
+      151645
+    ],
+    "generated_text": "circle",
+    "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::shape",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::shape",
+    "predicted_target_answer": "diamond",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step00",
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "circle",
+    "terminated": true,
+    "truncated": false
+  },
+  {
+    "generated_ids": [
+      5469,
+      151645
+    ],
+    "generated_text": "river",
+    "id": "development:022:swap0:distractor:recipient1::cyclicDcolor::home",
+    "operator_endpoint_id": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::home",
+    "predicted_target_answer": "station",
+    "step_endpoint_ids": [
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step00",
+      "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step01"
+    ],
+    "stop_reason": "eos",
+    "task_answer": "river",
+    "terminated": true,
+    "truncated": false
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "retrieved_date": "2026-11-15",
+  "purpose": "Transfer publicly verified author details from the exact article supplied by the user; do not infer identity or extra authors from local files or account names.",
+  "requested_article_url": "https://www.sciencedirect.com/science/article/pii/S1476927126005657",
+  "article": {
+    "title": "Mechanistic interpretability of a plant genomic foundation model: Data probes, causal interventions, and motif-grounded features",
+    "DOI": "10.1016/j.compbiolchem.2026.109438",
+    "PII": "S1476927126005657",
+    "PMID": "42860077",
+    "journal": "Computational Biology and Chemistry",
+    "volume": "126",
+    "article_number": "109438",
+    "source_keys": ["elsevier_metadata", "crossref", "pubmed_xml"]
+  },
+  "authors_in_article_order": [
+    {
+      "position": 1,
+      "given_name": "Ihor",
+      "family_name": "Kendiukhov",
+      "display_name": "Ihor Kendiukhov",
+      "name_source_keys": ["crossref", "pubmed_xml"],
+      "affiliations": [
+        {
+          "display": "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany",
+          "unit": "Institute of Medical Genetics and Applied Genomics",
+          "institution": "University of Tübingen",
+          "city": "Tübingen",
+          "country": "Germany",
+          "source_key": "pubmed_xml",
+          "scope": "Affiliation printed in the supplied article's indexed author record; not an independent confirmation of current employment."
+        }
+      ],
+      "email": "ihor.kendiukhov@student.uni-tuebingen.de",
+      "email_source_key": "pubmed_xml",
+      "email_source_role": "Electronic address attached to the sole author's affiliation in the article record.",
+      "ORCID": "https://orcid.org/0000-0001-5342-1499",
+      "ORCID_source_key": "crossref",
+      "crossref_authenticated_orcid": false,
+      "ORCID_caveat": "The ORCID is present in the DOI deposit but is flagged unauthenticated there. This does not establish ORCID ownership authentication in PLOS Editorial Manager.",
+      "corresponding_author_label_explicitly_verified": false,
+      "corresponding_author_caveat": "The accessible indexed record provides one author and one electronic address, but no explicit corresponding-author flag. Confirm the desired submission contact role and continued email validity."
+    }
+  ],
+  "verified_article_author_count": 1,
+  "publication_dates_and_status": {
+    "pubmed_electronic_article_date": "2026-10-01",
+    "pubmed_status": "aheadofprint",
+    "pubmed_issue_label": "Pt 2",
+    "elsevier_cover_display_date": "February 2027",
+    "elsevier_cover_date": "2027-02-28",
+    "crossref_print_date": "2027-02",
+    "interpretation": "The record is available electronically ahead of the later cover issue. Do not treat the year embedded in the DOI as proof of the print-issue year. Do not harmonize the differing issue-date fields silently."
+  },
+  "user_confirmed_disclosures_for_new_manuscript": {
+    "source": "User confirmation relayed by the parent agent on 2026-11-15, not copied from the linked article.",
+    "funding_confirmed": "No funding",
+    "funding_statement_for_submission_system_only": "The authors received no specific funding for this work.",
+    "funding_placement": "Keep out of the PLOS ONE manuscript and Acknowledgments; retain in submission notes for the online Financial Disclosure field.",
+    "competing_interests_confirmed": "No competing interests",
+    "competing_interests_statement": "The authors have declared that no competing interests exist."
+  },
+  "sources": {
+    "elsevier_metadata": {
+      "url": "https://api.elsevier.com/content/article/pii/S1476927126005657?httpAccept=application%2Fjson",
+      "retrieved_date": "2026-11-15",
+      "access": "Public API request without credentials; returned article identifiers, title, journal and cover date, but no author fields."
+    },
+    "crossref": {
+      "url": "https://api.crossref.org/works/10.1016/j.compbiolchem.2026.109438",
+      "retrieved_date": "2026-11-15",
+      "access": "Public DOI-registration metadata; author list contains exactly one author, ORCID present, affiliation array empty."
+    },
+    "pubmed_record": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42860077/",
+      "retrieved_date": "2026-11-15",
+      "access": "Official NCBI indexed record for the exact DOI/PII; search index exposed author affiliation/email; efetch independently verified the XML record."
+    },
+    "pubmed_xml": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42860077&retmode=xml",
+      "retrieved_date": "2026-11-15",
+      "raw_response_sha256": "66ced0f302280b9846d08e2024f809a48ba0b8621d7151320f0a735ec6f6a676",
+      "access": "Public NCBI efetch XML, without credentials. Exact DOI/PII match. AuthorList has one Author; AffiliationInfo contains the affiliation and electronic address used above."
+    }
+  },
+  "access_limitations": [
+    "Direct ScienceDirect article, abstract and PDF URLs returned HTTP 403.",
+    "A public Elsevier core-metadata request succeeded; later META/FULL requests returned HTTP 429 and were not repeatedly retried.",
+    "No paywall bypass, private credentials or institutional login was used. No private author contact data was accessed."
+  ],
+  "unresolved_before_submission": [
+    "Confirm affiliation and email are appropriate for this new study and remain current.",
+    "Confirm corresponding-author role; authenticate the ORCID personally in the submission system.",
+    "Confirm CRediT roles, final author approval and substantive human review of AI-supported work; these cannot be inferred from the old article.",
+    "Resolve public data/code release identifiers and the AI-use disclosure separately; the old article's repository identifiers must not be reused for this new study."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "artifact_sha256": {
+    "EXECUTION.json": "3ba0592c63bffd94dbddfb06be2ef05676437cd2ab959c9e6559811d1d5de3e1",
+    "FORWARD_COUNTS.json": "d0134f8d2014b9554491c754909efedcd697cad912d22f600c9e6146521777a3",
+    "MODEL_FILES.json": "e4921b6f4df4b19cb5592eb06e972d1df45631e7da9097fd211593439ed41336",
+    "PREFIXES.pt": "ab3e3cb42b7e5c1c08ba811f21aeb0c79e6418460ab558ad7bd908cef849704a",
+    "RAW_INDEX.json": "7aa2afc57ca9ed78e23c70505a6bc7f96bf8aeb77f39714d7b402dc42ff60621",
+    "RESULT.json": "61d3f0272f228113a862d5d239d1cc3cec3fbc68e55dca61bd626a7f42162f28",
+    "RUNTIME.json": "bc8f83b7ebbcc10c30e1bd218467380d89bb5fc706c43da0ff7b7274aae214a7",
+    "raw-0000.safetensors": "c545aa16a2ab05460b19c149a3d13454b4af23b511f272b49b02c79af78ac02d",
+    "raw-0001.safetensors": "d56ee94ce1c9395ed85544f22e87ba39d47f7b70674ce6c6438f62328b864e37",
+    "raw-0002.safetensors": "3216b568419b413c54341add78c649be9be4585498db82faf5f03b52b6b5e176",
+    "raw-0003.safetensors": "9f23e2580bd172310dd99a35bb29c9ec06b52c4ab57bdce8bd6980725adf16b0",
+    "raw-0004.safetensors": "3a72a8410cea89a082516967b1a2d4086ba7403a47ca192e8f76cdcd6c6541a6",
+    "raw-0005.safetensors": "fd4d76731642b520579918b9f1fc00c537bd8d8414800971938633f00da8fa88",
+    "raw-0006.safetensors": "b46d650a38fcb7d4c5b04b227e31657bc38502842647a0a14e9b3cab057988ed",
+    "raw-0007.safetensors": "8009417ff82550cf79ff86b7e6186509165a5df200f43a0b9fd4f7d0471fd2c2",
+    "raw-0008.safetensors": "b6ca4dfd70eaaf74247bc4c5aafb325b0ac90e3f658bd0a59ffce3bc3fb24c61",
+    "raw-0009.safetensors": "bd3b33f54ed76fbcfa567808afe89238968710d774643c0ab042080c63c5196d",
+    "raw-0010.safetensors": "42d7ec7a20f60128ec724150e2e34c040e4e4969f414b6e160a41f409453cfd4",
+    "raw-0011.safetensors": "1029df545cc2a59f1df510d5e1aa2e1e05d7bd6090e542d8614f95738262d972"
+  },
+  "physical_counts": {
+    "backbone_prefix": 16,
+    "native": 1144
+  },
+  "registration_sha256": "88fe33ce230ec250526385c3de4f05c40ad696463a0f6de55df3a0df44daf9a0"
+}

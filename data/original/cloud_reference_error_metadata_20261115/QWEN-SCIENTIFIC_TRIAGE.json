@@ -1,0 +1,153 @@
+{
+  "study_id": "reference-errors-20261114-v1",
+  "triage_id": "qwen-development-scientific-triage-20261115-v1",
+  "scope": "Post-result descriptive triage of the 32 development worlds only. Not confirmation, an intervention result, or evidence of a new mechanism. No model calls were made for this analysis.",
+  "input_sha256": {
+    "WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7",
+    "TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "qwen/GENERATIONS.json": "cbd21a3e4f2e5668f5b7c428048986085270a55b550dc49d562114ae25777dcb",
+    "qwen/RESULT.json": "2a7894f1bb833a9d29de8b0c94cf4b2a9c16fc5525d0fb1e61968d52aab76022",
+    "reference-errors-20261115-qwen-native-audit.json": "284f62440b91e3b3632a44e5cb088c74bada57334627149fa8605bff83862eff",
+    "QWEN-RETRIEVAL_BASELINE.json": "4a82af476f36e19d42e72b22a01245a5a790bcee00f9e62c89fd28ff751cfffb",
+    "causal_selection_rule_source": "60be7d5a6d39b282c8f44c1a6d2be0f1300c92d8e8ffc104c0d3974faaece190"
+  },
+  "independent_unit": "World. Name swaps, Focus variants, fields and repeated questions remain dependent measurements within a world.",
+  "behavior": {
+    "worlds": 32,
+    "questions": 3072,
+    "native_generation_steps": 6444,
+    "fact_answers": {"correct": 1657, "count": 2304},
+    "identity_answers_strict": {"correct": 384, "count": 512},
+    "status_answers": {"correct": 256, "count": 256},
+    "wrong_fact_answers": 647,
+    "wrong_facts_selecting_another_listed_object": 647,
+    "wrong_fact_worlds": 30,
+    "malformed_fact_answers": 0,
+    "fact_generation_length": {"two_tokens_including_eos": 2304},
+    "discordant_coref_pairs_one_correct_other_wrong_object": 117,
+    "discordant_coref_worlds": 23,
+    "first_only_wrong_pairs": 47,
+    "second_only_wrong_pairs": 70,
+    "directional_replication_note": "The old four-world pattern in which every disagreement hurt the first alias did not replicate. Both directions occur, with more second-only-wrong pairs here."
+  },
+  "identity_format_and_validity": {
+    "strict_correct": 384,
+    "bare_valid_ids": 440,
+    "bare_valid_but_incorrect_ids": 56,
+    "bare_invalid_numeric_id_3": 4,
+    "answer_prefixed_outputs": 27,
+    "eight_token_truncated_explanatory_outputs": 41,
+    "count": 512,
+    "interpretation": "Strict identity accuracy is 75 percent, but its 128 failures are not all clean wrong-ID selections. Do not silently extract IDs from explanations, regrade malformed answers, or claim the model universally understood identity."
+  },
+  "wrong_coref_facts_and_same_query_identity": {
+    "wrong_fact_answers": 439,
+    "identity_answer_correct": 252,
+    "identity_answer_same_wrong_object": 52,
+    "identity_answer_another_wrong_object": 41,
+    "identity_answer_invalid_or_malformed": 94,
+    "interpretation": "Correct identity with wrong attributes exists conditionally, but not universally. These are repeated field measurements, not 439 independent identity tests; this dissociation already has close prior precedents."
+  },
+  "fact_accuracy_by_field": {
+    "color": {"correct": 653, "count": 768},
+    "shape": {"correct": 554, "count": 768},
+    "home": {"correct": 450, "count": 768}
+  },
+  "fact_accuracy_by_expected_object_id": {
+    "A": {"correct": 449, "count": 696},
+    "B": {"correct": 353, "count": 552},
+    "C": {"correct": 399, "count": 528},
+    "D": {"correct": 456, "count": 528}
+  },
+  "wrong_selected_object_ids": {"A": 53, "B": 52, "C": 228, "D": 314},
+  "wrong_selected_ids_by_field": {
+    "color": {"A": 12, "B": 15, "C": 57, "D": 31},
+    "shape": {"A": 17, "B": 32, "C": 78, "D": 87},
+    "home": {"A": 24, "B": 5, "C": 93, "D": 196}
+  },
+  "absolute_id_prior_warning": "542 of 647 errors select C or D, despite counterbalanced target IDs and record order. A stable-ID preference remains a serious competing explanation. Four literal IDs do not establish generalization to arbitrary entity identifiers.",
+  "fact_accuracy_by_wording": {
+    "0": {"correct": 927, "count": 1152},
+    "1": {"correct": 730, "count": 1152}
+  },
+  "wording_scope": "Both wordings have errors, but fact accuracy differs substantially: about 80.5 versus 63.4 percent. Wordings are assigned between worlds, so their difference is descriptive, not a within-world causal effect of wording alone.",
+  "fact_accuracy_by_focus": {
+    "none": {"correct": 447, "count": 576},
+    "coref_0": {"correct": 425, "count": 576},
+    "coref_1": {"correct": 414, "count": 576},
+    "distractor": {"correct": 371, "count": 576}
+  },
+  "focus_interpretation": "The irrelevant Focus manipulation is crossed within worlds. Highlighting the unrelated alias reduces fact accuracy from about 77.6 to 64.4 percent. This supports context-sensitive interference, not proof that the model simply copies the Focus object's value.",
+  "fact_accuracy_by_semantic_alias_role": {
+    "coref_0": {"correct": 560, "count": 768},
+    "coref_1": {"correct": 537, "count": 768},
+    "distractor": {"correct": 560, "count": 768}
+  },
+  "fact_accuracy_by_literal_alias": {
+    "anchor": {"correct": 207, "count": 288},
+    "date": {"correct": 217, "count": 288},
+    "cat": {"correct": 242, "count": 288},
+    "apple": {"correct": 203, "count": 288},
+    "bat": {"correct": 215, "count": 288},
+    "fig": {"correct": 154, "count": 288},
+    "dog": {"correct": 216, "count": 288},
+    "basket": {"correct": 203, "count": 288}
+  },
+  "lexical_interpretation": "These marginal name differences are descriptive associations across worlds. They do not isolate a causal effect of a particular spelling or word meaning. Consistent-name-swap comparisons, not marginal rankings, are the relevant controlled diagnostic.",
+  "strong_donor_cohort": {
+    "rule": "Same world, name swap and Focus; donor co-referring alias correct on all three facts and its ID; recipient has at least one completed listed wrong-object fact. This is stronger than the behavioral feasibility gate and does not change that gate.",
+    "candidate_conditions": 512,
+    "eligible_conditions": 40,
+    "eligible_worlds": 14,
+    "required_screen_worlds": 8,
+    "unused_eligible_worlds_after_screen": 6,
+    "rejections": {"donor_not_all_correct": 281, "no_wrong_listed_field": 191},
+    "eligible_conditions_by_wording": {"0": 21, "1": 19},
+    "recipient_identity_correct_conditions": 31,
+    "wrong_field_coherence": {
+      "one_wrong_field": 25,
+      "two_wrong_fields_same_object": 12,
+      "three_wrong_fields_same_object": 1,
+      "two_wrong_fields_different_objects": 1,
+      "three_wrong_fields_two_objects": 1
+    },
+    "eligible_condition_counts_by_world": {
+      "development:000": 6, "development:001": 5, "development:004": 1,
+      "development:006": 2, "development:007": 1, "development:011": 2,
+      "development:013": 1, "development:014": 2, "development:016": 4,
+      "development:017": 3, "development:022": 1, "development:027": 6,
+      "development:029": 5, "development:031": 1
+    },
+    "fixed_hash_selected_case_ids": [
+      "development:001:swap0:coref_1:recipient1",
+      "development:013:swap1:none:recipient0",
+      "development:031:swap1:coref_0:recipient1",
+      "development:027:swap0:none:recipient1",
+      "development:016:swap0:none:recipient1",
+      "development:007:swap1:distractor:recipient0",
+      "development:011:swap1:distractor:recipient0",
+      "development:017:swap0:coref_1:recipient1"
+    ],
+    "unused_eligible_world_ids_hash_order": [
+      "development:014", "development:000", "development:006",
+      "development:004", "development:029", "development:022"
+    ],
+    "selected_screen_field_counts": {"color": 0, "shape": 5, "home": 3},
+    "selected_recipient_identity_correct": 7,
+    "selection_note": "These choices reproduce the fixed prospective hash rule without examining intervention outcomes. The initial screen alone cannot demonstrate transfer to color. One selected case has mixed natural shape/home errors; predicting a single wrong record across fields remains an untested reverse-intervention hypothesis."
+  },
+  "existing_baseline_limits": {
+    "global_eight_component_mixture_cross_validated_nll": 0.8602330961521302,
+    "binding_only_cross_validated_nll": 1.9440767313762837,
+    "mixture_wrong_object_exact_accuracy": 0.0,
+    "mixture_wrong_object_conditional_accuracy": 0.5502318392581144,
+    "training_majority_id_wrong_object_exact_accuracy": 0.4853168469860896,
+    "interpretation": "The mixture improves probability assignments but its unconditional most likely choice always remains the correct binding. Conditional wrong-object choice removes the true object using ground truth and must not be presented as prospective error prediction. Constant-ID policies are not mixture components; the majority-ID policy is only a separate comparison. Known retrieval accounts have not been ruled out.",
+    "future_exploratory_comparison": "Fit stronger absolute-ID-prior and field/wording-dependent retrieval mixtures using development data only, then freeze the chosen model before opening confirmation results. Keep that work labeled exploratory; do not weaken existing gates or alter the fixed causal screen cohort."
+  },
+  "bottom_line": "Wrong-object errors and co-referring-name inconsistency reproduce across many fresh worlds, with enough strictly eligible cases for the bounded discovery screen. This is a credible behavioral phenomenon, not yet a mechanistic discovery. Strong ID, field and wording dependence substantially narrow the interpretation. A new causal explanation and untouched confirmation are still missing.",
+  "confirmation_outputs_read": false,
+  "intervention_outputs_read": false,
+  "model_calls_made": 0,
+  "frozen_behavior_or_selection_rules_modified": false
+}

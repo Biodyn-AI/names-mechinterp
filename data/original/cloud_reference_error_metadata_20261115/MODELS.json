@@ -1,0 +1,12 @@
+{
+  "phi": {
+    "model_id": "microsoft/Phi-3.5-mini-instruct",
+    "raw_limit_bytes": 4000000000,
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77"
+  },
+  "qwen": {
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "raw_limit_bytes": 16000000000,
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+  }
+}

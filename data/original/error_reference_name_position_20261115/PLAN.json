@@ -1,0 +1,10 @@
+{
+  "scope": "Exploratory analysis of saved development answers; no new model calls or confirmation outcomes.",
+  "question": "When two equivalent names trade binding-line locations but retain the same object meaning, does a disagreement follow the queried word or its binding-line location?",
+  "design": "For each world and field, align the two names across both swaps as a two-by-two table. Use no Focus and unrelated Focus separately; co-referring Focus is excluded because its word also changes under the swap.",
+  "categories": ["all_same", "name_aligned", "line_aligned", "mixed"],
+  "name_aligned": "Both same-name answers agree across the location swap, but the two names disagree.",
+  "line_aligned": "Both same-binding-line answers agree across the word swap, but the two line locations disagree.",
+  "metric": "All tables and per-world counts; paired name-aligned minus line-aligned fraction with 10000 whole-world bootstrap draws, seed20261115.",
+  "limits": "This identifies a behavioral invariance signature, not an internal causal mechanism. The distinction is known in prior retrieval literature; no novelty claim. Do not count repeated fields as independent worlds."
+}

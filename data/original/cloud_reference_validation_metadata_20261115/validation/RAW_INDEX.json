@@ -1,0 +1,3432 @@
+{
+  "endpoints": {
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0040.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0040.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0042.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0042.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0041.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0041.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0046.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0046.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0048.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0048.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0047.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0047.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0037.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0037.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0039.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0039.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0038.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0038.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0034.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0034.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0036.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0036.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0035.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0035.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0043.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0043.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0045.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0045.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0044.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0044.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0004.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0004.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0006.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0006.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0005.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0005.safetensors",
+      "key": "greedy::development:000:swap1:coref_0:recipient0::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0070.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0070.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0072.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0072.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0071.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0071.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0076.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0076.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0078.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0078.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0077.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0077.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0067.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0067.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0069.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0069.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0068.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0068.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0064.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0064.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0066.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0066.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0065.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0065.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0073.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0073.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0075.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0075.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0074.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0074.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0010.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0010.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0012.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0012.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0011.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0011.safetensors",
+      "key": "greedy::development:004:swap0:coref_0:recipient1::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0055.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0055.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0057.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0057.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0056.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0056.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0061.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0061.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0063.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0063.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0062.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0062.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0052.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0052.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0054.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0054.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0053.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0053.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0049.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0049.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0051.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0051.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0050.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0050.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0058.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0058.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0060.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0060.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0059.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0059.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0007.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0007.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0009.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0009.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0008.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0008.safetensors",
+      "key": "greedy::development:006:swap1:coref_0:recipient0::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0025.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0025.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0027.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0027.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0026.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0026.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0031.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0031.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0033.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0033.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0032.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0032.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0022.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0022.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0024.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0024.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0023.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0023.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0019.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0019.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0021.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0021.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0020.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0020.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0028.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0028.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0030.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0030.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0029.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0029.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0003.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0003.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0002.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0002.safetensors",
+      "key": "greedy::development:014:swap0:coref_1:recipient1::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0100.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0100.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0102.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0102.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0101.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0101.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0106.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0106.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0108.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0108.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0107.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0107.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0097.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0097.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0099.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0099.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0098.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0098.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0094.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0094.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0096.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0096.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0095.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0095.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0103.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0103.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0105.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0105.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0104.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0104.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0016.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0016.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0018.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0018.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0017.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0017.safetensors",
+      "key": "greedy::development:022:swap0:distractor:recipient1::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0085.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0085.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0087.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0087.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0086.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0086.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::Rcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0091.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0091.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0093.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0093.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0092.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0092.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0082.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0082.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0084.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0084.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0083.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0083.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0079.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0079.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0081.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0081.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0080.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0080.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::primaryDcolor::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0088.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0088.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0090.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0090.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0089.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0089.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::reverseRscreen::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step00": {
+      "dtype": "float32",
+      "file": "raw-0013.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step01": {
+      "dtype": "float32",
+      "file": "raw-0013.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::color::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step00": {
+      "dtype": "float32",
+      "file": "raw-0015.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step01": {
+      "dtype": "float32",
+      "file": "raw-0015.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::home::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step00": {
+      "dtype": "float32",
+      "file": "raw-0014.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step00",
+      "shape": [
+        151936
+      ]
+    },
+    "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step01": {
+      "dtype": "float32",
+      "file": "raw-0014.safetensors",
+      "key": "greedy::development:029:swap0:coref_0:recipient0::selfRfield::shape::step01",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:000:swap1:coref_0:recipient0::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:000:swap1:coref_0:recipient0::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:004:swap0:coref_0:recipient1::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:004:swap0:coref_0:recipient1::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:006:swap1:coref_0:recipient0::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:006:swap1:coref_0:recipient0::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:014:swap0:coref_1:recipient1::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:014:swap0:coref_1:recipient1::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:022:swap0:distractor:recipient1::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:022:swap0:distractor:recipient1::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::donor::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::donor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::donor::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::donor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::donor::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::donor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::recipient::color": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::recipient::color",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::recipient::home": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::recipient::home",
+      "shape": [
+        151936
+      ]
+    },
+    "natural::development:029:swap0:coref_0:recipient0::recipient::shape": {
+      "dtype": "float32",
+      "file": "raw-0000.safetensors",
+      "key": "natural::development:029:swap0:coref_0:recipient0::recipient::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0040.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0042.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0041.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0046.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0048.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0047.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0037.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0039.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0038.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0034.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0036.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0035.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0043.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0045.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0044.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0004.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0006.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:000:swap1:coref_0:recipient0::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0005.safetensors",
+      "key": "operator::development:000:swap1:coref_0:recipient0::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0070.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0072.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0071.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0076.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0078.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0077.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0067.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0069.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0068.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0064.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0066.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0065.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0073.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0075.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0074.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0010.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0012.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:004:swap0:coref_0:recipient1::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0011.safetensors",
+      "key": "operator::development:004:swap0:coref_0:recipient1::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0055.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0057.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0056.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0061.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0063.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0062.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0052.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0054.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0053.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0049.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0051.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0050.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0058.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0060.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0059.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0007.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0009.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:006:swap1:coref_0:recipient0::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0008.safetensors",
+      "key": "operator::development:006:swap1:coref_0:recipient0::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0025.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0027.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0026.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0031.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0033.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0032.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0022.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0024.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0023.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0019.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0021.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0020.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0028.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0030.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0029.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0001.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0003.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:014:swap0:coref_1:recipient1::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0002.safetensors",
+      "key": "operator::development:014:swap0:coref_1:recipient1::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0100.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0102.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0101.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0106.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0108.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0107.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0097.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0099.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0098.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0094.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0096.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0095.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0103.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0105.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0104.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0016.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0018.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:022:swap0:distractor:recipient1::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0017.safetensors",
+      "key": "operator::development:022:swap0:distractor:recipient1::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::Rcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0085.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::Rcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::Rcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0087.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::Rcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::Rcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0086.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::Rcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0091.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0093.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0092.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::cyclicDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color": {
+      "dtype": "float32",
+      "file": "raw-0082.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home": {
+      "dtype": "float32",
+      "file": "raw-0084.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape": {
+      "dtype": "float32",
+      "file": "raw-0083.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::frozenDiscoveryMean::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::color": {
+      "dtype": "float32",
+      "file": "raw-0079.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::home": {
+      "dtype": "float32",
+      "file": "raw-0081.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::shape": {
+      "dtype": "float32",
+      "file": "raw-0080.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::primaryDcolor::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::color": {
+      "dtype": "float32",
+      "file": "raw-0088.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::home": {
+      "dtype": "float32",
+      "file": "raw-0090.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::shape": {
+      "dtype": "float32",
+      "file": "raw-0089.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::reverseRscreen::shape",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::selfRfield::color": {
+      "dtype": "float32",
+      "file": "raw-0013.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::selfRfield::color",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::selfRfield::home": {
+      "dtype": "float32",
+      "file": "raw-0015.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::selfRfield::home",
+      "shape": [
+        151936
+      ]
+    },
+    "operator::development:029:swap0:coref_0:recipient0::selfRfield::shape": {
+      "dtype": "float32",
+      "file": "raw-0014.safetensors",
+      "key": "operator::development:029:swap0:coref_0:recipient0::selfRfield::shape",
+      "shape": [
+        151936
+      ]
+    }
+  },
+  "schema_version": "e30_14_native_float32_v1",
+  "shards": [
+    {
+      "endpoint_count": 36,
+      "file": "raw-0000.safetensors",
+      "sha256": "8cad4615b8e1a15d95f0b0ff9ca27055a9a236d3a5f29f0dbd5490b42d979ff1"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0001.safetensors",
+      "sha256": "c63dc9efe0af5f81c8946e86b6d003980c1b09141f1c4fda7f50bfd9e873d6aa"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0002.safetensors",
+      "sha256": "bb829abcf4b33561ed1fad3f37a2b48613cbe91de08b4f210ec5f2817136247c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0003.safetensors",
+      "sha256": "c0d23bfce55ad3098d7d47d1026146827d7db880e279188619b4946db4a26c04"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0004.safetensors",
+      "sha256": "1caf64c0be2e8431003494d669510f6bf847a65f050214ee0d996e5c918ce339"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0005.safetensors",
+      "sha256": "20beb4422618995a949eef481180decfec94fc3e6e89e9704f8fb7d47c551a2e"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0006.safetensors",
+      "sha256": "55b2837bce44d8eadb77ef27443a280a04508e1b945a2ea50421cfc72a71f483"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0007.safetensors",
+      "sha256": "9433ef236a1775b3565ba54a750f7961a85ec288d1934ed273998f9c1d75ac3c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0008.safetensors",
+      "sha256": "8121a064eef1da933c5e93127c6b202729c19495c3641305da72b5e3628db0ee"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0009.safetensors",
+      "sha256": "f9b35740674facdc4509ed927a49ffbe1aa453c04bacca67436f70508fff34b2"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0010.safetensors",
+      "sha256": "64de2bfa700c3baf06a8ddfea198031277cf1a58bd41b84897d4ee13c6f69996"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0011.safetensors",
+      "sha256": "ff6cd0a66bb0eedff96f5553eb7a3946ea55cb6b6cdec4c218215184ec7d554d"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0012.safetensors",
+      "sha256": "9a011b091e81c8cb900ab85107c72001a5cd49e3072968cf346938fb0376b501"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0013.safetensors",
+      "sha256": "926b22e00e4850515da1df3e40f0d2376c1df5d97f2b8780f5dddca01c3f4087"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0014.safetensors",
+      "sha256": "34ac586801614c07023360dcd6deee117d9d86d7518f33e0557f65927a9af293"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0015.safetensors",
+      "sha256": "c9a050b12142e8fce480209ce5658f8db6573dc04a6437d25649be0c7f660e5a"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0016.safetensors",
+      "sha256": "188ecea196ca01d6223e0aeee965e530497ec5def8a3b15cad82b607017be3fd"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0017.safetensors",
+      "sha256": "2ec7409fc2647108f54fb0d7c01dbbaa9675feadb171c55c1d4acbae82160dd5"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0018.safetensors",
+      "sha256": "1e026f1c0a819ebc1f656e49c995a7acb11fcd8146dc4ffdc958958e87d89d1b"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0019.safetensors",
+      "sha256": "487d46e5c64145e80877f0111aed3c4d1c2c59161047616b9b7e592bcd06311b"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0020.safetensors",
+      "sha256": "a8baa90ee9a068f3f69270b5bf808f1919607eecda1133fe3bb390f59e63c3f7"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0021.safetensors",
+      "sha256": "5278b2e675420dece613a131e5172da2de648c87c44611d59cca0e5b7d5fc804"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0022.safetensors",
+      "sha256": "4015ad12ad92887b075ef1ea3f0cb175beb22eabb152b19bb9b62175defc72ac"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0023.safetensors",
+      "sha256": "b38a968844e2bf6824c469376a126f2a504abca6ec747c36f2b3576a47d8bf7c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0024.safetensors",
+      "sha256": "1435b21ab9fbac17b099dbe1cb12aedf58606cb154bcab85f852ed521ab445da"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0025.safetensors",
+      "sha256": "ddf2820be2a46015b7071d6bd5d3d9df4c76dfab1a41c2fbef07b32619c03437"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0026.safetensors",
+      "sha256": "aba60d8a7174c270426301d5c3b8cacd61fa8053c85f9075ba98ebe2addf4377"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0027.safetensors",
+      "sha256": "5666d13c39b086b42c2fe43dd52ef3566228070c76d00b6fa2988763550f9d76"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0028.safetensors",
+      "sha256": "fab82565721c69777a5e30808170d7118dbf2d85f2689a2e3113963063d00306"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0029.safetensors",
+      "sha256": "e8aec71b374a2bfaa6f22db1dcac96542e920023673ef5dc057e09c53f0ce8a9"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0030.safetensors",
+      "sha256": "7acb8596ca3f2a539c215bea67d0247cfdb90e9028f4567b0837d23864e573ff"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0031.safetensors",
+      "sha256": "dad0e874c182ebb8598dd82a056083809b0ebfe7b44772fc5caed2e3c26e6c4c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0032.safetensors",
+      "sha256": "575dc57461af272829e3f0eba3d15a7508f7dccf47fcbfd1d860202dd64c16d8"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0033.safetensors",
+      "sha256": "c0f10977d02027877b0936fc6b695e73fc1df24abd0b3c263033182131c36613"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0034.safetensors",
+      "sha256": "be0dc291779787f21555ce4ca97231fa2430016b14829711fc05b7d55ff4dc60"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0035.safetensors",
+      "sha256": "8f22de2e10b0b46c133fe57ab0a6e147e04cd8d785468e4e1bd82c5cbab99998"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0036.safetensors",
+      "sha256": "ecea33c23899d97feb19dc021c8fff817eb56a33df367de38ada78cb842c36cf"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0037.safetensors",
+      "sha256": "343165739ae1c3d012dbdf30a42889a2b9d128f9aacaf4786277df21f9aa4422"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0038.safetensors",
+      "sha256": "abf50bfaf5fb4b78f6a622ecdeb91a1aadf191b3cca508672e0ef268bbc8c4cb"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0039.safetensors",
+      "sha256": "f2fa8d347d0b0b4615cdc247829ed207bfb1b174c6c8def417d3dd7af6f8d557"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0040.safetensors",
+      "sha256": "89823d668910a159d62fd1f444e0dbe3d093c0b4c01e2861668001807f139f55"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0041.safetensors",
+      "sha256": "9b2492082485412df44f5292fcedb9d50a585bfbbe7be43ad7d0e64096714f5f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0042.safetensors",
+      "sha256": "f9ecf8be31eea0124d2201f61e6db6c1bab0ee2ef0d066cee16610d28c48ad86"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0043.safetensors",
+      "sha256": "d89a766558dd7a9abea5a4249d86eb8feb496236a95e492fc0029e38a51d098c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0044.safetensors",
+      "sha256": "74b56dc43b456e3116e602baa436f514270e37f06aee8200f198268052ab6bba"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0045.safetensors",
+      "sha256": "5ef5e19e15cf8ae3c758ca063706f090cfdccc7ef66bb0143cf6bca354c11329"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0046.safetensors",
+      "sha256": "c8b0acb77c56d4a82a76d4cb2d1a959c77903cc0797637261380b0c7274c4612"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0047.safetensors",
+      "sha256": "5d20f308f9a63db7735372d0307160b066a3bacd4314f313f3347903a06bf599"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0048.safetensors",
+      "sha256": "a79b5cc280227e0d950ea7701657cd769a82e70fe8cbc6ba293bc8d1745f3c4a"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0049.safetensors",
+      "sha256": "eaeeea4480bdd48dfaccf70f460d52d279198c41ee8a832318c8e85a4d9a8a38"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0050.safetensors",
+      "sha256": "6e04c01eac273904a966ed116a9d3b8203e4e16dea3922dbfc707b3739ae85cc"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0051.safetensors",
+      "sha256": "c0c97a90402a9211ac6074e931d734041d9d663879abbc8d02b8f94d6cfce2cb"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0052.safetensors",
+      "sha256": "2ce9630e05d5b1703385ba2823f697d65c6373e3599c4d2bf131f969edee7885"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0053.safetensors",
+      "sha256": "30f2f97749dff469be14916844da3efa348f16639d3f96f1a6b06b874c18d842"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0054.safetensors",
+      "sha256": "c37ca36f6d711ca7d235c42e86618014fa83e7b60775623df243cd343d079dfd"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0055.safetensors",
+      "sha256": "1b32846301d5adcf8aeb7924b7c9b102b755c6a3e74b98028f7e7378c9f25ef5"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0056.safetensors",
+      "sha256": "9924c45e5fde31a7ba06282c683c730a94464e1e399e796f83afd34571e0215f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0057.safetensors",
+      "sha256": "548c4443030f6e1284229e2b2847445e731265887d931fa8fdf1b8e01e71cfce"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0058.safetensors",
+      "sha256": "cd2745923c676010266c3a38ff2b82379c5fe77d29c163a6f4191470b264f65f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0059.safetensors",
+      "sha256": "55936752e365de792302bc7cff430f1f00e2a352522df0558f0baa33f6b2ea98"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0060.safetensors",
+      "sha256": "3ab727dea7438b69d54b07494f83cea43190cacf33942a2f2778a4b91c16e113"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0061.safetensors",
+      "sha256": "f324bc05e63f85ac48cd7bb4e5fad589df786c2ffa72f0c5e01ab79093541aad"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0062.safetensors",
+      "sha256": "3cee0d3bbb2967793cb555bbbd458e896d80e2f6e04cb69cfbe398c640212e9d"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0063.safetensors",
+      "sha256": "abd76b26f101414646348fadc00c607befd5d84e8bc40b9e0c5300897b9815e2"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0064.safetensors",
+      "sha256": "336c8e38879b71720518ae6faf7aec411568470d2c56ead657ef87de9f8b72c7"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0065.safetensors",
+      "sha256": "fae0eed28f86afc63c30291263325b6be1e0ab0ff1570156847f2752620e6668"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0066.safetensors",
+      "sha256": "7585399376f6788d711999c43f5f679f222d78b1b4ed2dbaac811ee4173e2e64"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0067.safetensors",
+      "sha256": "da071a88fb72febd52036953603809824fe0edf49a260511e8bc97ed71fc66ef"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0068.safetensors",
+      "sha256": "56a1ef6f868b4506d9efa2e2186259d335e984690683a97e3967610e09c2cf1e"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0069.safetensors",
+      "sha256": "e3d7deee46a65dcd0eaa92768a22fd156aac7c146de23fc2ff18eb87d28a99ea"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0070.safetensors",
+      "sha256": "2d7f33962781731c3762e045e85d25920ca81c4b284e9fa246f833b50b32cfc4"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0071.safetensors",
+      "sha256": "c1928366153e2ab262d697470583c6b035b271fa8aa3a44852e82ca9c8c6e5aa"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0072.safetensors",
+      "sha256": "cc2f6648fd83161cc596b889217df3dbc9a67e52d7818d8b73870e0295e78358"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0073.safetensors",
+      "sha256": "310633ec33de0b35c42e71b19ccfe73e1d7fc98885e8bb31f70f99581fec2653"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0074.safetensors",
+      "sha256": "ed33846a57e6371bb4c9551513fbc29667dcd9a005e5748ffe86cbe7a7eb283d"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0075.safetensors",
+      "sha256": "43c4f09b07ec13b892f13629d5119a521c28c079aba84aa10850791e71ea55af"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0076.safetensors",
+      "sha256": "d1927978cf492993f4e2aae6c0a18c1c1261bac9db0a33965daacd2a64d8de65"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0077.safetensors",
+      "sha256": "afa67d135f892ffea643e68998ffc0dc6381c9f144042419e7a45f2cc2c40c2c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0078.safetensors",
+      "sha256": "f677d76098b11cf2e3415f733bfcd293caa1feb91ca9c0092fc437d11c5359b4"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0079.safetensors",
+      "sha256": "7839751551afac383af9520db94acdec65f2faa38f4abd7c5ccb139c77721830"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0080.safetensors",
+      "sha256": "abec8e5753c2071d3c3e5b5914e52dfdc3de150c9868ffbe48e6996d51821c99"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0081.safetensors",
+      "sha256": "2a344fb55afedcf4e31f2c25090b7d1fcfa7d0d6fb8c144a52b7565fcbfc874b"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0082.safetensors",
+      "sha256": "a61be3dd4b50265865f2eff3c5af8f4eb793ee293e57ea23c9192784f20a3e44"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0083.safetensors",
+      "sha256": "e07277b93bc91d2ae2c78de6b849e82a671a01ed28187ad38549b6673bedbbe6"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0084.safetensors",
+      "sha256": "27478a0f7e180aeae307c99387fff2d202ad6857e4f2c72a0057c83cbc39be5f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0085.safetensors",
+      "sha256": "1aa47c2a4ccd049a942458e60460df015b1d82e515f740a5fd2601952f354c25"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0086.safetensors",
+      "sha256": "400c0768e1dc47c199833943f47787ab0e445296c9f6f5cb3fa08ca3ad65ba81"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0087.safetensors",
+      "sha256": "416ece9a32123a5fe04f25f91c4b00daf5e8ed1db09fac598844b36617861fcd"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0088.safetensors",
+      "sha256": "c414feeff6f4fcd9369211f224a0b7686f0d23621b4dce66fcfe7ed18d2c3d04"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0089.safetensors",
+      "sha256": "51926f8d66c94242294010769130c7dff0118efac7b1fe08ea6982704d3766f7"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0090.safetensors",
+      "sha256": "b33fdcca4b493a306fb71d2caecfa03407b43e3f12306f126f5fa4f4ac9257ac"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0091.safetensors",
+      "sha256": "fbe3edb1c26488753ae1d2dcba5b6ad5010ba157f875f682b700876a67083a82"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0092.safetensors",
+      "sha256": "b443357c556795011aff118a93f76e27e60b25b52053b08d5671284a584ad71f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0093.safetensors",
+      "sha256": "fbdb4fb7a9f273d5a87a13bb573b93f00de6a45ce347ea369cc8aeebfbb5f77b"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0094.safetensors",
+      "sha256": "c038c9642c2039d2997ad7c335116ac8b3595b76a990284fb670c1ad235a00ef"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0095.safetensors",
+      "sha256": "69ce7276f7488a8720b2d1ef1150adfcb0500938e18e09e89af26555a4936238"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0096.safetensors",
+      "sha256": "9e88c12671db545756a2c8ea0616a9b5adb8dbe8420de76e70a39a2089fae210"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0097.safetensors",
+      "sha256": "afd11a80dbf9a516f93c3ee9bef642a2214881cdfeb6bc1e5a063376d53cc03a"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0098.safetensors",
+      "sha256": "f31c6eabb57e3553811175d7bbc214870824039166ef91ff417f8f4ab422b966"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0099.safetensors",
+      "sha256": "afe7b25d6477ec4ccfe6b52f55e359a8a4444bb77fb8c8c2197889cf52f68c34"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0100.safetensors",
+      "sha256": "6ed9d9440f57b08636ac3cf646ea2c9c9387b6dc398f70c6731edde4ad5596c4"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0101.safetensors",
+      "sha256": "f21e05fd5f4d6afe18991f3105480a8f6b6864a347e0e0969a04eb483a172f05"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0102.safetensors",
+      "sha256": "5da8d627afb1886af8e899fa9fd599a37594f45060c6287589867526affe6632"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0103.safetensors",
+      "sha256": "0a6d5625359a6073840f4c1cb57f0fead4844ea03e2a998eac7fb0065383b83c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0104.safetensors",
+      "sha256": "bce215d35f832ae40382fa62b45961817f8adbe8d1665cb9357559607e64d20c"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0105.safetensors",
+      "sha256": "9ce21156fc1b17fe5e3156dd53649f2136f049e8a25011d9d5721a3074e6f2f4"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0106.safetensors",
+      "sha256": "93eac9a821db499b3f0bd29667ef76129cd9375d24ba3b1423c14a81efe5430a"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0107.safetensors",
+      "sha256": "92ad0ec0d0b2d899524c6b4d5b829dbb03fe0bb0109259354bc094b4f1ebf38f"
+    },
+    {
+      "endpoint_count": 3,
+      "file": "raw-0108.safetensors",
+      "sha256": "bef20e9c3d035b6388baab1dece7e2e8d57a6bac737745539af02f03436bb3df"
+    }
+  ]
+}

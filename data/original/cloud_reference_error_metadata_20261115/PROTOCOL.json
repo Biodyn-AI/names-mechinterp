@@ -1,0 +1,116 @@
+{
+  "answer_rule": "Normalize case, whitespace and final punctuation of the entire decoded answer. Explanations or extra non-whitespace lines are not silently truncated. Keep malformed answers as errors.",
+  "banks": {
+    "color": [
+      "red",
+      "blue",
+      "green",
+      "yellow",
+      "black",
+      "white",
+      "gray",
+      "brown"
+    ],
+    "home": [
+      "forest",
+      "castle",
+      "river",
+      "station",
+      "tower",
+      "farm",
+      "bridge",
+      "market"
+    ],
+    "nameplate": [
+      "Aster",
+      "Cedar",
+      "Elm",
+      "Fir",
+      "Grove",
+      "Hazel",
+      "Iris",
+      "Maple"
+    ],
+    "shape": [
+      "circle",
+      "square",
+      "triangle",
+      "rectangle",
+      "diamond",
+      "oval",
+      "star",
+      "heart"
+    ]
+  },
+  "causal_model_calls_authorized": false,
+  "causal_next_stage_required_before_confirmation": [
+    "Freeze a narrowly localized component, strength, eligible-case rule and particular predicted wrong object using development only.",
+    "A single donor computation captured at ALIAS_END before seeing any requested field must be reused unchanged for color, shape and home.",
+    "Test matched restoration and reverse induction of the particular wrong object's corresponding values; mere accuracy loss is insufficient.",
+    "Report unconditional performance and protected unrelated facts/identity/status alongside selected-error repair.",
+    "Compare self, norm-matched random, input-name swap, other-object donor and broad-state replacement controls.",
+    "Freeze quantitative lexical/record-position/Focus retrieval-mixture baselines before opening all 64 confirmation worlds.",
+    "Separate second-model replication and wording-specific failures; no architectural-generalization claim from one passing model."
+  ],
+  "confirmation_model_calls_authorized": false,
+  "confirmation_prompt_count": 6144,
+  "counterbalance": {
+    "between_worlds": "Within each split: all 16 target-record/first-alias-line position combinations equally often; each object ID and each alias-line position equally often; both co-reference line orders equally often; each of eight lexical names equally often in every semantic alias role; two wording formats equally often. Other pairwise combinations are randomized, not promised fully factorial.",
+    "facts": "Four distinct values per field, with each complete ordered object-to-field assignment unique across the 96 new worlds. Value lexemes recur; worlds are not lexically disjoint.",
+    "within_world": "Two consistent swaps of the co-referring names crossed with no Focus, first co-referring name, second co-referring name, and unrelated name. Facts and bindings do not change."
+  },
+  "development_prompt_count": 3072,
+  "feasibility_gate": {
+    "discordant_coref_pairs_at_least": 24,
+    "discordant_coref_worlds_at_least": 8,
+    "wrong_object_worlds_at_least": 12
+  },
+  "fields": [
+    "color",
+    "shape",
+    "home"
+  ],
+  "gate_interpretation": "Discordant pairs must have one correct answer and one completed answer selecting another listed object in the requested field; malformed/truncated discordance does not qualify. Per-model feasibility only, not significance, novelty or publication readiness. Failure stops mechanism search for that model without prompt rescue. One passing model permits only one-model exploratory work.",
+  "independent_unit": "A newly sampled world; name swaps, Focus conditions and questions are repeated measures, not new worlds.",
+  "names": [
+    "apple",
+    "bat",
+    "anchor",
+    "date",
+    "cat",
+    "basket",
+    "fig",
+    "dog"
+  ],
+  "old_positive_editing_study_reopened": false,
+  "prompts_per_world": 96,
+  "purpose": "Replicate and explain wrong-object selection, not demonstrate a successful general entity edit.",
+  "seed": "reference-errors-fresh-worlds-20261114-v1",
+  "splits": {
+    "confirmation": 64,
+    "development": 32
+  },
+  "statistics": "Report all cases, world-level rates and deterministic 2,000-resample percentile intervals resampling whole worlds. Paired comparisons retain every repeat of the sampled world. Development intervals are descriptive after earlier exploratory results.",
+  "stop_rules": "Stop a model's mechanism search if the feasibility gate fails. Stop a broad novelty claim if counterbalancing removes the effect, known retrieval mixtures suffice, or only answer copying/broad disruption repairs it. Retain failed and negative runs.",
+  "study_id": "reference-errors-20261114-v1",
+  "token_only_alias_selection": {
+    "candidate_banks_sha256": "0c28bbe5419abea857590f12a887c43246624b6978888686fe446be74fafcd11",
+    "models_order": [
+      "Qwen/Qwen3-4B-Instruct-2507",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "outputs_used": false,
+    "rule": "Lexicographically smallest common input-frame signature with at least eight candidates and two categories; round-robin fruit/animal/object preserving declared candidate order. Full rendered geometry still must pass before inference.",
+    "selection_receipt_sha256": "9e07ad87fbe84155350e12f9786d4f4f01b27fc9ee26f074a92bdef86126422d",
+    "signature": [
+      6,
+      5,
+      10,
+      9,
+      8,
+      7,
+      15,
+      14
+    ]
+  }
+}

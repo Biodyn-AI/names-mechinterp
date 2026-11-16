@@ -1,0 +1,4891 @@
+{
+  "confirmation_outcomes_read": false,
+  "input_sha256": {
+    "/Users/ihorkendiukhov/.codex/tmp/fundamental-mechinterp-runpod-20261110/error_reference_baselines_20261115/retrieval_baselines.py": "958aaf3f996689a749a95113b3f271a8006c6f535bba1a0289122e3dbc836cc7",
+    "/Users/ihorkendiukhov/.codex/tmp/fundamental-mechinterp-runpod-20261110/error_reference_choice_baselines_20261115/choice_baselines.py": "31dfd40e43bf059d549f2d416a5433330437362fd8968d21d98285f007e6685a",
+    "/Users/ihorkendiukhov/.codex/tmp/fundamental-mechinterp-runpod-20261110/error_reference_name_position_20261115/PLAN.json": "46f4b7893c06a7f2daea2baf7f66a957b2edad2ddcb09563a779a3e0c52b2cfd",
+    "/Users/ihorkendiukhov/.codex/tmp/fundamental-mechinterp-runpod-20261110/error_reference_name_position_20261115/name_position.py": "27d34f752d6bd46bde4a60dff0857b83c715f88b0d0e642c3dd1c726e580290e",
+    "cloud_reference_error_metadata_20261115/TOKENS-qwen.json": "986de881d50dd97830a8b7c872e84fcdbea0cd3eae83fc85ace13a9a6bfb33c6",
+    "cloud_reference_error_metadata_20261115/WORLDS.json": "bf97679eef752f00430c165a3595fb04e490a3ec28a956f84bf92fc1335a88b7",
+    "cloud_reference_error_metadata_20261115/qwen/GENERATIONS.json": "cbd21a3e4f2e5668f5b7c428048986085270a55b550dc49d562114ae25777dcb"
+  },
+  "interpretation": "Exploratory behavioral signature of known retrieval routes, not causal identification or a novel mechanism.",
+  "model": "qwen",
+  "reports": {
+    "distractor": {
+      "counts": {
+        "all_same": 67,
+        "line_aligned": 2,
+        "mixed": 23,
+        "name_aligned": 4
+      },
+      "name_minus_line_fraction": {
+        "mean": 0.020833333333333332,
+        "percentile_95": [
+          -0.041666666666666664,
+          0.08333333333333333
+        ]
+      },
+      "per_world": [
+        {
+          "counts": {
+            "all_same": 1,
+            "line_aligned": 2
+          },
+          "world_id": "development:000"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:001"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:002"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:003"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:004"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:005"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:006"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:007"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:008"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:009"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:010"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:011"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:012"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:013"
+        },
+        {
+          "counts": {
+            "mixed": 3
+          },
+          "world_id": "development:014"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:015"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:016"
+        },
+        {
+          "counts": {
+            "mixed": 1,
+            "name_aligned": 2
+          },
+          "world_id": "development:017"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 1,
+            "name_aligned": 1
+          },
+          "world_id": "development:018"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:019"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 1,
+            "name_aligned": 1
+          },
+          "world_id": "development:020"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:021"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:022"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:023"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:024"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:025"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:026"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:027"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:028"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:029"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:030"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:031"
+        }
+      ],
+      "table_count": 96,
+      "tables": [
+        {
+          "answers": [
+            "finished:brown",
+            "finished:green",
+            "finished:brown",
+            "finished:green"
+          ],
+          "category": "line_aligned",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:distractor:fact:0:color",
+            "development:000:swap0:distractor:fact:1:color",
+            "development:000:swap1:distractor:fact:0:color",
+            "development:000:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:square",
+            "finished:oval",
+            "finished:square",
+            "finished:oval"
+          ],
+          "category": "line_aligned",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:distractor:fact:0:shape",
+            "development:000:swap0:distractor:fact:1:shape",
+            "development:000:swap1:distractor:fact:0:shape",
+            "development:000:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:distractor:fact:0:home",
+            "development:000:swap0:distractor:fact:1:home",
+            "development:000:swap1:distractor:fact:0:home",
+            "development:000:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:blue",
+            "finished:blue",
+            "finished:gray",
+            "finished:blue"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:distractor:fact:0:color",
+            "development:001:swap0:distractor:fact:1:color",
+            "development:001:swap1:distractor:fact:0:color",
+            "development:001:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:star",
+            "finished:star",
+            "finished:star",
+            "finished:star"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:distractor:fact:0:shape",
+            "development:001:swap0:distractor:fact:1:shape",
+            "development:001:swap1:distractor:fact:0:shape",
+            "development:001:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:station",
+            "finished:station",
+            "finished:station",
+            "finished:station"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:distractor:fact:0:home",
+            "development:001:swap0:distractor:fact:1:home",
+            "development:001:swap1:distractor:fact:0:home",
+            "development:001:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:distractor:fact:0:color",
+            "development:002:swap0:distractor:fact:1:color",
+            "development:002:swap1:distractor:fact:0:color",
+            "development:002:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:heart",
+            "finished:heart",
+            "finished:heart",
+            "finished:heart"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:distractor:fact:0:shape",
+            "development:002:swap0:distractor:fact:1:shape",
+            "development:002:swap1:distractor:fact:0:shape",
+            "development:002:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:distractor:fact:0:home",
+            "development:002:swap0:distractor:fact:1:home",
+            "development:002:swap1:distractor:fact:0:home",
+            "development:002:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:distractor:fact:0:color",
+            "development:003:swap0:distractor:fact:1:color",
+            "development:003:swap1:distractor:fact:0:color",
+            "development:003:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:distractor:fact:0:shape",
+            "development:003:swap0:distractor:fact:1:shape",
+            "development:003:swap1:distractor:fact:0:shape",
+            "development:003:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:distractor:fact:0:home",
+            "development:003:swap0:distractor:fact:1:home",
+            "development:003:swap1:distractor:fact:0:home",
+            "development:003:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:blue",
+            "finished:red",
+            "finished:red",
+            "finished:red"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:distractor:fact:0:color",
+            "development:004:swap0:distractor:fact:1:color",
+            "development:004:swap1:distractor:fact:0:color",
+            "development:004:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:star",
+            "finished:triangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:distractor:fact:0:shape",
+            "development:004:swap0:distractor:fact:1:shape",
+            "development:004:swap1:distractor:fact:0:shape",
+            "development:004:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:tower",
+            "finished:tower",
+            "finished:tower",
+            "finished:tower"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:distractor:fact:0:home",
+            "development:004:swap0:distractor:fact:1:home",
+            "development:004:swap1:distractor:fact:0:home",
+            "development:004:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:gray",
+            "finished:green"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:distractor:fact:0:color",
+            "development:005:swap0:distractor:fact:1:color",
+            "development:005:swap1:distractor:fact:0:color",
+            "development:005:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:distractor:fact:0:shape",
+            "development:005:swap0:distractor:fact:1:shape",
+            "development:005:swap1:distractor:fact:0:shape",
+            "development:005:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:river",
+            "finished:river",
+            "finished:river",
+            "finished:river"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:distractor:fact:0:home",
+            "development:005:swap0:distractor:fact:1:home",
+            "development:005:swap1:distractor:fact:0:home",
+            "development:005:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:distractor:fact:0:color",
+            "development:006:swap0:distractor:fact:1:color",
+            "development:006:swap1:distractor:fact:0:color",
+            "development:006:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:distractor:fact:0:shape",
+            "development:006:swap0:distractor:fact:1:shape",
+            "development:006:swap1:distractor:fact:0:shape",
+            "development:006:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:distractor:fact:0:home",
+            "development:006:swap0:distractor:fact:1:home",
+            "development:006:swap1:distractor:fact:0:home",
+            "development:006:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:red",
+            "finished:red",
+            "finished:red",
+            "finished:red"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:distractor:fact:0:color",
+            "development:007:swap0:distractor:fact:1:color",
+            "development:007:swap1:distractor:fact:0:color",
+            "development:007:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:diamond",
+            "finished:triangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:distractor:fact:0:shape",
+            "development:007:swap0:distractor:fact:1:shape",
+            "development:007:swap1:distractor:fact:0:shape",
+            "development:007:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:distractor:fact:0:home",
+            "development:007:swap0:distractor:fact:1:home",
+            "development:007:swap1:distractor:fact:0:home",
+            "development:007:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:green",
+            "finished:green",
+            "finished:green",
+            "finished:green"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:distractor:fact:0:color",
+            "development:008:swap0:distractor:fact:1:color",
+            "development:008:swap1:distractor:fact:0:color",
+            "development:008:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:square",
+            "finished:square",
+            "finished:square",
+            "finished:square"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:distractor:fact:0:shape",
+            "development:008:swap0:distractor:fact:1:shape",
+            "development:008:swap1:distractor:fact:0:shape",
+            "development:008:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:distractor:fact:0:home",
+            "development:008:swap0:distractor:fact:1:home",
+            "development:008:swap1:distractor:fact:0:home",
+            "development:008:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:distractor:fact:0:color",
+            "development:009:swap0:distractor:fact:1:color",
+            "development:009:swap1:distractor:fact:0:color",
+            "development:009:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:distractor:fact:0:shape",
+            "development:009:swap0:distractor:fact:1:shape",
+            "development:009:swap1:distractor:fact:0:shape",
+            "development:009:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:distractor:fact:0:home",
+            "development:009:swap0:distractor:fact:1:home",
+            "development:009:swap1:distractor:fact:0:home",
+            "development:009:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:distractor:fact:0:color",
+            "development:010:swap0:distractor:fact:1:color",
+            "development:010:swap1:distractor:fact:0:color",
+            "development:010:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:distractor:fact:0:shape",
+            "development:010:swap0:distractor:fact:1:shape",
+            "development:010:swap1:distractor:fact:0:shape",
+            "development:010:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:distractor:fact:0:home",
+            "development:010:swap0:distractor:fact:1:home",
+            "development:010:swap1:distractor:fact:0:home",
+            "development:010:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:blue",
+            "finished:blue",
+            "finished:blue",
+            "finished:blue"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:distractor:fact:0:color",
+            "development:011:swap0:distractor:fact:1:color",
+            "development:011:swap1:distractor:fact:0:color",
+            "development:011:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:distractor:fact:0:shape",
+            "development:011:swap0:distractor:fact:1:shape",
+            "development:011:swap1:distractor:fact:0:shape",
+            "development:011:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:station",
+            "finished:castle"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:distractor:fact:0:home",
+            "development:011:swap0:distractor:fact:1:home",
+            "development:011:swap1:distractor:fact:0:home",
+            "development:011:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:red",
+            "finished:red",
+            "finished:red",
+            "finished:green"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:distractor:fact:0:color",
+            "development:012:swap0:distractor:fact:1:color",
+            "development:012:swap1:distractor:fact:0:color",
+            "development:012:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:distractor:fact:0:shape",
+            "development:012:swap0:distractor:fact:1:shape",
+            "development:012:swap1:distractor:fact:0:shape",
+            "development:012:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:tower",
+            "finished:tower",
+            "finished:forest",
+            "finished:tower"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:distractor:fact:0:home",
+            "development:012:swap0:distractor:fact:1:home",
+            "development:012:swap1:distractor:fact:0:home",
+            "development:012:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:green",
+            "finished:green",
+            "finished:green",
+            "finished:green"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:distractor:fact:0:color",
+            "development:013:swap0:distractor:fact:1:color",
+            "development:013:swap1:distractor:fact:0:color",
+            "development:013:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:distractor:fact:0:shape",
+            "development:013:swap0:distractor:fact:1:shape",
+            "development:013:swap1:distractor:fact:0:shape",
+            "development:013:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:distractor:fact:0:home",
+            "development:013:swap0:distractor:fact:1:home",
+            "development:013:swap1:distractor:fact:0:home",
+            "development:013:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:yellow",
+            "finished:white"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:distractor:fact:0:color",
+            "development:014:swap0:distractor:fact:1:color",
+            "development:014:swap1:distractor:fact:0:color",
+            "development:014:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:heart",
+            "finished:heart",
+            "finished:oval",
+            "finished:heart"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:distractor:fact:0:shape",
+            "development:014:swap0:distractor:fact:1:shape",
+            "development:014:swap1:distractor:fact:0:shape",
+            "development:014:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:market",
+            "finished:castle"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:distractor:fact:0:home",
+            "development:014:swap0:distractor:fact:1:home",
+            "development:014:swap1:distractor:fact:0:home",
+            "development:014:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:distractor:fact:0:color",
+            "development:015:swap0:distractor:fact:1:color",
+            "development:015:swap1:distractor:fact:0:color",
+            "development:015:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:star",
+            "finished:star",
+            "finished:star",
+            "finished:star"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:distractor:fact:0:shape",
+            "development:015:swap0:distractor:fact:1:shape",
+            "development:015:swap1:distractor:fact:0:shape",
+            "development:015:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:river",
+            "finished:river",
+            "finished:river",
+            "finished:river"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:distractor:fact:0:home",
+            "development:015:swap0:distractor:fact:1:home",
+            "development:015:swap1:distractor:fact:0:home",
+            "development:015:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:distractor:fact:0:color",
+            "development:016:swap0:distractor:fact:1:color",
+            "development:016:swap1:distractor:fact:0:color",
+            "development:016:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:distractor:fact:0:shape",
+            "development:016:swap0:distractor:fact:1:shape",
+            "development:016:swap1:distractor:fact:0:shape",
+            "development:016:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:tower",
+            "finished:tower",
+            "finished:tower",
+            "finished:tower"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:distractor:fact:0:home",
+            "development:016:swap0:distractor:fact:1:home",
+            "development:016:swap1:distractor:fact:0:home",
+            "development:016:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:green",
+            "finished:green",
+            "finished:black"
+          ],
+          "category": "name_aligned",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:distractor:fact:0:color",
+            "development:017:swap0:distractor:fact:1:color",
+            "development:017:swap1:distractor:fact:0:color",
+            "development:017:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:heart",
+            "finished:heart",
+            "finished:heart"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:distractor:fact:0:shape",
+            "development:017:swap0:distractor:fact:1:shape",
+            "development:017:swap1:distractor:fact:0:shape",
+            "development:017:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:tower",
+            "finished:tower",
+            "finished:market"
+          ],
+          "category": "name_aligned",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:distractor:fact:0:home",
+            "development:017:swap0:distractor:fact:1:home",
+            "development:017:swap1:distractor:fact:0:home",
+            "development:017:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:red",
+            "finished:green",
+            "finished:black"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:distractor:fact:0:color",
+            "development:018:swap0:distractor:fact:1:color",
+            "development:018:swap1:distractor:fact:0:color",
+            "development:018:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:heart",
+            "finished:heart",
+            "finished:oval"
+          ],
+          "category": "name_aligned",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:distractor:fact:0:shape",
+            "development:018:swap0:distractor:fact:1:shape",
+            "development:018:swap1:distractor:fact:0:shape",
+            "development:018:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:distractor:fact:0:home",
+            "development:018:swap0:distractor:fact:1:home",
+            "development:018:swap1:distractor:fact:0:home",
+            "development:018:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:distractor:fact:0:color",
+            "development:019:swap0:distractor:fact:1:color",
+            "development:019:swap1:distractor:fact:0:color",
+            "development:019:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:distractor:fact:0:shape",
+            "development:019:swap0:distractor:fact:1:shape",
+            "development:019:swap1:distractor:fact:0:shape",
+            "development:019:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:station",
+            "finished:station",
+            "finished:station",
+            "finished:station"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:distractor:fact:0:home",
+            "development:019:swap0:distractor:fact:1:home",
+            "development:019:swap1:distractor:fact:0:home",
+            "development:019:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:red",
+            "finished:red",
+            "finished:red",
+            "finished:black"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:distractor:fact:0:color",
+            "development:020:swap0:distractor:fact:1:color",
+            "development:020:swap1:distractor:fact:0:color",
+            "development:020:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:oval",
+            "finished:oval",
+            "finished:rectangle"
+          ],
+          "category": "name_aligned",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:distractor:fact:0:shape",
+            "development:020:swap0:distractor:fact:1:shape",
+            "development:020:swap1:distractor:fact:0:shape",
+            "development:020:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:forest",
+            "finished:forest",
+            "finished:forest"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:distractor:fact:0:home",
+            "development:020:swap0:distractor:fact:1:home",
+            "development:020:swap1:distractor:fact:0:home",
+            "development:020:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:distractor:fact:0:color",
+            "development:021:swap0:distractor:fact:1:color",
+            "development:021:swap1:distractor:fact:0:color",
+            "development:021:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:distractor:fact:0:shape",
+            "development:021:swap0:distractor:fact:1:shape",
+            "development:021:swap1:distractor:fact:0:shape",
+            "development:021:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:station",
+            "finished:station",
+            "finished:station",
+            "finished:station"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:distractor:fact:0:home",
+            "development:021:swap0:distractor:fact:1:home",
+            "development:021:swap1:distractor:fact:0:home",
+            "development:021:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:distractor:fact:0:color",
+            "development:022:swap0:distractor:fact:1:color",
+            "development:022:swap1:distractor:fact:0:color",
+            "development:022:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:diamond",
+            "finished:circle",
+            "finished:circle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:distractor:fact:0:shape",
+            "development:022:swap0:distractor:fact:1:shape",
+            "development:022:swap1:distractor:fact:0:shape",
+            "development:022:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:river",
+            "finished:river",
+            "finished:river",
+            "finished:river"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:distractor:fact:0:home",
+            "development:022:swap0:distractor:fact:1:home",
+            "development:022:swap1:distractor:fact:0:home",
+            "development:022:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:distractor:fact:0:color",
+            "development:023:swap0:distractor:fact:1:color",
+            "development:023:swap1:distractor:fact:0:color",
+            "development:023:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:star",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:distractor:fact:0:shape",
+            "development:023:swap0:distractor:fact:1:shape",
+            "development:023:swap1:distractor:fact:0:shape",
+            "development:023:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:market",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:distractor:fact:0:home",
+            "development:023:swap0:distractor:fact:1:home",
+            "development:023:swap1:distractor:fact:0:home",
+            "development:023:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:white",
+            "finished:white"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:distractor:fact:0:color",
+            "development:024:swap0:distractor:fact:1:color",
+            "development:024:swap1:distractor:fact:0:color",
+            "development:024:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:distractor:fact:0:shape",
+            "development:024:swap0:distractor:fact:1:shape",
+            "development:024:swap1:distractor:fact:0:shape",
+            "development:024:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:distractor:fact:0:home",
+            "development:024:swap0:distractor:fact:1:home",
+            "development:024:swap1:distractor:fact:0:home",
+            "development:024:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:distractor:fact:0:color",
+            "development:025:swap0:distractor:fact:1:color",
+            "development:025:swap1:distractor:fact:0:color",
+            "development:025:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:star",
+            "finished:star",
+            "finished:star",
+            "finished:star"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:distractor:fact:0:shape",
+            "development:025:swap0:distractor:fact:1:shape",
+            "development:025:swap1:distractor:fact:0:shape",
+            "development:025:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:distractor:fact:0:home",
+            "development:025:swap0:distractor:fact:1:home",
+            "development:025:swap1:distractor:fact:0:home",
+            "development:025:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:white",
+            "finished:white"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:distractor:fact:0:color",
+            "development:026:swap0:distractor:fact:1:color",
+            "development:026:swap1:distractor:fact:0:color",
+            "development:026:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:distractor:fact:0:shape",
+            "development:026:swap0:distractor:fact:1:shape",
+            "development:026:swap1:distractor:fact:0:shape",
+            "development:026:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:distractor:fact:0:home",
+            "development:026:swap0:distractor:fact:1:home",
+            "development:026:swap1:distractor:fact:0:home",
+            "development:026:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:distractor:fact:0:color",
+            "development:027:swap0:distractor:fact:1:color",
+            "development:027:swap1:distractor:fact:0:color",
+            "development:027:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:square",
+            "finished:star",
+            "finished:circle",
+            "finished:square"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:distractor:fact:0:shape",
+            "development:027:swap0:distractor:fact:1:shape",
+            "development:027:swap1:distractor:fact:0:shape",
+            "development:027:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:river",
+            "finished:bridge",
+            "finished:river",
+            "finished:river"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:distractor:fact:0:home",
+            "development:027:swap0:distractor:fact:1:home",
+            "development:027:swap1:distractor:fact:0:home",
+            "development:027:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:gray"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:distractor:fact:0:color",
+            "development:028:swap0:distractor:fact:1:color",
+            "development:028:swap1:distractor:fact:0:color",
+            "development:028:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:star",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:distractor:fact:0:shape",
+            "development:028:swap0:distractor:fact:1:shape",
+            "development:028:swap1:distractor:fact:0:shape",
+            "development:028:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:forest",
+            "finished:forest",
+            "finished:forest"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:distractor:fact:0:home",
+            "development:028:swap0:distractor:fact:1:home",
+            "development:028:swap1:distractor:fact:0:home",
+            "development:028:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:distractor:fact:0:color",
+            "development:029:swap0:distractor:fact:1:color",
+            "development:029:swap1:distractor:fact:0:color",
+            "development:029:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:distractor:fact:0:shape",
+            "development:029:swap0:distractor:fact:1:shape",
+            "development:029:swap1:distractor:fact:0:shape",
+            "development:029:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:distractor:fact:0:home",
+            "development:029:swap0:distractor:fact:1:home",
+            "development:029:swap1:distractor:fact:0:home",
+            "development:029:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:distractor:fact:0:color",
+            "development:030:swap0:distractor:fact:1:color",
+            "development:030:swap1:distractor:fact:0:color",
+            "development:030:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:distractor:fact:0:shape",
+            "development:030:swap0:distractor:fact:1:shape",
+            "development:030:swap1:distractor:fact:0:shape",
+            "development:030:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:forest",
+            "finished:forest",
+            "finished:forest"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:distractor:fact:0:home",
+            "development:030:swap0:distractor:fact:1:home",
+            "development:030:swap1:distractor:fact:0:home",
+            "development:030:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:distractor:fact:0:color",
+            "development:031:swap0:distractor:fact:1:color",
+            "development:031:swap1:distractor:fact:0:color",
+            "development:031:swap1:distractor:fact:1:color"
+          ],
+          "world_id": "development:031"
+        },
+        {
+          "answers": [
+            "finished:heart",
+            "finished:heart",
+            "finished:heart",
+            "finished:heart"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:distractor:fact:0:shape",
+            "development:031:swap0:distractor:fact:1:shape",
+            "development:031:swap1:distractor:fact:0:shape",
+            "development:031:swap1:distractor:fact:1:shape"
+          ],
+          "world_id": "development:031"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:distractor:fact:0:home",
+            "development:031:swap0:distractor:fact:1:home",
+            "development:031:swap1:distractor:fact:0:home",
+            "development:031:swap1:distractor:fact:1:home"
+          ],
+          "world_id": "development:031"
+        }
+      ],
+      "world_count": 32
+    },
+    "none": {
+      "counts": {
+        "all_same": 70,
+        "line_aligned": 7,
+        "mixed": 15,
+        "name_aligned": 4
+      },
+      "name_minus_line_fraction": {
+        "mean": -0.03125,
+        "percentile_95": [
+          -0.11458333333333333,
+          0.05208333333333333
+        ]
+      },
+      "per_world": [
+        {
+          "counts": {
+            "all_same": 1,
+            "line_aligned": 2
+          },
+          "world_id": "development:000"
+        },
+        {
+          "counts": {
+            "line_aligned": 1,
+            "mixed": 2
+          },
+          "world_id": "development:001"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:002"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:003"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "line_aligned": 1
+          },
+          "world_id": "development:004"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:005"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "name_aligned": 1
+          },
+          "world_id": "development:006"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:007"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:008"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:009"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:010"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:011"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:012"
+        },
+        {
+          "counts": {
+            "mixed": 3
+          },
+          "world_id": "development:013"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:014"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:015"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "line_aligned": 1
+          },
+          "world_id": "development:016"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:017"
+        },
+        {
+          "counts": {
+            "mixed": 1,
+            "name_aligned": 2
+          },
+          "world_id": "development:018"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:019"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:020"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:021"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:022"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 2
+          },
+          "world_id": "development:023"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:024"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:025"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:026"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "line_aligned": 2
+          },
+          "world_id": "development:027"
+        },
+        {
+          "counts": {
+            "all_same": 1,
+            "mixed": 1,
+            "name_aligned": 1
+          },
+          "world_id": "development:028"
+        },
+        {
+          "counts": {
+            "all_same": 2,
+            "mixed": 1
+          },
+          "world_id": "development:029"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:030"
+        },
+        {
+          "counts": {
+            "all_same": 3
+          },
+          "world_id": "development:031"
+        }
+      ],
+      "table_count": 96,
+      "tables": [
+        {
+          "answers": [
+            "finished:green",
+            "finished:green",
+            "finished:green",
+            "finished:green"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:none:fact:0:color",
+            "development:000:swap0:none:fact:1:color",
+            "development:000:swap1:none:fact:0:color",
+            "development:000:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:square",
+            "finished:oval",
+            "finished:square",
+            "finished:oval"
+          ],
+          "category": "line_aligned",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:none:fact:0:shape",
+            "development:000:swap0:none:fact:1:shape",
+            "development:000:swap1:none:fact:0:shape",
+            "development:000:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:river",
+            "finished:market",
+            "finished:river"
+          ],
+          "category": "line_aligned",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:000:swap0:none:fact:0:home",
+            "development:000:swap0:none:fact:1:home",
+            "development:000:swap1:none:fact:0:home",
+            "development:000:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:000"
+        },
+        {
+          "answers": [
+            "finished:gray",
+            "finished:gray",
+            "finished:gray",
+            "finished:brown"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:none:fact:0:color",
+            "development:001:swap0:none:fact:1:color",
+            "development:001:swap1:none:fact:0:color",
+            "development:001:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:star",
+            "finished:oval",
+            "finished:star"
+          ],
+          "category": "line_aligned",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:none:fact:0:shape",
+            "development:001:swap0:none:fact:1:shape",
+            "development:001:swap1:none:fact:0:shape",
+            "development:001:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:tower"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:001:swap0:none:fact:0:home",
+            "development:001:swap0:none:fact:1:home",
+            "development:001:swap1:none:fact:0:home",
+            "development:001:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:001"
+        },
+        {
+          "answers": [
+            "finished:gray",
+            "finished:gray",
+            "finished:gray",
+            "finished:gray"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:none:fact:0:color",
+            "development:002:swap0:none:fact:1:color",
+            "development:002:swap1:none:fact:0:color",
+            "development:002:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:none:fact:0:shape",
+            "development:002:swap0:none:fact:1:shape",
+            "development:002:swap1:none:fact:0:shape",
+            "development:002:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:002:swap0:none:fact:0:home",
+            "development:002:swap0:none:fact:1:home",
+            "development:002:swap1:none:fact:0:home",
+            "development:002:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:002"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:none:fact:0:color",
+            "development:003:swap0:none:fact:1:color",
+            "development:003:swap1:none:fact:0:color",
+            "development:003:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:none:fact:0:shape",
+            "development:003:swap0:none:fact:1:shape",
+            "development:003:swap1:none:fact:0:shape",
+            "development:003:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:003:swap0:none:fact:0:home",
+            "development:003:swap0:none:fact:1:home",
+            "development:003:swap1:none:fact:0:home",
+            "development:003:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:003"
+        },
+        {
+          "answers": [
+            "finished:blue",
+            "finished:blue",
+            "finished:blue",
+            "finished:blue"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:none:fact:0:color",
+            "development:004:swap0:none:fact:1:color",
+            "development:004:swap1:none:fact:0:color",
+            "development:004:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:none:fact:0:shape",
+            "development:004:swap0:none:fact:1:shape",
+            "development:004:swap1:none:fact:0:shape",
+            "development:004:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:tower",
+            "finished:bridge",
+            "finished:tower"
+          ],
+          "category": "line_aligned",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:004:swap0:none:fact:0:home",
+            "development:004:swap0:none:fact:1:home",
+            "development:004:swap1:none:fact:0:home",
+            "development:004:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:004"
+        },
+        {
+          "answers": [
+            "finished:green",
+            "finished:green",
+            "finished:green",
+            "finished:green"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:none:fact:0:color",
+            "development:005:swap0:none:fact:1:color",
+            "development:005:swap1:none:fact:0:color",
+            "development:005:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:none:fact:0:shape",
+            "development:005:swap0:none:fact:1:shape",
+            "development:005:swap1:none:fact:0:shape",
+            "development:005:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:005:swap0:none:fact:0:home",
+            "development:005:swap0:none:fact:1:home",
+            "development:005:swap1:none:fact:0:home",
+            "development:005:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:005"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:none:fact:0:color",
+            "development:006:swap0:none:fact:1:color",
+            "development:006:swap1:none:fact:0:color",
+            "development:006:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:none:fact:0:shape",
+            "development:006:swap0:none:fact:1:shape",
+            "development:006:swap1:none:fact:0:shape",
+            "development:006:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:farm",
+            "finished:farm",
+            "finished:castle"
+          ],
+          "category": "name_aligned",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:006:swap0:none:fact:0:home",
+            "development:006:swap0:none:fact:1:home",
+            "development:006:swap1:none:fact:0:home",
+            "development:006:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:006"
+        },
+        {
+          "answers": [
+            "finished:red",
+            "finished:red",
+            "finished:red",
+            "finished:red"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:none:fact:0:color",
+            "development:007:swap0:none:fact:1:color",
+            "development:007:swap1:none:fact:0:color",
+            "development:007:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:none:fact:0:shape",
+            "development:007:swap0:none:fact:1:shape",
+            "development:007:swap1:none:fact:0:shape",
+            "development:007:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:007:swap0:none:fact:0:home",
+            "development:007:swap0:none:fact:1:home",
+            "development:007:swap1:none:fact:0:home",
+            "development:007:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:007"
+        },
+        {
+          "answers": [
+            "finished:green",
+            "finished:green",
+            "finished:green",
+            "finished:green"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:none:fact:0:color",
+            "development:008:swap0:none:fact:1:color",
+            "development:008:swap1:none:fact:0:color",
+            "development:008:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:square",
+            "finished:square",
+            "finished:square",
+            "finished:square"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:none:fact:0:shape",
+            "development:008:swap0:none:fact:1:shape",
+            "development:008:swap1:none:fact:0:shape",
+            "development:008:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:008:swap0:none:fact:0:home",
+            "development:008:swap0:none:fact:1:home",
+            "development:008:swap1:none:fact:0:home",
+            "development:008:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:008"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:none:fact:0:color",
+            "development:009:swap0:none:fact:1:color",
+            "development:009:swap1:none:fact:0:color",
+            "development:009:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:none:fact:0:shape",
+            "development:009:swap0:none:fact:1:shape",
+            "development:009:swap1:none:fact:0:shape",
+            "development:009:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:009:swap0:none:fact:0:home",
+            "development:009:swap0:none:fact:1:home",
+            "development:009:swap1:none:fact:0:home",
+            "development:009:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:009"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:none:fact:0:color",
+            "development:010:swap0:none:fact:1:color",
+            "development:010:swap1:none:fact:0:color",
+            "development:010:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:none:fact:0:shape",
+            "development:010:swap0:none:fact:1:shape",
+            "development:010:swap1:none:fact:0:shape",
+            "development:010:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:010:swap0:none:fact:0:home",
+            "development:010:swap0:none:fact:1:home",
+            "development:010:swap1:none:fact:0:home",
+            "development:010:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:010"
+        },
+        {
+          "answers": [
+            "finished:blue",
+            "finished:blue",
+            "finished:blue",
+            "finished:blue"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:none:fact:0:color",
+            "development:011:swap0:none:fact:1:color",
+            "development:011:swap1:none:fact:0:color",
+            "development:011:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:none:fact:0:shape",
+            "development:011:swap0:none:fact:1:shape",
+            "development:011:swap1:none:fact:0:shape",
+            "development:011:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:011:swap0:none:fact:0:home",
+            "development:011:swap0:none:fact:1:home",
+            "development:011:swap1:none:fact:0:home",
+            "development:011:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:011"
+        },
+        {
+          "answers": [
+            "finished:red",
+            "finished:red",
+            "finished:red",
+            "finished:green"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:none:fact:0:color",
+            "development:012:swap0:none:fact:1:color",
+            "development:012:swap1:none:fact:0:color",
+            "development:012:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:none:fact:0:shape",
+            "development:012:swap0:none:fact:1:shape",
+            "development:012:swap1:none:fact:0:shape",
+            "development:012:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:tower",
+            "finished:tower",
+            "finished:forest",
+            "finished:tower"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:012:swap0:none:fact:0:home",
+            "development:012:swap0:none:fact:1:home",
+            "development:012:swap1:none:fact:0:home",
+            "development:012:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:012"
+        },
+        {
+          "answers": [
+            "finished:green",
+            "finished:blue",
+            "finished:blue",
+            "finished:blue"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:none:fact:0:color",
+            "development:013:swap0:none:fact:1:color",
+            "development:013:swap1:none:fact:0:color",
+            "development:013:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:square"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:none:fact:0:shape",
+            "development:013:swap0:none:fact:1:shape",
+            "development:013:swap1:none:fact:0:shape",
+            "development:013:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:forest",
+            "finished:tower",
+            "finished:forest"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:013:swap0:none:fact:0:home",
+            "development:013:swap0:none:fact:1:home",
+            "development:013:swap1:none:fact:0:home",
+            "development:013:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:013"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:white",
+            "finished:white"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:none:fact:0:color",
+            "development:014:swap0:none:fact:1:color",
+            "development:014:swap1:none:fact:0:color",
+            "development:014:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:heart",
+            "finished:heart",
+            "finished:heart",
+            "finished:heart"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:none:fact:0:shape",
+            "development:014:swap0:none:fact:1:shape",
+            "development:014:swap1:none:fact:0:shape",
+            "development:014:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "cat",
+            "basket",
+            "basket",
+            "cat"
+          ],
+          "row_ids": [
+            "development:014:swap0:none:fact:0:home",
+            "development:014:swap0:none:fact:1:home",
+            "development:014:swap1:none:fact:0:home",
+            "development:014:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:014"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:none:fact:0:color",
+            "development:015:swap0:none:fact:1:color",
+            "development:015:swap1:none:fact:0:color",
+            "development:015:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:star",
+            "finished:star",
+            "finished:star",
+            "finished:star"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:none:fact:0:shape",
+            "development:015:swap0:none:fact:1:shape",
+            "development:015:swap1:none:fact:0:shape",
+            "development:015:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:tower",
+            "finished:tower",
+            "finished:tower",
+            "finished:tower"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:015:swap0:none:fact:0:home",
+            "development:015:swap0:none:fact:1:home",
+            "development:015:swap1:none:fact:0:home",
+            "development:015:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:015"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:none:fact:0:color",
+            "development:016:swap0:none:fact:1:color",
+            "development:016:swap1:none:fact:0:color",
+            "development:016:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:circle",
+            "finished:circle",
+            "finished:circle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:none:fact:0:shape",
+            "development:016:swap0:none:fact:1:shape",
+            "development:016:swap1:none:fact:0:shape",
+            "development:016:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:tower",
+            "finished:bridge",
+            "finished:tower"
+          ],
+          "category": "line_aligned",
+          "field": "home",
+          "query_names": [
+            "date",
+            "cat",
+            "cat",
+            "date"
+          ],
+          "row_ids": [
+            "development:016:swap0:none:fact:0:home",
+            "development:016:swap0:none:fact:1:home",
+            "development:016:swap1:none:fact:0:home",
+            "development:016:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:016"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:green",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:none:fact:0:color",
+            "development:017:swap0:none:fact:1:color",
+            "development:017:swap1:none:fact:0:color",
+            "development:017:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:heart",
+            "finished:circle",
+            "finished:circle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:none:fact:0:shape",
+            "development:017:swap0:none:fact:1:shape",
+            "development:017:swap1:none:fact:0:shape",
+            "development:017:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:017:swap0:none:fact:0:home",
+            "development:017:swap0:none:fact:1:home",
+            "development:017:swap1:none:fact:0:home",
+            "development:017:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:017"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:green",
+            "finished:green",
+            "finished:black"
+          ],
+          "category": "name_aligned",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:none:fact:0:color",
+            "development:018:swap0:none:fact:1:color",
+            "development:018:swap1:none:fact:0:color",
+            "development:018:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:heart",
+            "finished:heart",
+            "finished:oval"
+          ],
+          "category": "name_aligned",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:none:fact:0:shape",
+            "development:018:swap0:none:fact:1:shape",
+            "development:018:swap1:none:fact:0:shape",
+            "development:018:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:018:swap0:none:fact:0:home",
+            "development:018:swap0:none:fact:1:home",
+            "development:018:swap1:none:fact:0:home",
+            "development:018:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:018"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:none:fact:0:color",
+            "development:019:swap0:none:fact:1:color",
+            "development:019:swap1:none:fact:0:color",
+            "development:019:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:oval",
+            "finished:diamond",
+            "finished:heart"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:none:fact:0:shape",
+            "development:019:swap0:none:fact:1:shape",
+            "development:019:swap1:none:fact:0:shape",
+            "development:019:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:019:swap0:none:fact:0:home",
+            "development:019:swap0:none:fact:1:home",
+            "development:019:swap1:none:fact:0:home",
+            "development:019:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:019"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:none:fact:0:color",
+            "development:020:swap0:none:fact:1:color",
+            "development:020:swap1:none:fact:0:color",
+            "development:020:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:none:fact:0:shape",
+            "development:020:swap0:none:fact:1:shape",
+            "development:020:swap1:none:fact:0:shape",
+            "development:020:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:020:swap0:none:fact:0:home",
+            "development:020:swap0:none:fact:1:home",
+            "development:020:swap1:none:fact:0:home",
+            "development:020:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:020"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:none:fact:0:color",
+            "development:021:swap0:none:fact:1:color",
+            "development:021:swap1:none:fact:0:color",
+            "development:021:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:oval",
+            "finished:oval",
+            "finished:oval",
+            "finished:oval"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:none:fact:0:shape",
+            "development:021:swap0:none:fact:1:shape",
+            "development:021:swap1:none:fact:0:shape",
+            "development:021:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:station",
+            "finished:station",
+            "finished:station",
+            "finished:station"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:021:swap0:none:fact:0:home",
+            "development:021:swap0:none:fact:1:home",
+            "development:021:swap1:none:fact:0:home",
+            "development:021:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:021"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:none:fact:0:color",
+            "development:022:swap0:none:fact:1:color",
+            "development:022:swap1:none:fact:0:color",
+            "development:022:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:circle",
+            "finished:circle",
+            "finished:circle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:none:fact:0:shape",
+            "development:022:swap0:none:fact:1:shape",
+            "development:022:swap1:none:fact:0:shape",
+            "development:022:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:river",
+            "finished:river",
+            "finished:river",
+            "finished:river"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:022:swap0:none:fact:0:home",
+            "development:022:swap0:none:fact:1:home",
+            "development:022:swap1:none:fact:0:home",
+            "development:022:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:022"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:none:fact:0:color",
+            "development:023:swap0:none:fact:1:color",
+            "development:023:swap1:none:fact:0:color",
+            "development:023:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:star",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "mixed",
+          "field": "shape",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:none:fact:0:shape",
+            "development:023:swap0:none:fact:1:shape",
+            "development:023:swap1:none:fact:0:shape",
+            "development:023:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:bridge",
+            "finished:market",
+            "finished:bridge",
+            "finished:bridge"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "apple",
+            "bat",
+            "bat",
+            "apple"
+          ],
+          "row_ids": [
+            "development:023:swap0:none:fact:0:home",
+            "development:023:swap0:none:fact:1:home",
+            "development:023:swap1:none:fact:0:home",
+            "development:023:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:023"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:white",
+            "finished:white"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:none:fact:0:color",
+            "development:024:swap0:none:fact:1:color",
+            "development:024:swap1:none:fact:0:color",
+            "development:024:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle",
+            "finished:rectangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:none:fact:0:shape",
+            "development:024:swap0:none:fact:1:shape",
+            "development:024:swap1:none:fact:0:shape",
+            "development:024:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:024:swap0:none:fact:0:home",
+            "development:024:swap0:none:fact:1:home",
+            "development:024:swap1:none:fact:0:home",
+            "development:024:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:024"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:brown",
+            "finished:brown",
+            "finished:brown"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:none:fact:0:color",
+            "development:025:swap0:none:fact:1:color",
+            "development:025:swap1:none:fact:0:color",
+            "development:025:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:star",
+            "finished:star",
+            "finished:star",
+            "finished:star"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:none:fact:0:shape",
+            "development:025:swap0:none:fact:1:shape",
+            "development:025:swap1:none:fact:0:shape",
+            "development:025:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:castle",
+            "finished:castle",
+            "finished:castle",
+            "finished:castle"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:025:swap0:none:fact:0:home",
+            "development:025:swap0:none:fact:1:home",
+            "development:025:swap1:none:fact:0:home",
+            "development:025:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:025"
+        },
+        {
+          "answers": [
+            "finished:white",
+            "finished:white",
+            "finished:white",
+            "finished:white"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:none:fact:0:color",
+            "development:026:swap0:none:fact:1:color",
+            "development:026:swap1:none:fact:0:color",
+            "development:026:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:none:fact:0:shape",
+            "development:026:swap0:none:fact:1:shape",
+            "development:026:swap1:none:fact:0:shape",
+            "development:026:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:farm"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "fig",
+            "dog",
+            "dog",
+            "fig"
+          ],
+          "row_ids": [
+            "development:026:swap0:none:fact:0:home",
+            "development:026:swap0:none:fact:1:home",
+            "development:026:swap1:none:fact:0:home",
+            "development:026:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:026"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:none:fact:0:color",
+            "development:027:swap0:none:fact:1:color",
+            "development:027:swap1:none:fact:0:color",
+            "development:027:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:circle",
+            "finished:star",
+            "finished:circle",
+            "finished:star"
+          ],
+          "category": "line_aligned",
+          "field": "shape",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:none:fact:0:shape",
+            "development:027:swap0:none:fact:1:shape",
+            "development:027:swap1:none:fact:0:shape",
+            "development:027:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:bridge",
+            "finished:forest",
+            "finished:bridge"
+          ],
+          "category": "line_aligned",
+          "field": "home",
+          "query_names": [
+            "dog",
+            "apple",
+            "apple",
+            "dog"
+          ],
+          "row_ids": [
+            "development:027:swap0:none:fact:0:home",
+            "development:027:swap0:none:fact:1:home",
+            "development:027:swap1:none:fact:0:home",
+            "development:027:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:027"
+        },
+        {
+          "answers": [
+            "finished:brown",
+            "finished:yellow",
+            "finished:brown",
+            "finished:white"
+          ],
+          "category": "mixed",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:none:fact:0:color",
+            "development:028:swap0:none:fact:1:color",
+            "development:028:swap1:none:fact:0:color",
+            "development:028:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:rectangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:rectangle"
+          ],
+          "category": "name_aligned",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:none:fact:0:shape",
+            "development:028:swap0:none:fact:1:shape",
+            "development:028:swap1:none:fact:0:shape",
+            "development:028:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:forest",
+            "finished:forest",
+            "finished:forest"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:028:swap0:none:fact:0:home",
+            "development:028:swap0:none:fact:1:home",
+            "development:028:swap1:none:fact:0:home",
+            "development:028:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:028"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:none:fact:0:color",
+            "development:029:swap0:none:fact:1:color",
+            "development:029:swap1:none:fact:0:color",
+            "development:029:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle",
+            "finished:triangle"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:none:fact:0:shape",
+            "development:029:swap0:none:fact:1:shape",
+            "development:029:swap1:none:fact:0:shape",
+            "development:029:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:farm",
+            "finished:farm",
+            "finished:farm",
+            "finished:forest"
+          ],
+          "category": "mixed",
+          "field": "home",
+          "query_names": [
+            "anchor",
+            "date",
+            "date",
+            "anchor"
+          ],
+          "row_ids": [
+            "development:029:swap0:none:fact:0:home",
+            "development:029:swap0:none:fact:1:home",
+            "development:029:swap1:none:fact:0:home",
+            "development:029:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:029"
+        },
+        {
+          "answers": [
+            "finished:black",
+            "finished:black",
+            "finished:black",
+            "finished:black"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:none:fact:0:color",
+            "development:030:swap0:none:fact:1:color",
+            "development:030:swap1:none:fact:0:color",
+            "development:030:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond",
+            "finished:diamond"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:none:fact:0:shape",
+            "development:030:swap0:none:fact:1:shape",
+            "development:030:swap1:none:fact:0:shape",
+            "development:030:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:forest",
+            "finished:forest",
+            "finished:forest",
+            "finished:forest"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "bat",
+            "anchor",
+            "anchor",
+            "bat"
+          ],
+          "row_ids": [
+            "development:030:swap0:none:fact:0:home",
+            "development:030:swap0:none:fact:1:home",
+            "development:030:swap1:none:fact:0:home",
+            "development:030:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:030"
+        },
+        {
+          "answers": [
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow",
+            "finished:yellow"
+          ],
+          "category": "all_same",
+          "field": "color",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:none:fact:0:color",
+            "development:031:swap0:none:fact:1:color",
+            "development:031:swap1:none:fact:0:color",
+            "development:031:swap1:none:fact:1:color"
+          ],
+          "world_id": "development:031"
+        },
+        {
+          "answers": [
+            "finished:heart",
+            "finished:heart",
+            "finished:heart",
+            "finished:heart"
+          ],
+          "category": "all_same",
+          "field": "shape",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:none:fact:0:shape",
+            "development:031:swap0:none:fact:1:shape",
+            "development:031:swap1:none:fact:0:shape",
+            "development:031:swap1:none:fact:1:shape"
+          ],
+          "world_id": "development:031"
+        },
+        {
+          "answers": [
+            "finished:market",
+            "finished:market",
+            "finished:market",
+            "finished:market"
+          ],
+          "category": "all_same",
+          "field": "home",
+          "query_names": [
+            "basket",
+            "fig",
+            "fig",
+            "basket"
+          ],
+          "row_ids": [
+            "development:031:swap0:none:fact:0:home",
+            "development:031:swap0:none:fact:1:home",
+            "development:031:swap1:none:fact:0:home",
+            "development:031:swap1:none:fact:1:home"
+          ],
+          "world_id": "development:031"
+        }
+      ],
+      "world_count": 32
+    }
+  },
+  "schema": "name-position-invariance-20261115-v1"
+}

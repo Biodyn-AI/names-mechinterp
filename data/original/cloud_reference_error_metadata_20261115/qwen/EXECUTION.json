@@ -1,0 +1,7 @@
+{
+  "causal_calls_authorized": false,
+  "confirmation_calls_authorized": false,
+  "deadline_utc": "2026-11-15T17:00:00Z",
+  "model": "qwen",
+  "split": "development"
+}

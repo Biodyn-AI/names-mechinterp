@@ -1,0 +1,713 @@
+{
+  "assessment": {
+    "confirmation_calls_authorized": false,
+    "further_validation_authorized": false,
+    "head_results": [
+      {
+        "Rcolor_source_correct_count": 6,
+        "case_count": 8,
+        "head_index": 0,
+        "layer_index": 28,
+        "mean_alias_contrast": 0.8176672148229369,
+        "mean_gains": {
+          "Dcolor": 5.554913756618026,
+          "Dscreen": 3.790092858647528,
+          "LOOWmeanDcolor": 3.513800517371219,
+          "Rcolor": 3.1582513516712374,
+          "selfRscreen": 0.0
+        },
+        "newly_correct": 5,
+        "passed": true,
+        "primary_minus_Dscreen_gain_descriptive": 1.7648208979704978,
+        "primary_minus_LOOWmean_gain": 2.041113239246807,
+        "primary_minus_Rcolor_gain_descriptive": 2.3966624049467886
+      },
+      {
+        "Rcolor_source_correct_count": 6,
+        "case_count": 8,
+        "head_index": 11,
+        "layer_index": 29,
+        "mean_alias_contrast": 0.6987929400427548,
+        "mean_gains": {
+          "Dcolor": 2.13543576130427,
+          "Dscreen": 1.6834869469542166,
+          "LOOWmeanDcolor": 1.0347363240325196,
+          "Rcolor": 0.8629836532632238,
+          "selfRscreen": 0.0
+        },
+        "newly_correct": 4,
+        "passed": true,
+        "primary_minus_Dscreen_gain_descriptive": 0.4519488143500534,
+        "primary_minus_LOOWmean_gain": 1.1006994372717505,
+        "primary_minus_Rcolor_gain_descriptive": 1.2724521080410462
+      }
+    ],
+    "passed": true,
+    "scope": "Development first-token feasibility only, not complete-answer repair or confirmation."
+  },
+  "complete_answer_repair_established": false,
+  "confirmation_calls": 0,
+  "further_validation_authorized": false,
+  "intervention_count": 80,
+  "limitations": "Eight development cases are target-ID imbalanced; no C target. Selection is gold-informed, but the full four-record profile operation is gold-blind. Color donors see a field. This tests record allocation, not a field-blind or abstract entity variable. Unsupported heads do not establish absence of routing.",
+  "measurements": [
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 7.092112005728072,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 6.144702616761752,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 6.70633590378333,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 7.146368706161244,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 4.2460690215826205,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.33070594881414905,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.840779289944628,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.6677177271353614,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 5.271068419219894,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.7517532966682694,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": -2.696943430519404,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.1995043607184,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.5738118982575955,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.0549645016315665,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.5428387253575728,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.9937158311923113,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 4.8979224002443615,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0017314652867028713,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 6.0811254821582885,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 4.274238796016721,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.452375699117084,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.3228095738211607,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.0599770616547275,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.0027105764811068,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 8.591600793485753,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 7.399100009784711,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 7.389570633647352,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 6.530272749518385,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 7.314349815308823,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 6.314975456411915,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": -0.6576728526565958,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.295875391746222,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.4774230613397386,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.2364045590333603,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.4146388573173567,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.3629478500471421,
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.5305067321072414,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.07798333008058833,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.3685996095024464,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.307320551854513,
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 3.624971029975825,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.568763463374566,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": -1.394740218980182,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.4779887111202967,
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.0179111941169943,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.9218366662601021,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.36859942165399673,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.5587944961323039,
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.9578725534674604,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0007705059860754204,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.2795052494529706,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.4541348362670874,
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.848681927398708,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.790240792880546,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.5349536483513333,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.13571120318755447,
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 4.074327597174399,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 4.53697742795449,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.254469946374197,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": true,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.80914090559952,
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::LOOWmeanDcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.5517919948537937,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::Dcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.0,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 2.334918830064005,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::Dscreen"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 0.07784271243367158,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::Rcolor"
+    },
+    {
+      "argmax_correct": false,
+      "clean_argmax_correct": false,
+      "correct_minus_wrong_gain": 1.171852038051739,
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::LOOWmeanDcolor"
+    }
+  ],
+  "mechanism_identified": false,
+  "native_forward_count": 112,
+  "natural_capture_count": 32,
+  "selected_heads": [
+    {
+      "head_index": 0,
+      "layer_index": 28,
+      "mean_alias_contrast": 0.8176672148229369
+    },
+    {
+      "head_index": 11,
+      "layer_index": 29,
+      "mean_alias_contrast": 0.6987929400427548
+    }
+  ],
+  "self_oracles": [
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.11582751075046066,
+        0.13234071115871615,
+        0.029716382474684184,
+        0.722115395616139
+      ],
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.473924347163973,
+        0.3324182515075286,
+        0.150429027470059,
+        0.04322837385843941
+      ],
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.43404099182656136,
+        0.4774546197279534,
+        0.045211874688381004,
+        0.04329251375710422
+      ],
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.008190809802954193,
+        0.0053527182503164865,
+        0.9579002621280834,
+        0.02855620981864592
+      ],
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.13280430122112805,
+        0.21605851352956862,
+        0.08555050530823723,
+        0.5655866799410662
+      ],
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.012526369029795242,
+        0.01085686804543801,
+        0.5697589299460493,
+        0.4068578329787175
+      ],
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.10356520646790608,
+        0.17762339541748734,
+        0.5569254534903569,
+        0.16188594462424963
+      ],
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.5663851192004574,
+        0.3851382748508088,
+        0.02348541733742206,
+        0.024991188611311697
+      ],
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l28::h00::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.07765575110632136,
+        0.2825757212197314,
+        0.09382427547535098,
+        0.5459442521985962
+      ],
+      "endpoint_id": "route::development:001:swap0:coref_1:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.4238896368998583,
+        0.3828380752444555,
+        0.11173056572426633,
+        0.08154172213141984
+      ],
+      "endpoint_id": "route::development:013:swap1:none:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.45871508224172725,
+        0.45076884665023137,
+        0.03470577248268148,
+        0.05581029862535992
+      ],
+      "endpoint_id": "route::development:031:swap1:coref_0:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.03599249235640364,
+        0.0454656758592603,
+        0.8471576804872967,
+        0.07138415129703936
+      ],
+      "endpoint_id": "route::development:027:swap0:none:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.12103044281774436,
+        0.26280941131162733,
+        0.058720716266773706,
+        0.5574394296038546
+      ],
+      "endpoint_id": "route::development:016:swap0:none:recipient1::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.0442414397662487,
+        0.025412340804995614,
+        0.4657380502086815,
+        0.46460816922007425
+      ],
+      "endpoint_id": "route::development:007:swap1:distractor:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.032879377730050355,
+        0.49721202834279105,
+        0.3725307563623564,
+        0.0973778375648022
+      ],
+      "endpoint_id": "route::development:011:swap1:distractor:recipient0::l29::h11::selfRscreen"
+    },
+    {
+      "bitwise_equal": true,
+      "effective_profile": [
+        0.4939107872859765,
+        0.37734764658633063,
+        0.06383186196989739,
+        0.06490970415779548
+      ],
+      "endpoint_id": "route::development:017:swap0:coref_1:recipient1::l29::h11::selfRscreen"
+    }
+  ],
+  "status": "completed_routing_discovery"
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research repository when using its code or data. The manuscript is a draft, not an accepted publication."
+type: software
+title: "Names and mechanistic interpretability: equivalent-name factual retrieval study"
+authors:
+  - family-names: Kendiukhov
+    given-names: Ihor
+repository-code: "https://github.com/Biodyn-AI/names-mechinterp"
+url: "https://github.com/Biodyn-AI/names-mechinterp"
+version: "0.1.0"
+date-released: "2026-11-16"
+license: MIT
+keywords:
+  - mechanistic interpretability
+  - language models
+  - reference consistency
+  - activation patching
+  - reproducible research
+abstract: >-
+  Code, processed data, and a draft manuscript for a study of factual retrieval
+  under equivalent contextual names in two instruction-tuned language models.
+  Behavioral inconsistencies replicated across checkpoints. A selected single-head
+  repair did not meet its fixed development criteria. Code is MIT-licensed;
+  original data, documentation, and manuscript are CC BY 4.0.

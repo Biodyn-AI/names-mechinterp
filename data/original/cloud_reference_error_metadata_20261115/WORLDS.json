@@ -1,0 +1,5570 @@
+[
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "red",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "brown",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "square"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:000"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Grove",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "blue",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "star"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "development:001"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:002"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "A"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "B",
+      "D",
+      "C",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "star"
+      },
+      "C": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "oval"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "development:003"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "blue",
+        "home": "bridge",
+        "nameplate": "Elm",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "star"
+      },
+      "D": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "triangle"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "development:004"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "river",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Aster",
+        "shape": "star"
+      },
+      "C": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "red",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "development:005"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "blue",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "C": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "development:006"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Iris",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "green",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "red",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "triangle"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:007"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "D": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "oval"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:008"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "star"
+      },
+      "C": {
+        "color": "green",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "square"
+      },
+      "D": {
+        "color": "blue",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:009"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "white",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "square"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:010"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "B": {
+        "color": "blue",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "green",
+        "home": "station",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:011"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "star"
+      },
+      "B": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Maple",
+        "shape": "oval"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:012"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "blue",
+        "home": "forest",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "red",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:013"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "B",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "star"
+      },
+      "B": {
+        "color": "brown",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "square"
+      },
+      "C": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "oval"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:014"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "black",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "star"
+      },
+      "D": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:015"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Maple",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "triangle"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "development:016"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "blue",
+        "home": "bridge",
+        "nameplate": "Iris",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Grove",
+        "shape": "star"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "development:017"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "D": {
+        "color": "red",
+        "home": "farm",
+        "nameplate": "Aster",
+        "shape": "heart"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:018"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Aster",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "gray",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "heart"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:019"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "B"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "blue",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "square"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "development:020"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Maple",
+        "shape": "square"
+      },
+      "B": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "brown",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "black",
+        "home": "river",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "development:021"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "B"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "blue",
+        "home": "castle",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "square"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "development:022"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "green",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "brown",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "star"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "development:023"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "square"
+      },
+      "C": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "development:024"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "star"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:025"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "D"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "blue",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "diamond"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:026"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Elm",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "star"
+      },
+      "D": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "heart"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "development:027"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "development:028"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "star"
+      },
+      "C": {
+        "color": "black",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "square"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "development:029"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "blue",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "C": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Grove",
+        "shape": "diamond"
+      }
+    },
+    "split": "development",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "development:030"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "blue",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "circle"
+      }
+    },
+    "split": "development",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "development:031"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "market",
+        "nameplate": "Hazel",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:000"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "B",
+      "D"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "square"
+      },
+      "D": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:001"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "C": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:002"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "C": {
+        "color": "blue",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "D": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:003"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "star"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "white",
+        "home": "river",
+        "nameplate": "Hazel",
+        "shape": "square"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:004"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "star"
+      },
+      "D": {
+        "color": "blue",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "square"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:005"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "square"
+      },
+      "B": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Maple",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:006"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "blue",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:007"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "black",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:008"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "red",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:009"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Iris",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "red",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "square"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:010"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "B",
+      "A"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "brown",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "gray",
+        "home": "bridge",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "white",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "square"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:011"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "red",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "blue",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:012"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "red",
+        "home": "farm",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:013"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "star"
+      },
+      "B": {
+        "color": "gray",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "C": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "green",
+        "home": "forest",
+        "nameplate": "Aster",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:014"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "river",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "D": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:015"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "B": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "gray",
+        "home": "tower",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:016"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "market",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Iris",
+        "shape": "star"
+      },
+      "D": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:017"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "blue",
+        "home": "farm",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "C": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "brown",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:018"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Iris",
+        "shape": "square"
+      },
+      "B": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "blue",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Maple",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:019"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:020"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Aster",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:021"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "C": {
+        "color": "brown",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:022"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "blue",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "star"
+      },
+      "C": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Grove",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:023"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "bridge",
+        "nameplate": "Elm",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Maple",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "square"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:024"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Aster",
+        "shape": "square"
+      },
+      "B": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:025"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "brown",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "star"
+      },
+      "D": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:026"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "A",
+      "C",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "river",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Maple",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:027"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "C": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Hazel",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:028"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "B": {
+        "color": "red",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "brown",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "circle"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Iris",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:029"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "A"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "D": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Iris",
+        "shape": "square"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:030"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "black",
+        "home": "farm",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "D": {
+        "color": "green",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:031"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Grove",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "brown",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:032"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "gray",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:033"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Aster",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "C": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Cedar",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Grove",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:034"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "B": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "C": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Grove",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:035"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "C": {
+        "color": "blue",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "star"
+      },
+      "D": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:036"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "green",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "D": {
+        "color": "blue",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:037"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Maple",
+        "shape": "square"
+      },
+      "C": {
+        "color": "blue",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:038"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Maple",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "blue",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:039"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "square"
+      },
+      "D": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:040"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Grove",
+        "shape": "square"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "gray",
+        "home": "market",
+        "nameplate": "Iris",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "red",
+        "home": "farm",
+        "nameplate": "Elm",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:041"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "D"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "market",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "brown",
+        "home": "bridge",
+        "nameplate": "Cedar",
+        "shape": "square"
+      },
+      "C": {
+        "color": "black",
+        "home": "tower",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Iris",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:042"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "B",
+      "A"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "red",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "B": {
+        "color": "green",
+        "home": "farm",
+        "nameplate": "Aster",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:043"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "C",
+      "B"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "bridge",
+        "nameplate": "Aster",
+        "shape": "star"
+      },
+      "C": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Iris",
+        "shape": "oval"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:044"
+  },
+  {
+    "alias_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Elm",
+        "shape": "square"
+      },
+      "C": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "red",
+        "home": "forest",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:045"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "B",
+      "D",
+      "C",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Iris",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "blue",
+        "home": "tower",
+        "nameplate": "Hazel",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:046"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "D",
+      "B"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Elm",
+        "shape": "star"
+      },
+      "C": {
+        "color": "gray",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:047"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "square"
+      },
+      "C": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "green",
+        "home": "forest",
+        "nameplate": "Fir",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:048"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "C",
+      "B"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "square"
+      },
+      "B": {
+        "color": "white",
+        "home": "forest",
+        "nameplate": "Grove",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "red",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:049"
+  },
+  {
+    "alias_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "D"
+    ],
+    "aliases": [
+      "date",
+      "cat",
+      "basket",
+      "fig"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "black",
+        "home": "station",
+        "nameplate": "Grove",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "star"
+      },
+      "D": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Iris",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:050"
+  },
+  {
+    "alias_order": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "A"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "green",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Hazel",
+        "shape": "star"
+      },
+      "C": {
+        "color": "blue",
+        "home": "forest",
+        "nameplate": "Grove",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "gray",
+        "home": "farm",
+        "nameplate": "Maple",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:051"
+  },
+  {
+    "alias_order": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "bridge",
+        "nameplate": "Iris",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "brown",
+        "home": "river",
+        "nameplate": "Elm",
+        "shape": "star"
+      },
+      "C": {
+        "color": "red",
+        "home": "station",
+        "nameplate": "Maple",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "black",
+        "home": "farm",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:052"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "brown",
+        "home": "castle",
+        "nameplate": "Grove",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "green",
+        "home": "forest",
+        "nameplate": "Elm",
+        "shape": "triangle"
+      },
+      "C": {
+        "color": "red",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "black",
+        "home": "river",
+        "nameplate": "Iris",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:053"
+  },
+  {
+    "alias_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "basket",
+      "fig",
+      "dog",
+      "apple"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Grove",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "brown",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "D": {
+        "color": "green",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "star"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:054"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "dog",
+      "apple",
+      "bat",
+      "anchor"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "castle",
+        "nameplate": "Elm",
+        "shape": "diamond"
+      },
+      "B": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Aster",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "black",
+        "home": "market",
+        "nameplate": "Grove",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:055"
+  },
+  {
+    "alias_order": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "C"
+    ],
+    "aliases": [
+      "cat",
+      "basket",
+      "fig",
+      "dog"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "gray",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "heart"
+      },
+      "B": {
+        "color": "white",
+        "home": "tower",
+        "nameplate": "Aster",
+        "shape": "oval"
+      },
+      "C": {
+        "color": "blue",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "rectangle"
+      },
+      "D": {
+        "color": "red",
+        "home": "castle",
+        "nameplate": "Cedar",
+        "shape": "diamond"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:056"
+  },
+  {
+    "alias_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "alias_targets": [
+      "A",
+      "A",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "anchor",
+      "date",
+      "cat",
+      "basket"
+    ],
+    "base_object_id": "A",
+    "object_order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "bridge",
+        "nameplate": "Fir",
+        "shape": "star"
+      },
+      "B": {
+        "color": "green",
+        "home": "river",
+        "nameplate": "Maple",
+        "shape": "diamond"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "farm",
+        "nameplate": "Grove",
+        "shape": "heart"
+      },
+      "D": {
+        "color": "red",
+        "home": "market",
+        "nameplate": "Cedar",
+        "shape": "circle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:057"
+  },
+  {
+    "alias_order": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "B"
+    ],
+    "aliases": [
+      "fig",
+      "dog",
+      "apple",
+      "bat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "B": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Cedar",
+        "shape": "star"
+      },
+      "D": {
+        "color": "green",
+        "home": "river",
+        "nameplate": "Aster",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:058"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "D",
+      "A"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Cedar",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "blue",
+        "home": "river",
+        "nameplate": "Maple",
+        "shape": "triangle"
+      },
+      "D": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 0,
+    "unaliased_object_id": "C",
+    "world_id": "confirmation:059"
+  },
+  {
+    "alias_order": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "C",
+      "A"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "tower",
+        "nameplate": "Maple",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "black",
+        "home": "bridge",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      },
+      "C": {
+        "color": "white",
+        "home": "market",
+        "nameplate": "Fir",
+        "shape": "square"
+      },
+      "D": {
+        "color": "green",
+        "home": "station",
+        "nameplate": "Aster",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:060"
+  },
+  {
+    "alias_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "alias_targets": [
+      "B",
+      "B",
+      "A",
+      "C"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "B",
+    "object_order": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "objects": {
+      "A": {
+        "color": "blue",
+        "home": "bridge",
+        "nameplate": "Grove",
+        "shape": "oval"
+      },
+      "B": {
+        "color": "yellow",
+        "home": "market",
+        "nameplate": "Maple",
+        "shape": "square"
+      },
+      "C": {
+        "color": "white",
+        "home": "farm",
+        "nameplate": "Iris",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "gray",
+        "home": "station",
+        "nameplate": "Hazel",
+        "shape": "rectangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "D",
+    "world_id": "confirmation:061"
+  },
+  {
+    "alias_order": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "alias_targets": [
+      "C",
+      "C",
+      "A",
+      "D"
+    ],
+    "aliases": [
+      "bat",
+      "anchor",
+      "date",
+      "cat"
+    ],
+    "base_object_id": "C",
+    "object_order": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "white",
+        "home": "river",
+        "nameplate": "Hazel",
+        "shape": "circle"
+      },
+      "B": {
+        "color": "green",
+        "home": "tower",
+        "nameplate": "Fir",
+        "shape": "heart"
+      },
+      "C": {
+        "color": "gray",
+        "home": "forest",
+        "nameplate": "Cedar",
+        "shape": "oval"
+      },
+      "D": {
+        "color": "black",
+        "home": "castle",
+        "nameplate": "Aster",
+        "shape": "triangle"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "ready",
+    "template": 1,
+    "unaliased_object_id": "B",
+    "world_id": "confirmation:062"
+  },
+  {
+    "alias_order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "alias_targets": [
+      "D",
+      "D",
+      "B",
+      "C"
+    ],
+    "aliases": [
+      "apple",
+      "bat",
+      "anchor",
+      "date"
+    ],
+    "base_object_id": "D",
+    "object_order": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ],
+    "objects": {
+      "A": {
+        "color": "yellow",
+        "home": "station",
+        "nameplate": "Elm",
+        "shape": "rectangle"
+      },
+      "B": {
+        "color": "red",
+        "home": "river",
+        "nameplate": "Fir",
+        "shape": "circle"
+      },
+      "C": {
+        "color": "brown",
+        "home": "forest",
+        "nameplate": "Hazel",
+        "shape": "diamond"
+      },
+      "D": {
+        "color": "green",
+        "home": "bridge",
+        "nameplate": "Iris",
+        "shape": "heart"
+      }
+    },
+    "split": "confirmation",
+    "status_word": "clear",
+    "template": 1,
+    "unaliased_object_id": "A",
+    "world_id": "confirmation:063"
+  }
+]

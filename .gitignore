@@ -1,0 +1,40 @@
+# Local environments and interpreter output
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Downloaded weights, local runs, and credentials are never release inputs.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+models/
+model-cache/
+runs/
+outputs/
+results/
+artifacts/
+.cache/
+.DS_Store
+paper/qa/
+
+# LaTeX intermediates; final public PDFs remain tracked.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

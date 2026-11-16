@@ -64,7 +64,7 @@ with ZipFile(OUT / "S1_Data.zip") as data:
     scope = json.loads(data.read("package_scope.json"))
     assert scope["reserved_confirmation_outcomes_included"] is False
 assert (OUT / "S1_Data.zip").stat().st_size < 20_000_000
-pages = {name: len(list((ROOT/"qa/word_final"/name).glob("page-*.png"))) for name in (
+pages = {name: len(list((ROOT/"qa/release_word"/name).glob("page-*.png"))) for name in (
     "Manuscript", "S1_Appendix", "Cover_letter", "Submission_checklist")}
 assert pages == {"Manuscript": 23, "S1_Appendix": 6, "Cover_letter": 1,
                  "Submission_checklist": 2}, pages
@@ -78,5 +78,5 @@ report = {
                     for p in OUT.iterdir()
                     if p.is_file() and p.suffix in deliverable_suffixes},
 }
-(ROOT/"qa/word_final/validation_report.json").write_text(json.dumps(report,indent=2)+"\n")
+(ROOT/"qa/release_word/validation_report.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report,indent=2))

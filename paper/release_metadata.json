@@ -1,7 +1,9 @@
 {
   "repository": "https://github.com/Biodyn-AI/names-mechinterp",
   "version": "v0.1.0",
-  "public_release_verified": false,
+  "public_release_verified": true,
+  "verified_public_repository_commit": "d4690b1768ae52a89ecc83cb2e695e3a0bb6afb0",
+  "release_tag": "v0.1.0",
   "code_license": "MIT",
   "data_paper_license": "CC BY 4.0",
   "complete_raw_native_archive_included": false,

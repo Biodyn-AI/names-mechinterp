@@ -135,12 +135,23 @@ separate files. Vendored journal styles retain their own license notices.
 Document layout and binary hashes can vary with fonts and toolchain versions;
 that is separate from numerical reproduction of the study.
 
+The checklist PDF is a rendering of its Word file, not a separate LaTeX source.
+If you change that Word file, regenerate its PDF using LibreOffice or Word before
+running `python tools/package_submission.py`. The package command makes the
+standalone source archive, complete submission ZIP, and file checksums; it does
+not silently regenerate or review documents.
+
 ## Tested versus not tested
 
 - Default CI: released processed-data checks and synthetic tests, with no model
   download, GPU, cloud credentials, or paid provisioning.
 - Historical evidence: the original recorded A40 executions and their saved
   audit receipts, as documented in the paper and provenance records.
+- Release validation also passed 293 archived CPU tests and 4 subtests, with
+  pretrained downloads and network access blocked. With the optional research
+  dependencies installed, rerun them using
+  `python experiments/release_tools/run_archived_tests.py`. This checks the
+  archived implementation, not a new inference run on the study models.
 - Not certified by default CI: the archived full GPU pipeline, native tensor
   replay without the missing raw artifacts, alternative hardware/precision,
   additional models, or the reserved confirmation worlds.

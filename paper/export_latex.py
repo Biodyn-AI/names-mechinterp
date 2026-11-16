@@ -83,7 +83,7 @@ def preamble():
     text = text.replace(r"%\doublespacing", r"\doublespacing")
     text = text.replace(r"\bibliographystyle{plos2025}", r"\bibliographystyle{vendor/plos2025}")
     text = text.replace(r"\lfoot{\today}", r"\lfoot{16 November 2026}")
-    return (
+    generated = (
         "% Generated from the official PLOS template version 3.8, April 2026.\n"
         + text + "\n" + r"\usepackage[T1]{fontenc}" + "\n"
         + r"\usepackage[utf8]{inputenc}" + "\n"
@@ -91,6 +91,7 @@ def preamble():
         + r"\hypersetup{hidelinks}" + "\n"
         + r"\setlength{\emergencystretch}{2em}" + "\n"
     )
+    return "\n".join(line.rstrip() for line in generated.splitlines()) + "\n"
 
 
 def bibliography():

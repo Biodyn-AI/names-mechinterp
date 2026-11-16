@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from names_mechinterp.verify import digest, native_availability, verify_manifest
+from names_mechinterp.verify import STAGES, digest, native_availability, verify_manifest
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -54,7 +54,7 @@ def test_manifest_builder_excludes_generated_install_and_cache_files(tmp_path):
     archive.parent.mkdir(parents=True)
     with zipfile.ZipFile(archive, "w"):
         pass
-    for relative in builder["native_availability"].__globals__["STAGES"].values():
+    for relative in STAGES.values():
         folder = original / relative
         folder.mkdir(parents=True)
         (folder / "RAW_INDEX.json").write_text('{"shards": [], "endpoints": {}}')

@@ -14,12 +14,12 @@ def availability_statement():
     release = release_metadata()
     location = release["repository"]
     if release["public_release_verified"]:
-        location += "/releases/tag/" + release["version"]
-        introduction = "Code and study data are available in the public release at "
+        introduction = "Code and study data are available in the public repository at "
     else:
         introduction = "The code and study-data package is prepared for release at "
     return (
-        introduction + location + " (" + release["version"] + "). "
+        introduction + location + " (version " + release["version"]
+        + "; release tag " + release.get("release_tag", release["version"]) + "). "
         "Code is licensed under " + release["code_license"] + "; study data, "
         "documentation and paper are licensed under " + release["data_paper_license"] + ". "
         "S1 Data contains processed prompts, outcomes, figure coordinates and provenance records. "

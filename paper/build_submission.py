@@ -247,12 +247,13 @@ paragraph(doc, "Verify all author-reviewed claims and exact citations, including
 paragraph(doc, "Files and format", "Heading 1")
 for requirement in rules["submission_fields"]["requirements"]:
     paragraph(doc, requirement)
+paragraph(doc, "For LaTeX submission, upload Manuscript.pdf; figures are separate. Its editable sources use the official PLOS template and bibliography style. Manuscript.docx is the alternative editable Word version, not an additional main submission file.")
 paragraph(doc, "Separate figure files are supplied as RGB, flattened, LZW-compressed TIFFs at 600 dpi. Captions remain in the manuscript after first citation. Tables are editable. S1 Appendix and S1 Data have matching supporting captions. Review the rendered draft, resolve all bracketed author actions, and recheck current journal policy at the actual submission date.")
 paragraph(doc, "Editorial portal actions", "Heading 1")
 paragraph(doc, "Complete the one-page cover letter fields, choose appropriate editors and any opposed reviewers, and confirm any related manuscripts. Check the current publication charge and institutional support before submission; no fee has been paid. Building this package does not submit to the journal or contact an editor.")
 paragraph(doc, "Official policy sources", "Heading 1")
 p = doc.add_paragraph()
-for label, url in (("Submission and formatting", rules["sources"]["submission"]), ("Publication criteria", rules["sources"]["publication_criteria"]), ("Data availability", rules["sources"]["data"]), ("Code sharing", "https://journals.plos.org/plosone/s/materials-software-and-code-sharing"), ("AI disclosure", rules["sources"]["AI"]), ("Figures", rules["sources"]["figures"]), ("Supporting information", rules["sources"]["supporting"])):
+for label, url in (("Submission and formatting", rules["sources"]["submission"]), ("Publication criteria", rules["sources"]["publication_criteria"]), ("Data availability", rules["sources"]["data"]), ("Code sharing", rules["sources"]["code"]), ("AI disclosure", rules["sources"]["AI"]), ("Figures", rules["sources"]["figures"]), ("Supporting information", rules["sources"]["supporting"])):
     # Compact linked labels avoid an orphan page containing one long URL.
     if p._p.findall(qn("w:hyperlink")):
         p.add_run("; ")

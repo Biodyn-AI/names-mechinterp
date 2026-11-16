@@ -3,6 +3,7 @@
 import unittest
 
 from export_latex import escape, citation_keys, tex_table
+from publication_content import availability_statement, release_metadata
 
 
 class LatexExportTests(unittest.TestCase):
@@ -23,6 +24,12 @@ class LatexExportTests(unittest.TestCase):
         self.assertIn(r"\endhead", rendered)
         self.assertIn(r"A\_1", rendered)
         self.assertIn(r"10\%", rendered)
+
+    def test_repository_link_has_no_sentence_punctuation(self):
+        url = release_metadata()["repository"]
+        rendered = escape(availability_statement())
+        self.assertIn(r"\url{" + url + "}", rendered)
+        self.assertNotIn(r"\url{" + url + ".}", rendered)
 
 
 if __name__ == "__main__":

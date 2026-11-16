@@ -5,6 +5,7 @@ title: "Names and mechanistic interpretability: equivalent-name factual retrieva
 authors:
   - family-names: Kendiukhov
     given-names: Ihor
+    orcid: "https://orcid.org/0000-0001-5342-1499"
 repository-code: "https://github.com/Biodyn-AI/names-mechinterp"
 url: "https://github.com/Biodyn-AI/names-mechinterp"
 version: "0.1.0"

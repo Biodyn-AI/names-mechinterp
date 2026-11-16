@@ -3049,8 +3049,8 @@
     },
     {
       "path": "tests/test_verify.py",
-      "sha256": "51877b4a88b4c0dd45b49dcf7dafb54c47b86d9a8307223577d2a0feb93fa145",
-      "size_bytes": 3699
+      "sha256": "3f39d38bb32b2e531819ec92c1571261c4df634ce44440bda1b7c0fe2e86440e",
+      "size_bytes": 3661
     }
   ],
   "historical_paths": "Original provenance fields may retain author or cloud absolute paths; they are preserved records, not required portable runtime paths.",

@@ -14466,9 +14466,19 @@
       "size_bytes": 7531
     },
     {
+      "path": "tests/test_native_archive_reader.py",
+      "sha256": "d4a556c456679b9168a2fec11810ea45980d964fff9cd5656f0bb9be97b9d59a",
+      "size_bytes": 4033
+    },
+    {
       "path": "tests/test_native_release_packaging.py",
       "sha256": "feaa1a6bd466841242d8fa85df712a538bb795c9132083548bc41490548d7700",
       "size_bytes": 10379
+    },
+    {
+      "path": "tests/test_publish_native_archives.py",
+      "sha256": "57db065e3f76f0897eff4f1ee024afbc81e2c021c3710cdd81e4ca13a7c7e2d2",
+      "size_bytes": 12305
     },
     {
       "path": "tests/test_reproduce.py",

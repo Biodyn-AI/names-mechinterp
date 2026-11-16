@@ -1,0 +1,45 @@
+name: Publish approved native archives
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_host:
+        description: Owned read-only reader IPv4 address
+        required: true
+        default: "194.68.245.86"
+      source_port:
+        description: Owned reader SSH port
+        required: true
+        default: "22071"
+      known_hosts:
+        description: Exact pinned bracket-host ED25519 known_hosts line
+        required: true
+      archive_manifest:
+        description: Approved JSON array of archive name, size_bytes and sha256
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: native-archives-draft-publication
+  cancel-in-progress: false
+
+jobs:
+  transfer:
+    if: github.repository == 'Biodyn-AI/names-mechinterp' && github.ref == 'refs/heads/main' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_DEBUG: ""
+      NATIVE_SOURCE_HOST: ${{ inputs.source_host }}
+      NATIVE_SOURCE_PORT: ${{ inputs.source_port }}
+      NATIVE_KNOWN_HOSTS: ${{ inputs.known_hosts }}
+      NATIVE_ARCHIVE_MANIFEST: ${{ inputs.archive_manifest }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Stream, verify and upload without artifact or cache storage
+        run: python3 tools/publish_native_archives.py

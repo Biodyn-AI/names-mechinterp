@@ -14442,8 +14442,8 @@
     },
     {
       "path": "src/names_mechinterp/verify.py",
-      "sha256": "cda85f090404f92ecf18549d49e8e60cd5aed63a4eee8f62961aba458fda8f66",
-      "size_bytes": 6383
+      "sha256": "17f2a3daee9be2eeb1f74f180b5e8a173addcc0c6f31dbcb41a8f0567c18cd66",
+      "size_bytes": 7413
     },
     {
       "path": "tests/conftest.py",
@@ -14482,8 +14482,8 @@
     },
     {
       "path": "tests/test_verify.py",
-      "sha256": "3f39d38bb32b2e531819ec92c1571261c4df634ce44440bda1b7c0fe2e86440e",
-      "size_bytes": 3661
+      "sha256": "a034b4239576c3a6a31ed2d6b6552825560c5c0b4db0c4d07942a8b102387bf5",
+      "size_bytes": 6796
     }
   ],
   "historical_paths": "Original provenance fields may retain author or cloud absolute paths; they are preserved records, not required portable runtime paths.",

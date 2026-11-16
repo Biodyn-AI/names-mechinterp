@@ -43,6 +43,21 @@ def verify_manifest(repo_root, *, verify_compressed=False):
     return {"verified": True, "file_count": len(seen), "total_bytes": total, "compressed_originals_checked": verify_compressed, "manifest_sha256": digest(root / "data" / "MANIFEST.json")}
 
 
+def _tensor_file(root, relative, name):
+    """Resolve capture files in one chosen root, never through symlink aliases."""
+    if Path(name).name != name or "\\" in name or not name.endswith(".pt"):
+        raise ValueError("tensor capture filename escapes its stage")
+    root = Path(root).resolve()
+    path = root
+    for part in (*Path(relative).parts, name):
+        path = path / part
+        if path.is_symlink():
+            raise ValueError("tensor capture path contains a symlink")
+    if not path.resolve().is_relative_to(root):
+        raise ValueError("tensor capture path escapes its root")
+    return path
+
+
 def native_availability(metadata_root, *, native_root=None, verify_sha256=False):
     metadata = Path(metadata_root)
     supplied = Path(native_root) if native_root else metadata
@@ -71,12 +86,17 @@ def native_availability(metadata_root, *, native_root=None, verify_sha256=False)
                 present.append(record)
             else:
                 missing.append(record)
-        for path in sorted(folder.glob("*.pt")):
-            tensors.append(path.relative_to(metadata).as_posix())
         custody = json.loads((folder / "CUSTODY.json").read_text())
-        for name, sha in custody["artifact_sha256"].items():
-            if name.endswith(".pt") and not (folder / name).is_file():
-                missing_tensors.append({"stage": stage, "path": f"{relative}/{name}", "sha256": sha})
+        capture_hashes = {name: sha for name, sha in custody["artifact_sha256"].items() if name.endswith(".pt")}
+        capture_names = set(capture_hashes) | {path.name for path in (supplied / relative).glob("*.pt")}
+        for name in sorted(capture_names):
+            path = _tensor_file(supplied, relative, name)
+            if path.is_file():
+                if verify_sha256 and name in capture_hashes and digest(path) != capture_hashes[name]:
+                    raise ValueError(f"tensor capture digest mismatch: {relative}/{name}")
+                tensors.append(f"{relative}/{name}")
+            elif name in capture_hashes:
+                missing_tensors.append({"stage": stage, "path": f"{relative}/{name}", "sha256": capture_hashes[name]})
         stages[stage] = {"native_endpoint_count": len(index["endpoints"]), "expected_shards": len(shards), "present_shards": len(present), "present": present, "missing": missing}
         total_expected += len(shards)
         total_present += len(present)

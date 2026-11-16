@@ -23,6 +23,63 @@ def test_available_tensor_captures_are_distinguished_from_missing_native_logits(
     assert result["native_tensor_rescore_performed"] is False
 
 
+@pytest.fixture
+def separate_capture_roots(tmp_path, monkeypatch):
+    """Metadata and payloads deliberately contain different capture files."""
+    monkeypatch.setattr("names_mechinterp.verify.STAGES", {"capture": "stage"})
+    metadata, supplied = tmp_path / "metadata", tmp_path / "supplied"
+    (metadata / "stage").mkdir(parents=True)
+    (supplied / "stage").mkdir(parents=True)
+    (metadata / "stage/RAW_INDEX.json").write_text('{"shards": [], "endpoints": {}}')
+    kept, retrieved = b"metadata-only capture", b"separately retrieved capture"
+    (metadata / "stage/KEPT.pt").write_bytes(kept)
+    (supplied / "stage/RETRIEVED.pt").write_bytes(retrieved)
+    checksums = {"KEPT.pt": hashlib.sha256(kept).hexdigest(), "RETRIEVED.pt": hashlib.sha256(retrieved).hexdigest()}
+    (metadata / "stage/CUSTODY.json").write_text(json.dumps({"artifact_sha256": checksums}))
+    return metadata, supplied
+
+
+def test_separate_native_root_controls_capture_presence_without_metadata_fallback(separate_capture_roots):
+    metadata, supplied = separate_capture_roots
+    original = native_availability(metadata)
+    assert original["included_tensor_artifacts"] == ["stage/KEPT.pt"]
+    assert [item["path"] for item in original["missing_non_native_tensor_artifacts"]] == ["stage/RETRIEVED.pt"]
+    result = native_availability(metadata, native_root=supplied, verify_sha256=True)
+    assert result["included_tensor_artifacts"] == ["stage/RETRIEVED.pt"]
+    assert [item["path"] for item in result["missing_non_native_tensor_artifacts"]] == ["stage/KEPT.pt"]
+    assert result["native_tensor_rescore_performed"] is False
+
+
+def test_separate_capture_custody_hash_is_checked_when_requested(separate_capture_roots):
+    metadata, supplied = separate_capture_roots
+    (supplied / "stage/RETRIEVED.pt").write_bytes(b"tampered capture")
+    with pytest.raises(ValueError, match="tensor.*digest mismatch"):
+        native_availability(metadata, native_root=supplied, verify_sha256=True)
+
+
+@pytest.mark.parametrize("problem", ["parent", "absolute", "backslash", "symlink", "stage_symlink"])
+def test_capture_names_and_symlinks_cannot_escape_native_root(separate_capture_roots, tmp_path, problem):
+    metadata, supplied = separate_capture_roots
+    custody_path = metadata / "stage/CUSTODY.json"
+    custody = json.loads(custody_path.read_text())
+    if problem in ("parent", "absolute", "backslash"):
+        name = {"parent": "../outside.pt", "absolute": str(tmp_path / "outside.pt"), "backslash": "..\\outside.pt"}[problem]
+        custody["artifact_sha256"][name] = "0" * 64
+        custody_path.write_text(json.dumps(custody))
+    elif problem == "symlink":
+        path = supplied / "stage/RETRIEVED.pt"
+        outside = tmp_path / "outside.pt"
+        outside.write_bytes(path.read_bytes())
+        path.unlink()
+        path.symlink_to(outside)
+    else:
+        outside = tmp_path / "outside-stage"
+        (supplied / "stage").rename(outside)
+        (supplied / "stage").symlink_to(outside, target_is_directory=True)
+    with pytest.raises(ValueError, match="tensor|capture"):
+        native_availability(metadata, native_root=supplied)
+
+
 def test_manifest_detects_tampering_and_verifies_exact_gzip_original(tmp_path):
     (tmp_path / "data").mkdir()
     artifact = tmp_path / "data" / "original.json.gz"

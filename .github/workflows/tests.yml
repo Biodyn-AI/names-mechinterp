@@ -28,6 +28,12 @@ jobs:
         run: python -m pip install -e ".[dev]"
       - name: Run tests without model or network access
         run: python -m pytest tests -q
+      - name: Check the independent confirmation plan and printed-answer audit
+        run: >-
+          python -m pytest
+          experiments/error_reference_confirmation_20261116/test_confirmation_plan.py
+          experiments/error_reference_confirmation_20261116/test_execute_registered.py
+          experiments/error_reference_confirmation_20261116/test_literal_audit.py -q
       - name: Verify released file hashes and compressed originals
         run: python -m names_mechinterp.verify --verify-compressed
       - name: Reproduce released processed results
